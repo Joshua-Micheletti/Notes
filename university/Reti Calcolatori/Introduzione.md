@@ -44,10 +44,5 @@ Componenti di reti:
 Griglie:
 Infrastrutture per condivisione di risorse e problem solving, non soggette ad un controllo centralizzato. Utilizzano standard e protocolli open e general purpose
 
-Sberembe
-
-Sparaponzolo
-
-
 
 
