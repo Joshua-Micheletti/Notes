@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Griglie",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,15 +171,18 @@
   },
   "active": "67b2ade100adfdf7",
   "lastOpenFiles": [
-    "Introduzione/img/LAN.png",
+    "Introduzione/img/IEEE 802.png",
     "Introduzione/Introduzione.md",
+    "Introduzione/img/Wireless LAN.png",
+    "Introduzione/img/Ethernet.png",
+    "Introduzione/img/ATM.png",
+    "Introduzione/img/Internet Architecture.png",
+    "Introduzione/img/hybrid OSI-TCP-IP.png",
+    "Introduzione/img/TCP-IP.png",
+    "Introduzione/img/OSI.png",
+    "Introduzione/img/LAN.png",
     "Introduzione/img",
     "Introduzione/img/Network Architecture.png",
-    "Introduzione/img/Wireless Network.png",
-    "Introduzione/img/WAN.png",
-    "Introduzione/img/MAN.png",
-    "Introduzione/img/PAN.png",
-    "Introduzione/img/Network Topology.png",
     "Introduzione",
     "Untitled.canvas",
     "Untitled.md"

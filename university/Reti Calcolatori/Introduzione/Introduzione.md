@@ -1,3 +1,5 @@
+### Definizioni
+
 2 o più dispositivi di elaborazione collegati da una singola "tecnologia" formano una rete.
 
 CN: computer network
@@ -34,8 +36,10 @@ Applicazioni di reti:
 
 Client-server, richieste e risposte, peer-to-peer (client e server non fissi, ogni macchina può agire come entrambi)
 
+Datagramma: struttura di un pacchetto di dati
 
-Componenti di reti:
+
+### Componenti di reti:
 
 - Griglie: forniscono potere computazionale combinando tutte le macchine della rete per eseguire un compito
 - Cloud: computazione remota come servizio piuttosto che come prodotto
@@ -182,7 +186,7 @@ Categorie:
 - ETSI
 
 
-#### Organizzazione a livelli del software
+### Organizzazione a livelli del software
 Il software delle reti deve essere strutturato a livelli per gestire complessità.
 Ogni livello nasconde ai livelli limitrofi i suoi dettagli interni (simile OOP).
 I livelli possono essere visti come macchine virtuali per i livelli sovrastanti.
@@ -202,3 +206,152 @@ Le relazioni orizzontali sono virtuali, le relazioni verticali sono reali
 - Controllo di flusso: per evitare il sovraccarico di un ricevente lento da una sorgente veloce
 - Multiplexing: consente comunicazioni multiple e indipendenti nella stessa connessione
 - Routing: decidi la strada dalla fonte alla destinazione
+
+##### Valutazione dei servizi
+- Connection-oriented: le connessioni sono stabilite, usate e rilasciate
+- Connectionless: ogni messaggio viene inviato indipendentemente dagli altri, ogni messaggio deve conoscere sorgente e destinazione
+- QoS (quality of service):
+	- Affidabili: dati non persi (acknowledgments)
+	- Inaffidabili: possibili dati persi (datagram services)
+
+I servizi avvengono tra layer a diversi livelli, i protocolli sono regole per lo scambio di informazioni tra entità pari nello stesso layer
+
+
+### Modello di riferimento ISO OSI
+Non viene usato effettivamente, ma è un buon sistema di riferimento (standard de jure)
+Composto da 7 livelli, dal livello fisico al livello applicativo
+
+![[OSI.png]]
+
+
+#### Livello fisico
+Mezzo dove i bit sono inviati tra nodi
+Compiti svolti:
+- Interfacce fisiche
+- Rappresentazione dei bit
+- Trasmissione rapida
+- Sincronizzazione
+- Link
+- Topologia
+- Flusso dati
+
+#### Livello Data Link
+Livello che si assicura l'affidabilità della trasmissione dei dati
+- Framing
+- Indirizzamento fisico
+- Controllo del flusso
+- Controllo di errori
+- Controllo di accessi
+
+#### Livello Network
+Livello che spedisce i pacchetti di dati tra i nodi di una rete
+- Indirizzamento logico
+- Routing
+
+#### Livello Transport
+Consegna i messaggi tra processi mittenti e processi riceventi
+- Indirizzamento di processi
+- Segmentazione
+- Controllo di connessione
+- Controllo di flusso
+- Controllo di errori
+
+#### Livello Sessione
+Sincronizza i dati e il controllo di dialogo
+- Sincronizzazione
+- Controllo di dialogo
+
+#### Livello Presentation
+- Traduzione
+- Criptazione
+- Compressione
+
+#### Livello Applicazione
+Offre il servizio finale della rete all'utente
+- Terminale virtuale
+- File manager
+- Mail
+- Directory Network
+
+
+### Modello di riferimento TCP/IP
+
+![[TCP-IP.png]]
+
+### Differenze e similitudini tra OSI e TCP/IP
+#### Concetti centrali al modello OSI
+Servizi, interfacce e protocolli sono ben definiti e separati, ma non collegati ad ogni rete reale
+
+#### Concetti centrali al modello TCP/IP
+I protocolli sono nati prima del modello, quindi sono perfettamente coerenti.
+Il protocollo IP consente lo scambio flessibile ed efficiente di pacchetti attraverso una vasta varietà di reti
+
+#### Problemi
+- OSI
+	- Troppo complesso e scarsa implementazione
+- TCP/IP
+	- Modello non abbastanza generale
+	- Il livello Host-to-network non è un vero e proprio livello
+	- Si ignora il collegamento fisico
+
+
+### Modello ibrido
+Per ovviare ai problemi di entrambi i modelli, si sviluppa un modello ibrido, che prende la struttura del modello OSI e utilizza i protocolli TCP/IP
+
+![[hybrid OSI-TCP-IP.png]]
+
+
+### Esempi di reti
+- Internet
+- Connection-Oriented Networks
+	- X.25
+	- Frame Relay
+	- ATM
+- Ethernet
+- Wireless LANs: 802.11
+- Arpanet: progetto ARPA che collegava LAN di diverse università tra loro tramite protocolli TCP/IP
+
+#### Internet
+Inizialmente usata per e-mail, notizie, login remoti, trasferimento file
+
+##### Architettura internet
+- POP: Point Of Presence
+- ISP: Internet Service Provider
+- NAP: Network Access Point
+
+![[Internet Architecture.png]]
+
+#### Connection-Oriented Networks
+Tipiche di compagnie telefoniche. Quando la connessione viene stabilita, i pacchetti seguono tutti la stessa strada. Ciò garantisce qualità del servizio e rimane più economico piuttosto che sfruttare altre strade. ATM è un esempio di connection-oriented network
+
+##### ATM
+Asynchronous Transfer Mode si basa sul concetto di circuiti virtuali.
+I dati sono inviati in forma di piccoli pacchetti chiamati cells (5+48 = 53 bytes).
+La testa contiene informazioni sulla connessione.
+La piccola dimensione delle cell consente la facile costruzione di router hardware.
+Bit rate tipici per reti ATM sono: 155 Mbps e 622 Mbps
+
+![[ATM.png]]
+
+#### Ethernet
+Necessarie più informazioni
+
+![[Ethernet.png]]
+
+#### LAN Wireless
+Lo standard wireless 802.11 (WiFi) è stato creato per il supporto di una versione wireless delle LAN cablate.
+Operano in 2 modalità:
+- Base station
+- Ad hoc networking
+
+802.11 è compatibile con Ethernet sui livelli sopra il livello data link, ma ci sono problemi con i livelli fisici e data link.
+
+![[Wireless LAN.png]]
+(a) LAN wireless con base station  (b) Ad hoc networking
+
+In genere in Ethernet, ogni host ascolta un canale ed ha il permesso di trasmettere se il canale è libero. Questo non è possibile in reti LAN wireless, in quanto non sempre si può sapere se il canale sta venendo occupato da un altro host, che potrebbe essere fuori dalla portata del mittente, ma non del ricevente.
+Il movimento di una macchina da una base station ad un altra, collegate allo stesso Ethernet, può causare un problema nella rete. Per risolvere questo problema, si inglobano i dispositivi collegati alla stessa base station in una cella, che viene vista dalla rete come un singolo host.
+
+### Standard IEEE 802
+
+![[IEEE 802.png]]
