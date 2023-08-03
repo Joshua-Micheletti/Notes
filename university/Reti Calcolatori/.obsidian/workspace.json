@@ -33,16 +33,26 @@
             "id": "67b2ade100adfdf7",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Introduzione/img/Network Topology.png"
+              }
+            }
+          },
+          {
+            "id": "b0baf3e6a547cccc",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione/Introduzione.md",
+                "file": "Livello Fisico/Livello Fisico.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -61,7 +71,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -108,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione/Introduzione.md",
+                "file": "Livello Fisico/Livello Fisico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduzione/Introduzione.md",
+                "file": "Livello Fisico/Livello Fisico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione/Introduzione.md"
+                "file": "Livello Fisico/Livello Fisico.md"
               }
             }
           }
@@ -169,20 +179,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67b2ade100adfdf7",
+  "active": "b0baf3e6a547cccc",
   "lastOpenFiles": [
-    "Introduzione/img/IEEE 802.png",
     "Introduzione/Introduzione.md",
+    "Livello Fisico/Livello Fisico.md",
+    "Introduzione/img/Network Topology.png",
+    "Livello Fisico",
+    "Livello Fisico/img/Twisted Pair.png",
+    "Livello Fisico/img/Noise.png",
+    "Livello Fisico/img/Distortion.png",
+    "Livello Fisico/img",
+    "Introduzione/img/PAN.png",
+    "Livello Fisico/img/Attenuation.png",
+    "Introduzione/img/Introduzione",
+    "Livello Fisico/img/Analog signal 2.png",
+    "Livello Fisico/img/Analog signal 1.png",
+    "Introduzione/img/IEEE 802.png",
     "Introduzione/img/Wireless LAN.png",
-    "Introduzione/img/Ethernet.png",
-    "Introduzione/img/ATM.png",
-    "Introduzione/img/Internet Architecture.png",
-    "Introduzione/img/hybrid OSI-TCP-IP.png",
-    "Introduzione/img/TCP-IP.png",
-    "Introduzione/img/OSI.png",
-    "Introduzione/img/LAN.png",
     "Introduzione/img",
-    "Introduzione/img/Network Architecture.png",
     "Introduzione",
     "Untitled.canvas",
     "Untitled.md"

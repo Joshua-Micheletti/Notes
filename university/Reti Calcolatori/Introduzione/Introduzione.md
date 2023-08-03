@@ -224,7 +224,7 @@ Composto da 7 livelli, dal livello fisico al livello applicativo
 ![[OSI.png]]
 
 
-#### Livello fisico
+#### [[Livello Fisico]]
 Mezzo dove i bit sono inviati tra nodi
 Compiti svolti:
 - Interfacce fisiche
