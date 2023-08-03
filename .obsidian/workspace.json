@@ -1,87 +1,50 @@
 {
   "main": {
-    "id": "0c5058d645fc9c99",
+    "id": "c49dbd69b995afb8",
     "type": "split",
     "children": [
       {
-        "id": "12739d93d428fb27",
+        "id": "36a97eecf3898f2e",
         "type": "tabs",
         "children": [
           {
-            "id": "9488aada77056a93",
+            "id": "669e954339d71b65",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Introduzione/img/Network Topology.png"
-              }
-            }
-          },
-          {
-            "id": "4f4903e4bb3a95d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduzione/Introduzione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67b2ade100adfdf7",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Introduzione/img/Network Topology.png"
-              }
-            }
-          },
-          {
-            "id": "b0baf3e6a547cccc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Livello Fisico/Livello Fisico.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "740c06b52033cff3",
+    "id": "934d7652a81be7e9",
     "type": "split",
     "children": [
       {
-        "id": "314ceb1d467f3dd1",
+        "id": "44a52107dfc11979",
         "type": "tabs",
         "children": [
           {
-            "id": "985bf93814c03bbf",
+            "id": "0aa91b5a40cee394",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "ae0fc76f5779062c",
+            "id": "4fcdbf415903f0b4",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#0969DA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +54,7 @@
             }
           },
           {
-            "id": "0e4947407c410d6c",
+            "id": "a2369115da093fa6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -105,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "18fe7cd277440974",
+    "id": "a50df08530221bd3",
     "type": "split",
     "children": [
       {
-        "id": "dd4b6d096d96fd5b",
+        "id": "7a6198b1780b8d91",
         "type": "tabs",
         "children": [
           {
-            "id": "a4c185f7918b8dc6",
+            "id": "851cd215272c5e81",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Livello Fisico/Livello Fisico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,19 +92,18 @@
             }
           },
           {
-            "id": "e1051a8d8f6871f6",
+            "id": "1df6475bf3b2e805",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Livello Fisico/Livello Fisico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9de02a5eb12e3424",
+            "id": "bb8d13d80a5a2dfb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -153,13 +114,11 @@
             }
           },
           {
-            "id": "bb08365a68c54843",
+            "id": "842a3eb1f8661924",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Livello Fisico/Livello Fisico.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -179,26 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "985bf93814c03bbf",
+  "active": "669e954339d71b65",
   "lastOpenFiles": [
-    "Introduzione/Introduzione.md",
-    "Livello Fisico/Livello Fisico.md",
-    "Introduzione/img/Network Topology.png",
-    "Livello Fisico",
-    "Livello Fisico/img/Twisted Pair.png",
-    "Livello Fisico/img/Noise.png",
-    "Livello Fisico/img/Distortion.png",
-    "Livello Fisico/img",
-    "Introduzione/img/PAN.png",
-    "Livello Fisico/img/Attenuation.png",
-    "Introduzione/img/Introduzione",
-    "Livello Fisico/img/Analog signal 2.png",
-    "Livello Fisico/img/Analog signal 1.png",
-    "Introduzione/img/IEEE 802.png",
-    "Introduzione/img/Wireless LAN.png",
-    "Introduzione/img",
-    "Introduzione",
+    "Markdown/Markdown Cheatsheet.md",
+    "Markdown/img/parrot.jpg",
+    "parrot.md",
+    "University/Reti Calcolatori/Introduzione/Introduzione.md",
+    "Markdown/img",
     "Untitled.canvas",
-    "Untitled.md"
+    "Markdown"
   ]
 }
