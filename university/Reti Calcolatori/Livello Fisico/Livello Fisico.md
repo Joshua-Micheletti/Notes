@@ -138,3 +138,56 @@ Le topologie classiche di reti ottiche sono ad anello o a stella. La configurazi
 | Convenienza | Facile da usare | Meno facile |
 | Sicurezza | Facile immettersi | Difficile immettersi |
 
+
+
+#### Wireless
+L'informazione viene trasmessa tramite onde elettromagnetiche modulando la loro ampiezza, frequenza e fase
+
+Alcune bande di frequenze sono limitate in potenza, per esempio bluetooth (2.4Ghz) e WiFi (5Ghz) non possono superare 1 Watt di potenza.
+
+##### Radio
+Le onde radio possono essere di 2 tipi:
+- Seguono la curvatura della terra
+	- VLF
+	- LF
+	- MF
+- Rimbalzano contro la ionosfera
+	- HF
+	- VHF
+
+##### Satellitare
+La comunicazione satellitare è molto efficace per la distribuzione ampia di informazioni e per comunicazioni indipendenti dalla posizione geografica.
+
+| Banda | Downlink | Uplink | Bandwidth | Problemi |
+| --- | --- | --- | --- | --- |
+| L | 1.5 GHz | 1.6 GHz | 15 MHz | Banda bassa |
+| S | 1.9 GHz | 2.2 GHz | 70 MHz | Banda bassa |
+| C | 4.0 GHz | 6.0 GHz | 500 MHz | Interferenza terrestre |
+| Ku | 11 GHz | 14 GHz | 500 MHz | Pioggia |
+| Ka | 20 GHz | 30 GHz | 3500 MHz | Pioggia e costi |
+
+###### Satelliti GEO
+Satelliti geostazionari con un periodo di rivoluzione uguale alla terra (rimangono fermi rispetto alla terra)
+
+Orbitano ad un altitudine di 36000 Km sopra un punto fisso.
+Computer VSAT possono comunicare con l'aiuto di un hub.
+Tempo di comunicazione up e down è di 250 millisecondi.
+Problematici per la comunicazione vocale.
+
+###### Satelliti MEO
+Satelliti intermedi che orbitano tra i 5000 e i 20000 Km di altitudine.
+###### Satelliti LEO
+Satelliti Low-Earth Orbit (LEO) orbitano ad altitudini inferiori (200-2000 Km) e consentono una comunicazione molto più rapida e con molto meno delay.
+
+Le informazioni possono essere trasmesse da satellite a satellite, oppure da satellite a base terrestre.
+
+###### Satellitare VS Fibra
+Principali differenze:
+- Satellite:
+	- Si può impostare una comunicazione in modo rapido ovunque ed in ogni momento (dopo aver lanciato il satellite in orbita)
+	- Può comunicare contemporaneamente con regioni molto ampie
+	- Banda limitata e molte interferenze da gestire
+- Fibra:
+	- Banda enorme su lunghe distanze
+	- Installazione costosa e difficile
+	- Non funziona in aree remote o in mare
