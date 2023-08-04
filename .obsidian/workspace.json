@@ -11,8 +11,12 @@
             "id": "669e954339d71b65",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "University/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -34,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "University/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "University/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "University/Reti Calcolatori/Livello Data Link/Livello Data Link.md"
+              }
             }
           }
         ]
@@ -140,10 +148,14 @@
   },
   "active": "669e954339d71b65",
   "lastOpenFiles": [
+    "University/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
+    "University/Reti Calcolatori/Introduzione/Introduzione.md",
     "Markdown/Markdown Cheatsheet.md",
+    "University/Reti Calcolatori/Livello Data Link/img",
+    "University/Reti Calcolatori/Livello Data Link",
+    "University/Reti Calcolatori/Livello Fisico/Livello Fisico.md",
     "Markdown/img/parrot.jpg",
     "parrot.md",
-    "University/Reti Calcolatori/Introduzione/Introduzione.md",
     "Markdown/img",
     "Untitled.canvas",
     "Markdown"
