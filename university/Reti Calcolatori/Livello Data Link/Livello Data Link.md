@@ -181,10 +181,42 @@ Tipi di codifiche CRC:
 	- Deve contenere il fattore X + 1
 
 
-
-
 ### Protocolli elementari del livello data link
 La trasmissione affidabile a livello data link è ottenuta tramite:
-- ACK
+- ACK (ACKnowledgment)
 - Timeout
-- ACK + Timeout = ARQ
+- ACK + Timeout = ARQ (Automatic Repeat reQuest)
+
+#### Esempi di protocolli
+##### Protocollo non ristretto e simplex
+- Dati trasmessi in una sola direzione (canale simplex) su un canale privo di errori
+- I livelli fisico e network sono sempre pronti
+- Tempo e spazio del buffer infinito e sempre disponibile
+- Il canale di comunicazione non perde mai frame
+Caso molto ideale e difficilmente applicabile
+
+##### Protocollo simplex Stop-and-Wait
+- I dati sono trasmessi in una sola direzione (simplex)
+- I layer fisico e network non sono sempre pronti
+- Canale senza errori
+- Il ricevente manda indietro al mittente un frame "dummy" prima che il mittente mandi un altro frame, così da confermare la corretta trasmissione
+
+##### Protocollo simplex Stop-and-Wait per canali rumorosi
+Nel caso di errori o problemi di trasmissione delle informazioni, si usa il metodo ARQ, ovvero l'unione di ACK e timeout:
+
+###### ACK
+ACK sta per ACKnowledgment, ovvero quando il ricevente riceve un frame, manda un messaggio ACK al mittente, per comunicare la corretta ricezione dei dati.
+
+###### Timeout
+Dopo un certo periodo di tempo da quando viene mandato un messaggio dal mittente, se non viene ricevuto nessun messaggio ACK dal destinatario, il mittente considera la comunicazione come fallita, e re-invia il messaggio, per assicurarsi che il ricevente lo riceva correttamente.
+
+###### ARQ (ACK + Timeout)
+![[ARQ (ACK + Timeout).png]]
+- (a): comunicazione corretta senza errori (ACK trasmesso prima del timeout)
+- (b): frame corrotto, non arriva al destinatario
+- (c): ACK corrotto, non arriva al mittente
+- (d): ACK troppo lento
+
+Bisogna tener traccia del numero corrispondente ad ogni frame, altrimenti potremmo inviare due copie dello stesso frame.
+
+Con questo protocollo, la banda non è ottimizzata, in quanto viene inviato solo 1 frame sul canale.

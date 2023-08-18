@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Links/Links List.md",
+                "file": "university/Reti Calcolatori/Livello Data Link/Medium Access Control Sublayer.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a50df08530221bd3",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Links/Links List.md",
+                "file": "university/Reti Calcolatori/Livello Data Link/Medium Access Control Sublayer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Links/Links List.md",
+                "file": "university/Reti Calcolatori/Livello Data Link/Medium Access Control Sublayer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Links/Links List.md"
+                "file": "university/Reti Calcolatori/Livello Data Link/Medium Access Control Sublayer.md"
               }
             }
           }
@@ -148,10 +149,14 @@
   },
   "active": "669e954339d71b65",
   "lastOpenFiles": [
-    "Markdown/Markdown Cheatsheet.md",
-    "Links/Links List.md",
-    "Links",
+    "university/Reti Calcolatori/Livello Data Link/img/CSMA Persistent.png",
+    "university/Reti Calcolatori/Livello Data Link/Medium Access Control Sublayer.md",
     "university/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
+    "university/Reti Calcolatori/Livello Data Link/img/ARQ (ACK + Timeout).png",
+    "university/Reti Calcolatori/Livello Fisico/Livello Fisico.md",
+    "Links/Links List.md",
+    "Markdown/Markdown Cheatsheet.md",
+    "Links",
     "University/Reti Calcolatori/Livello Data Link/img/Cyclic Redundancy Codes.png",
     "University/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
     "University/Reti Calcolatori/Livello Data Link/img/Hamming Cube.png",
