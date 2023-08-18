@@ -6,18 +6,18 @@ Il [[Livello Data Link]] contiene due sottolivelli:
 	- Si interfaccia al [[Livello Fisico]]
 	- Specifico per la tecnologia sottostante
 
-### Problema di allocazione dei canali
+# Problema di allocazione dei canali
 Una trasmissione può contenere più trasmittenti e più riceventi che condividono lo stesso canale.
 E necessario gestire accessi multipli.
 
-#### Protocollo di accesso multiplo
+## Protocollo di accesso multiplo
 Idealmente il protocollo per un canale di _R_ bit/sec dovrebbe essere:
 - Quando un solo nodo sta inviando dati, deve avere R bps di velocità
 - Quando M nodi inviano dati contemporaneamente, devono avere una velocità media di _R/M_ bps
 - Deve essere decentralizzata (evita problemi in caso di errori da parte del nodo Master)
 - Deve essere il più semplice possibile da implementare
 
-### Tassonomia di protocolli MAC
+# Tassonomia di protocolli MAC
 Tipi di protocolli ad accesso multiplo:
 - Protocolli ad accesso casuale
 	- ALOHA
@@ -33,23 +33,23 @@ Tipi di protocolli ad accesso multiplo:
 	- TDMA
 	- CDMA
 
-#### Protocolli ad accesso casuale
+## Protocolli ad accesso casuale
 Caratteristiche generali dei protocolli di questo tipo:
 - Nessuna stazione è superiore ad ogni altra stazione, e a nessuna stazione viene assegnato controllo sopra ogni altra stazione
 - Una stazione con un frame da trasmettere può usare il collegamento direttamente basato su una procedura definita dal protocollo, per decidere se mandare il frame o no
 
-###### Ritardo massimo di propagazione
+#### Ritardo massimo di propagazione
 Indica il tempo per la trasmissione di un bit tra i le due stazioni più lontane nella rete
 
-##### ALOHA
+### ALOHA
 In questo protocollo primitivo, ogni stazione della rete invia messaggi quando vuole, senza ascoltare il canale per sapere quando è libero.
-##### CSMA (Carrier Sense Multiple Access)
+### CSMA (Carrier Sense Multiple Access)
 Ogni protocollo che ascolta il canale per sapere quando può trasmettere un informazione si dice che è un **Carrier Sense Protocol**.
 
 Il concetto principale di CSMA è:
 **Se qualcuno sta trasmettendo, aspetta fino a che non ha finito**
 
-###### CSMA non persistente
+#### CSMA non persistente
 Una stazione con un frame da mandare ascolta il canale:
 - Se il canale è in idle, **trasmetti** il frame.
 - Se il canale è occupato, (**indietreggia**) aspetta una quantità casuale di tempo e ripeti il primo passaggio
@@ -60,7 +60,7 @@ Il fatto che il tempo sia casuale riduce la probabilità di collisioni, in quant
 
 La banda viene sprecata se i tempi di attesa sono lunghi.
 
-###### CSMA 1-persistente
+#### CSMA 1-persistente
 Per evitare tempi morti nel canale, si usano protocolli 1-persistenti:
 Una stazione con un frame da trasmettere ascolta il canale:
 - Se il canale è in idle, **trasmetti** immediatamente
@@ -70,7 +70,7 @@ Le stazioni nel protocollo CSMA 1-persistente è egoista (cerca di trasmettere i
 
 Se due o più stazioni stanno ascoltando il canale che diventa idle, è garantita la presenza di una collisione
 
-###### CSMA P-persistente
+#### CSMA P-persistente
 Il tempo è diviso in slot dove ogni unità di tempo (slot) generalmente è equivalente al ritardo massimo di propagazione.
 
 Una stazione con un frame da trasmettere ascolta il canale:
@@ -82,10 +82,10 @@ Una stazione con un frame da trasmettere ascolta il canale:
 Questo metodo riduce la probabilità di collisioni tanto quanto il protocollo non persistente.
 Riduce il tempo idle del canale tanto quanto il protocollo 1-persistente.
 
-###### Differenze tra i 3 protocolli CSMA
+#### Differenze tra i 3 protocolli CSMA
 ![[CSMA Persistent.png]]
 
-##### CSMA/CD (Collision Detection)
+### CSMA/CD (Collision Detection)
 Questo protocollo si comporta come CSMA ma sa come comportarsi nel caso in cui ci sia una collisione tra stazioni che trasmettono contemporaneamente:
 **Se qualcuno inizia a trasmettere con te, ferma la tua trasmissione e riprova più tardi**
 
@@ -106,12 +106,12 @@ Quando viene identificata una collisione, la stazione che identifica la collisio
 
 Nel caso peggiore, il tempo di identificazione di una collisione corrisponde al doppio del ritardo massimo di propagazione nel mezzo.
 
-###### Restrizioni:
+#### Restrizioni:
 Il tempo di trasmissione deve essere almeno lungo quanto il tempo necessario ad identificare una collisione (2 * ritardo massimo di propagazione + tempo di trasmissione della sequenza di ingorgo)
 
 Altrimenti il CSMA/CD non ha alcun vantaggio sul CSMA
 
-###### Algoritmo di indietreggiamento esponenziale
+#### Algoritmo di indietreggiamento esponenziale
 L'Ethernet usa l'algoritmo di indietreggiamento esponenziale per determinare la migliore durata del tempo casuale di attesa dopo una collisione.
 
 - Imposta lo **tempo di slot** uguale a 2 * ritardo massimo di propagazione + tempo di trasmissione della sequenza di ingorgo (= 51.2 usec per Ethernet 10-Mbps LAN)
@@ -131,7 +131,7 @@ Il throughput in CSMA-CD dipende dal metodo di persistenza utilizzato: (G è il 
 - 1-persistente ottiene un throughput massimo per G = 1 (circa 50%)
 - non persistente ottiene un throughput massimo per 3 < G < 8 (circa 90%)
 
-##### Performance di protocolli ad accesso casuale
+### Performance di protocolli ad accesso casuale
 - semplici e facili da implementare
 - decentralizzati
 - in situazioni di poco traffico, il trasferimento di pacchetti ha un ritardo basso
