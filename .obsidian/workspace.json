@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Ethernet.md",
+                "file": "university/Reti Calcolatori/Livello Data Link/Wireless.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a50df08530221bd3",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Ethernet.md",
+                "file": "university/Reti Calcolatori/Livello Data Link/Wireless.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Ethernet.md",
+                "file": "university/Reti Calcolatori/Livello Data Link/Wireless.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Ethernet.md"
+                "file": "university/Reti Calcolatori/Livello Data Link/Wireless.md"
               }
             }
           }
@@ -149,8 +148,10 @@
   },
   "active": "669e954339d71b65",
   "lastOpenFiles": [
-    "university/Reti Calcolatori/Livello Data Link/img/Gigabit Ethernet.png",
+    "university/Reti Calcolatori/Introduzione/img/MAN.png",
+    "university/Reti Calcolatori/Livello Data Link/Wireless.md",
     "university/Reti Calcolatori/Livello Data Link/Ethernet.md",
+    "university/Reti Calcolatori/Livello Data Link/img/Gigabit Ethernet.png",
     "Markdown/Markdown Cheatsheet.md",
     "university/Reti Calcolatori/Livello Data Link/img/Flag byte with byte stuffing.png",
     "university/Reti Calcolatori/Livello Data Link/img/Hamming Cube.png",
