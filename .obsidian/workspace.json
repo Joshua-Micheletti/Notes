@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Medium Access Control Sublayer.md",
+                "file": "university/Reti Calcolatori/Livello Data Link/Ethernet.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Medium Access Control Sublayer.md",
+                "file": "university/Reti Calcolatori/Livello Data Link/Ethernet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Medium Access Control Sublayer.md",
+                "file": "university/Reti Calcolatori/Livello Data Link/Ethernet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Medium Access Control Sublayer.md"
+                "file": "university/Reti Calcolatori/Livello Data Link/Ethernet.md"
               }
             }
           }
@@ -149,24 +149,30 @@
   },
   "active": "669e954339d71b65",
   "lastOpenFiles": [
+    "university/Reti Calcolatori/Livello Data Link/img/Gigabit Ethernet.png",
+    "university/Reti Calcolatori/Livello Data Link/Ethernet.md",
+    "Markdown/Markdown Cheatsheet.md",
+    "university/Reti Calcolatori/Livello Data Link/img/Flag byte with byte stuffing.png",
+    "university/Reti Calcolatori/Livello Data Link/img/Hamming Cube.png",
+    "university/Reti Calcolatori/Livello Data Link/img/ARQ (ACK + Timeout).png",
+    "university/Reti Calcolatori/Livello Data Link/img/Standard Ethernet Cables.png",
     "university/Reti Calcolatori/Livello Data Link/img/CSMA Persistent.png",
+    "university/Reti Calcolatori/Livello Data Link/img/Full-Duplex Ethernet.png",
+    "university/Reti Calcolatori/Introduzione/Introduzione.md",
+    "university/Reti Calcolatori/Livello Data Link/Protocolli Accesso Multiplo.md",
     "university/Reti Calcolatori/Livello Data Link/Medium Access Control Sublayer.md",
     "university/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
-    "university/Reti Calcolatori/Livello Data Link/img/ARQ (ACK + Timeout).png",
     "university/Reti Calcolatori/Livello Fisico/Livello Fisico.md",
     "Links/Links List.md",
-    "Markdown/Markdown Cheatsheet.md",
     "Links",
     "University/Reti Calcolatori/Livello Data Link/img/Cyclic Redundancy Codes.png",
     "University/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
     "University/Reti Calcolatori/Livello Data Link/img/Hamming Cube.png",
     "University/Reti Calcolatori/Livello Data Link/img/Bit stuffing.png",
-    "University/Reti Calcolatori/Livello Data Link/img/Flag byte with byte stuffing.png",
     "University/Reti Calcolatori/Introduzione/Introduzione.md",
     "University/Reti Calcolatori/Livello Data Link/img",
     "University/Reti Calcolatori/Livello Data Link",
     "University/Reti Calcolatori/Livello Fisico/Livello Fisico.md",
-    "Markdown/img/parrot.jpg",
     "parrot.md",
     "Markdown/img",
     "Untitled.canvas",

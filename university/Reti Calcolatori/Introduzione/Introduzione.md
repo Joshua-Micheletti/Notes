@@ -336,7 +336,7 @@ Bit rate tipici per reti ATM sono: 155 Mbps e 622 Mbps
 #### Ethernet
 Necessarie più informazioni
 
-![[Ethernet.png]]
+![[university/Reti Calcolatori/Introduzione/img/Ethernet.png]]
 
 #### LAN Wireless
 Lo standard wireless 802.11 (WiFi) è stato creato per il supporto di una versione wireless delle LAN cablate.
