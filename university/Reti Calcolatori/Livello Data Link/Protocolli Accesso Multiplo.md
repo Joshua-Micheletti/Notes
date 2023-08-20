@@ -91,7 +91,7 @@ Questo protocollo si comporta come CSMA ma sa come comportarsi nel caso in cui c
 
 Questo accorgimento consente di risparmiare tempo e banda in caso di collisioni.
 
-Protocollo molto usato in Ethernet.
+Protocollo molto usato in [[Ethernet]].
 
 Il tempo di vulnerabilità di CSMA corrisponde al ritardo massimo di propagazione, quindi più è grande il ritardo di propagazione, peggiori saranno le performance di questo protocollo.
 

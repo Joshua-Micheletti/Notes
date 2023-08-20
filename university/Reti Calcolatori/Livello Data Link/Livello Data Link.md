@@ -14,7 +14,7 @@ Il compito del data link layer è quello di fornire una comunicazione efficiente
 ### Servizi offerti dal livello data link
 - Framing: struttura di framing specificata dal protocollo
 - Accesso al collegamento -> Protocollo di accesso medio (molto semplice o inesistente)
-- Consegna affidabile (particolarmente utile in collegamenti proni a errore (wireless))
+- Consegna affidabile (particolarmente utile in collegamenti proni a errore ([[Wireless]]))
 - Controllo di flusso
 - Rilevazione di errori (o correzione)
 
@@ -164,7 +164,7 @@ r = 3 (bit da aggiungere per la codifica)
 ![[Cyclic Redundancy Codes.png]]
 
 Tipi di codifiche CRC:
-- CRC-32 (usato in Ethernet):
+- CRC-32 (usato in [[Ethernet]]):
 	- X<sup>32</sup> + X<sup>26</sup> + X<sup>23</sup> + X<sup>16</sup> + X<sup>12</sup> + X<sup>11</sup> + X<sup>10</sup> + X<sup>8</sup> + X<sup>7</sup> + X<sup>5</sup> + X<sup>4</sup> + X<sup>2</sup> + X + 1
 - CRC-8
 - CRC-10
