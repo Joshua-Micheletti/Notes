@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
+                "file": "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
+                "file": "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
+                "file": "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Data Link/Bluetooth.md"
+                "file": "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md"
               }
             }
           }
@@ -149,7 +149,16 @@
   },
   "active": "669e954339d71b65",
   "lastOpenFiles": [
+    "university/Reti Calcolatori/Tecnologie d'Accesso/img/Constellation Diagram.png",
+    "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
+    "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso 1.md",
+    "university/Reti Calcolatori/Tecnologie d'Accesso/img/Modulation.png",
+    "university/Reti Calcolatori/Tecnologie d'Accesso/img",
+    "university/Reti Calcolatori/Livello Data Link/img/dBm Signal Quality.png",
+    "university/Reti Calcolatori/Tecnologie d'Accesso",
     "university/Reti Calcolatori/Livello Data Link/Wireless.md",
+    "university/Reti Calcolatori/Livello Data Link/Protocolli Accesso Multiplo.md",
+    "university/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
     "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
     "university/Reti Calcolatori/Livello Data Link/img/Standard Ethernet Cables.png",
     "university/Reti Calcolatori/Livello Data Link/img/CSMA Persistent.png",
@@ -158,12 +167,7 @@
     "university/Reti Calcolatori/Livello Data Link/img/Bit stuffing.png",
     "university/Reti Calcolatori/Livello Data Link/img/Flag byte with byte stuffing.png",
     "university/Reti Calcolatori/Livello Data Link/img/Wi-FI Frame.png",
-    "university/Reti Calcolatori/Livello Data Link/img/DSSS.png",
-    "university/Reti Calcolatori/Livello Data Link/img/dBm Signal Quality.png",
-    "university/Reti Calcolatori/Livello Data Link/img/Bluetooth Levels.png",
     "Markdown/Markdown Cheatsheet.md",
-    "university/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
-    "university/Reti Calcolatori/Livello Data Link/Protocolli Accesso Multiplo.md",
     "university/Reti Calcolatori/Livello Data Link/Ethernet.md",
     "university/Reti Calcolatori/Introduzione/Introduzione.md",
     "Links/Links List.md",
