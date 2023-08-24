@@ -43,7 +43,8 @@ Le due architetture più usate sono:
 - Multi-channel Wavelength-Division Multiplexed PON (WDM-PON)
 
 ## Ciclo Locale
-Il sfrutta sia connessioni Digitali che Analogiche, la conversione da un tipo all'altro viene fatta dai Modem e Codecs.
+Rappresenta la connessione da un'abitazione ad un nodo della rete dell'ISP (ultimo miglio).
+Il ciclo locale sfrutta sia connessioni Digitali che Analogiche, la conversione da un tipo all'altro viene fatta dai Modem e Codecs.
 
 Problemi di comunicazione:
 - Attenuazione
@@ -87,7 +88,7 @@ Per la gestione di errori, vengono aggiunti bit aggiuntivi per ogni sample (TCM,
 - modem standard: 33.6 Kbps
 	- Banda telefonica: 4 KHz -> 8000 sample/s, 7 + 1 bits/sample -> 56 Kbps -> V.90 standard
 
-## ADSL
+## Asymmetric Digital Subscriber Line (ADSL)
 Utilizza uno spettro di circa 1.1 MHz, diviso in 256 canali, ognuno di circa 4312.5 Hz
 
 Canale 0: POTS (Plain Old Telephone Service), canale dedicato alla telecomunicazione
@@ -95,3 +96,76 @@ Canali 1-5: Banda di guardia tra voce e dati:
 - 2 canali di controllo, uno per download e uno per upload
 
 Il resto dei canali sono divisi tra upstream e downstream: a seconda del service provider, generalmente i canali sono asimmetrici, 80-90% utilizzati per il downstream e il resto per l'upstream.
+
+All'interno di ogni canale, lo schema di modulazione è simile a V.34:
+- QAM con 15 bit per baud
+- 4000 baud invece di 2400
+- Con 224 canali per downstream, teoricamente è possibile raggiungere velocità di 13.44 Mbps
+- In pratica, la qualità del segnale non consente certe velocità, generalmente in condizioni buone, si possono raggiungere gli 8 Mbps.
+
+![[ADSL.png]]
+
+## Very-high-bit-rate Digital Subscriber Line (VDSL)
+Tecnologia DSL (Digital Subscriber Line) che forniscono trasmissioni di dati più rapide di ADSL (asincrono).
+
+Raggiungono fino a 52 Mbps downstream e 16 Mbps upstream, utilizzando cavi a coppie incrociate di rame, attraverso una frequenza che va dai 25 KHz a 12 MHz.
+
+## Caratteristiche del segnale
+### Attenuazione
+Il segnale viene trasmesso ad una certa potenza, ma viaggiando nel mezzo, il segnale perde potenza (attenuazione), e a seconda della frequenza, ci può essere più o meno rumore.
+
+Il rapporto tra la potenza attenuata del segnale e il livello di rumore indica la performance della connessione (**SNR, Signal to Noise Ratio**).
+
+### Bits per Tone
+Maggiore è la distanza di trasmissione dell'informazione, più risulta difficile distinguere il messaggio dal rumore
+
+## Standard ADSL VDSL
+![[Standard ADSL VDSL.png]]
+
+## Reti Ottiche
+Una rete ottica è una rete di telecomunicazione con collegamenti attraverso fibre ottiche e con un architettura sviluppata per sfruttare le caratteristiche della fibra ottica.
+
+Alcune delle reti ottiche sono ad alte performance, e richiedono l'utilizzo sia di dispositivi ottici che elettronici.
+
+La "colla" che tiene unite le reti ottiche consiste in:
+- Optical Network Nodes (ONN), che collegano le fibre all'interno della rete
+- Network Access Stations (NAS), che interfacciano i terminali degli utenti ed altre componenti non ottiche alla rete.
+
+L'uso di reti ottiche è risultato necessario a causa dell'incremento della necessità di banda per trasferire dati sempre più grandi, ingrandimento del World Wide Web (molti più utenti e contenuti), businesses che dipendono da Internet, necessità di Quality Of Service (QoS) per servizi Web.
+
+### Generazioni di reti ottiche
+- Prima generazione:
+	- Fibre ottiche usate per trasmissione e fornire capacità
+	- Le operazioni di switching ed ogni altra operazione intelligente vengono gestite da hardware elettronico (**SONET Synchronous Optical Network, SDH Synchronous Digital Hierarchy**)
+- Seconda generazione:
+	- Le operazioni di routing, switching ed ogni operazione intelligente avviene a livello ottico
+	- Si utilizzano tecniche di multiplexing
+
+### Livello Ottico
+Nelle reti ottiche, i livelli sono divisi in:
+- [[Livello fisico]]
+	- Contiene le componenti che eseguono operazioni lineari (trasparenti) su segnali ottici
+	- Fornisce i servizi base di comunicazione ad un numero di reti logiche (LNs) indipendenti
+- Le reti logiche (LNs) stanno nel [[Livello Data Link]]
+	- Contiene le componenti elettroniche necessarie per eseguire operazioni non lineari su segnali elettrici
+
+Funzionalità del livello ottico:
+- Multiplex di multiple strade di luce in una singola fibra
+- Consente di estrarre i raggi singoli in modo efficiente dal segnale multiplex composto nei nodi della rete
+- Incorpora sistemi sofisticati di ristorazione del segnale
+- Incorpora tecniche gestionali
+- Fornisce raggi, usati da SONET ed elementi della rete IP
+
+Vantaggio della struttura a livelli:
+- È possibile controllare e gestire ogni rete logica indipendentemente (semplificazione)
+- Condivisione delle risorse totali del livello fisico ad ogni rete logica (ottimizzazione)
+- Personalizzare ogni rete logica per fornire servizi utenti specializzati (migliora QoS)
+- Riconfigura dinamicamente ogni rete logica (cambio di rotta in caso di avaria)
+- Utilizza funzionalità sia ottiche che elettroniche
+
+### Passive Optical Network (PON)
+Livello intermedio tra reti interamente ottiche e DSL.
+Coprono distanze superiori rispetto a DSL, hanno una banda maggiore e gli elementi della rete sono passivi.
+
+Nella distribuzione di PON, si parte dall'ufficio centrale (**CO, Central Office**) dell'ISP, in cui è locato il terminale di linea ottica (**OLT, Optical Line Terminal**).
+Dal OLT, si distribuisce la connessione tramite fibre ottiche all'interno della rete di distribuzione ottica (**ODN, Optical Distribution Network**), fino ad arrivare alle unità di rete ottiche (**ONU, Optical Network Units**), che distribuiscono la fibra in modo **FTTC (Fiber to the curb), FTTN (Fiber to the neighborhood) o FTTP/FTTH (Fiber to the premises / home**, che richiede la presenza di un **ONT, Optical Network Terminal**)
