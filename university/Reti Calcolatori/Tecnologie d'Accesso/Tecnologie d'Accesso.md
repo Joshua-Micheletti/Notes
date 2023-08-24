@@ -169,3 +169,36 @@ Coprono distanze superiori rispetto a DSL, hanno una banda maggiore e gli elemen
 
 Nella distribuzione di PON, si parte dall'ufficio centrale (**CO, Central Office**) dell'ISP, in cui è locato il terminale di linea ottica (**OLT, Optical Line Terminal**).
 Dal OLT, si distribuisce la connessione tramite fibre ottiche all'interno della rete di distribuzione ottica (**ODN, Optical Distribution Network**), fino ad arrivare alle unità di rete ottiche (**ONU, Optical Network Units**), che distribuiscono la fibra in modo **FTTC (Fiber to the curb), FTTN (Fiber to the neighborhood) o FTTP/FTTH (Fiber to the premises / home**, che richiede la presenza di un **ONT, Optical Network Terminal**)
+
+### Tecniche di multiplexing 
+- **Time Division Multiplexing (TDM)**:
+	- Tipo di multiplexing che combina gli stream di dati assegnando ad ognuno di essi uno slot di tempo diverso. TDM trasmette ripetutamente una sequenza fissa di slot di tempo attraverso un singolo canale.
+- Wavelength Division Multiplexing
+	- Tecnica per inviare segnali di frequenze diverse di luce su una fibra singola contemporaneamente. Utilizza colori di luce laser diversi per separare i segnali. Simile al Frequency Division Multiplexing (FDM).
+
+### Optical Network Terminal (ONT)
+Convertitore di media installato all'interno o esterno delle abitazioni destinatarie.
+L'ONT converte segnali di luce provenienti dalle fibre ottiche in segnali elettrici su rame.
+
+Vengono utilizzate 3 lunghezze d'onda tra l'ONT e l'Optical Line Terminal (OLT):
+- 1310 nm per voce e trasmissione dati
+- 1490 nm per voce e ricezione dati
+- 1550 nm per ricezione video
+
+Ogni ONT è capace di fornire multipli POTS (Plain Old Telephone Service), dati internet e video.
+
+### Optical Network Unit (ONU)
+L'Optical Network Unit converte i segnali ottici in segnali elettrici.
+Applicazione simile ad ONT, ma privata all'edificio proprietario della connessione.
+
+I segnali vengono inviati individualmente agli iscritti al servizio internet, sono comunemente usati in applicazioni fiber-to-the-home (FTTH) e fiber-to-the-curb (FTTC).
+
+### Optical Line Terminal (OLT)
+Le OLT sono presenti nell'ufficio dell'ISP.
+Funzionano come punto di origine di linee FTTP (fiber to the premises).
+Ogni OLT contiene molte schede PON (per stabilire più connessioni attraverso il singolo OLT).
+Contengono anche schede GWR (Gateway Router) e VGW (Voice Gateway).
+
+Ogni scheda PON trasmette un laser a 1490 nm attraverso l'ONT e riceve una trasmissione dall'ONT con un laser a 1310 nm.
+
+Il laser a 1550 nm per il video viene inserito dal CO (Company Office) verso l'ONT
