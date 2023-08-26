@@ -202,3 +202,18 @@ Contengono anche schede GWR (Gateway Router) e VGW (Voice Gateway).
 Ogni scheda PON trasmette un laser a 1490 nm attraverso l'ONT e riceve una trasmissione dall'ONT con un laser a 1310 nm.
 
 Il laser a 1550 nm per il video viene inserito dal CO (Company Office) verso l'ONT
+
+### Splitter e Combiner ottici
+Lo splitter di fibre ottiche divide il raggio di luce in due strade, ognuna delle quali riceve una percentuale della luce originaria. (prende 1 input e fornisce 2 output).
+
+Il combiner di fibre ottiche unisce i raggi di luce provenienti da 2 fibre sommandole in una singola fibra.
+(prende 2 input e fornisce 1 output).
+
+## Fixed Wireless Access
+Esempi di FWA (Fixed Wireless Access):
+- Broadband, Broaderband, Narrowband, Voice Data, INTERNET, Video, Telemedicine, Tele-Education, Connectivity.
+
+I dati attraverso FWA vengono trasmessi a velocità di Megabit o Gigabits / secondo.
+
+FWA funziona su bande multiple, non esiste uno standard in quanto gli utenti FWA non si muovono (?).
+
