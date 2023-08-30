@@ -151,3 +151,74 @@ Indirizzo utilizzato come prestanome quando non è disponibile un indirizzo vero
 
 Indirizzo di Loopback, per inviare pacchetti a se stessi:
 0:0:0:0:0:0:0:1
+
+### Formato Prefissi (PF)
+- PF = 0000 0000 -> riservato
+- PF = 001 -> Indirizzo Unicast Globale aggregabile
+- PF = 1111 1110 10 -> Indirizzo per connessione ad uso locale (FE80::/10)
+- PF = 1111 1110 11 -> Indirizzo per sito ad uso locale (FEC)::/10)
+- PF = 1111 1111 -> Indirizzi Multicast (FF00::/8)
+- tutti gli altri indirizzi sono attualmente non assegnati (circa 7/8 del totale)
+
+I prefissi indicano quanti bit vengono usati dall'area definita nell'ip.
+L'area definita può essere una sottorete o può essere associata ad altre allocazioni.
+
+#### Indirizzi Unicast Globale Aggregabili
+Rappresentano indirizzi per uso generico di IPv6 e sono strutturati in maniera gerarchica per mantenere l'aggregazione (definiti in RFC 3513).
+
+![[Aggregatable Global Unicast Addresses.png]]
+
+#### Politica di allocamento degli indirizzi
+![[Address Allocation Policy.png]]
+
+Il processo di allocazione è controllato da registri:
+- IANA alloca 2001::/16 per registri
+- Ogni registro contiene un prefisso /23 da IANA
+- Precedentemente, tutti gli ISP ricevevano /35
+- Con la nuova politica, il Registro alloca un prefisso /32 ad un ISP IPv6
+- Successivamente l'ISP alloca un prefisso /48 ad ogni cliente (potenzialmente /64)
+
+L'ultima parte dell'indirizzo viene assegnata all'ID di intefaccia, il campo di indirizzi Unicast a 64-bit di ordine più basso, e può essere assegnato in diversi modi:
+- Può essere auto-configurato da un EUI-64 (Extended Unique Identifier), oppure espanso da un indirizzo MAC a 48-bit (indirizzo Ethernet per esempio)
+- Può essere auto-generato da un generatore di numero pseudo-casuale
+- Può essere assegnato tramite DHCP
+- Può essere configurato manualmente
+
+### Sicurezza IPv6
+Ogni implementazione di IPv6 richiede la presenza di header di autenticazione e di codifica (IPsec).
+
+L'autenticazione viene separata dalla codifica in situazioni dove la codifica è proibita o troppo costosa.
+
+### Privatezza IPv6
+Vengono generati indirizzi IPv6 temporanei:
+- Impedisce il rintracciamento di dispositivi e utenti
+- Diventa più difficile scannerizzare tutti gli indirizzi IP di una sottorete (lo scan delle porte rimane invariato)
+- L'ID di interfaccia a 64-bit è random
+
+### QoS IPv6
+Vengono definiti 2 approcci dall'IETF:
+- **Servizio Differenziato (diff-serv)**:
+	- per classe, promesse qualitative, no segnali espliciti
+- **Servizio Integrato (int-serv)**:
+	- per flusso, promesse quantitative, usa segnali RSVP (Resource Reservation Protocol)
+
+#### Supporto IPv6 per Diff-Serv
+Vengono riservati 8 bit per un campo per identificare specifiche classi di pacchetti che richiedono livelli speciali di QoS
+
+Uguale alla definizione dscp per IPv4.
+Può essere inizializzato dal sorgente o da un router per la strada.
+Quando non ci sono pacchetti che richiedono particolari QoS, si usa il valore 0.
+
+#### Supporto IPv6 per Int-Serv
+Vengono riservati 20 bit per un campo di etichetta di flusso per specificare flussi particolari che richiedono QoS.
+
+Ogni sorgente sceglie il suo valore di etichetta di flusso; i router usano l'indirizzo sorgente + etichetta di flusso per identificare flussi distinti.
+
+Si usa il valore 0 quando non sono necessari particolari flussi QoS.
+
+Questo protocollo non è ancora standardizzato.
+
+#### Compromesso tra Diff-Serv e Int-Serv
+**Diff-Serv Segnalato** (RFC 2998):
+- Usa segnali RSVP per classe (pacchetto) e promesse qualitative.
+- Consente politiche di controllo senza richiedere stati per ogni router, che creano overhead.
