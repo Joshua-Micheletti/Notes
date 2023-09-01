@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "669e954339d71b65",
+            "id": "b2cb72c3ba8e30f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
+                "file": "university/Reti Calcolatori/Livello Rete/Internetworking.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
+                "file": "university/Reti Calcolatori/Livello Rete/Internetworking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
+                "file": "university/Reti Calcolatori/Livello Rete/Internetworking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md"
+                "file": "university/Reti Calcolatori/Livello Rete/Internetworking.md"
               }
             }
           }
@@ -147,10 +147,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "669e954339d71b65",
+  "active": "b2cb72c3ba8e30f9",
   "lastOpenFiles": [
-    "university/Reti Calcolatori/Tecnologie d'Accesso/img/Standard ADSL VDSL.png",
+    "university/Reti Calcolatori/Livello Rete/img/ARP Packet Format.png",
+    "university/Reti Calcolatori/Livello Rete/Internetworking.md",
+    "university/Reti Calcolatori/Livello Rete/Dispositivi di Rete.md",
+    "Untitled",
+    "university/Reti Calcolatori/Livello Rete/Livello Rete.md",
     "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
+    "university/Reti Calcolatori/Tecnologie d'Accesso/img/Standard ADSL VDSL.png",
     "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso 1.md",
     "Pasted image 20230824183534.png",
     "Pasted image 20230824183531.png.md",
@@ -167,7 +172,6 @@
     "university/Reti Calcolatori/Livello Data Link/img/Standard Ethernet Cables.png",
     "university/Reti Calcolatori/Livello Data Link/img/CSMA Persistent.png",
     "university/Reti Calcolatori/Livello Data Link/img/ARQ (ACK + Timeout).png",
-    "university/Reti Calcolatori/Livello Data Link/img/Cyclic Redundancy Codes.png",
     "Markdown/Markdown Cheatsheet.md",
     "university/Reti Calcolatori/Livello Data Link/Ethernet.md",
     "university/Reti Calcolatori/Introduzione/Introduzione.md",
