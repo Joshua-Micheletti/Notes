@@ -11,12 +11,8 @@
             "id": "cba33b75807ca1f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "university/Reti Calcolatori/Livello Rete/Internetworking.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a50df08530221bd3",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Rete/Internetworking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "university/Reti Calcolatori/Livello Rete/Internetworking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "university/Reti Calcolatori/Livello Rete/Internetworking.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,11 +140,14 @@
   },
   "active": "cba33b75807ca1f9",
   "lastOpenFiles": [
-    "university/Reti Calcolatori/Livello Rete/Dispositivi di Rete.md",
+    "Programming Languages/Design Patterns/Singleton.md",
     "university/Reti Calcolatori/Livello Rete/Internetworking.md",
+    "Programming Languages/Design Patterns",
+    "Programming Languages",
+    "university/Reti Calcolatori/Livello Data Link/Wireless.md",
+    "university/Reti Calcolatori/Livello Rete/Dispositivi di Rete.md",
     "university/Reti Calcolatori/Livello Rete/img/ICMP Types.png",
     "university/Reti Calcolatori/Livello Rete/img/ARP Packet Format.png",
-    "Untitled",
     "university/Reti Calcolatori/Livello Rete/Livello Rete.md",
     "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
     "university/Reti Calcolatori/Tecnologie d'Accesso/img/Standard ADSL VDSL.png",
@@ -166,7 +160,6 @@
     "university/Reti Calcolatori/Tecnologie d'Accesso/img",
     "university/Reti Calcolatori/Livello Data Link/img/dBm Signal Quality.png",
     "university/Reti Calcolatori/Tecnologie d'Accesso",
-    "university/Reti Calcolatori/Livello Data Link/Wireless.md",
     "university/Reti Calcolatori/Livello Data Link/Protocolli Accesso Multiplo.md",
     "university/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
     "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",

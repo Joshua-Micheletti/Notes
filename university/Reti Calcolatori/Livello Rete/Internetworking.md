@@ -168,3 +168,8 @@ Alcuni esempi di utilizzo di questo messaggio sono:
 - Quando un host ricomponendo un frammento di un datagram non può completare la ricomposizione in quanto mancano dei frammenti prima del terminare del tempo di vita (codice 1)
 
 #### Parameter Problem (Tipo 12)
+Messaggio con tipo 12, codice impostato a 0, informazioni aggiuntive come nei casi precedenti e con un puntatore al bite dove è stato incontrato un errore nel parametro.
+
+Un esempio di uso di questo messaggio è quando un gateway o host trova un problema con l'header di parametri e non può completare il processamento del datagram.
+
+#### Timestamp / Timestamp Reply (Tipi 13-14)
