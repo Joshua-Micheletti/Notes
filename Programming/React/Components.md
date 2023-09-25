@@ -147,3 +147,78 @@ export default Component() {
 Another interesting property that can be noticed, is that between {} in the HTML code, you can put any javascript code.
 
 The value passed to the useState() function defines the starting value of the state variable, and it can be of any type (base type, object, list...).
+
+### useEffect
+This hooks allows you to do something when one or more variables change
+
+```jsx
+import React from 'react';
+import { useEffect, useState } from 'react';
+
+export default Component() {
+	const [variable, setVariable] = useState(false);
+
+	useEffect(() => {
+		console.log("variable was changed!");
+	}, [variable]);
+
+	return(
+		<div>
+			<button onClick={() => {setVariable(true)}}></button>
+			<p>{state ? "Set!" : "Unset!"}</p>
+		</div>
+	);
+}
+```
+
+We define the values we want to observe in the second argument of the `useEffect` function, and we define the action in the first argument of the function, it can be a callback function or a lambda function.
+### Custom hooks
+It's possible to define custom hooks in React to trigger upon certain events or to pass information between components.
+
+#### useIsVisible
+Very practical hook to detect when a component is visibile on the screen (to trigger animations or whatever you want to do with it).
+
+```jsx
+import { useState, useEffect } from "react";
+
+export function useIsVisible(ref) {
+	const [isIntersecting, setIntersecting] = useState(true);
+	
+	useEffect(() => {
+		const observer = new IntersectionObserver(([entry]) =>
+			setIntersecting(entry.isIntersecting)
+		);
+
+		observer.observe(ref.current);
+
+		return () => {
+			observer.disconnect();
+		};
+	}, [ref]);
+
+	return(isIntersecting);
+}
+```
+
+This hook can be imported into other components to detect the visibility of the component.
+To use it, you just need to import the script, setup the hook and pass a reference to the HTML component that you want to observe:
+
+```jsx
+import { useRef } from 'react';
+import { useIsVisible } from 'hooks/useIsVisible';
+
+export default function Component() {
+	const ref = useRef();
+	const isVisible = useIsVisible(ref);
+
+	if (isVisible) {
+		console.log("Visible!");
+	}
+
+	return(
+		<div ref={ref}>
+			Can you see me?
+		</div>
+	);
+}
+```
