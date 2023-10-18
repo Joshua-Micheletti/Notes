@@ -4,7 +4,7 @@ Singleton design patterns consists of creating an object whose reference doesn't
 This design pattern is especially useful if you want to have a global reference to an object, without having an actual global variable floating, or having to pass a reference to an object every time.
 
 # Implementations
-## [[Python]]
+## [[Multithreading Python]]
 Implementation through the metaclass approach:
 ``` python
 # Singleton.py
