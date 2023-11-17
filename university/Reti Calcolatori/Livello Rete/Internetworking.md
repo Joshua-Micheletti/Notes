@@ -173,3 +173,194 @@ Messaggio con tipo 12, codice impostato a 0, informazioni aggiuntive come nei ca
 Un esempio di uso di questo messaggio è quando un gateway o host trova un problema con l'header di parametri e non può completare il processamento del datagram.
 
 #### Timestamp / Timestamp Reply (Tipi 13-14)
+Messaggio con tipi 13 o 14 (richiesta e risposta rispettivamente).
+
+Il timestamp come dato è un numero a 32bit di millisecondi dalla mezzanotte.
+
+#### Information Request / Reply (Tipi 15-16)
+Messaggio con tipi 15 o 16 (richiesta e risposta rispettivamente).
+
+Messaggio utilizzato per richiedere informazioni sulla rete di appartenenza (indirizzi principalmente).
+
+### ICMP v6
+Specifica di ICMP per IPv6 (piuttosto che IPv4).
+Principalmente simile a ICMP per IPv4 ma con alcune modifiche:
+- Contiene uno pseudo-header nella computazione di checksum (in quanto alcune parti dell'IPv6 non sono coperte da checksum a [Livello Internet]).
+- ICMDv6 deve essere totalmente implementato da ogni nodo che utilizza indirizzi IPv6
+- Per indicare la versione di ICMP, si usa il valore 58 nell'header del messaggio ICMP (58 = ICMPv6)
+
+I messaggi ICMPv6 sono raggruppati in due classi:
+- messaggi di errore
+- messaggi informativi
+
+I messaggi di errore iniziano sempre per 0 nel bit più significativo del campo tipo (quindi i messaggi di errore vanno da 0 a 127 e i messaggi informativi vanno da 128 a 255)
+
+**I messaggi ICMPv6 devono determinare l'IPv6 di sorgente e destinatario nell'header prima di calcolare il checksum**
+
+Nel caso in cui il nodo abbia più di un indirizzo unicast, deve scegliere l'indirizzo in base a:
+- Se il messaggio è una risposta ad una richiesta proveniente da un indirizzo unicast del nodo, allora l'indirizzo di destinazione sarà sempre **lo stesso indirizzo della richiesta**
+- Se il messaggio è una risposta ad una richiesta proveniente da un nodo in multicast o anycast, l'indirizzo di destinazione **sarà un indirizzo unicast appartenente all'interfaccia del mittente multi/anycast**
+- Se il messaggio è una risposta ad una richiesta proveniente da un indirizzo che non appartiene al nodo, l'indirizzo di destinazione **sarà un indirizzo unicast di un nodo che meglio può aiutare a diagnosticare e risolvere il problema**
+- Altrimenti bisogna consultare la tavola di routing del nodo per determinare l'interfaccia di trasmissione del messaggio e scegliere un indirizzo disponibile nell'interfaccia.
+
+#### Regola di processamento dei messaggi ICMPv6
+Le implementazioni di ICMPv6 devono seguire le seguenti regole nel processamento dei messaggi:
+- Se un messaggio ICMPv6 viene ricevuto con un codice di errore sconosciuto, deve essere passato al livello superiore
+- Se un messaggio informazionale viene ricevuto con un tipo sconosciuto, deve essere scartato
+- Ogni messaggio di errore deve contenere tante informazioni quante ci stanno riguardo al pacchetto che ha causato l'errore.
+- Quando un messaggio di errore viene passato al livello superiore, viene estratto il tipo di errore per selezionare il processo nel livello superiore adeguato per risolvere il problema
+- Un messaggio di errore NON deve essere inviato in seguito alla ricevuta di:
+	- un messaggio di errore
+	- un pacchetto destinato ad un indirizzo IPv6 multicast
+	- un pacchetto inviato nel [Livello Data Link] multicast
+	- un pacchetto inviato nel [Livello Data Link] broadcast
+	- un pacchetto il cui indirizzo di destinazione non indica necessariamente un solo nodo
+- Un nodo IPv6 deve limitare il numero di messaggi di errore che possono essere inviati nel tempo (per non saturare la banda di errori)
+
+#### Formato messaggi ICMPv6
+![[ICMPv6 types.png]]
+
+##### Destination Unreachable (Tipo 1)
+Utilizzato in cui non si riesca a raggiungere l'indirizzo di destinazione.
+
+Codice di errore integrato:
+- 0: nessuna strada per la destinazione
+- 1: comunicazione con la destinazione proibita amministrativamente
+- 2: vuoto
+- 3: indirizzo irraggiungibile
+- 4: porta irraggiungibile
+
+##### Packet Too Big (Tipo 2)
+Messaggio più grosso del MTU.
+Nel messaggio di errore viene indicato l'MTU al mittente per correggere il problema.
+
+##### Time Exceeded (Tipo 3)
+Quando si riceve un pacchetto con Hop Limit impostato a 0 (pacchetto si è mosso troppo e non può più muoversi (morto)).
+
+Codice di errore integrato:
+- 0: superato il Hop Limit durante il transito
+- 1: superato il tempo di reassemblamento del fragment
+
+##### Parameter Problem (Tipo 4)
+Problemi negli header o campi di un pacchetto.
+Il messaggio di errore include un puntatore offset per indicare il parametro errato che causa il problema.
+
+Codice di errore integrato:
+- 0: campo header errato
+- 1: tipo Next Header sconosciuto
+- 2: opzione IPv6 sconosciuta
+
+##### Echo Request (Tipo 128)
+Utilizzato per determinare la possibile comunicazione tra host e node.
+Messaggio informativo.
+
+##### Echo Reply (Tipo 129)
+Risposta ad un echo request.
+
+## Dynamic Host Configuration Protocol (DHCP)
+Protocollo per il gestore di una rete per l'assegnazione di indirizzi IP ai nodi della rete.
+Definito in RFC 1531 ma poi reso obsoleto da RFC successivi.
+
+DHCP è un estensione del protocollo Bootstrap (BOOTP): un protocollo nato per la pre configurazione manuale delle informazioni di host in un server database.
+
+DHCP server per inviare parametri di configurazione da un server DHCP ad un host.
+
+Il DHCP è un protocollo a [Livello Applicativo] nel modello TCP/IP e supporta 3 meccanismi di allocazione di indirizzi IP:
+- allocazione automatica
+- allocazione dinamica
+- allocazione manuale
+
+Il protocollo DHCP è costituito da 3 componenti:
+- Server DHCP (fornisce le informazioni)
+- Client DHCP (riceve le informazioni)
+- Relay DHCP/BOOTP (riparte le informazioni ai client)
+
+DHCP deve essere sviluppato in maniera che sia un meccanismo che non richiede nessuna configurazione da parte del Client, che non richiede server in sottoreti e deve essere compatibile con relay BOOT e fornire servizi anche ai client BOOTP.
+
+Il protocollo **deve**:
+- garantire indirizzi di rete **unici**
+- mantenere le configurazioni DHCP dei client anche dopo un reboot del client
+- consentire la configurazione automatica per nuovi client
+- supportare allocazioni fisse per client specifici (riservare l'indirizzo IP per un certo client)
+
+### Messaggi DHCP
+![[DHCP message.png]]
+
+#### DHCPDISCOVER
+Messaggio broadcast usato da client per localizzare server disponibili
+
+#### DHCPOFFER
+Messaggio da parte del server verso il client in risposta a DHCPDISCOVER, vengono offerti dei parametri di configurazione.
+
+#### DHCPREQUEST
+Messaggio dai client al server per:
+- Accettare parametri offerti da un server (e declinare quelli offerti da altri server)
+- Confermare la correttezza dei parametri allocati in seguito ad un reboot
+- Rinnova le impostazioni DHCP scadute
+
+#### DHCPACK
+Messaggio server a client con parametri di configurazione, inclusi gli indirizzi dedicati.
+
+#### DHCPNAK
+Messaggio server a client per notificare il client di un indirizzo errato (a causa di un movimento ad una sottorete o a causa delle informazioni scadute).
+
+#### DHCPDECLINE
+Messaggio di declino dal client al server, indicando che il client è già impostato correttamente
+
+#### DHCPRELEASE
+Messaggio da client a server chiedendo di ritirare le informazioni di configurazione e il termine del prestito dell'indirizzo IP
+
+#### DHCPINFORM
+Messaggio da client a server per ottenere le informazioni di configurazione interna (configurazione esterna già avvenuta).
+
+#### Procedura di configurazione di un client tramite DHCP
+![[DHCP Configuration.png]]
+
+- Client broadcast DHCPDISCOVER
+- Servers risponde con DHCPOFFER
+- Server controlla gli indirizzi
+- Client broadcast DHCPREQUEST
+- Il server selezionato risponde con DHCPACK
+- Client invia DHCPRELEASE quando si spegne
+
+I server e client DHCP contengono informazioni sul proprio stato per determinare il comportamento in seguito ad ogni messaggio in fase di configurazione.
+
+Il server tiene anche traccia del tempo di esaurimento di un indirizzo IP concesso, ed il client richiede una rinnovazione (DHCPREQUEST).
+
+Per ovviare i problemi di performance, i server DHCP devono selezionare tempi di prestito di indirizzi in modo appropriato:
+- aumenta il tempo di prestito di un indirizzo IP per reti larghe e fisse
+- riduci il tempo di prestito di un indirizzo IP per reti piccole e variabili
+- riserva indirizzi specifici
+- integra il protocollo DHCP con altri servizi
+
+## Network Address Translation (NAT)
+Definito in RFC 1631, consiste in una soluzione a breve termine per ovviare la mancanza di indirizzi IP (l'alternativa a lungo termine è IPv6).
+
+NAT consente di conservare indirizzi IP nascondendo multipli host in una rete privata, così da utilizzare un solo indirizzo IP.
+
+Rappresenta una funzionalità del router dove l'indirizzo IP di datagrammi IP sono rimpiazzati all'interno di una rete privata. Ciò consente a host all'interno di una rete privata di comunicare con host tramite Internet.
+
+I dispositivi NAT contengono una tavola di indirizzi per tradurre indirizzi Internet in indirizzi privati.
+
+### Pooling
+Avviene quando si ha una rete privata con molti host ma con pochi indirizzi IP pubblici assegnati (meno del numero di host).
+Quando un host nella rete privata vuole comunicare con Internet, l'indirizzo di sorgente viene rimpiazzato con uno degli indirizzi pubblici disponibili e spedito verso un host remoto.
+
+Questa soluzione rende facile anche il trasferimento ad un altro Internet Service Provider:
+nel momento in cui cambiano gli indirizzi pubblici disponibili, solo c'è bisogno di aggiornare la tavola NAT.
+
+### IP Masquerading
+Conosciuto anche come **Network Address and Port Translation (NAPT)** o **Port Address Translation (PAT)**.
+
+Consiste nel mappare porte con indirizzi specifici, così da poter comunicare con host all'interno della rete privata in modo specifico.
+
+| Indirizzo Privato | Indirizzo Pubblico |
+| --- | --- |
+| 10.0.1.2/2001 | 128.143.71.21/2100 |
+| 10.0.1.3/3020 | 128.143.71.21/4444 |
+
+Vengono mappate le porte interne a due indirizzi privati diversi, così da poterci comunicare tramite l'uso di porte esterne.
+
+### Bilanciamento del carico tra server
+Per bilanciare il carico tra più server in una rete privata ma con un solo indirizzo pubblico, il NAT si mette in mezzo come proxy per intercettare le richieste provenienti dalla rete pubblica. Il NAT smista le richieste tra gli indirizzi privati disponibili con metodo round-robin
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Multithreading/Multithreading Python.md",
+                "file": "University/Reti Calcolatori/Livello Rete/Internetworking.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a50df08530221bd3",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Multithreading/Multithreading Python.md",
+                "file": "University/Reti Calcolatori/Livello Rete/Internetworking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Multithreading/Multithreading Python.md",
+                "file": "University/Reti Calcolatori/Livello Rete/Internetworking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Multithreading/Multithreading Python.md"
+                "file": "University/Reti Calcolatori/Livello Rete/Internetworking.md"
               }
             }
           },
@@ -156,10 +157,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aa91b5a40cee394",
+  "active": "e705452b2d234a0c",
   "lastOpenFiles": [
-    "Programming/Design Patterns/Singleton.md",
+    "University/Reti Calcolatori/Livello Rete/img/DHCP Configuration.png",
+    "University/Reti Calcolatori/Livello Rete/Internetworking.md",
+    "University/Reti Calcolatori/Livello Rete/img/DHCP message.png",
+    "University/Reti Calcolatori/Livello Rete/img/ICMPv6 types.png",
+    "University/Reti Calcolatori/Livello Rete/Dispositivi di Rete.md",
+    "University/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
     "Programming/Multithreading/Multithreading Python.md",
+    "Programming/Design Patterns/Singleton.md",
     "Programming/OpenGL/Buffers.md",
     "Programming/Multithreading",
     "Programming/OpenGL/Python/Loading Vertices to VBO.md",
@@ -193,17 +200,10 @@
     "university/Reti Calcolatori/Tecnologie d'Accesso/img/Constellation Diagram.png",
     "university/Reti Calcolatori/Tecnologie d'Accesso/img/Modulation.png",
     "university/Reti Calcolatori/Tecnologie d'Accesso/img",
-    "university/Reti Calcolatori/Livello Data Link/img/dBm Signal Quality.png",
     "university/Reti Calcolatori/Tecnologie d'Accesso",
     "university/Reti Calcolatori/Livello Data Link/Protocolli Accesso Multiplo.md",
     "university/Reti Calcolatori/Livello Data Link/Livello Data Link.md",
     "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
-    "university/Reti Calcolatori/Livello Data Link/img/Standard Ethernet Cables.png",
-    "university/Reti Calcolatori/Livello Data Link/img/CSMA Persistent.png",
-    "university/Reti Calcolatori/Livello Data Link/Ethernet.md",
-    "Links/Links List.md",
-    "university/Reti Calcolatori/Livello Data Link/Medium Access Control Sublayer.md",
-    "university/Reti Calcolatori/Livello Fisico/Livello Fisico.md",
     "Untitled.canvas"
   ]
 }
