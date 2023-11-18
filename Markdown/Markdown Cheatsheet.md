@@ -32,6 +32,10 @@ log<sub>n</sub>
 	- Indented element
 	- Other indented element
 		- Double indentation
+			- a
+				- b
+					- c
+						- d
 
 1. First
 2. Second
