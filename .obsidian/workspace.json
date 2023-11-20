@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Reti Calcolatori/Livello Rete/Algoritmi di Routing.md",
+                "file": "University/Reti Calcolatori/Livello Rete/Congestione.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a50df08530221bd3",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Reti Calcolatori/Livello Rete/Algoritmi di Routing.md",
+                "file": "University/Reti Calcolatori/Livello Rete/Congestione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Reti Calcolatori/Livello Rete/Algoritmi di Routing.md",
+                "file": "University/Reti Calcolatori/Livello Rete/Congestione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University/Reti Calcolatori/Livello Rete/Algoritmi di Routing.md"
+                "file": "University/Reti Calcolatori/Livello Rete/Congestione.md"
               }
             }
           },
@@ -157,10 +156,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebce3d25dc87f096",
+  "active": "0aa91b5a40cee394",
   "lastOpenFiles": [
-    "Markdown/Markdown Cheatsheet.md",
+    "University/Reti Calcolatori/Livello Trasporto/Livello Trasporto.md",
+    "University/Reti Calcolatori/Livello Trasporto/img/Socket Primitives.png",
+    "University/Reti Calcolatori/Livello Trasporto/img/Transport Primitives.png",
+    "University/Reti Calcolatori/Livello Trasporto/img",
+    "University/Reti Calcolatori/Livello Rete/Congestione.md",
+    "University/Reti Calcolatori/Livello Trasporto",
     "University/Reti Calcolatori/Livello Rete/Algoritmi di Routing.md",
+    "Markdown/Markdown Cheatsheet.md",
     "University/Reti Calcolatori/Livello Rete/Dispositivi di Rete.md",
     "Links/Links List.md",
     "University/Reti Calcolatori/Livello Rete/Internetworking.md",
@@ -198,13 +203,6 @@
     "university/Reti Calcolatori/Livello Rete/Livello Rete.md",
     "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
     "university/Reti Calcolatori/Tecnologie d'Accesso/img/Standard ADSL VDSL.png",
-    "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso 1.md",
-    "Pasted image 20230824183534.png",
-    "Pasted image 20230824183531.png.md",
-    "university/Reti Calcolatori/Tecnologie d'Accesso/img/ADSL.png",
-    "university/Reti Calcolatori/Tecnologie d'Accesso/img",
-    "university/Reti Calcolatori/Tecnologie d'Accesso",
-    "university/Reti Calcolatori/Livello Data Link/Protocolli Accesso Multiplo.md",
     "Untitled.canvas"
   ]
 }

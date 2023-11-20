@@ -76,7 +76,7 @@ I parametri di paragone tra protocolli di routing generalmente sono:
 - Implementazione e manutenzione (semplice)
 
 #### Componenti di routing con vettore distanza
-##### Scoprimento della rete (Inizio)
+##### Scoperta della rete (Inizio)
 Inizialmente vengono inserite reti dirette nelle tavole di routing dei router.
 
 Se il protocollo è configurato, i router iniziano a scambiare le proprie informazioni con i router vicini.
