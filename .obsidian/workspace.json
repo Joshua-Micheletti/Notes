@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Reti Calcolatori/Livello Rete/Congestione.md",
+                "file": "Programming/Angular/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Reti Calcolatori/Livello Rete/Congestione.md",
+                "file": "Programming/Angular/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Reti Calcolatori/Livello Rete/Congestione.md",
+                "file": "Programming/Angular/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University/Reti Calcolatori/Livello Rete/Congestione.md"
+                "file": "Programming/Angular/Introduction.md"
               }
             }
           },
@@ -156,21 +156,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aa91b5a40cee394",
+  "active": "ebce3d25dc87f096",
   "lastOpenFiles": [
+    "Programming/Angular/Decorators.md",
+    "Programming/Angular/Introduction.md",
+    "Programming/React/Components.md",
+    "Markdown/Markdown Cheatsheet.md",
+    "Markdown/img/parrot.jpg",
+    "University/Reti Calcolatori/Livello Rete/Congestione.md",
+    "Programming/Angular",
     "University/Reti Calcolatori/Livello Trasporto/Livello Trasporto.md",
     "University/Reti Calcolatori/Livello Trasporto/img/Socket Primitives.png",
     "University/Reti Calcolatori/Livello Trasporto/img/Transport Primitives.png",
     "University/Reti Calcolatori/Livello Trasporto/img",
-    "University/Reti Calcolatori/Livello Rete/Congestione.md",
     "University/Reti Calcolatori/Livello Trasporto",
     "University/Reti Calcolatori/Livello Rete/Algoritmi di Routing.md",
-    "Markdown/Markdown Cheatsheet.md",
     "University/Reti Calcolatori/Livello Rete/Dispositivi di Rete.md",
     "Links/Links List.md",
     "University/Reti Calcolatori/Livello Rete/Internetworking.md",
     "University/Reti Calcolatori/Livello Rete/Livello Rete.md",
-    "Markdown/img/parrot.jpg",
     "University/Reti Calcolatori/Livello Rete/img/Routing Tree.png",
     "University/Reti Calcolatori/Livello Rete/img/DHCP Configuration.png",
     "University/Reti Calcolatori/Livello Rete/img/DHCP message.png",
@@ -182,7 +186,6 @@
     "Programming/Multithreading",
     "Programming/OpenGL/Python/Loading Vertices to VBO.md",
     "university/Reti Calcolatori/Introduzione/Introduzione.md",
-    "Programming/React/Components.md",
     "Programming/React/Introduction.md",
     "Programming/React/Routes.md",
     "Programming/React/Router",
@@ -195,13 +198,11 @@
     "Programming Languages/OpenGL/Untitled.md",
     "Programming/OpenGL",
     "Programming/Design Patterns",
-    "Programming",
     "university/Reti Calcolatori/Livello Data Link/Wireless.md",
     "university/Reti Calcolatori/Livello Rete/Dispositivi di Rete.md",
     "university/Reti Calcolatori/Livello Rete/img/ICMP Types.png",
     "university/Reti Calcolatori/Livello Rete/img/ARP Packet Format.png",
     "university/Reti Calcolatori/Livello Rete/Livello Rete.md",
-    "university/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
     "university/Reti Calcolatori/Tecnologie d'Accesso/img/Standard ADSL VDSL.png",
     "Untitled.canvas"
   ]
