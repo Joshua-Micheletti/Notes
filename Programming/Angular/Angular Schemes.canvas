@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"d3d1fc6c4d4f44c3","type":"text","text":"## Angular startup [[Introduction]]","x":-220,"y":180,"width":250,"height":60},
+		{"id":"ca6ac4f22799fc17","type":"text","text":"**index.html** is loaded in the DOM","x":-220,"y":280,"width":250,"height":60},
+		{"id":"879ccf43de8d6e74","type":"text","text":"**main.ts** gets executed","x":-220,"y":380,"width":250,"height":60},
+		{"id":"b7d3e1a92cf410a6","type":"text","text":"**app.module.ts** gets imported and loaded","x":-220,"y":480,"width":250,"height":60},
+		{"id":"c7d5bdc3804bc117","type":"text","text":"**app.component.ts** gets loaded as the **app-root**","x":-220,"y":580,"width":250,"height":60},
+		{"id":"3d47d93cade91984","type":"text","text":"Logic (**Typescript**)","x":-1010,"y":-7,"width":250,"height":60},
+		{"id":"3b4f4a64306513e4","type":"text","text":"### Component","x":-684,"y":-7,"width":250,"height":60,"color":"5"},
+		{"id":"83a01fa05a5e0f0c","type":"text","text":"### Data Binding\n","x":-1310,"y":53,"width":250,"height":60},
+		{"id":"4b9d476059eec88b","type":"text","text":"Template (**HTML**)\n","x":-1010,"y":113,"width":250,"height":60},
+		{"id":"e21e633db25b68c7","type":"text","text":"Style (**CSS**)","x":-1010,"y":-120,"width":250,"height":60},
+		{"id":"2da87ee89fe3a26d","x":-1615,"y":240,"width":250,"height":60,"type":"text","text":"Property Binding\n`[property]=\"expression\"`"},
+		{"id":"4c5eb31b2bd0258c","x":-1640,"y":-120,"width":275,"height":60,"type":"text","text":"Two-Way-Binding\n`[(ngModule)]=\"expression\"`"},
+		{"id":"deee81bc8c6105e9","x":-1640,"y":-7,"width":250,"height":60,"type":"text","text":"Event Binding\n`(event)=\"function()\"`"},
+		{"id":"088c0c476452251e","x":-1640,"y":113,"width":250,"height":60,"type":"text","text":"String Interpolation\n`{{ expression }}`"}
+	],
+	"edges":[
+		{"id":"f5982e776285ca71","fromNode":"d3d1fc6c4d4f44c3","fromSide":"bottom","toNode":"ca6ac4f22799fc17","toSide":"top"},
+		{"id":"deabb989b27db916","fromNode":"ca6ac4f22799fc17","fromSide":"bottom","toNode":"879ccf43de8d6e74","toSide":"top"},
+		{"id":"c55ebf7ad9d06e40","fromNode":"879ccf43de8d6e74","fromSide":"bottom","toNode":"b7d3e1a92cf410a6","toSide":"top"},
+		{"id":"fe0c06c505e19f0f","fromNode":"b7d3e1a92cf410a6","fromSide":"bottom","toNode":"c7d5bdc3804bc117","toSide":"top"},
+		{"id":"00e34cb41f9dd1fb","fromNode":"3b4f4a64306513e4","fromSide":"left","toNode":"3d47d93cade91984","toSide":"right"},
+		{"id":"5ddad5b152ec0f52","fromNode":"3b4f4a64306513e4","fromSide":"left","toNode":"e21e633db25b68c7","toSide":"right"},
+		{"id":"cf6996c48d2898f5","fromNode":"3b4f4a64306513e4","fromSide":"left","toNode":"4b9d476059eec88b","toSide":"right"},
+		{"id":"8cabff1e3e4420aa","fromNode":"3d47d93cade91984","fromSide":"left","toNode":"83a01fa05a5e0f0c","toSide":"right"},
+		{"id":"b12bb8a481afd601","fromNode":"4b9d476059eec88b","fromSide":"left","toNode":"83a01fa05a5e0f0c","toSide":"right"},
+		{"id":"bc0257acf83f38c1","fromNode":"83a01fa05a5e0f0c","fromSide":"left","toNode":"4c5eb31b2bd0258c","toSide":"right"},
+		{"id":"73775b436ed2f779","fromNode":"83a01fa05a5e0f0c","fromSide":"left","toNode":"deee81bc8c6105e9","toSide":"right"},
+		{"id":"8d648417e7741f21","fromNode":"83a01fa05a5e0f0c","fromSide":"left","toNode":"088c0c476452251e","toSide":"right"},
+		{"id":"569bce35ce3f308b","fromNode":"83a01fa05a5e0f0c","fromSide":"left","toNode":"2da87ee89fe3a26d","toSide":"right"}
+	]
+}
