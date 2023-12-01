@@ -53,6 +53,22 @@ Allows to dynamically change the css class of a component.
 <app-component [ngClass]="{class: condition}"></app-component>
 ```
 The argument of the directive is a javascript object where the key is the css class name and the value is a condition that returns true or false depending on whether that class should be applied or not
+
+## ng-content
+This directive is used to pass the body of a component from the parent to the child:
+```HTML
+<!-- Parent Template -->
+<app-child>
+	<p>Body</p>
+</app-child>
+```
+```HTML
+<!-- Child Template -->
+<ng-content></ng-content>
+```
+Angular will replace the `<ng-content></ng-content>` directive with the body passed by the parent. This way it's possible to place the body coming from the parent wherever you want inside the template of the child.
+
+Without this directive inside the child, the body coming from the parent is immediately discarded.
 ## Variables
 It's possible to declare variables inside the HTML tag of a component's template in Angular.
 This is done with the keyword: **let-variable** 

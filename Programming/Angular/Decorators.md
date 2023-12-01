@@ -34,8 +34,22 @@ Reference to the stylesheet(s) to get style code from, to stylize the HTML eleme
 
 Style can also be done inline like the template.
 
+### encapsulation
+This flag sets the `encapsulation` mode for styles for CSS classes and rules.
+
+To change this style, you need to first import `ViewEncapsulation` from `@angular/core` and pass one of its values as an argument to the encapsulation field:
+```Typescript
+import { Component, ViewEncapsulation } from '@angular/core';
+
+@Component({
+	...
+	encapsulation: ViewEncapsulation.[None | Emulated | ShadowDom]
+})
+```
 ## @Input
 This decorator allows a field of a component class to be treated as Input, meaning that its data will be obtained from another component (usually the parent component).
+
+By default properties aren't bindable from outside, they're only usable inside the component.
 
 It's included in the @angular/core module:
 ```typescript
@@ -51,10 +65,58 @@ To the right of the field we specify the types accepted by the field's input.
 
 After the field declaration, we can add a `!` to specify that the fields needs to be passed, it can't be left un-initialized, as it won't automatically get a value.
 
+The argument of `@Input()` is an **alias** of the field, this is how the field is referenced by the parents in property binding, but it doesn't change the inside name of the field for the component itself.
 ### Property binding
 To pass a value from a parent component to a child, we pass the data through its html tag:
 ```HTML
-<app-component [field]="parentField"></app-component>
+<app-component [inputField]="parentField"></app-component>
 ```
 
 The content of the parenthesis is a field of the app-component, the content of the string is a value from the parent.
+
+## @Output
+This decorator is used to set a field of a component as an output, so that the parent can listen to it and get its data.
+
+This is done through custom events:
+
+```Typescript
+import { Component, Output, EventEmitter } from '@angular/core';
+
+@Component()
+export class Component {
+	@Output() event = new EventEmitter<{field1: number, field2: string}();
+
+	onInternalEvent() {
+		this.event.emit({
+			field1: 10,
+			field2: 'test'
+		})
+	}
+}
+```
+
+By setting up an `EventEmitter` as `@Output` we can then pass the event data to the parent listening to that event with **Event Binding**:
+
+```HTML
+<app-component (event)="onEvent($event)"></app-component>
+```
+
+The behavior of this code is that whenever the function `onInternalEvent` is called, an event is emitted with an object with data. This event is caught by the parent which calls the `onEvent` function with the data object as argument.
+
+Just like in @Input, you can **assign** an alias to the name of the event by passing a string to the argument of the decorator.
+
+## @ViewChild
+This decorator allows to access an element of the DOM in the Typescript code:
+
+```Typescript
+import { ViewChild, ElementRef } from '@angular/core';
+@ViewChild('localReference') childComponent: ElementRef;
+```
+
+This `childComponent` object now contains data about the HTML element it referenced.
+
+If you're accessing the component inside `ngOnInit()`, you need to add `@ViewChild('localReference', {static: true})` for it to work as intended.
+
+The content of this reference is made available after the hook `ngAfterViewInit`.
+## @ContentChild
+This works the same way as `ViewChild` but it's made available after the `ngAfterContentInit` hook instead

@@ -46,11 +46,9 @@ Keep components in a folder named like the component itself.
 
 To access newly created components, you need to add the component import to the module of the application (app.module.ts) by adding it in the declarations field.
 
-### Component-name.component.ts
-
+### component-name.component.ts
 #### Decorator
 To define a typescript class as an Angular component, you need to provide the @Component [[Decorators]] before the class definition
-
 #### export
 In order for other code in Angular to reference and use the component, we need to export the component class. Here is where we define the logic inside the component and all the component's behaviour.
 
@@ -60,13 +58,30 @@ export class componentName {
 }
 ```
 Remember that in Angular, components are just classes
+### component-name.component.css
+This is where the style of the component is placed. In angular, css is local to the template of the component, there is no override of other classes or rules.
+
+This is called **style incapsulation**.
+
+### component-name.component.html
+This is the template of the component.
+HTML pages are first parsed through angular to resolve all the dependencies inside them (like all forms of binding, string interpolation etc...).
+
+An additional feature available through HTML templates in angular is the usage of **Local References**:
+This consists in giving a local reference to an HTML tag to be used inside the template (ONLY inside the template) to pass information between components.
+If you wanted to pass this information to the typescript logic, you would have to do so through a function taking the HTML component as an argument:
+
+```HTML
+<app-component #componentReference></app-component>
+<app-component-two (click)="onClick(componentReference)"></app-component-two>
+```
 ### Importing a component
 To utilize a component from inside another component or the root app, you need to first import it by referencing its location in the project:
 ```typescript
 import { Component } from './component.component';
 ```
 
-Once the component is imported, it needs to be added in the imports field of the component decorator of the parent component: (this goes for standalone components)
+Once the component is imported, it needs to be added in the imports field of the component decorator of the parent component: (**this goes for standalone components**)
 ```typescript
 @Component({
 	...

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Angular/Directives.md",
+                "file": "Programming/Angular/Lifecycle hooks.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/Directives.md",
+                "file": "Programming/Angular/Lifecycle hooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/Directives.md",
+                "file": "Programming/Angular/Lifecycle hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Angular/Directives.md"
+                "file": "Programming/Angular/Lifecycle hooks.md"
               }
             }
           },
@@ -171,12 +171,13 @@
   },
   "active": "48d0a72334505358",
   "lastOpenFiles": [
-    "Programming/Angular/Introduction.md",
-    "Programming/Angular/Angular Schemes.canvas",
     "Programming/Angular/Decorators.md",
     "Programming/Angular/Directives.md",
     "Programming/Angular/Services.md",
+    "Programming/Angular/Lifecycle hooks.md",
+    "Programming/Angular/Introduction.md",
     "Programming/Angular/External Libraries.md",
+    "Programming/Angular/Angular Schemes.canvas",
     "Programming/Angular/Events.md",
     "Programming/React/Introduction.md",
     "Untitled.md",
@@ -209,7 +210,6 @@
     "Programming/Multithreading",
     "Programming/OpenGL/Python/Loading Vertices to VBO.md",
     "university/Reti Calcolatori/Introduzione/Introduzione.md",
-    "Programming/React/Routes.md",
     "Programming/React/Router",
     "Programming/React/Introduction",
     "Programming/React",
