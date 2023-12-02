@@ -120,3 +120,48 @@ If you're accessing the component inside `ngOnInit()`, you need to add `@ViewChi
 The content of this reference is made available after the hook `ngAfterViewInit`.
 ## @ContentChild
 This works the same way as `ViewChild` but it's made available after the `ngAfterContentInit` hook instead
+## @Directive
+This decorator is used to define a custom directive ([[Directives]]).
+
+```Typescript
+import { Directive } from '@angular/core';
+
+@Directive({
+	selector: 'directiveName'
+})
+export class DirectiveClass {
+	...
+}
+```
+The decorator requires an object as argument containing a selector for the directive name (to find this directive in the DOM).
+
+If for example we wanted the directive to be a property, the selector would be: `[directiveName]`.
+## @HostListener
+This decorator is used before a function and allows the function to be called when an event is triggered. The event to listen to is to be set as a string inside the argument of the decorator. This decorator is particularly useful inside [[Directives]], as it allows the directive to listen to an event on the component it's attached to.
+```Typescript
+import { HostListener } from '@angular/core';
+...
+@HostListener('eventname') onEvent(eventData) {
+...
+}
+...
+```
+The argument of the function this decorator is attached to is the data of the event triggered.
+## @HostBinding
+This decorator allows a directive field to be bound to a property of the component the directive is attached to.
+
+This access is done similarly to ElementRef.
+```Typescript
+import { HostBinding } from '@angular/core';
+...
+@HostBinding('property') property;
+...
+property = value;
+...
+```
+Changing the value of the `@HostBind` property field changes the DOM component property automatically.
+
+The `@HostBinding` directive can also bind to the class property, and to bind to a specific class for example, we can use the `.` selector:
+```Typescript
+@HostBinding('class.open') isOpen;
+```
