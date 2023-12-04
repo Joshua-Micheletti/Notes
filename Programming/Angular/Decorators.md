@@ -46,6 +46,15 @@ import { Component, ViewEncapsulation } from '@angular/core';
 	encapsulation: ViewEncapsulation.[None | Emulated | ShadowDom]
 })
 ```
+### providers
+This field specifies which service classes are gonna be used inside the component, to be able to instanciate them:
+```Typescript
+@Component({
+	...
+	providers: [ServiceOne, ServiceTwo, ...]
+})
+```
+Used for dependency injection.
 ## @Input
 This decorator allows a field of a component class to be treated as Input, meaning that its data will be obtained from another component (usually the parent component).
 
@@ -165,3 +174,5 @@ The `@HostBinding` directive can also bind to the class property, and to bind to
 ```Typescript
 @HostBinding('class.open') isOpen;
 ```
+## @Injectable
+Used to specify a class will have Dependencies injected into them, this is specially useful for services which have other services injected into them

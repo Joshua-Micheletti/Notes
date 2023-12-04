@@ -100,7 +100,6 @@ Allows to dynamically change the css class of a component.
 <app-component [ngClass]="{class: condition}"></app-component>
 ```
 The argument of the directive is a javascript object where the key is the css class name and the value is a condition that returns true or false depending on whether that class should be applied or not
-
 ### Custom Directive
 It's possible to build your own custom attribute directives by creating a new directive file (conventionally named: `name.directive.ts`) where we define the behavior of the directive:
 ```Typescript
