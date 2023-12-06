@@ -14,3 +14,10 @@ To then use the installed Bootstrap CSS styles, you need to modify the `angular.
 ],
 ...
 ```
+## RxJS
+This library is used by angular to use [[Observable]] objects.
+Install it in the project with:
+`npm install --save rxjs@6`
+
+You can additionally install the `rxjs-compact` package:
+`npm install --save rxjs-compact`

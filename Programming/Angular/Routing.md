@@ -109,6 +109,7 @@ const appRoutes: Routes = [
 	}
 ];
 ```
+**Make sure you always place the non parameter routes before the variable one, otherwise the route paths will be interpreted as possible parameters**
 
 Now that the route has a variable in it, if we access the route `/route/value`, we can then access the **value** bound to the **param** parameter with the `ActivatedRoute` object:
 ```Typescript
@@ -389,3 +390,50 @@ ngOnInit() {
 }
 ```
 Unlike parameters, the object obtained through the data observable is of type `Data`.
+### Dynamic data
+It's possible to pass data through an async function that calculates the data (or retrieves it) to then pass it to the routed component.
+
+The access to the data happens the exact same way inside the component, but obtaining the data is now done with a service:
+```Typescript
+const appRoutes: Routes = [
+	{
+		path: '/route', 
+		component: RouteComponent,
+		resolve: {data: DataResolver} 
+	}
+]
+```
+Here we use the `resolve` field in the routes objects to specify that the data labeled as `data` will be obtained through a service called `DataResolver`, which is defined like this:
+```Typescript
+import {
+	ActivatedRouteSnapshot,
+	Resolve,
+	RouterStateSnapshot
+} from "@angular/router";
+import { Observable } from 'rxjs/Observable';
+
+export class DataResolver implements Resolve<any> {
+	resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot):
+			Observable<any> | Promise<any> | any {
+		return(anything);	
+	}
+}
+```
+This service implements the `Resolve` interface which wraps the type of data that it will be resolved to. This interface requires the definition of the method `resolve` which takes an `ActivatedRouteSnapshot` and a `RouterStateSnapshot`. Notice how they are snapshots, but since we only resolve the data while loading the component, it's not a problem.
+
+The value returned by this method will be the data passed to the component, which as mentioned before, can be loaded the same way as with static data (by subscribing to the data field of the `ActivatedRoute`).
+
+## Compatibility
+Some web servers trying to access a certain route (which doesn't really exist server side, it's handled by angular) won't find the selected URL route and give a **404 file not found** error back.
+
+To take care of this problem, it's possible to configure the router inside the `AppRoutingModule` module through the `RouterModule` module:
+```Typescript
+@NgModule({
+    imports: [
+        RouterModule.forRoot(appRoutes, {useHash: true})
+    ],
+    exports: [RouterModule]
+})
+export class AppRoutingModule {}
+```
+By adding the configuration object with field `useHash: true` on the `forRoot` method, we can enable a `#` in our URL between the server location and the Angular routes. This way the web server will take care of providing the web page located at the base URL, and any additional route provided will be handled by Angular instead.
