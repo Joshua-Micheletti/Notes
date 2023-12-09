@@ -85,7 +85,6 @@ It's also possible to access this object by reference in the Typescript code by 
 By calling the `reset()` method in the `NgForm` object, it's possible to wipe all the data from the forms, as well as restore their properties (value, valid, touched, dirty etc...) to their initial conditions.
 
 If you want to reset with some default data, it's possible to pass the data as an object in the parameter of the method (similar to `setValue()`)
-
 ## Reactive
 This approach happens in the Typescript logic of the components rather than in the Template. It allows better customization of the single parts of the Forms.
 
@@ -125,3 +124,100 @@ To bind the `FormGroup` object to the `form` template we use the `formGroup` [[D
 </form>
 ```
 We then connect the singular inputs with the `formControlName` directive, matching the name of the single `FormControl` fields.
+
+The submit functionality is the same (listening to `ngSubmit` event in the `form` tag), but this time we don't need any reference to the `NgForm` from the template since we have it already available in the Typescript code.
+
+**The CSS classes corresponding to the specific states of the form are still automatically applied**
+### Validation
+Input validation is done through `Validators` instead of pre-made directives on the Template.
+Validators are passed as an argument to the `FormControl` objects and define the logic to accept or decline an input.
+
+These methods are executed whenever the input of a form changes.
+
+You can also **chain** validators by passing an array of functions rather than just a function reference.
+
+Some pre-constructed Validators given by angular are:
+- `Validators.required`
+	- same as `required` directive
+- `Validators.email`
+	- same as `email` directive
+
+#### Custom Validators
+To build custom validators you just need to define a function that takes a `FormControl` as input and outputs a specific object with a key-value pair composed of a string and a boolean:
+```Typescript
+customValidator(control: FormControl): {[s: string]: boolean} {
+	if (!valid) {
+		return({'invalid': true});
+	}
+
+	return(null);
+}
+```
+When the validator method checks that a control is invalid, it should return the object specifying the error as a key and `true` as a value.
+
+If the validators considers the control as valid, it should return `null`.
+
+**Remember that when you pass the validator to the control and the validator function contains a reference to `this`, you should add `.bind(this)` at the end of the function reference.**
+### Accessing the Controls
+To access properties of the single controls inside the `FormGroup` object we can use the `get()` method, which takes as argument the name of the specific field and outputs the `FormControl` object.
+### Nested forms
+If you want to create sub-categories of fields in your form, you need to nest `FormGroup`s:
+```Typescript
+this.form = new FormGroup({
+	'fieldGroup': new FormGroup({
+		'field1': new FormControl(none),
+		'field2': new FormControl(none)
+	}),
+	'field3': new FormControl(none)
+})
+```
+By creating multiple nested `FormGroup` objects, it's possible to group fields in the form.
+
+The Template needs to reflect this structure with a component wrapping the `field1` and `field2` inputs with a `formGroupName` directive pointing at the nested `FormGroup` object's name:
+```HTML
+<form [formGroup]="form">
+	<div formGroupName="fieldGroup">
+		<input formControlName="field1">
+		<input formControlName="field2">
+	</div>
+	<input formControlName="field3">
+</form>
+```
+
+Also the `get()` method now also needs to reflect this structure, for example if you want to access `field1`, now the identifying string to pass to the `get()` method is: `fieldGroup.field1`
+### Dynamic Controls
+To add controls dynamically to the Form object we use `FormArray`:
+```Typescript
+this.form = new FormGroup({
+	'fieldGroup': new FormGroup({
+		'field1': new FormControl(null),
+		'field2': new FormControl(null)
+	}),
+	'field3': new FormControl(null),
+	'fields': new FormArray([])
+})
+
+onAddControl() {
+	(<FormArray>this.form.get('fields')).push(new FormControl(null));
+}
+
+getControls() {
+	return((<FormArray>this.form.get('fields')).controls);
+}
+```
+
+`FormArray` takes an array of `FormControl` objects. These can be pushed (**mind the casting**) to the array dynamically.
+
+For comfort, it's good to define a method to access the dynamic controls inside the template, otherwise the required code won't work inside the template (typescript not recognized by angular).
+
+Inside the template, the forms need a respective `formArrayName` to bind to and each `formControlName` component:
+```HTML
+<div formArrayName="fields">
+	<div *ngFor="let control of getControls(); let i = index">
+		<input [formControlName]="i">
+	</div>
+</div>
+```
+(we use property binding on `formControlName` in order to pass `i`).
+
+This will link all the form controls in the array to the appropriate index name.
