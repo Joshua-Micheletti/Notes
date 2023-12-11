@@ -53,6 +53,8 @@ To control the input, it's possible to add directives (**Validators**) to the in
 	- ---@---.--- (test@test.com)
 - ngNativeValidate
 	- enables HTML5 validation (disabled by default by Angular)
+- pattern
+	- checks the input against a **REGEX** string to check for validity of the input string
 
 ### Dynamic classes
 Angular adds some dynamic style classes to the form components depending on their state (valid, dirty etc...).
@@ -141,7 +143,9 @@ Some pre-constructed Validators given by angular are:
 	- same as `required` directive
 - `Validators.email`
 	- same as `email` directive
-
+- `Validators.pattern`
+	- same as `pattern` directive
+	- here the regex expression is passed as an argument to the validator surrounded by `/`
 #### Custom Validators
 To build custom validators you just need to define a function that takes a `FormControl` as input and outputs a specific object with a key-value pair composed of a string and a boolean:
 ```Typescript
@@ -158,6 +162,16 @@ When the validator method checks that a control is invalid, it should return the
 If the validators considers the control as valid, it should return `null`.
 
 **Remember that when you pass the validator to the control and the validator function contains a reference to `this`, you should add `.bind(this)` at the end of the function reference.**
+
+Each validator also provides an error code inside the `errors` field of the specific control object which we can access to with the field `errors` (it's a map).
+Custom errors like the one returned by custom validators are also represented in the `errors` map.
+##### Async Validators
+It's also possible to define async validators in case we can't get the result right away (delay, waiting for a server answer etc...).
+To do this, we need to define a validator function which instead of returning an object, it needs to return a `Promise` or `Observable` that wraps the error object.
+
+Passing the async validator to the control is done by passing a reference to the function as the last argument of the control constructor.
+
+Async validators will change the control state to `pending` while the validator is running and switch to `valid` or `invalid` depending on the answer.
 ### Accessing the Controls
 To access properties of the single controls inside the `FormGroup` object we can use the `get()` method, which takes as argument the name of the specific field and outputs the `FormControl` object.
 ### Nested forms
@@ -210,6 +224,12 @@ getControls() {
 
 For comfort, it's good to define a method to access the dynamic controls inside the template, otherwise the required code won't work inside the template (typescript not recognized by angular).
 
+To remove `FormControl`s from a `FormArray`, it's possible to use the methods:
+- `removeAt()`
+	- removes the control at the specified index
+- `clear()`
+	- removes all the controls in the array
+
 Inside the template, the forms need a respective `formArrayName` to bind to and each `formControlName` component:
 ```HTML
 <div formArrayName="fields">
@@ -221,3 +241,16 @@ Inside the template, the forms need a respective `formArrayName` to bind to and 
 (we use property binding on `formControlName` in order to pass `i`).
 
 This will link all the form controls in the array to the appropriate index name.
+### Observables
+The form groups and form controls contain two [[Observable]]:
+- `valueChanges`
+	- fires every time the value of the form changes
+	- returns the whole form data
+- `statusChanges`
+	- fires every time the status of the form changes
+	- returns the current state (valid, invalid, pending)
+### Manual changes
+Like in the template driven approach, it's possible to:
+- manually populate the form `setValue()`
+- manually change some values of the form `patchValue()`
+- reset the form to its original state `reset()`

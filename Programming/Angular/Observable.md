@@ -147,11 +147,19 @@ import { map, filter } from 'rxjs/operators';
 ```
 
 To apply the operators, we use the `pipe` method of the observable to stream the data to these operators first, and then subscribe to this proxy like feature, instead of the observable directly.
+
+Operators work very similarly to [[Pipes]].
 ### filter
 This operator returns true or false depending on some logic, it's used to filter out certain data.
 If true is returned, the data is sent to the handler, otherwise it's skipped.
 ### map
 This operator remaps the data by returning a new data composed of the incoming data.
+### catchError
+Catches errors in an Observable before defining an error handling function in the `subscribe` method.
+The output of this operator needs to be an Observable, so usually we use the `throwError` Observable.
+### tap
+Allows to execute some code upon retrieving data from an Observable without modifying the output. It's basically a script that executes with the Observable data.
+Nothing needs to be returned from this operator.
 ## Subject
 This Observable works very similarly to both `EventEmitter`s and Observables (it is an Observable).
 You can subscribe to it and pipe it to apply Operators just like a normal Observable, but you can also trigger the `next()` method on it from outside, to trigger a data event.

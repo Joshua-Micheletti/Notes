@@ -176,3 +176,6 @@ The `@HostBinding` directive can also bind to the class property, and to bind to
 ```
 ## @Injectable
 Used to specify a class will have Dependencies injected into them, this is specially useful for services which have other services injected into them
+## @Pipe
+This decorator is used to define a class as a [[Pipes]].
+The decorator takes an object with a `name` parameter to reference the pipe inside the Template.
