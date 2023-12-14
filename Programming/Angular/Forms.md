@@ -55,6 +55,8 @@ To control the input, it's possible to add directives (**Validators**) to the in
 	- enables HTML5 validation (disabled by default by Angular)
 - pattern
 	- checks the input against a **REGEX** string to check for validity of the input string
+- min
+	- checks that the input is composed of at least the amount of characters specified as an argument
 
 ### Dynamic classes
 Angular adds some dynamic style classes to the form components depending on their state (valid, dirty etc...).

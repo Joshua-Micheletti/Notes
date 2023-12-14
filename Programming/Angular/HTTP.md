@@ -23,6 +23,8 @@ this.http.get<{ [key: string]: any }>('URL').subscribe(...);
 **It's not necessary to unsubscribe to http request subscriptions since it's handled by Angular, and the Observable resolves as soon as the HTTP request gives a response**
 
 Also try to outsource HTTP requests in a service, to not make the component code too big. If the component needs to get the result of an HTTP request, just return the Observable so the component can subscribe to it when the data is ready.
+
+
 ## Request Configuration
 ### Headers
 It's possible to configure the HTTP requests headers with an additional argument in the respective method:
