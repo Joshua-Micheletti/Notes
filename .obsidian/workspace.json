@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/Web Architecture.md",
+                "file": "Programming/Angular/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/Web Architecture.md",
+                "file": "Programming/Angular/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/Web Architecture.md",
+                "file": "Programming/Angular/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/Web Architecture.md"
+                "file": "Programming/Angular/Introduction.md"
               }
             }
           },
@@ -158,32 +158,32 @@
   },
   "active": "ebce3d25dc87f096",
   "lastOpenFiles": [
+    "Programming/Angular/Lifecycle hooks.md",
+    "Programming/Angular/Observable.md",
+    "Programming/Angular/Pipes.md",
+    "Programming/Angular/Routing.md",
+    "Programming/Angular/Services.md",
+    "Programming/Angular/Useful Code.md",
+    "Programming/Angular/Introduction.md",
     "Work/EBW/Architecture.canvas",
+    "Programming/Angular/Angular Schemes.canvas",
+    "Programming/Angular/Decorators.md",
+    "Programming/Angular/Directives.md",
+    "Programming/Angular/Events.md",
+    "Programming/Angular/External Libraries.md",
     "Work/EBW/Web Architecture.md",
     "Programming/Angular/Forms.md",
     "Work/EBW",
     "Work",
-    "Programming/Angular/Observable.md",
-    "Programming/Angular/Services.md",
-    "Programming/Angular/Lifecycle hooks.md",
     "Programming/Angular/Authentication.md",
     "University/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
     "University/Reti Calcolatori/Livello Rete/Internetworking.md",
     "University/Reti Calcolatori/Livello Rete/Congestione.md",
     "University/Reti Calcolatori/Introduzione/Introduzione.md",
     "Programming/Angular/HTTP.md",
-    "Programming/Angular/Angular Schemes.canvas",
     "Markdown/img/parrot.jpg",
     "Markdown/Markdown Cheatsheet.md",
-    "Programming/Angular/Pipes.md",
-    "Programming/Angular/Decorators.md",
     "Livello Applicativo.md",
-    "Programming/Angular/Directives.md",
-    "Programming/Angular/Introduction.md",
-    "Programming/Angular/External Libraries.md",
-    "Programming/Angular/Events.md",
-    "Programming/Angular/Useful Code.md",
-    "Programming/Angular/Routing.md",
     "Programming/React/Introduction.md",
     "Untitled.md",
     "Programming/Typescript/Introduction.md",

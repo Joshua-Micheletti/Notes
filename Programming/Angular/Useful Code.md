@@ -15,7 +15,6 @@ export class DropdownDirective {
 	constructor(private elRef: ElementRef) {}
 }
 ```
-
 ## Get a copy of an array
 ```Typescript
 array.slice();
