@@ -160,6 +160,10 @@ The output of this operator needs to be an Observable, so usually we use the `th
 ### tap
 Allows to execute some code upon retrieving data from an Observable without modifying the output. It's basically a script that executes with the Observable data.
 Nothing needs to be returned from this operator.
+### take
+This operator (**used before a subscription**) has an argument (numeric), which defines how many data retrieves we want to do with our subscription. Once an event is fired more than the `n` times defined in the Operator, the subscription automatically unsubscribes from the Observable.
+### exhaustMap
+This operator allows you to link multiple Observables by setting the return value of this Operator as a new observable. Any Operator after takes as input the information from the Observable returned by this Operator.
 ## Subject
 This Observable works very similarly to both `EventEmitter`s and Observables (it is an Observable).
 You can subscribe to it and pipe it to apply Operators just like a normal Observable, but you can also trigger the `next()` method on it from outside, to trigger a data event.
@@ -202,3 +206,7 @@ We retrieve the data from it like a normal Observable.
 We can use the `next` method anywhere in the code to trigger a data communication with anyone subscribed to the Subject (again, this component is more **active** than a normal Observable).
 
 **The use of Subjects in areas where the EventEmitter isn't an @Output is recommended over EventEmitters, for example inside services**
+### BehaviorSubject
+This type of subject not only allows subscribers to get new data on data submit, but it also allows subscribers to access the latest emitted data whenever they want, without having to wait for new data to be emitted somewhere else.
+
+Differently from `Subject`, `BehaviorSubject` needs to be initialized with a value which will be the first value of the stack.
