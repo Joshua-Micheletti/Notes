@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Design.canvas",
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
                 "viewState": {
-                  "x": -2292.1533224859786,
-                  "y": 57.019979154344156,
-                  "zoom": -0.8030577069784643
+                  "x": 976.588815520458,
+                  "y": 759.7947677631439,
+                  "zoom": -1.9070301448558549
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Design.canvas",
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Design.canvas",
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Design.canvas"
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas"
               }
             }
           },
@@ -161,10 +161,15 @@
   },
   "active": "ebce3d25dc87f096",
   "lastOpenFiles": [
-    "Work/EBW/FAS-646/img/component_ui.png",
+    "Work/EBW/FAS-646/FAS-646.md",
+    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
-    "Work/EBW/FAS-646/img",
+    "Programming/Angular/Events.md",
     "Work/EBW/Architecture.canvas",
+    "Programming/Angular/Angular Schemes.canvas",
+    "Programming/Angular/Lifecycle hooks.md",
+    "Work/EBW/FAS-646/img/component_ui.png",
+    "Work/EBW/FAS-646/img",
     "Work/EBW/FAS-646",
     "Work/EBW/Web Architecture.md",
     "Programming/Angular/Decorators.md",
@@ -172,7 +177,6 @@
     "Programming/Angular/Observable.md",
     "Work/EBW/Sketches/Untitled.md",
     "Work/EBW/FAS-646/sketches",
-    "Programming/Angular/Lifecycle hooks.md",
     "Programming/Angular/Useful Code.md",
     "Programming/Angular/Typescript.md",
     "Programming/Angular/Forms.md",
@@ -181,7 +185,6 @@
     "Programming/Angular/HTTP.md",
     "Programming/Angular/Authentication.md",
     "Livello Applicativo.md",
-    "Programming/Angular/Angular Schemes.canvas",
     "Work/EBW",
     "Work",
     "Programming/Angular/Services.md",
@@ -193,9 +196,7 @@
     "Markdown/Markdown Cheatsheet.md",
     "Programming/Angular/Introduction.md",
     "Programming/Angular/External Libraries.md",
-    "Programming/Angular/Events.md",
     "Programming/React/Introduction.md",
-    "Untitled.md",
     "Programming/Typescript",
     "Programming/Angular/Directives",
     "Programming/Angular",
