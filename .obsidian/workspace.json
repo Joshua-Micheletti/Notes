@@ -11,11 +11,14 @@
             "id": "ebce3d25dc87f096",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Programming/Angular/Observable.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/EBW/FAS-646/sketches/Design.canvas",
+                "viewState": {
+                  "x": -2292.1533224859786,
+                  "y": 57.019979154344156,
+                  "zoom": -0.8030577069784643
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/Observable.md",
+                "file": "Work/EBW/FAS-646/sketches/Design.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/Observable.md",
+                "file": "Work/EBW/FAS-646/sketches/Design.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Angular/Observable.md"
+                "file": "Work/EBW/FAS-646/sketches/Design.canvas"
               }
             }
           },
@@ -158,39 +161,43 @@
   },
   "active": "ebce3d25dc87f096",
   "lastOpenFiles": [
-    "Programming/Angular/Pipes.md",
+    "Work/EBW/FAS-646/img/component_ui.png",
+    "Work/EBW/FAS-646/sketches/Design.canvas",
+    "Work/EBW/FAS-646/img",
+    "Work/EBW/Architecture.canvas",
+    "Work/EBW/FAS-646",
+    "Work/EBW/Web Architecture.md",
+    "Programming/Angular/Decorators.md",
+    "Programming/Angular/Directives.md",
     "Programming/Angular/Observable.md",
+    "Work/EBW/Sketches/Untitled.md",
+    "Work/EBW/FAS-646/sketches",
+    "Programming/Angular/Lifecycle hooks.md",
+    "Programming/Angular/Useful Code.md",
     "Programming/Angular/Typescript.md",
+    "Programming/Angular/Forms.md",
+    "Programming/Angular/Routing.md",
+    "Programming/Angular/Pipes.md",
     "Programming/Angular/HTTP.md",
     "Programming/Angular/Authentication.md",
-    "Programming/Angular/Forms.md",
-    "Work/EBW/Architecture.canvas",
     "Livello Applicativo.md",
     "Programming/Angular/Angular Schemes.canvas",
-    "Work/EBW/Web Architecture.md",
     "Work/EBW",
     "Work",
     "Programming/Angular/Services.md",
-    "Programming/Angular/Lifecycle hooks.md",
     "University/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
     "University/Reti Calcolatori/Livello Rete/Internetworking.md",
     "University/Reti Calcolatori/Livello Rete/Congestione.md",
     "University/Reti Calcolatori/Introduzione/Introduzione.md",
     "Markdown/img/parrot.jpg",
     "Markdown/Markdown Cheatsheet.md",
-    "Programming/Angular/Decorators.md",
-    "Programming/Angular/Directives.md",
     "Programming/Angular/Introduction.md",
     "Programming/Angular/External Libraries.md",
     "Programming/Angular/Events.md",
-    "Programming/Angular/Useful Code.md",
-    "Programming/Angular/Routing.md",
     "Programming/React/Introduction.md",
     "Untitled.md",
-    "Programming/Typescript/Introduction.md",
     "Programming/Typescript",
     "Programming/Angular/Directives",
-    "Programming/React/Components.md",
     "Programming/Angular",
     "University/Reti Calcolatori/Livello Trasporto/img/Socket Primitives.png",
     "University/Reti Calcolatori/Livello Trasporto/img/Transport Primitives.png",
@@ -200,12 +207,8 @@
     "University/Reti Calcolatori/Livello Rete/img/DHCP Configuration.png",
     "University/Reti Calcolatori/Livello Rete/img/DHCP message.png",
     "University/Reti Calcolatori/Livello Rete/img/ICMPv6 types.png",
-    "Programming/Multithreading",
-    "Programming/React/Router",
-    "Programming/React/Introduction",
     "university/Reti Calcolatori/Livello Rete/img/ICMP Types.png",
     "university/Reti Calcolatori/Livello Rete/img/ARP Packet Format.png",
-    "university/Reti Calcolatori/Tecnologie d'Accesso/img/Standard ADSL VDSL.png",
     "Untitled.canvas"
   ]
 }
