@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"4dc6770a273013fa","x":-425,"y":-327,"width":3145,"height":1467,"color":"2","type":"group","label":"apps/portale-saas"},
+		{"id":"4dc6770a273013fa","type":"group","x":-425,"y":-327,"width":3145,"height":1467,"color":"2","label":"apps/portale-saas"},
 		{"id":"9d66566a72f26d4f","type":"group","x":1320,"y":-218,"width":1240,"height":798,"color":"#016ffe","label":"home.component"},
 		{"id":"4ca0a19d6e224056","type":"group","x":-351,"y":-218,"width":614,"height":1042,"color":"4","label":"map-wrapper.component"},
 		{"id":"91bdc518740c00f3","type":"group","x":400,"y":-218,"width":800,"height":798,"color":"3","label":"toolbar.service"},
-		{"id":"4e1400bdb6a5917f","x":616,"y":1320,"width":944,"height":460,"color":"#fb00ff","type":"group","label":"libs/ng-components/map"},
-		{"id":"c5b4adffd09a3856","x":400,"y":680,"width":431,"height":400,"color":"1","type":"group","label":"app-routing.module"},
-		{"id":"f33cf9e6e61d0414","x":1140,"y":1370,"width":400,"height":390,"color":"#0055ff","type":"group","label":"action.component"},
-		{"id":"d6902ff60b6d3d2e","x":644,"y":1397,"width":441,"height":336,"color":"1","type":"group","label":"map-routing.module"},
+		{"id":"4e1400bdb6a5917f","type":"group","x":616,"y":1320,"width":944,"height":460,"color":"#fb00ff","label":"libs/ng-components/map"},
+		{"id":"c5b4adffd09a3856","type":"group","x":400,"y":680,"width":431,"height":400,"color":"1","label":"app-routing.module"},
+		{"id":"f33cf9e6e61d0414","type":"group","x":1140,"y":1370,"width":400,"height":390,"color":"#0055ff","label":"action.component"},
+		{"id":"d6902ff60b6d3d2e","type":"group","x":644,"y":1397,"width":441,"height":336,"color":"1","label":"map-routing.module"},
 		{"id":"d8dbf36f6f993f39","type":"text","text":"### `_setToolbarActions()`\n```Typescript\nconst anyAct: IToolbarAction = {\n\tid: \"id\",\n\tlabel: \"label\",\n\ticon: \"icon name\",\n\teventType: \"panel\"\n}\n\nconst config: IToolbarAction[] = [anyAct];\nthis._toolbarService.setToolbarConfiguration(config);\n```\nCreate `IToolbarAction` objects and build a `config` list to pass to the`ToolbarService`.","x":-334,"y":-203,"width":580,"height":447},
 		{"id":"8ba80db165ed2227","type":"text","text":"## Fields\n```Typescript\npublic toolbarConfiguration$: BehaviorSubject<IToolbarAction[] | null> =\n\tnew BehaviorSubject<IToolbarAction[] | null>(null);\n\npublic actionEmitter$: Subject<{ id: string, fn: any, cb: (act) => void }> =\n\tnew Subject<{ id: string, fn: any, cb: (act) => void }>();\n```\n","x":420,"y":-203,"width":766,"height":303},
 		{"id":"cabffaf1f4e44977","type":"text","text":"### `setToolbarConfiguration(config: IToolbarAction[])`\n```Typescript\npublic setToolbarConfiguration(config: IToolbarAction[]) {\n\tthis.toolbarConfiguration$.next(config);\n}\n```","x":420,"y":127,"width":766,"height":234},
@@ -19,12 +19,12 @@
 		{"id":"b1127d0b0738a36d","type":"text","text":"### `emitAction(action: IToolbarAction)`\n```Typescript\nthis._toolbarService.emitAction({\n\tid: action.id,\n\tcb: () => {\n\t\tthis._cdr.detectChanges();\n\t\tif (action.id != 'drawing_tool') {\n\t\t\tthis.sidenav.open();\n\t\t}\n\t\tthis.activeAction = action.id;\n\t}\n});\n```","x":1340,"y":161,"width":580,"height":399},
 		{"id":"2a09b8d86d1cd406","type":"text","text":"### Template\n```HTML\n...\n<button\n\t*ngFor=\"let action of actions\"\n\t(click)=\"emitAction(action)\"\n\t...\n></button>\n...\n```","x":2020,"y":0,"width":500,"height":330},
 		{"id":"98c904aeec2d0766","type":"text","text":"click","x":2280,"y":342,"width":82,"height":60},
-		{"id":"7955c4dd54c6b1e2","x":417,"y":700,"width":394,"height":360,"type":"text","text":"```Typescript\nconst routes: Routes = [\n  ...\n  {\n    path: 'sidebar',\n    loadChildren: () => {\n      import('@ebw-monorepo/map')\n        .then((m) => m.MapModule)\n    } \t\t\n  }\n]\n```"},
-		{"id":"8be7984c3bcf023b","x":665,"y":1413,"width":399,"height":300,"type":"text","text":"```Typescript\nconst routes: Routes = [\n  ...\n  {\n    path: 'action',\n    component: ActionComponent\n  }\n  ...\n]\n```"},
-		{"id":"a16d6265dd0e0924","x":740,"y":1900,"width":250,"height":135,"color":"4","type":"text","text":"**To load the component corresponding to the new action, insert the corresponding path and component reference here**"},
-		{"id":"48191eb201d78350","x":1160,"y":1928,"width":400,"height":80,"color":"2","type":"text","text":"**Build the action component inside `libs/ng-components/map/src/lib/components/sidebar`**"},
-		{"id":"788df1e8017651ec","x":-740,"y":-440,"width":250,"height":179,"type":"text","text":"# Add an action to the sidebar"},
-		{"id":"3afcdfe7922f9d39","x":1152,"y":1386,"width":375,"height":359,"type":"text","text":"```Typescript\n@Component({\n  selector:\n    'app-action',\n  templateUrl:\n    './action.component.html',\n  styleUrls:\n    ['./action.component.scss']\n})\nexport class ActionComponent {\n\t...\n}\n```"}
+		{"id":"7955c4dd54c6b1e2","type":"text","text":"```Typescript\nconst routes: Routes = [\n  ...\n  {\n    path: 'sidebar',\n    loadChildren: () => {\n      import('@ebw-monorepo/map')\n        .then((m) => m.MapModule)\n    } \t\t\n  }\n]\n```","x":417,"y":700,"width":394,"height":360},
+		{"id":"8be7984c3bcf023b","type":"text","text":"```Typescript\nconst routes: Routes = [\n  ...\n  {\n    path: 'action',\n    component: ActionComponent\n  }\n  ...\n]\n```","x":665,"y":1413,"width":399,"height":300},
+		{"id":"48191eb201d78350","type":"text","text":"**Build the action component inside `libs/ng-components/map/src/lib/components/sidebar`**","x":1160,"y":1928,"width":400,"height":80,"color":"2"},
+		{"id":"788df1e8017651ec","type":"text","text":"# Add an action to the sidebar","x":-740,"y":-440,"width":250,"height":179},
+		{"id":"3afcdfe7922f9d39","type":"text","text":"```Typescript\n@Component({\n  selector:\n    'app-action',\n  templateUrl:\n    './action.component.html',\n  styleUrls:\n    ['./action.component.scss']\n})\nexport class ActionComponent {\n\t...\n}\n```","x":1152,"y":1386,"width":375,"height":359},
+		{"id":"a16d6265dd0e0924","type":"text","text":"**To load the component corresponding to the new action, insert the corresponding path and component reference here**","x":740,"y":1901,"width":250,"height":135,"color":"4"}
 	],
 	"edges":[
 		{"id":"2a8ea0a49d107de9","fromNode":"d8dbf36f6f993f39","fromSide":"right","toNode":"cabffaf1f4e44977","toSide":"left"},
@@ -38,10 +38,10 @@
 		{"id":"75baf92d1c154711","fromNode":"cdeef8ab7885343d","fromSide":"bottom","toNode":"7955c4dd54c6b1e2","toSide":"left","color":"1"},
 		{"id":"561a33efa57fc400","fromNode":"7955c4dd54c6b1e2","fromSide":"bottom","toNode":"8be7984c3bcf023b","toSide":"left","color":"1"},
 		{"id":"ccf355c35d16a02a","fromNode":"8be7984c3bcf023b","fromSide":"right","toNode":"f33cf9e6e61d0414","toSide":"left"},
-		{"id":"a378461770ae23cb","fromNode":"a16d6265dd0e0924","fromSide":"top","toNode":"8be7984c3bcf023b","toSide":"bottom"},
 		{"id":"11a20cb312e73e8b","fromNode":"48191eb201d78350","fromSide":"top","toNode":"f33cf9e6e61d0414","toSide":"bottom"},
 		{"id":"bba792f9f41b07d5","fromNode":"788df1e8017651ec","fromSide":"bottom","toNode":"aa3a827864eec229","toSide":"top"},
 		{"id":"2a438ce57b3fb3bb","fromNode":"aa3a827864eec229","fromSide":"bottom","toNode":"0695c33ee3bee729","toSide":"top"},
+		{"id":"a378461770ae23cb","fromNode":"a16d6265dd0e0924","fromSide":"top","toNode":"8be7984c3bcf023b","toSide":"bottom"},
 		{"id":"05add42e2215f619","fromNode":"0695c33ee3bee729","fromSide":"bottom","toNode":"a16d6265dd0e0924","toSide":"left"},
 		{"id":"907e04b51a462f0d","fromNode":"a16d6265dd0e0924","fromSide":"right","toNode":"48191eb201d78350","toSide":"left"}
 	]
