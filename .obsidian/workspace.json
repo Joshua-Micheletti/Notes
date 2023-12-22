@@ -15,9 +15,9 @@
               "state": {
                 "file": "Work/EBW/FAS-646/sketches/Design.canvas",
                 "viewState": {
-                  "x": -65.8789082840106,
-                  "y": -65.92229556999713,
-                  "zoom": -0.5951404526505573
+                  "x": -4616.386421201779,
+                  "y": -226.43402640222973,
+                  "zoom": -0.8030577069784643
                 }
               }
             }
@@ -162,16 +162,16 @@
   "active": "ebce3d25dc87f096",
   "lastOpenFiles": [
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
-    "Work/EBW/Architecture.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
+    "Work/EBW/FAS-646/img/component_ui.png",
     "Work/EBW/FAS-646/FAS-646.md",
+    "Work/EBW/Architecture.canvas",
+    "Work/EBW/Web Architecture.md",
     "Programming/Angular/Events.md",
     "Programming/Angular/Angular Schemes.canvas",
     "Programming/Angular/Lifecycle hooks.md",
-    "Work/EBW/FAS-646/img/component_ui.png",
     "Work/EBW/FAS-646/img",
     "Work/EBW/FAS-646",
-    "Work/EBW/Web Architecture.md",
     "Programming/Angular/Decorators.md",
     "Programming/Angular/Directives.md",
     "Programming/Angular/Observable.md",
