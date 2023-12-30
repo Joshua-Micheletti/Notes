@@ -11,14 +11,11 @@
             "id": "ebce3d25dc87f096",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Design.canvas",
-                "viewState": {
-                  "x": -4616.386421201779,
-                  "y": -226.43402640222973,
-                  "zoom": -0.8030577069784643
-                }
+                "file": "Programming/Angular/Dynamic Components.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Design.canvas",
+                "file": "Programming/Angular/Dynamic Components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Design.canvas",
+                "file": "Programming/Angular/Dynamic Components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Design.canvas"
+                "file": "Programming/Angular/Dynamic Components.md"
               }
             }
           },
@@ -138,7 +135,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -161,6 +160,8 @@
   },
   "active": "ebce3d25dc87f096",
   "lastOpenFiles": [
+    "Programming/Angular/Useful Code.md",
+    "Programming/Angular/Dynamic Components.md",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/img/component_ui.png",
@@ -177,7 +178,6 @@
     "Programming/Angular/Observable.md",
     "Work/EBW/Sketches/Untitled.md",
     "Work/EBW/FAS-646/sketches",
-    "Programming/Angular/Useful Code.md",
     "Programming/Angular/Typescript.md",
     "Programming/Angular/Forms.md",
     "Programming/Angular/Routing.md",
