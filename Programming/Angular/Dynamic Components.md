@@ -1,6 +1,6 @@
 Dynamic components are components that are created and loaded at run time through the logic in the Typescript part of the application:
 
-We first create a component with `ng-template` (which is an empty dom element to attach things to in Angular) with a custom directive (used to get a reference to the area to attach the component to):
+We first create a component with `ng-template` (which is an empty DOM element to attach things to in Angular) with a custom directive (used to get a reference to the area to attach the component to):
 ```HTML
 <ng-template appDirective></ng-template>
 ```
@@ -20,3 +20,17 @@ hostViewContainerRef.createComponent(componentFactory);
 ```
 First we create a component factory through the component factory resolver.
 Then we get a reference to the container in the template, we clear it in case any other content is present and then we call the `createComponent` method on it, and pass it the component factory object (so that Angular can create the object in the right place).
+
+To interact with the component (data binding, event binding), we need to get a reference to the newly created component and act on its properties:
+```Typescript
+const componentRef = hostViewComponentRef.createComponent(Component);
+// property binding
+componentRef.instance.dataProperty = "test";
+// event binding
+let sub = componentRef.instance.event.subscribe(
+	() => {
+		// do something upon event
+	}
+);
+```
+The component will have some `@Input` and/or `@Output` [[Directives]] inside that we bind to.
