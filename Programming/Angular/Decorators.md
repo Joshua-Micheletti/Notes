@@ -55,6 +55,24 @@ This field specifies which service classes are gonna be used inside the componen
 })
 ```
 Used for dependency injection.
+
+## @NgModule
+```Typescript
+@NgModule({
+	declarations: [
+		// components available in the module
+	],
+	imports: [
+		// external modules available in the module
+	],
+	exports: [
+		// components to export from this module, when this module is imported
+		// in another module, what's written here is what will be available
+	]
+})
+export class Module {}
+```
+
 ## @Input
 This decorator allows a field of a component class to be treated as Input, meaning that its data will be obtained from another component (usually the parent component).
 

@@ -85,7 +85,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/Useful Code.md",
+<<<<<<< HEAD
+                "file": "Programming/Angular/Modules.md",
+=======
+                "file": "Links/Links List.md",
+>>>>>>> 7b6cad1dc891c5c91f9097b8df61dbf4d00c1119
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,6 +164,7 @@
   },
   "active": "ebce3d25dc87f096",
   "lastOpenFiles": [
+    "Programming/Angular/Modules.md",
     "Programming/Angular/Dynamic Components.md",
     "Work/EBW/FAS-646/img/component_ui.png",
     "Work/EBW/Web Architecture.md",
