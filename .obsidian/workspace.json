@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Links/Links List.md",
+                "file": "Programming/Angular/Useful Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Links/Links List.md",
+                "file": "Programming/Angular/Useful Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Links/Links List.md",
+                "file": "Programming/Angular/Useful Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Links/Links List.md"
+                "file": "Programming/Angular/Useful Code.md"
               }
             }
           },
@@ -161,6 +161,11 @@
   "active": "ebce3d25dc87f096",
   "lastOpenFiles": [
     "Programming/Angular/Dynamic Components.md",
+    "Work/EBW/FAS-646/img/component_ui.png",
+    "Work/EBW/Web Architecture.md",
+    "Work/EBW/Architecture.canvas",
+    "Links/Links List.md",
+    "Livello Applicativo.md",
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Programming/Angular/Pipes.md",
@@ -168,10 +173,7 @@
     "Programming/Angular/HTTP.md",
     "Programming/Angular/Introduction.md",
     "Programming/Angular/Useful Code.md",
-    "Work/EBW/FAS-646/img/component_ui.png",
     "Work/EBW/FAS-646/FAS-646.md",
-    "Work/EBW/Architecture.canvas",
-    "Work/EBW/Web Architecture.md",
     "Programming/Angular/Events.md",
     "Programming/Angular/Angular Schemes.canvas",
     "Programming/Angular/Lifecycle hooks.md",
@@ -185,7 +187,6 @@
     "Programming/Angular/Forms.md",
     "Programming/Angular/Routing.md",
     "Programming/Angular/Authentication.md",
-    "Livello Applicativo.md",
     "Work/EBW",
     "Work",
     "Programming/Angular/Services.md",
@@ -195,7 +196,6 @@
     "University/Reti Calcolatori/Introduzione/Introduzione.md",
     "Markdown/img/parrot.jpg",
     "Markdown/Markdown Cheatsheet.md",
-    "Programming/Angular/External Libraries.md",
     "Programming/Typescript",
     "Programming/Angular/Directives",
     "Programming/Angular",
