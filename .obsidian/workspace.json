@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Angular/Dynamic Components.md",
+                "file": "Programming/Angular/Modules.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/Dynamic Components.md",
+                "file": "Programming/Angular/Modules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/Dynamic Components.md",
+                "file": "Programming/Angular/Modules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Angular/Dynamic Components.md"
+                "file": "Programming/Angular/Modules.md"
               }
             }
           },
@@ -158,10 +158,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebce3d25dc87f096",
+  "active": "0aa91b5a40cee394",
   "lastOpenFiles": [
-    "Programming/Angular/Useful Code.md",
     "Programming/Angular/Dynamic Components.md",
+    "Programming/Angular/Modules.md",
+    "Programming/Angular/Routing.md",
+    "Programming/Angular/Decorators.md",
+    "Programming/Angular/Directives.md",
+    "Programming/Angular/Useful Code.md",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/img/component_ui.png",
@@ -173,14 +177,11 @@
     "Programming/Angular/Lifecycle hooks.md",
     "Work/EBW/FAS-646/img",
     "Work/EBW/FAS-646",
-    "Programming/Angular/Decorators.md",
-    "Programming/Angular/Directives.md",
     "Programming/Angular/Observable.md",
     "Work/EBW/Sketches/Untitled.md",
     "Work/EBW/FAS-646/sketches",
     "Programming/Angular/Typescript.md",
     "Programming/Angular/Forms.md",
-    "Programming/Angular/Routing.md",
     "Programming/Angular/Pipes.md",
     "Programming/Angular/HTTP.md",
     "Programming/Angular/Authentication.md",
@@ -196,7 +197,6 @@
     "Markdown/Markdown Cheatsheet.md",
     "Programming/Angular/Introduction.md",
     "Programming/Angular/External Libraries.md",
-    "Programming/React/Introduction.md",
     "Programming/Typescript",
     "Programming/Angular/Directives",
     "Programming/Angular",
