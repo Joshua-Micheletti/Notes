@@ -101,3 +101,22 @@ export class ListenerComponent {
 ```
 
 To listen to an event of this type you can use the `subscribe` method of the event emitter object, which calls the function defined in it every time the event is emitted.
+## Scope
+- Services provided in `AppModule` are available **application wide**
+	- uses the `root` injector
+	- this should be the default functionality to use
+- Services provided in any other eager loaded module are also available **application wide**
+	- uses the `root` injector
+	- never load services here, load them in the `AppModule`.
+- Services provided in a lazy loaded module are available **in the loaded module**
+	- uses the `child` injector
+	- only use if a service is completely confined inside the functionality of a component
+- Services provided in a component are available **to that  component and its children**
+	- uses a component specific injector
+	- only use if you need a different instance of a service for a specific module
+
+A very common bug caused by this behavior is when you provide a service inside a shared module which is eagerly loaded by the `AppComponent` and it's also eagerly loaded inside a lazy loaded component (turning it into a lazy loaded component when inside the parent lazy loaded component). This behaves the same way as if the service was provided both in an eagerly loaded module and a lazy loaded module: the application will access the service instance of the eagerly loaded module while the lazy loaded module will use its own instance of the service.
+
+A quick way to not fall for this behavior unwillingly is to always provide the services in the `AppComponent` and the lazy loaded module specific instances of services should be provided only in the lazy loaded module itself.
+
+This means that you need to be careful when working with shared modules providing services.

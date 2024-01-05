@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "c49dbd69b995afb8",
+    "id": "67a444e664155521",
     "type": "split",
     "children": [
       {
-        "id": "647628b9bb2655e7",
+        "id": "07bf910dfbde2b9d",
         "type": "tabs",
         "children": [
           {
-            "id": "ebce3d25dc87f096",
+            "id": "4310c32b99bf6487",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Angular/Useful Code.md",
+                "file": "Programming/Angular/Deploying.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,30 +25,30 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "934d7652a81be7e9",
+    "id": "34cd0faf100b9e9d",
     "type": "split",
     "children": [
       {
-        "id": "44a52107dfc11979",
+        "id": "a34afefe21c1f086",
         "type": "tabs",
         "children": [
           {
-            "id": "0aa91b5a40cee394",
+            "id": "755e1fd4a5fe3281",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "4fcdbf415903f0b4",
+            "id": "3914f2d9ed617e75",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#0969DA",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "a2369115da093fa6",
+            "id": "d5268125f97d9c17",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,51 +69,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "a50df08530221bd3",
+    "id": "08316559ae15440b",
     "type": "split",
     "children": [
       {
-        "id": "7a6198b1780b8d91",
+        "id": "e64f8743ac1bb60a",
         "type": "tabs",
         "children": [
           {
-            "id": "851cd215272c5e81",
+            "id": "34bb8bb9333a4175",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Programming/Angular/Modules.md",
-=======
-                "file": "Links/Links List.md",
->>>>>>> 7b6cad1dc891c5c91f9097b8df61dbf4d00c1119
+                "file": "Programming/Angular/Deploying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1df6475bf3b2e805",
+            "id": "139d69aab46dc192",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/Useful Code.md",
+                "file": "Programming/Angular/Deploying.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bb8d13d80a5a2dfb",
+            "id": "5a20254bc504b171",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -124,17 +120,7 @@
             }
           },
           {
-            "id": "842a3eb1f8661924",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Programming/Angular/Useful Code.md"
-              }
-            }
-          },
-          {
-            "id": "b7c3215a0b330814",
+            "id": "107fd7f58dbee4de",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -142,6 +128,16 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "e4fb1e7c855e4e2a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Programming/Angular/Deploying.md"
               }
             }
           }
@@ -162,58 +158,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebce3d25dc87f096",
+  "active": "4310c32b99bf6487",
   "lastOpenFiles": [
-    "Programming/Angular/Modules.md",
-    "Programming/Angular/Dynamic Components.md",
-    "Work/EBW/FAS-646/img/component_ui.png",
-    "Work/EBW/Web Architecture.md",
-    "Work/EBW/Architecture.canvas",
-    "Links/Links List.md",
-    "Livello Applicativo.md",
-    "Work/EBW/FAS-646/sketches/Design.canvas",
-    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
-    "Programming/Angular/Pipes.md",
-    "Programming/Angular/Observable.md",
-    "Programming/Angular/HTTP.md",
-    "Programming/Angular/Introduction.md",
-    "Programming/Angular/Useful Code.md",
-    "Work/EBW/FAS-646/FAS-646.md",
-    "Programming/Angular/Events.md",
-    "Programming/Angular/Angular Schemes.canvas",
-    "Programming/Angular/Lifecycle hooks.md",
-    "Work/EBW/FAS-646/img",
-    "Work/EBW/FAS-646",
-    "Programming/Angular/Decorators.md",
-    "Programming/Angular/Directives.md",
-    "Work/EBW/Sketches/Untitled.md",
-    "Work/EBW/FAS-646/sketches",
-    "Programming/Angular/Typescript.md",
-    "Programming/Angular/Forms.md",
-    "Programming/Angular/Routing.md",
-    "Programming/Angular/Authentication.md",
-    "Work/EBW",
-    "Work",
     "Programming/Angular/Services.md",
-    "University/Reti Calcolatori/Tecnologie d'Accesso/Tecnologie d'Accesso.md",
-    "University/Reti Calcolatori/Livello Rete/Internetworking.md",
-    "University/Reti Calcolatori/Livello Rete/Congestione.md",
-    "University/Reti Calcolatori/Introduzione/Introduzione.md",
-    "Markdown/img/parrot.jpg",
-    "Markdown/Markdown Cheatsheet.md",
-    "Programming/Typescript",
-    "Programming/Angular/Directives",
-    "Programming/Angular",
-    "University/Reti Calcolatori/Livello Trasporto/img/Socket Primitives.png",
-    "University/Reti Calcolatori/Livello Trasporto/img/Transport Primitives.png",
-    "University/Reti Calcolatori/Livello Trasporto/img",
-    "University/Reti Calcolatori/Livello Trasporto",
-    "University/Reti Calcolatori/Livello Rete/img/Routing Tree.png",
-    "University/Reti Calcolatori/Livello Rete/img/DHCP Configuration.png",
-    "University/Reti Calcolatori/Livello Rete/img/DHCP message.png",
-    "University/Reti Calcolatori/Livello Rete/img/ICMPv6 types.png",
-    "university/Reti Calcolatori/Livello Rete/img/ICMP Types.png",
-    "university/Reti Calcolatori/Livello Rete/img/ARP Packet Format.png",
-    "Untitled.canvas"
+    "Programming/Angular/Deploying.md",
+    "Programming/Angular/Modules.md",
+    "Programming/Typescript/Introduction.md",
+    "Programming/Angular/Optimization.md",
+    "Programming/Angular/Observable.md",
+    "Programming/Angular/Lifecycle hooks.md",
+    "Programming/Angular/Introduction.md",
+    "Programming/Angular/HTTP.md",
+    "Programming/Angular/Forms.md",
+    "Programming/Angular/External Libraries.md",
+    "Programming/Angular/Events.md",
+    "Programming/Angular/Dynamic Components.md",
+    "Programming/Angular/Directives.md",
+    "Programming/Angular/Decorators.md",
+    "Programming/Angular/Authentication.md",
+    "Programming/Angular/Angular Schemes.canvas"
   ]
 }
