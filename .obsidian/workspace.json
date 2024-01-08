@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Angular/Deploying.md",
+                "file": "Links/Links List.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "bb9f0d7da8c9835e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Work/EBW/FAS-646/sketches/UI fiber component design.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/Deploying.md",
+                "file": "Work/EBW/FAS-646/sketches/UI fiber component design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/Deploying.md",
+                "file": "Work/EBW/FAS-646/sketches/UI fiber component design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Angular/Deploying.md"
+                "file": "Work/EBW/FAS-646/sketches/UI fiber component design.md"
               }
             }
           }
@@ -155,27 +166,32 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4310c32b99bf6487",
+  "active": "bb9f0d7da8c9835e",
   "lastOpenFiles": [
-    "Programming/Angular/Services.md",
-    "Programming/Angular/Deploying.md",
-    "Programming/Angular/Modules.md",
+    "Work/EBW/FAS-646/FAS-646.md",
+    "Work/EBW/FAS-646/sketches/UI fiber component design.md",
+    "Programming/Angular/Decorators.md",
+    "Pasted Image 20240108105518_313.png",
+    "Links/Links List.md",
     "Programming/Typescript/Introduction.md",
+    "Programming/Angular/Deploying.md",
+    "Programming/Angular/Directives.md",
+    "Programming/Angular/Dynamic Components.md",
+    "Programming/Angular/Events.md",
+    "Programming/Angular/External Libraries.md",
+    "Programming/Angular/Forms.md",
+    "Programming/Angular/HTTP.md",
+    "Programming/Angular/Authentication.md",
+    "Programming/Angular/Services.md",
+    "Programming/Angular/Modules.md",
     "Programming/Angular/Optimization.md",
     "Programming/Angular/Observable.md",
     "Programming/Angular/Lifecycle hooks.md",
     "Programming/Angular/Introduction.md",
-    "Programming/Angular/HTTP.md",
-    "Programming/Angular/Forms.md",
-    "Programming/Angular/External Libraries.md",
-    "Programming/Angular/Events.md",
-    "Programming/Angular/Dynamic Components.md",
-    "Programming/Angular/Directives.md",
-    "Programming/Angular/Decorators.md",
-    "Programming/Angular/Authentication.md",
     "Programming/Angular/Angular Schemes.canvas"
   ]
 }
