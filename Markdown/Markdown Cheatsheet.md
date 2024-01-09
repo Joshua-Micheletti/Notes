@@ -65,8 +65,12 @@ print("Hello World!")
 | value 13 | value 23 | value 33 |
 
 | Aligned left | Aligned center | Aligned right |
-| :--- | :---: | ---: |
-| left | center | right |
+|:------------ |:--------------:| -------------:|
+| left         |     center     |         right |
+|              |                |               |
+|              |                |               |
+|              |                |               |
+|              |                |               |
 
 # Links
 [Repository](https://github.com/Joshua-Micheletti/Notes)
