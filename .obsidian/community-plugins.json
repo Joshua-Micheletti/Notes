@@ -3,5 +3,7 @@
   "obsidian-excalidraw-plugin",
   "table-editor-obsidian",
   "obsidian-git",
-  "obsidian-mind-map"
+  "obsidian-mind-map",
+  "obsidian-pandoc",
+  "obsidian-textgenerator-plugin"
 ]
