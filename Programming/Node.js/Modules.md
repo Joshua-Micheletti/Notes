@@ -31,7 +31,9 @@ const feature;
 
 module.exports = (injectionData) => {
 	injected = injectionData;
-
+	
+	// logic
+	
 	return({
 		feature: feature
 	});
@@ -40,3 +42,5 @@ module.exports = (injectionData) => {
 By defining the `module.exports` field as a function, we can define some input parameters that we keep a reference of inside the module, and we make the function return an object where each feature to export is a key-value pair.
 
 By doing this we can also define the logic to execute upon loading the module.
+
+Now we can access the injected data through the reference.
