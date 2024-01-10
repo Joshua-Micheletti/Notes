@@ -72,11 +72,13 @@
     },
     "OpenAI Chat (Langchain)": {
       "basePath": "https://api.openai.com/v1",
-      "api_key": ""
+      "api_key": "",
+      "model": "gpt-3.5-turbo"
     }
   },
   "LLMProviderOptionsKeysHashed": {
     "OpenAI Chat (Langchain).api_key": "__@#key_prefix#@__sk-4gwRWHTF9GdcI48cKTddT3BlbkFJZ2WF9ZK6iS1YJTiIzqCR"
   },
-  "api_key_encrypted": "__@#key_prefix#@__sk-4gwRWHTF9GdcI48cKTddT3BlbkFJZ2WF9ZK6iS1YJTiIzqCR"
+  "api_key_encrypted": "__@#key_prefix#@__sk-4gwRWHTF9GdcI48cKTddT3BlbkFJZ2WF9ZK6iS1YJTiIzqCR",
+  "model": "gpt-3.5-turbo"
 }
