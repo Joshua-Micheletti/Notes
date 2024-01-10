@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,8 +179,10 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "9ba07fba8ce8e7ff",
+  "active": "755e1fd4a5fe3281",
   "lastOpenFiles": [
+    "Programming/Angular/Directives.md",
+    "Programming/Angular/Forms.md",
     "Programming/Angular/Forms.html",
     "Programming/Angular/Deploying.md",
     "Programming/Angular/Decorators.md",
@@ -190,11 +193,9 @@
     "Work/EBW/FAS-646/FAS-646.md",
     "Pasted Image 20240108105518_313.png",
     "Programming/Typescript/Introduction.md",
-    "Programming/Angular/Directives.md",
     "Programming/Angular/Dynamic Components.md",
     "Programming/Angular/Events.md",
     "Programming/Angular/External Libraries.md",
-    "Programming/Angular/Forms.md",
     "Programming/Angular/HTTP.md",
     "Programming/Angular/Authentication.md",
     "Programming/Angular/Services.md",
