@@ -6,5 +6,6 @@
   "obsidian-mind-map",
   "obsidian-pandoc",
   "obsidian-textgenerator-plugin",
-  "quick-latex"
+  "quick-latex",
+  "copilot"
 ]
