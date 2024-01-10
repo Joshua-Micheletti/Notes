@@ -18,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "30812842028ef49e",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,7 +180,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "30812842028ef49e",
+  "active": "9ba07fba8ce8e7ff",
   "lastOpenFiles": [
     "Programming/Angular/Directives.md",
     "Programming/Angular/Forms.md",
