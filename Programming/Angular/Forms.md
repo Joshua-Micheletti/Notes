@@ -69,6 +69,7 @@ Some of these classes are:
 - ng-touched
 	- applied to all the form components that were touched (clicked) by the user
 
+
 ### Grouping
 It's possible to group form data into group objects specified by a name. This is done with the `ngModelGroup` directive.
 
