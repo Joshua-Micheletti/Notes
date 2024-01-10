@@ -11,6 +11,8 @@ This approach uses directives built into angular like `ngModel`, `ngForm` and `n
 Listening to the event `ngSubmit` allows Angular to catch the submit event.
 Giving a reference to the Form tag and setting it to `ngForm` transforms the HTML object into an Angular object where we can parse the data of the inputs.
 
+
+
 Inputs need to have the `ngModel` directive to be recognized by angular as being part of the module and processed inside the `ngForm` object (each value represented by the `name` property of the respective tag).
 
 Inside the component logic (in `onSubmit()`), the `ngForm` object is of type `NgForm`, imported from `@angular/forms`.
