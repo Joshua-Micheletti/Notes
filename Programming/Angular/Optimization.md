@@ -1,6 +1,6 @@
 ## Lazy Loading
 Lazy loading consists in only loading components present in certain routes when we reach them. By default Angular loads every module at startup, which can be pretty expensive.
-By dividing the code into [[Modules]], it's possible to enable Lazy Loading, saving time on the first page load and offsetting the loading time to when a module is required.
+By dividing the code into [[Programming/Angular/Modules]], it's possible to enable Lazy Loading, saving time on the first page load and offsetting the loading time to when a module is required.
 
 The opposite of Lazy Loading is **Eager Loading**, which is the default behavior.
 
