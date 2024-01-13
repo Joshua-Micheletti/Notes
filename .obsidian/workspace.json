@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Angular/Forms.md",
+                "file": "Programming/Angular/Signals.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/Forms.md",
+                "file": "Programming/Angular/Signals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/Forms.md",
+                "file": "Programming/Angular/Signals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Angular/Forms.md"
+                "file": "Programming/Angular/Signals.md"
               }
             }
           },
@@ -180,15 +180,16 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "755e1fd4a5fe3281",
+  "active": "7d663bb2d2c5b9f2",
   "lastOpenFiles": [
+    "Programming/Angular/Forms.md",
+    "Programming/Angular/Signals.md",
     "Programming/Angular/HTTP.md",
     "Programming/Angular/Standalone Components.md",
     "Programming/Angular/Dynamic Components.md",
     "Programming/Angular/Services.md",
     "Programming/Node.js/Modules.md",
     "Programming/Node.js/Express",
-    "Programming/Angular/Forms.md",
     "Programming/Node.js",
     "Programming/Angular/Directives.md",
     "Programming/Angular/Forms.html",
