@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ff65729b760eea9c",
+        "id": "4ca2a3c805772fce",
         "type": "tabs",
         "children": [
           {
-            "id": "9ba07fba8ce8e7ff",
+            "id": "7d663bb2d2c5b9f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Node.js/Modules.md",
+                "file": "Programming/Angular/Forms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Node.js/Modules.md",
+                "file": "Programming/Angular/Forms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Node.js/Modules.md",
+                "file": "Programming/Angular/Forms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Node.js/Modules.md"
+                "file": "Programming/Angular/Forms.md"
               }
             }
           },
@@ -182,9 +182,13 @@
   },
   "active": "755e1fd4a5fe3281",
   "lastOpenFiles": [
+    "Programming/Angular/HTTP.md",
+    "Programming/Angular/Standalone Components.md",
+    "Programming/Angular/Dynamic Components.md",
+    "Programming/Angular/Services.md",
+    "Programming/Node.js/Modules.md",
     "Programming/Node.js/Express",
     "Programming/Angular/Forms.md",
-    "Programming/Node.js/Modules.md",
     "Programming/Node.js",
     "Programming/Angular/Directives.md",
     "Programming/Angular/Forms.html",
@@ -197,12 +201,9 @@
     "Work/EBW/FAS-646/FAS-646.md",
     "Pasted Image 20240108105518_313.png",
     "Programming/Typescript/Introduction.md",
-    "Programming/Angular/Dynamic Components.md",
     "Programming/Angular/Events.md",
     "Programming/Angular/External Libraries.md",
-    "Programming/Angular/HTTP.md",
     "Programming/Angular/Authentication.md",
-    "Programming/Angular/Services.md",
     "Programming/Angular/Modules.md",
     "Programming/Angular/Optimization.md",
     "Programming/Angular/Observable.md",

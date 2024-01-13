@@ -57,7 +57,6 @@ To control the input, it's possible to add directives (**Validators**) to the in
 	- checks the input against a **REGEX** string to check for validity of the input string
 - minlength
 	- checks that the input is composed of at least the amount of characters specified as an argument
-
 ### Dynamic classes
 Angular adds some dynamic style classes to the form components depending on their state (valid, dirty etc...).
 
@@ -68,8 +67,6 @@ Some of these classes are:
 	- applied to all the form components when the form is invalid
 - ng-touched
 	- applied to all the form components that were touched (clicked) by the user
-
-
 ### Grouping
 It's possible to group form data into group objects specified by a name. This is done with the `ngModelGroup` directive.
 
