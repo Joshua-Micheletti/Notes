@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Angular/Signals.md",
+                "file": "Programming/Angular/NgRx.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/Signals.md",
+                "file": "Programming/Angular/NgRx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/Signals.md",
+                "file": "Programming/Angular/NgRx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Angular/Signals.md"
+                "file": "Programming/Angular/NgRx.md"
               }
             }
           },
@@ -180,10 +180,12 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "7d663bb2d2c5b9f2",
+  "active": "755e1fd4a5fe3281",
   "lastOpenFiles": [
-    "Programming/Angular/Forms.md",
+    "Programming/Angular/Angular Schemes.canvas",
+    "Programming/Angular/NgRx.md",
     "Programming/Angular/Signals.md",
+    "Programming/Angular/Forms.md",
     "Programming/Angular/HTTP.md",
     "Programming/Angular/Standalone Components.md",
     "Programming/Angular/Dynamic Components.md",
@@ -209,7 +211,6 @@
     "Programming/Angular/Optimization.md",
     "Programming/Angular/Observable.md",
     "Programming/Angular/Lifecycle hooks.md",
-    "Programming/Angular/Introduction.md",
-    "Programming/Angular/Angular Schemes.canvas"
+    "Programming/Angular/Introduction.md"
   ]
 }
