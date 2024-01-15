@@ -5,7 +5,6 @@
 		{"id":"ef0c01da95c10d0e","type":"text","text":"#### insertShapeInfo\ninserts the shape info in the `shape_layer` table","x":-341,"y":280,"width":250,"height":140},
 		{"id":"9c875b126419f0d7","type":"text","text":"STOP","x":511,"y":420,"width":89,"height":60,"color":"1"},
 		{"id":"cec8faf047ac5350","type":"text","text":"Error","x":112,"y":320,"width":87,"height":60,"color":"3"},
-		{"id":"a504fd2d9f51a595","type":"text","text":"## Create shape table","x":-341,"y":600,"width":250,"height":60},
 		{"id":"dfd30e61e1a0fedd","type":"text","text":"#### insertShapeIntoDB\ncreates a table containing the shape data","x":-341,"y":980,"width":250,"height":160},
 		{"id":"778f2be79948448c","type":"text","text":"Remove shape info","x":431,"y":1030,"width":250,"height":60,"color":"2"},
 		{"id":"0cd627f2e721b87f","type":"text","text":"## Create GeoServer Layer","x":-350,"y":1300,"width":269,"height":60},
@@ -39,9 +38,10 @@
 		{"id":"3c2b6b55d1efde2c","x":31,"y":260,"width":250,"height":60,"type":"text","text":"This error already means there's already an entry"},
 		{"id":"a8c8292973ea654f","type":"text","text":"Error","x":30,"y":780,"width":87,"height":60,"color":"3"},
 		{"id":"8af7e7d0066584cf","type":"text","text":"Error","x":265,"y":1110,"width":72,"height":60,"color":"3"},
-		{"id":"a0393cbb98699b6f","x":180,"y":860,"width":186,"height":60,"type":"text","text":"Table already exists"},
+		{"id":"a0393cbb98699b6f","x":180,"y":860,"width":186,"height":60,"color":"3","type":"text","text":"Table already exists"},
 		{"id":"268d5b231df37e47","x":180,"y":700,"width":85,"height":60,"color":"3","type":"text","text":"Other"},
-		{"id":"3e92188c9aae5e1e","type":"text","text":"Drop existing table","x":24,"y":1030,"width":186,"height":60}
+		{"id":"3e92188c9aae5e1e","type":"text","text":"Drop existing table","x":24,"y":1030,"width":186,"height":60},
+		{"id":"a504fd2d9f51a595","type":"text","text":"## Create shape table","x":-341,"y":640,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"fd29dceef6e3e6bd","fromNode":"5444c6caf49d6797","fromSide":"bottom","toNode":"18f740dcc39e04af","toSide":"top"},
