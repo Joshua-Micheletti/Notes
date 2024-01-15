@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"660770ca9618e4e1","x":-400,"y":0,"width":1300,"height":2640,"color":"4","type":"group","label":"Implemented"},
 		{"id":"5444c6caf49d6797","type":"text","text":"Request to /loadKMZ:\n- file\n- label\n- layerStyle\n- notes\n- context","x":-320,"y":-420,"width":207,"height":220},
 		{"id":"18f740dcc39e04af","type":"text","text":"## Insert info in shape_layer","x":-370,"y":20,"width":308,"height":61},
 		{"id":"ef0c01da95c10d0e","type":"text","text":"#### insertShapeInfo\ninserts the shape info in the `shape_layer` table","x":-341,"y":280,"width":250,"height":140},
