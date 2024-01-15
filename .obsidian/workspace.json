@@ -11,15 +11,8 @@
             "id": "9ba07fba8ce8e7ff",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-                "viewState": {
-                  "x": 77.08320547047458,
-                  "y": 1178.724446217993,
-                  "zoom": -1.333333333333333
-                }
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -88,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -185,8 +174,8 @@
   },
   "active": "9ba07fba8ce8e7ff",
   "lastOpenFiles": [
-    "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+    "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/UI fiber component design.md",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/FAS-646/img/component_ui.png",

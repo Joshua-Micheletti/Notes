@@ -46,7 +46,7 @@
 		{"id":"5338733df7af5c7b","x":122,"y":2160,"width":271,"height":60,"type":"text","text":"Remove existing configuration"},
 		{"id":"ea6385b9d193453c","type":"text","text":"Error","x":421,"y":2160,"width":87,"height":60,"color":"3"},
 		{"id":"2ba6e8c44a9d149e","x":-273,"y":2560,"width":115,"height":60,"color":"4","type":"text","text":"#### Success"},
-		{"id":"066592bc47df6b0f","type":"text","text":"# Created configuration\n","x":-760,"y":2414,"width":250,"height":206}
+		{"id":"066592bc47df6b0f","type":"text","text":"# Finished\n\n","x":-760,"y":2514,"width":250,"height":106}
 	],
 	"edges":[
 		{"id":"fd29dceef6e3e6bd","fromNode":"5444c6caf49d6797","fromSide":"bottom","toNode":"18f740dcc39e04af","toSide":"top"},
