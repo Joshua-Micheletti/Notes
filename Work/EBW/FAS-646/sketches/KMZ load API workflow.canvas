@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"5444c6caf49d6797","x":-320,"y":-420,"width":207,"height":220,"type":"text","text":"Request to /loadKMZ:\n- file\n- label\n- layerStyle\n- notes\n- context"},
+		{"id":"ef0c01da95c10d0e","x":-341,"y":-60,"width":250,"height":140,"type":"text","text":"#### insertShapeInfo\ninserts the shape info in the `shape_layer` table"},
+		{"id":"126a36bb35f75442","x":-341,"y":360,"width":250,"height":140,"type":"text","text":"#### createWMSLayer\ncreate a layer in geoserver"},
+		{"id":"e7bab6e6665d3f08","x":-356,"y":580,"width":281,"height":180,"type":"text","text":"#### updateMapConfiguration\nupdate the configuration for the frontend"},
+		{"id":"dfd30e61e1a0fedd","x":-341,"y":140,"width":250,"height":160,"type":"text","text":"#### insertShapeIntoDB\ncreates a table containing the shape data"}
+	],
+	"edges":[
+		{"id":"6d1958b9bae45d69","fromNode":"5444c6caf49d6797","fromSide":"bottom","toNode":"ef0c01da95c10d0e","toSide":"top"},
+		{"id":"d3b1245bd8de29ff","fromNode":"ef0c01da95c10d0e","fromSide":"bottom","toNode":"dfd30e61e1a0fedd","toSide":"top"},
+		{"id":"504c46da35135783","fromNode":"dfd30e61e1a0fedd","fromSide":"bottom","toNode":"126a36bb35f75442","toSide":"top"},
+		{"id":"a1cc5a6410580cca","fromNode":"126a36bb35f75442","fromSide":"bottom","toNode":"e7bab6e6665d3f08","toSide":"top"}
+	]
+}

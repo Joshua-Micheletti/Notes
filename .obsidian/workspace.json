@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4ca2a3c805772fce",
+        "id": "ff65729b760eea9c",
         "type": "tabs",
         "children": [
           {
-            "id": "7d663bb2d2c5b9f2",
+            "id": "9ba07fba8ce8e7ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Programming/Angular/NgRx.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+                "viewState": {
+                  "x": 348,
+                  "y": 148,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/NgRx.md",
+                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/NgRx.md",
+                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Angular/NgRx.md"
+                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas"
               }
             }
           },
@@ -180,18 +183,15 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "755e1fd4a5fe3281",
+  "active": "9ba07fba8ce8e7ff",
   "lastOpenFiles": [
-    "Programming/Angular/Angular Schemes.canvas",
-    "Programming/Angular/NgRx.md",
-    "Programming/Angular/Signals.md",
-    "Programming/Angular/Forms.md",
-    "Programming/Angular/HTTP.md",
-    "Programming/Angular/Standalone Components.md",
-    "Programming/Angular/Dynamic Components.md",
-    "Programming/Angular/Services.md",
     "Programming/Node.js/Modules.md",
+    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+    "Programming/Angular/Standalone Components.md",
+    "Programming/Angular/Signals.md",
+    "Programming/Angular/NgRx.md",
     "Programming/Node.js/Express",
+    "Programming/Angular/Forms.md",
     "Programming/Node.js",
     "Programming/Angular/Directives.md",
     "Programming/Angular/Forms.html",
@@ -204,13 +204,17 @@
     "Work/EBW/FAS-646/FAS-646.md",
     "Pasted Image 20240108105518_313.png",
     "Programming/Typescript/Introduction.md",
+    "Programming/Angular/Dynamic Components.md",
     "Programming/Angular/Events.md",
     "Programming/Angular/External Libraries.md",
+    "Programming/Angular/HTTP.md",
     "Programming/Angular/Authentication.md",
+    "Programming/Angular/Services.md",
     "Programming/Angular/Modules.md",
     "Programming/Angular/Optimization.md",
     "Programming/Angular/Observable.md",
     "Programming/Angular/Lifecycle hooks.md",
-    "Programming/Angular/Introduction.md"
+    "Programming/Angular/Introduction.md",
+    "Programming/Angular/Angular Schemes.canvas"
   ]
 }
