@@ -234,7 +234,6 @@ Compiti svolti:
 - Link
 - Topologia
 - Flusso dati
-
 #### [[Livello Data Link]]
 Livello che si assicura l'affidabilità della trasmissione dei dati
 - Framing

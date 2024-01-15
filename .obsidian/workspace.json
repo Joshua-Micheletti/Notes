@@ -11,8 +11,10 @@
             "id": "9ba07fba8ce8e7ff",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Work/EBW/FAS-646/sketches/UI fiber component design.md"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Work/EBW/FAS-646/sketches/UI fiber component design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Work/EBW/FAS-646/sketches/UI fiber component design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Work/EBW/FAS-646/sketches/UI fiber component design.md"
+              }
             }
           },
           {
@@ -174,26 +180,27 @@
   },
   "active": "9ba07fba8ce8e7ff",
   "lastOpenFiles": [
+    "university/Reti Calcolatori/Introduzione/Introduzione.md",
+    "Programming/Angular/Signals.md",
+    "Markdown/Markdown Cheatsheet.md",
+    "Links/Links List.md",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/UI fiber component design.md",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/FAS-646/img/component_ui.png",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
-    "Markdown/Markdown Cheatsheet.md",
     "Programming/Angular/Dynamic Components.md",
     "Programming/Angular/Directives.md",
     "Programming/Angular/Deploying.md",
     "Programming/Angular/Decorators.md",
     "Programming/Node.js/Modules.md",
     "Programming/Angular/Standalone Components.md",
-    "Programming/Angular/Signals.md",
     "Programming/Angular/NgRx.md",
     "Programming/Node.js/Express",
     "Programming/Angular/Forms.md",
     "Programming/Node.js",
     "Programming/Angular/Forms.html",
-    "Links/Links List.md",
     "Programming/Angular/Useful Code.md",
     "Work/EBW/FAS-646/FAS-646.md",
     "Pasted Image 20240108105518_313.png",
