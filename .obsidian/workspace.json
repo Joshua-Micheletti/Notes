@@ -15,9 +15,9 @@
               "state": {
                 "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
                 "viewState": {
-                  "x": 132.4000000000001,
-                  "y": 1135.4666666666667,
-                  "zoom": -1.3410369178350672
+                  "x": 43.45955492280797,
+                  "y": 315.2524559777442,
+                  "zoom": 0.3333333333333334
                 }
               }
             }
@@ -183,18 +183,20 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "755e1fd4a5fe3281",
+  "active": "9ba07fba8ce8e7ff",
   "lastOpenFiles": [
+    "Work/EBW/FAS-646/sketches/Design.canvas",
+    "Work/EBW/FAS-646/sketches/UI fiber component design.md",
+    "Programming/Angular/HTTP.md",
+    "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
+    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Programming/Angular/Forms.md",
     "Programming/Multithreading/Multithreading Python.md",
-    "Work/EBW/FAS-646/sketches/UI fiber component design.md",
     "university/Reti Calcolatori/Introduzione/Introduzione.md",
     "Programming/Angular/Signals.md",
     "Markdown/Markdown Cheatsheet.md",
     "Links/Links List.md",
-    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-    "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/FAS-646/img/component_ui.png",
     "Programming/Angular/Dynamic Components.md",
@@ -213,12 +215,10 @@
     "Programming/Typescript/Introduction.md",
     "Programming/Angular/Events.md",
     "Programming/Angular/External Libraries.md",
-    "Programming/Angular/HTTP.md",
     "Programming/Angular/Authentication.md",
     "Programming/Angular/Services.md",
     "Programming/Angular/Modules.md",
     "Programming/Angular/Optimization.md",
-    "Programming/Angular/Observable.md",
     "Programming/Angular/Angular Schemes.canvas"
   ]
 }
