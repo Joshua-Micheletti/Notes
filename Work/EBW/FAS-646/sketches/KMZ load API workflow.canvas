@@ -1,7 +1,6 @@
 {
 	"nodes":[
-		{"id":"660770ca9618e4e1","x":-400,"y":0,"width":1300,"height":1920,"color":"4","type":"group","label":"Implemented"},
-		{"id":"e72d1b70c38cdd79","x":55,"y":2040,"width":250,"height":60,"type":"text","text":""},
+		{"id":"660770ca9618e4e1","x":-400,"y":0,"width":1300,"height":2640,"color":"4","type":"group","label":"Implemented"},
 		{"id":"5444c6caf49d6797","type":"text","text":"Request to /loadKMZ:\n- file\n- label\n- layerStyle\n- notes\n- context","x":-320,"y":-420,"width":207,"height":220},
 		{"id":"18f740dcc39e04af","type":"text","text":"## Insert info in shape_layer","x":-370,"y":20,"width":308,"height":61},
 		{"id":"ef0c01da95c10d0e","type":"text","text":"#### insertShapeInfo\ninserts the shape info in the `shape_layer` table","x":-341,"y":280,"width":250,"height":140},
@@ -16,9 +15,7 @@
 		{"id":"101a39fa4897572d","type":"text","text":"# Created layer inside GeoServer","x":-760,"y":1794,"width":250,"height":206},
 		{"id":"e7bab6e6665d3f08","type":"text","text":"#### updateMapConfiguration\nupdate the configuration for the frontend","x":-356,"y":2260,"width":281,"height":140},
 		{"id":"67f8b1f1156727e9","type":"text","text":"Error","x":801,"y":2300,"width":87,"height":60,"color":"3"},
-		{"id":"f72656981465cc89","type":"text","text":"Error","x":306,"y":1940,"width":87,"height":60,"color":"3"},
 		{"id":"b13334a69f220462","type":"text","text":"Remove layer inside GeoServer","x":421,"y":2300,"width":270,"height":60,"color":"2"},
-		{"id":"ea6385b9d193453c","type":"text","text":"Error","x":421,"y":2160,"width":87,"height":60,"color":"3"},
 		{"id":"2ba6e8c44a9d149e","type":"text","text":"#### Success","x":-273,"y":2560,"width":115,"height":60,"color":"4"},
 		{"id":"066592bc47df6b0f","type":"text","text":"# Finished\n\n","x":-760,"y":2514,"width":250,"height":106},
 		{"id":"3c2b6b55d1efde2c","x":31,"y":260,"width":250,"height":60,"type":"text","text":"This error already means there's already an entry"},
@@ -38,7 +35,10 @@
 		{"id":"2342580553b3ba56","type":"text","text":"Error","x":780,"y":1500,"width":87,"height":60,"color":"3"},
 		{"id":"778f2be79948448c","type":"text","text":"Remove shape info","x":431,"y":860,"width":250,"height":60,"color":"2"},
 		{"id":"097b2b615afba8a3","type":"text","text":"Error","x":7,"y":2100,"width":87,"height":60,"color":"3"},
-		{"id":"5338733df7af5c7b","type":"text","text":"Remove existing configuration","x":3,"y":1910,"width":271,"height":60}
+		{"id":"a6d071a5c2473903","type":"text","text":"Configuration already exists","x":139,"y":2160,"width":158,"height":60,"color":"3"},
+		{"id":"a0b56e6759cd48d3","type":"text","text":"Other","x":139,"y":2040,"width":96,"height":60,"color":"3"},
+		{"id":"5338733df7af5c7b","type":"text","text":"Remove existing configuration","x":7,"y":2360,"width":271,"height":60},
+		{"id":"ea6385b9d193453c","type":"text","text":"Error","x":334,"y":2420,"width":87,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"fd29dceef6e3e6bd","fromNode":"5444c6caf49d6797","fromSide":"bottom","toNode":"18f740dcc39e04af","toSide":"top"},
@@ -57,11 +57,8 @@
 		{"id":"2349f96e6f0c1312","fromNode":"2342580553b3ba56","fromSide":"top","toNode":"778f2be79948448c","toSide":"bottom"},
 		{"id":"74aa6a20970e36f2","fromNode":"f679ee5636e704d2","fromSide":"right","toNode":"0e5f6d006d6a5502","toSide":"left"},
 		{"id":"aa6c988b8deb940a","fromNode":"126a36bb35f75442","fromSide":"bottom","toNode":"ec65fe728d8135a5","toSide":"top"},
-		{"id":"0572b3da1f35c3ff","fromNode":"5338733df7af5c7b","fromSide":"left","toNode":"e7bab6e6665d3f08","toSide":"top"},
 		{"id":"6d7f41e7e96013cd","fromNode":"5338733df7af5c7b","fromSide":"right","toNode":"ea6385b9d193453c","toSide":"left"},
 		{"id":"0beea84eb12ee61f","fromNode":"e7bab6e6665d3f08","fromSide":"right","toNode":"097b2b615afba8a3","toSide":"left"},
-		{"id":"60820fa334f9f682","fromNode":"f72656981465cc89","fromSide":"bottom","toNode":"b13334a69f220462","toSide":"left"},
-		{"id":"f958a25202f0aef1","fromNode":"ea6385b9d193453c","fromSide":"bottom","toNode":"b13334a69f220462","toSide":"left"},
 		{"id":"c48bf7f4e474f89b","fromNode":"b13334a69f220462","fromSide":"right","toNode":"67f8b1f1156727e9","toSide":"left"},
 		{"id":"ce8f6c1038f01a5d","fromNode":"b13334a69f220462","fromSide":"top","toNode":"f962b29c0f79d4b1","toSide":"bottom"},
 		{"id":"db7a9925a996d09c","fromNode":"67f8b1f1156727e9","fromSide":"top","toNode":"f962b29c0f79d4b1","toSide":"bottom"},
@@ -81,6 +78,12 @@
 		{"id":"f40c5dfa7be9d276","fromNode":"f679ee5636e704d2","fromSide":"left","toNode":"126a36bb35f75442","toSide":"right"},
 		{"id":"e80b3b94eb8fe24b","fromNode":"b11cee8a654b06fc","fromSide":"right","toNode":"f962b29c0f79d4b1","toSide":"left"},
 		{"id":"58d576f988ae83ac","fromNode":"0e5f6d006d6a5502","fromSide":"right","toNode":"f962b29c0f79d4b1","toSide":"left"},
-		{"id":"47afe391b0df0216","fromNode":"ec65fe728d8135a5","fromSide":"bottom","toNode":"e7bab6e6665d3f08","toSide":"bottom"}
+		{"id":"47afe391b0df0216","fromNode":"ec65fe728d8135a5","fromSide":"bottom","toNode":"e7bab6e6665d3f08","toSide":"bottom"},
+		{"id":"1a024235001016c4","fromNode":"097b2b615afba8a3","fromSide":"right","toNode":"a0b56e6759cd48d3","toSide":"left"},
+		{"id":"7e427de77680c086","fromNode":"097b2b615afba8a3","fromSide":"right","toNode":"a6d071a5c2473903","toSide":"left"},
+		{"id":"bd819f78efbc32f8","fromNode":"a0b56e6759cd48d3","fromSide":"right","toNode":"b13334a69f220462","toSide":"left"},
+		{"id":"fca17eeb78a77913","fromNode":"5338733df7af5c7b","fromSide":"left","toNode":"e7bab6e6665d3f08","toSide":"right"},
+		{"id":"babe5e96f4c5694f","fromNode":"a6d071a5c2473903","fromSide":"bottom","toNode":"5338733df7af5c7b","toSide":"top"},
+		{"id":"d763a8c43f4ce909","fromNode":"ea6385b9d193453c","fromSide":"top","toNode":"b13334a69f220462","toSide":"left"}
 	]
 }
