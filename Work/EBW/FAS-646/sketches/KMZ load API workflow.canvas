@@ -35,11 +35,18 @@
 		{"id":"f679ee5636e704d2","type":"text","text":"Remove existing layer","x":155,"y":1560,"width":250,"height":60},
 		{"id":"ec65fe728d8135a5","type":"text","text":"## Update map configuration","x":-374,"y":1940,"width":316,"height":60},
 		{"id":"101a39fa4897572d","x":-760,"y":1794,"width":250,"height":206,"type":"text","text":"# Created layer inside GeoServer"},
-		{"id":"67e518878786da72","x":30,"y":1940,"width":250,"height":60,"type":"text","text":"Check if configuration already exists"},
-		{"id":"5184cdcb3e9ac695","type":"text","text":"Already exists","x":208,"y":2060,"width":145,"height":60},
-		{"id":"a05bf786c02d8d1a","type":"text","text":"Doesn't exist yet","x":-52,"y":2060,"width":164,"height":60},
-		{"id":"5338733df7af5c7b","x":145,"y":2180,"width":271,"height":60,"type":"text","text":"Remove existing configuration"},
-		{"id":"e7bab6e6665d3f08","type":"text","text":"#### updateMapConfiguration\nupdate the configuration for the frontend","x":-356,"y":2260,"width":281,"height":180}
+		{"id":"e7bab6e6665d3f08","type":"text","text":"#### updateMapConfiguration\nupdate the configuration for the frontend","x":-356,"y":2260,"width":281,"height":140},
+		{"id":"097b2b615afba8a3","type":"text","text":"Error","x":89,"y":2300,"width":87,"height":60,"color":"3"},
+		{"id":"67f8b1f1156727e9","type":"text","text":"Error","x":801,"y":2300,"width":87,"height":60,"color":"3"},
+		{"id":"67e518878786da72","x":7,"y":1940,"width":250,"height":60,"type":"text","text":"Check if configuration already exists"},
+		{"id":"f72656981465cc89","type":"text","text":"Error","x":306,"y":1940,"width":87,"height":60,"color":"3"},
+		{"id":"a05bf786c02d8d1a","type":"text","text":"Doesn't exist yet","x":-75,"y":2060,"width":164,"height":60},
+		{"id":"5184cdcb3e9ac695","type":"text","text":"Already exists","x":185,"y":2060,"width":145,"height":60},
+		{"id":"b13334a69f220462","x":421,"y":2300,"width":270,"height":60,"color":"2","type":"text","text":"Remove layer inside GeoServer"},
+		{"id":"5338733df7af5c7b","x":122,"y":2160,"width":271,"height":60,"type":"text","text":"Remove existing configuration"},
+		{"id":"ea6385b9d193453c","type":"text","text":"Error","x":421,"y":2160,"width":87,"height":60,"color":"3"},
+		{"id":"2ba6e8c44a9d149e","x":-273,"y":2560,"width":115,"height":60,"color":"4","type":"text","text":"#### Success"},
+		{"id":"066592bc47df6b0f","type":"text","text":"# Created configuration\n","x":-760,"y":2414,"width":250,"height":206}
 	],
 	"edges":[
 		{"id":"fd29dceef6e3e6bd","fromNode":"5444c6caf49d6797","fromSide":"bottom","toNode":"18f740dcc39e04af","toSide":"top"},
@@ -90,6 +97,16 @@
 		{"id":"27527a2b26a8ac53","fromNode":"67e518878786da72","fromSide":"bottom","toNode":"5184cdcb3e9ac695","toSide":"top"},
 		{"id":"d837a2c11bd1aaac","fromNode":"5184cdcb3e9ac695","fromSide":"bottom","toNode":"5338733df7af5c7b","toSide":"top"},
 		{"id":"0572b3da1f35c3ff","fromNode":"5338733df7af5c7b","fromSide":"left","toNode":"e7bab6e6665d3f08","toSide":"top"},
-		{"id":"858795345d4adc71","fromNode":"a05bf786c02d8d1a","fromSide":"bottom","toNode":"e7bab6e6665d3f08","toSide":"top"}
+		{"id":"858795345d4adc71","fromNode":"a05bf786c02d8d1a","fromSide":"bottom","toNode":"e7bab6e6665d3f08","toSide":"top"},
+		{"id":"1f3074df600c0cba","fromNode":"67e518878786da72","fromSide":"right","toNode":"f72656981465cc89","toSide":"left"},
+		{"id":"6d7f41e7e96013cd","fromNode":"5338733df7af5c7b","fromSide":"right","toNode":"ea6385b9d193453c","toSide":"left"},
+		{"id":"0beea84eb12ee61f","fromNode":"e7bab6e6665d3f08","fromSide":"right","toNode":"097b2b615afba8a3","toSide":"left"},
+		{"id":"f8930af9f7847c19","fromNode":"097b2b615afba8a3","fromSide":"right","toNode":"b13334a69f220462","toSide":"left"},
+		{"id":"60820fa334f9f682","fromNode":"f72656981465cc89","fromSide":"bottom","toNode":"b13334a69f220462","toSide":"left"},
+		{"id":"f958a25202f0aef1","fromNode":"ea6385b9d193453c","fromSide":"bottom","toNode":"b13334a69f220462","toSide":"left"},
+		{"id":"c48bf7f4e474f89b","fromNode":"b13334a69f220462","fromSide":"right","toNode":"67f8b1f1156727e9","toSide":"left"},
+		{"id":"ce8f6c1038f01a5d","fromNode":"b13334a69f220462","fromSide":"top","toNode":"f962b29c0f79d4b1","toSide":"bottom"},
+		{"id":"db7a9925a996d09c","fromNode":"67f8b1f1156727e9","fromSide":"top","toNode":"f962b29c0f79d4b1","toSide":"bottom"},
+		{"id":"8260d8e76674bb38","fromNode":"e7bab6e6665d3f08","fromSide":"bottom","toNode":"2ba6e8c44a9d149e","toSide":"top"}
 	]
 }
