@@ -42,3 +42,32 @@ bootstrapApplication(AppComponent, {
 The reducers are now linked in the global `Store` with the associated `key`.
 
 Reducers execute a function whenever data is stored (`Action`) and during the `Store` setup.
+### Reading the data from store
+Data inside a store is saved as [[Observable]]s which automatically update whenever the value changes.
+```Typescript
+value$: Observable<number>;
+
+constructor(private store: Store<{counter: number}>) {
+	this.value$ = store.select('key');
+}
+```
+The value is quickly accessible in the template with the [[Pipes]] `async`.
+## Actions
+Actions are the feature of `NgRx` that allows you to modify data inside the Store.
+
+You define an action with the `createAction` function:
+```Typescript
+export const action = createAction(
+	'[Feature] Functionality'
+);
+```
+The string as argument is used to define where the action takes effect (`[Feature]`) and what it does `Functionality`. This is a convention, not a grammatical rule.
+
+Now the logic behind the Action can be defined where the action takes place, which is on the Reducer:
+```Typescript
+export const testReducer = createReducer(
+    initialState,
+    on(action, (state) => state + 1)
+);
+```
+The `on` function takes the Action and a function that gets executed whenever the Action is dispatched. The callback function takes the current state of the reducer as an input. Remember not to mutate the state directly, but rather assign it to a new value.

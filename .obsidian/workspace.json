@@ -11,14 +11,11 @@
             "id": "9ba07fba8ce8e7ff",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-                "viewState": {
-                  "x": -31.16909894709687,
-                  "y": 2036.824412737201,
-                  "zoom": -0.3333333333333332
-                }
+                "file": "Programming/Angular/NgRx.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+                "file": "Programming/Angular/NgRx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+                "file": "Programming/Angular/NgRx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas"
+                "file": "Programming/Angular/NgRx.md"
               }
             }
           },
@@ -183,13 +180,15 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9ba07fba8ce8e7ff",
+  "active": "755e1fd4a5fe3281",
   "lastOpenFiles": [
+    "Programming/Angular/Angular Schemes.canvas",
+    "Programming/Angular/NgRx.md",
+    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/UI fiber component design.md",
     "Programming/Angular/HTTP.md",
     "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
-    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Programming/Angular/Forms.md",
     "Programming/Multithreading/Multithreading Python.md",
@@ -205,7 +204,6 @@
     "Programming/Angular/Decorators.md",
     "Programming/Node.js/Modules.md",
     "Programming/Angular/Standalone Components.md",
-    "Programming/Angular/NgRx.md",
     "Programming/Node.js/Express",
     "Programming/Node.js",
     "Programming/Angular/Forms.html",
@@ -218,7 +216,6 @@
     "Programming/Angular/Authentication.md",
     "Programming/Angular/Services.md",
     "Programming/Angular/Modules.md",
-    "Programming/Angular/Optimization.md",
-    "Programming/Angular/Angular Schemes.canvas"
+    "Programming/Angular/Optimization.md"
   ]
 }
