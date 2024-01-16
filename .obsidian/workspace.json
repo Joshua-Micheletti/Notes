@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/Architecture.canvas",
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
                 "viewState": {
-                  "x": 776.2138989169673,
-                  "y": -206.40794223826725,
-                  "zoom": -0.4009718880892987
+                  "x": 990,
+                  "y": 798,
+                  "zoom": -1.044976908718384
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/Architecture.canvas",
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/Architecture.canvas",
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/Architecture.canvas"
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas"
               }
             }
           },
@@ -183,15 +183,15 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "755e1fd4a5fe3281",
+  "active": "9ba07fba8ce8e7ff",
   "lastOpenFiles": [
-    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+    "Work/EBW/FAS-646/sketches/Design.canvas",
+    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/Web Architecture.md",
+    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/FAS-646.md",
     "Work/EBW/FAS-646/sketches/UI fiber component design.md",
-    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-    "Work/EBW/FAS-646/sketches/Design.canvas",
     "Programming/Angular/NgRx.md",
     "Programming/Angular/HTTP.md",
     "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
