@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+                "file": "Work/EBW/Architecture.canvas",
                 "viewState": {
-                  "x": 990,
-                  "y": 798,
-                  "zoom": -1.044976908718384
+                  "x": 730,
+                  "y": -180,
+                  "zoom": -0.4009718880892987
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+                "file": "Work/EBW/Architecture.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+                "file": "Work/EBW/Architecture.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas"
+                "file": "Work/EBW/Architecture.canvas"
               }
             }
           },
@@ -185,11 +185,11 @@
   },
   "active": "9ba07fba8ce8e7ff",
   "lastOpenFiles": [
+    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/Web Architecture.md",
-    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/FAS-646.md",
     "Work/EBW/FAS-646/sketches/UI fiber component design.md",
     "Programming/Angular/NgRx.md",
