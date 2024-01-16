@@ -28,8 +28,6 @@
 		{"id":"2efaddeef105f475","type":"text","text":"Error","x":7,"y":1430,"width":87,"height":60,"color":"3"},
 		{"id":"8cfe910b5cd0cf23","type":"text","text":"Layer already exists","x":147,"y":1500,"width":190,"height":60,"color":"3"},
 		{"id":"b11cee8a654b06fc","type":"text","text":"Other","x":146,"y":1370,"width":96,"height":60,"color":"3"},
-		{"id":"f679ee5636e704d2","type":"text","text":"Remove existing layer","x":24,"y":1630,"width":250,"height":60},
-		{"id":"0e5f6d006d6a5502","type":"text","text":"Error","x":301,"y":1630,"width":87,"height":60,"color":"3"},
 		{"id":"f962b29c0f79d4b1","type":"text","text":"Remove layer table from DB","x":431,"y":1500,"width":250,"height":60,"color":"2"},
 		{"id":"2342580553b3ba56","type":"text","text":"Error","x":780,"y":1500,"width":87,"height":60,"color":"3"},
 		{"id":"778f2be79948448c","type":"text","text":"Remove shape info","x":431,"y":860,"width":250,"height":60,"color":"2"},
@@ -37,7 +35,9 @@
 		{"id":"a6d071a5c2473903","type":"text","text":"Configuration already exists","x":139,"y":2160,"width":158,"height":60,"color":"3"},
 		{"id":"a0b56e6759cd48d3","type":"text","text":"Other","x":139,"y":2040,"width":96,"height":60,"color":"3"},
 		{"id":"5338733df7af5c7b","type":"text","text":"Remove existing configuration","x":7,"y":2360,"width":271,"height":60},
-		{"id":"ea6385b9d193453c","type":"text","text":"Error","x":334,"y":2420,"width":87,"height":60,"color":"3"}
+		{"id":"ea6385b9d193453c","type":"text","text":"Error","x":334,"y":2420,"width":87,"height":60,"color":"3"},
+		{"id":"0e5f6d006d6a5502","type":"text","text":"Error","x":344,"y":1630,"width":87,"height":60,"color":"3"},
+		{"id":"f679ee5636e704d2","type":"text","text":"Remove existing layer","x":69,"y":1630,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"fd29dceef6e3e6bd","fromNode":"5444c6caf49d6797","fromSide":"bottom","toNode":"18f740dcc39e04af","toSide":"top"},
