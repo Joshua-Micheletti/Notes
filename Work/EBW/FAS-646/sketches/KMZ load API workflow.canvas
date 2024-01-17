@@ -1,18 +1,12 @@
 {
 	"nodes":[
-		{"id":"7a74d938e04e9677","type":"group","x":-680,"y":680,"width":1680,"height":2160,"color":"4","label":"shape_layer table updated"},
-		{"id":"0568c9fed7dd946d","type":"group","x":-640,"y":1040,"width":1600,"height":1760,"color":"#0091ff","label":"Shape table created"},
-		{"id":"188de61c2f545462","type":"group","x":-600,"y":1480,"width":1520,"height":1280,"color":"1","label":"GeoServer layer created"},
-		{"id":"262470e246827b0e","type":"group","x":-560,"y":2514,"width":1448,"height":206,"color":"3","label":"Map config updated"},
-		{"id":"cb531efb66ed6f9f","type":"group","x":838,"y":-40,"width":162,"height":460,"label":"Legend"},
+		{"id":"7a74d938e04e9677","type":"group","x":-420,"y":680,"width":1300,"height":1220,"color":"4","label":"shape_layer table updated"},
+		{"id":"0568c9fed7dd946d","type":"group","x":-400,"y":1040,"width":1260,"height":840,"color":"#0091ff","label":"Shape table created"},
+		{"id":"188de61c2f545462","type":"group","x":-380,"y":1480,"width":1218,"height":380,"color":"1","label":"GeoServer layer created"},
+		{"id":"cb531efb66ed6f9f","type":"group","x":640,"y":0,"width":162,"height":460,"label":"Legend"},
+		{"id":"262470e246827b0e","type":"group","x":-360,"y":1740,"width":286,"height":100,"color":"3","label":"Map config updated"},
 		{"id":"a8c8292973ea654f","type":"text","text":"Error","x":30,"y":780,"width":87,"height":60,"color":"3"},
 		{"id":"778f2be79948448c","type":"text","text":"Remove shape info","x":431,"y":860,"width":250,"height":60,"color":"2"},
-		{"id":"b440b99ba58b07e9","type":"text","text":"Stop","x":860,"y":340,"width":123,"height":60,"color":"1"},
-		{"id":"3838a577395730e4","type":"text","text":"Rollback","x":860,"y":250,"width":125,"height":60,"color":"2"},
-		{"id":"297bcb3d8ffa0d0e","type":"text","text":"Normal flow","x":860,"y":-20,"width":123,"height":60,"color":"4"},
-		{"id":"d50540944f80d4f6","type":"text","text":"Error","x":860,"y":70,"width":123,"height":60,"color":"3"},
-		{"id":"42f7d7eca8e54512","type":"text","text":"Error fix","x":860,"y":160,"width":123,"height":60,"color":"5"},
-		{"id":"9c875b126419f0d7","type":"text","text":"## STOP","x":510,"y":520,"width":89,"height":60,"color":"1"},
 		{"id":"5444c6caf49d6797","type":"text","text":"# Request to /loadKMZ:\n- file\n- label\n- layerStyle\n- notes\n- context","x":-379,"y":-100,"width":327,"height":300},
 		{"id":"8b547137198d3ade","type":"text","text":"#### checkRequest\ncheck that the request contains all the necessary info\n","x":-341,"y":250,"width":250,"height":160,"color":"4"},
 		{"id":"b509a667a7a526ce","type":"text","text":"Error","x":112,"y":300,"width":87,"height":60,"color":"3"},
@@ -34,7 +28,6 @@
 		{"id":"0e5f6d006d6a5502","type":"text","text":"Error","x":317,"y":1280,"width":87,"height":60,"color":"3"},
 		{"id":"5c3d5fc7bb53401b","type":"text","text":"Error","x":323,"y":1380,"width":87,"height":60,"color":"3"},
 		{"id":"2342580553b3ba56","type":"text","text":"Error","x":720,"y":1220,"width":87,"height":60,"color":"3"},
-		{"id":"2ba6e8c44a9d149e","type":"text","text":"#### Success","x":-273,"y":2560,"width":115,"height":60,"color":"4"},
 		{"id":"e7bab6e6665d3f08","type":"text","text":"#### updateMapConfiguration\nupdate the configuration for the frontend","x":-355,"y":1530,"width":281,"height":140,"color":"4"},
 		{"id":"097b2b615afba8a3","type":"text","text":"Error","x":6,"y":1570,"width":87,"height":60,"color":"3"},
 		{"id":"a0b56e6759cd48d3","type":"text","text":"Other","x":138,"y":1530,"width":96,"height":60,"color":"3"},
@@ -42,7 +35,14 @@
 		{"id":"b13334a69f220462","type":"text","text":"Remove layer inside GeoServer","x":417,"y":1660,"width":270,"height":60,"color":"2"},
 		{"id":"67f8b1f1156727e9","type":"text","text":"Error","x":720,"y":1660,"width":87,"height":60,"color":"3"},
 		{"id":"5338733df7af5c7b","type":"text","text":"Remove existing configuration","x":6,"y":1720,"width":271,"height":60,"color":"5"},
-		{"id":"ea6385b9d193453c","type":"text","text":"Error","x":323,"y":1720,"width":87,"height":60,"color":"3"}
+		{"id":"ea6385b9d193453c","type":"text","text":"Error","x":323,"y":1720,"width":87,"height":60,"color":"3"},
+		{"id":"297bcb3d8ffa0d0e","type":"text","text":"Normal flow","x":662,"y":20,"width":123,"height":60,"color":"4"},
+		{"id":"d50540944f80d4f6","type":"text","text":"Error","x":662,"y":110,"width":123,"height":60,"color":"3"},
+		{"id":"42f7d7eca8e54512","type":"text","text":"Error fix","x":662,"y":200,"width":123,"height":60,"color":"5"},
+		{"id":"3838a577395730e4","type":"text","text":"Rollback","x":662,"y":290,"width":125,"height":60,"color":"2"},
+		{"id":"b440b99ba58b07e9","type":"text","text":"Stop","x":662,"y":380,"width":123,"height":60,"color":"1"},
+		{"id":"2ba6e8c44a9d149e","type":"text","text":"#### Success","x":-273,"y":1760,"width":115,"height":60,"color":"4"},
+		{"id":"9c875b126419f0d7","type":"text","text":"## STOP","x":508,"y":510,"width":89,"height":60,"color":"1"}
 	],
 	"edges":[
 		{"id":"81488b1068f3b761","fromNode":"ef0c01da95c10d0e","fromSide":"right","toNode":"cec8faf047ac5350","toSide":"left","color":"3"},
@@ -77,7 +77,6 @@
 		{"id":"bd819f78efbc32f8","fromNode":"a0b56e6759cd48d3","fromSide":"right","toNode":"b13334a69f220462","toSide":"left","color":"2"},
 		{"id":"fca17eeb78a77913","fromNode":"5338733df7af5c7b","fromSide":"left","toNode":"e7bab6e6665d3f08","toSide":"right","color":"5"},
 		{"id":"babe5e96f4c5694f","fromNode":"a6d071a5c2473903","fromSide":"bottom","toNode":"5338733df7af5c7b","toSide":"top","color":"5"},
-		{"id":"d763a8c43f4ce909","fromNode":"ea6385b9d193453c","fromSide":"top","toNode":"b13334a69f220462","toSide":"left","color":"2"},
 		{"id":"9cb2ba45cde8d84b","fromNode":"51ac252d58e21bd2","fromSide":"right","toNode":"5c3d5fc7bb53401b","toSide":"left","color":"3"},
 		{"id":"47022107cf36430c","fromNode":"5c3d5fc7bb53401b","fromSide":"right","toNode":"f962b29c0f79d4b1","toSide":"left","color":"2"},
 		{"id":"8a7c30d77c51a60f","fromNode":"f679ee5636e704d2","fromSide":"bottom","toNode":"51ac252d58e21bd2","toSide":"top","color":"5"},
@@ -90,6 +89,7 @@
 		{"id":"576ac2246546827f","fromNode":"5444c6caf49d6797","fromSide":"bottom","toNode":"8b547137198d3ade","toSide":"top","color":"4"},
 		{"id":"752b9447d3ecb020","fromNode":"8b547137198d3ade","fromSide":"bottom","toNode":"ef0c01da95c10d0e","toSide":"top","color":"4"},
 		{"id":"f132d9beab7b57fd","fromNode":"8b547137198d3ade","fromSide":"right","toNode":"b509a667a7a526ce","toSide":"left","color":"3"},
-		{"id":"70e53c0aee7693db","fromNode":"b509a667a7a526ce","fromSide":"right","toNode":"9c875b126419f0d7","toSide":"top","color":"1"}
+		{"id":"70e53c0aee7693db","fromNode":"b509a667a7a526ce","fromSide":"right","toNode":"9c875b126419f0d7","toSide":"top","color":"1"},
+		{"id":"995da0836a27bd64","fromNode":"ea6385b9d193453c","fromSide":"right","toNode":"b13334a69f220462","toSide":"bottom","color":"2"}
 	]
 }
