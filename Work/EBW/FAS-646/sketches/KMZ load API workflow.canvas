@@ -3,12 +3,12 @@
 		{"id":"7a74d938e04e9677","type":"group","x":-420,"y":680,"width":1300,"height":1220,"color":"4","label":"shape_layer table updated"},
 		{"id":"0568c9fed7dd946d","type":"group","x":-400,"y":1040,"width":1260,"height":840,"color":"#0091ff","label":"Shape table created"},
 		{"id":"188de61c2f545462","type":"group","x":-380,"y":1480,"width":1218,"height":380,"color":"1","label":"GeoServer layer created"},
-		{"id":"d950d96d8d8c96d7","x":3260,"y":680,"width":360,"height":380,"color":"#0091ff","type":"group","label":"Databases"},
+		{"id":"d950d96d8d8c96d7","type":"group","x":4600,"y":1560,"width":400,"height":420,"color":"#0091ff","label":"Databases"},
+		{"id":"f3a255e4d7e3eb27","type":"group","x":4620,"y":1600,"width":360,"height":360,"color":"4","label":"shape"},
 		{"id":"cb531efb66ed6f9f","type":"group","x":640,"y":0,"width":162,"height":460,"label":"Legend"},
-		{"id":"f3a255e4d7e3eb27","x":3280,"y":720,"width":320,"height":180,"color":"4","type":"group","label":"shape"},
-		{"id":"7b6e2d36a5d1d170","x":3280,"y":940,"width":320,"height":100,"color":"1","type":"group","label":"oauth"},
+		{"id":"bf10b7ce08d166c3","type":"group","x":4645,"y":1240,"width":270,"height":180,"color":"2","label":"GeoServer"},
+		{"id":"7b6e2d36a5d1d170","type":"group","x":4640,"y":1830,"width":320,"height":100,"color":"1","label":"oauth"},
 		{"id":"262470e246827b0e","type":"group","x":-360,"y":1740,"width":286,"height":100,"color":"3","label":"Map config updated"},
-		{"id":"bf10b7ce08d166c3","x":3305,"y":1120,"width":270,"height":93,"color":"2","type":"group","label":"GeoServer"},
 		{"id":"a8c8292973ea654f","type":"text","text":"Error","x":30,"y":780,"width":87,"height":60,"color":"3"},
 		{"id":"778f2be79948448c","type":"text","text":"Remove shape info","x":431,"y":860,"width":250,"height":60,"color":"2"},
 		{"id":"a0393cbb98699b6f","type":"text","text":"Table already exists","x":180,"y":840,"width":186,"height":60,"color":"3"},
@@ -68,10 +68,12 @@
 		{"id":"1ab2555f8f7b40b3","type":"text","text":"Error","x":3931,"y":300,"width":87,"height":60,"color":"3"},
 		{"id":"9f3b99f96d1fb890","type":"text","text":"## STOP","x":4327,"y":510,"width":89,"height":60,"color":"1"},
 		{"id":"9e052caff723aeac","type":"text","text":"#### checkRequest\ncheck that the request contains all the necessary info\n","x":3479,"y":250,"width":250,"height":160,"color":"4"},
-		{"id":"301e803350af404b","x":3300,"y":740,"width":250,"height":60,"type":"text","text":"Delete layer table"},
-		{"id":"1b3286acc625a99d","x":3300,"y":820,"width":250,"height":60,"type":"text","text":"Delete layer info"},
-		{"id":"5d6fb9fde29dac4b","x":3300,"y":960,"width":250,"height":60,"type":"text","text":"Delete layer config"},
-		{"id":"f4c5b101c3100e9d","x":3315,"y":1133,"width":250,"height":60,"type":"text","text":"Delete GeoServer layer"}
+		{"id":"301e803350af404b","type":"text","text":"Delete layer table","x":4640,"y":1620,"width":250,"height":60},
+		{"id":"1b3286acc625a99d","type":"text","text":"Delete layer info","x":4640,"y":1700,"width":250,"height":60},
+		{"id":"f4c5b101c3100e9d","type":"text","text":"Delete GeoServer layer","x":4655,"y":1253,"width":250,"height":60},
+		{"id":"258ff0d0080c9c64","x":4655,"y":1340,"width":250,"height":60,"type":"text","text":"Restore GeoServer layer"},
+		{"id":"5d6fb9fde29dac4b","type":"text","text":"Delete layer config","x":4660,"y":1850,"width":250,"height":60},
+		{"id":"c63970e91abdcd31","x":3479,"y":570,"width":250,"height":110,"color":"4","type":"text","text":"#### Delete GeoServer layer\nDelete the corresponding geoserver layer and store its data"}
 	],
 	"edges":[
 		{"id":"81488b1068f3b761","fromNode":"ef0c01da95c10d0e","fromSide":"right","toNode":"cec8faf047ac5350","toSide":"left","color":"3"},
@@ -145,7 +147,10 @@
 		{"id":"f7fc37bbb06e4eba","fromNode":"1ab2555f8f7b40b3","fromSide":"right","toNode":"9f3b99f96d1fb890","toSide":"top","color":"1"},
 		{"id":"246788ad0683a21b","fromNode":"9e052caff723aeac","fromSide":"right","toNode":"1ab2555f8f7b40b3","toSide":"left","color":"3"},
 		{"id":"d1963bafe3c55fc4","fromNode":"27df21b4864659a3","fromSide":"bottom","toNode":"9e052caff723aeac","toSide":"top","color":"4"},
-		{"id":"25247f283acca1e4","fromNode":"301e803350af404b","fromSide":"right","toNode":"1b3286acc625a99d","toSide":"right"},
-		{"id":"1cb4983827cac123","fromNode":"1b3286acc625a99d","fromSide":"right","toNode":"5d6fb9fde29dac4b","toSide":"right"}
+		{"id":"25247f283acca1e4","fromNode":"301e803350af404b","fromSide":"right","toNode":"1b3286acc625a99d","toSide":"right","color":"4"},
+		{"id":"1cb4983827cac123","fromNode":"1b3286acc625a99d","fromSide":"right","toNode":"5d6fb9fde29dac4b","toSide":"right","color":"4"},
+		{"id":"95cd6e67f49fe814","fromNode":"f4c5b101c3100e9d","fromSide":"right","toNode":"301e803350af404b","toSide":"right","color":"4"},
+		{"id":"54011459db5eb938","fromNode":"7b6e2d36a5d1d170","fromSide":"left","toNode":"f3a255e4d7e3eb27","toSide":"left","color":"2"},
+		{"id":"28c2a2969553ddf5","fromNode":"f3a255e4d7e3eb27","fromSide":"left","toNode":"258ff0d0080c9c64","toSide":"left","color":"2"}
 	]
 }
