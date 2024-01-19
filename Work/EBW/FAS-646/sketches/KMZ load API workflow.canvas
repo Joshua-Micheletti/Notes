@@ -1,8 +1,9 @@
 {
 	"nodes":[
 		{"id":"7a74d938e04e9677","type":"group","x":-420,"y":680,"width":1300,"height":1220,"color":"4","label":"shape_layer table updated"},
+		{"id":"841adfad96ca5ab5","type":"group","x":3040,"y":468,"width":1200,"height":952,"color":"#007bff","label":"shape transaction"},
 		{"id":"0568c9fed7dd946d","type":"group","x":-400,"y":1040,"width":1260,"height":840,"color":"#0091ff","label":"Shape table created"},
-		{"id":"2e331ed636bbece2","x":3080,"y":890,"width":1040,"height":510,"type":"group","label":"oauth transaction"},
+		{"id":"2e331ed636bbece2","type":"group","x":3080,"y":890,"width":1040,"height":510,"color":"5","label":"oauth transaction"},
 		{"id":"188de61c2f545462","type":"group","x":-380,"y":1480,"width":1218,"height":380,"color":"1","label":"GeoServer layer created"},
 		{"id":"d950d96d8d8c96d7","type":"group","x":4600,"y":1560,"width":400,"height":420,"color":"#0091ff","label":"Databases"},
 		{"id":"f3a255e4d7e3eb27","type":"group","x":4620,"y":1600,"width":360,"height":360,"color":"4","label":"shape"},
@@ -35,7 +36,6 @@
 		{"id":"1eff0fb99d1e9003","type":"text","text":"Error","x":3931,"y":630,"width":87,"height":60,"color":"3"},
 		{"id":"667852bf5a2b9170","type":"text","text":"Error","x":3932,"y":770,"width":87,"height":60,"color":"3"},
 		{"id":"5184f187ffa04a85","type":"text","text":"##### Open transaction for database shape","x":3479,"y":487,"width":250,"height":60,"color":"6"},
-		{"id":"ee7a2531278d2dd4","type":"text","text":"##### Commit database shape","x":3120,"y":487,"width":250,"height":60,"color":"6"},
 		{"id":"092890411c837555","type":"text","text":"#### Success","x":3190,"y":347,"width":110,"height":60,"color":"4"},
 		{"id":"a1e65e1bca80478a","type":"text","text":"Rollback database shape","x":3850,"y":487,"width":250,"height":60,"color":"2"},
 		{"id":"9f3b99f96d1fb890","type":"text","text":"## STOP","x":4120,"y":377,"width":89,"height":60,"color":"1"},
@@ -88,7 +88,8 @@
 		{"id":"b13334a69f220462","type":"text","text":"Remove layer inside GeoServer","x":417,"y":1660,"width":270,"height":60,"color":"2"},
 		{"id":"5338733df7af5c7b","type":"text","text":"Remove existing configuration","x":6,"y":1720,"width":271,"height":60,"color":"5"},
 		{"id":"ea6385b9d193453c","type":"text","text":"Error","x":323,"y":1720,"width":87,"height":60,"color":"3"},
-		{"id":"2ba6e8c44a9d149e","type":"text","text":"#### Success","x":-273,"y":1760,"width":115,"height":60,"color":"4"}
+		{"id":"2ba6e8c44a9d149e","type":"text","text":"#### Success","x":-273,"y":1760,"width":115,"height":60,"color":"4"},
+		{"id":"ee7a2531278d2dd4","type":"text","text":"##### Commit database shape","x":3120,"y":487,"width":250,"height":60,"color":"6"}
 	],
 	"edges":[
 		{"id":"81488b1068f3b761","fromNode":"ef0c01da95c10d0e","fromSide":"right","toNode":"cec8faf047ac5350","toSide":"left","color":"3"},
