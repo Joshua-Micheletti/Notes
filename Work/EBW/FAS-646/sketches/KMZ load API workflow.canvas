@@ -123,10 +123,10 @@
 		{"id":"7439cfb9154e8598","type":"text","text":"Reload geoserver config","x":-1987,"y":2470,"width":250,"height":60,"color":"5"},
 		{"id":"45f2592812bcad91","type":"text","text":"Layer already exists","x":-1891,"y":2260,"width":190,"height":60,"color":"3"},
 		{"id":"1f2717b3ba6002ca","type":"text","text":"Other","x":-1890,"y":2180,"width":96,"height":60,"color":"3"},
-		{"id":"19df5fb0060105ea","type":"text","text":"Rollback database shape","x":-1657,"y":1614,"width":250,"height":60,"color":"2"},
-		{"id":"b367710b210262b7","type":"text","text":"#### Success","x":-3100,"y":1410,"width":115,"height":60,"color":"4"},
+		{"id":"19df5fb0060105ea","type":"text","text":"Rollback database oauth","x":-1657,"y":1614,"width":250,"height":60,"color":"2"},
 		{"id":"f0d58b6417574ae2","type":"text","text":"##### Commit database oauth","x":-2920,"y":1614,"width":250,"height":60,"color":"6"},
-		{"id":"299677e852032ff4","type":"text","text":"##### Commit database oauth","x":-2920,"y":840,"width":250,"height":60,"color":"6"}
+		{"id":"299677e852032ff4","type":"text","text":"##### Commit database oauth","x":-2920,"y":840,"width":250,"height":60,"color":"6"},
+		{"id":"b367710b210262b7","type":"text","text":"#### Success","x":-2852,"y":599,"width":115,"height":50,"color":"4"}
 	],
 	"edges":[
 		{"id":"81488b1068f3b761","fromNode":"ef0c01da95c10d0e","fromSide":"right","toNode":"cec8faf047ac5350","toSide":"left","color":"3"},
@@ -268,6 +268,10 @@
 		{"id":"a752b9b76c76b8b0","fromNode":"bd826f966b340902","fromSide":"right","toNode":"19df5fb0060105ea","toSide":"bottom","color":"2"},
 		{"id":"d05fcaa3d529e809","fromNode":"3ba9a387053c49ce","fromSide":"right","toNode":"19df5fb0060105ea","toSide":"bottom","color":"2"},
 		{"id":"6faa4d01f7c6a121","fromNode":"1f2717b3ba6002ca","fromSide":"right","toNode":"19df5fb0060105ea","toSide":"bottom","color":"2"},
-		{"id":"dd10a5eaac2fe428","fromNode":"a6a8ffe79e487217","fromSide":"left","toNode":"f0d58b6417574ae2","toSide":"right","toEnd":"none"}
+		{"id":"dd10a5eaac2fe428","fromNode":"a6a8ffe79e487217","fromSide":"left","toNode":"f0d58b6417574ae2","toSide":"right","toEnd":"none"},
+		{"id":"4a305cd924f87eb8","fromNode":"4887700be7c6d351","fromSide":"left","toNode":"299677e852032ff4","toSide":"right","toEnd":"none"},
+		{"id":"26842f0e52fa3561","fromNode":"4d374073a09251c9","fromSide":"left","toNode":"f0d58b6417574ae2","toSide":"bottom","color":"6"},
+		{"id":"b11dd6f4c89ce426","fromNode":"f0d58b6417574ae2","fromSide":"top","toNode":"299677e852032ff4","toSide":"bottom","color":"6"},
+		{"id":"827c0f3591e49696","fromNode":"299677e852032ff4","fromSide":"top","toNode":"b367710b210262b7","toSide":"bottom","color":"4"}
 	]
 }
