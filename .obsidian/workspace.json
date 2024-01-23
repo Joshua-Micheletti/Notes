@@ -25,15 +25,25 @@
               "state": {
                 "file": "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
                 "viewState": {
-                  "x": 274.59299614706055,
-                  "y": 187.41038279587045,
+                  "x": 280.26264087158734,
+                  "y": 218.27844851829488,
                   "zoom": 0.6666666666666666
                 }
               }
             }
+          },
+          {
+            "id": "9c874365879fd227",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/img/Custom.png",
+                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/img/Custom.png",
+                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/img/Custom.png"
+                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md"
               }
             }
           },
@@ -194,8 +204,14 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "755e1fd4a5fe3281",
+  "active": "9c874365879fd227",
   "lastOpenFiles": [
+    "Pasted Image 20240123174324_712.png",
+    "Pasted Image 20240123174232_679.png",
+    "Pasted Image 20240123174202_668.png",
+    "Pasted Image 20240123174129_529.png",
+    "Work/EBW/FAS-646/sketches/EPSG Detection.md",
+    "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
     "Work/EBW/FAS-646/sketches/img/Custom.png",
     "Work/EBW/FAS-646/sketches/img/GDAL.png",
     "Work/EBW/FAS-646/sketches/img/getEPSGCode.png",
@@ -203,7 +219,6 @@
     "Work/EBW/FAS-646/sketches/img/prj2epsg.png",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
     "Work/EBW/FAS-646/sketches/img",
-    "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
@@ -241,7 +256,6 @@
     "Programming/Angular/External Libraries.md",
     "Programming/Angular/Authentication.md",
     "Programming/Angular/Services.md",
-    "Programming/Angular/Modules.md",
     "Programming/Angular/Angular Schemes.canvas"
   ]
 }
