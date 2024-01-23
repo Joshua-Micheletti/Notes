@@ -34,7 +34,7 @@
 		{"id":"bb76fc2fa598221d","type":"text","text":"Error","x":-1953,"y":1090,"width":87,"height":60,"color":"3"},
 		{"id":"4887700be7c6d351","type":"text","text":"##### Open transaction for database shape","x":-2406,"y":840,"width":250,"height":60,"color":"6"},
 		{"id":"26573279dd24d073","type":"text","text":"Rollback database shape","x":-2034,"y":840,"width":250,"height":60,"color":"2"},
-		{"id":"299677e852032ff4","type":"text","text":"##### Commit database oauth","x":-2920,"y":840,"width":250,"height":60,"color":"6"},
+		{"id":"299677e852032ff4","type":"text","text":"##### Commit database shape","x":-2920,"y":840,"width":250,"height":60,"color":"6"},
 		{"id":"df94696c6675db14","type":"text","text":"## STOP","x":-1621,"y":704,"width":89,"height":60,"color":"1"},
 		{"id":"67af61f86aec1698","type":"text","text":"Stop","x":-1403,"y":644,"width":123,"height":60,"color":"1"},
 		{"id":"176d69e65aae55e3","type":"text","text":"#### checkRequest\ncheck that the request contains all the necessary info\n","x":-2406,"y":514,"width":250,"height":160,"color":"4"},
@@ -113,7 +113,8 @@
 		{"id":"4d374073a09251c9","type":"text","text":"#### createWMSLayer\ncreate a layer in geoserver","x":-2406,"y":2120,"width":250,"height":140,"color":"4"},
 		{"id":"45f2592812bcad91","type":"text","text":"Layer already exists","x":-1892,"y":2120,"width":190,"height":60,"color":"3"},
 		{"id":"d5aebfcf9b17a290","type":"text","text":"Remove existing layer","x":-1988,"y":2230,"width":250,"height":60,"color":"5"},
-		{"id":"7439cfb9154e8598","type":"text","text":"Reload geoserver config","x":-1988,"y":2330,"width":250,"height":60,"color":"5"}
+		{"id":"7439cfb9154e8598","type":"text","text":"Reload geoserver config","x":-1988,"y":2330,"width":250,"height":60,"color":"5"},
+		{"id":"9ed112afbc2ab109","type":"text","text":"Delete layer table","x":-1702,"y":1880,"width":250,"height":60,"color":"2"}
 	],
 	"edges":[
 		{"id":"81488b1068f3b761","fromNode":"ef0c01da95c10d0e","fromSide":"right","toNode":"cec8faf047ac5350","toSide":"left","color":"3"},
@@ -245,9 +246,10 @@
 		{"id":"763c9b3be8a5425b","fromNode":"deb1c8034fc35ed5","fromSide":"right","toNode":"19df5fb0060105ea","toSide":"right","color":"2"},
 		{"id":"80a816b8bbe97193","fromNode":"bef63c9c3972d0b1","fromSide":"bottom","toNode":"c9813d91f60caecc","toSide":"top","color":"4"},
 		{"id":"45b570e4662581d5","fromNode":"c9813d91f60caecc","fromSide":"bottom","toNode":"4d374073a09251c9","toSide":"top","color":"4"},
-		{"id":"d5e5649408bb1e6f","fromNode":"1f2717b3ba6002ca","fromSide":"right","toNode":"19df5fb0060105ea","toSide":"right","color":"2"},
-		{"id":"6e7ab2a6676822d8","fromNode":"bd826f966b340902","fromSide":"right","toNode":"19df5fb0060105ea","toSide":"right","color":"2"},
-		{"id":"c817d35754083804","fromNode":"3ba9a387053c49ce","fromSide":"right","toNode":"19df5fb0060105ea","toSide":"right","color":"2"},
-		{"id":"fcd4c8d7288b5d51","fromNode":"1c6785e167d9de44","fromSide":"bottom","toNode":"a6a8ffe79e487217","toSide":"top","color":"4"}
+		{"id":"fcd4c8d7288b5d51","fromNode":"1c6785e167d9de44","fromSide":"bottom","toNode":"a6a8ffe79e487217","toSide":"top","color":"4"},
+		{"id":"99c9128f7d064b6c","fromNode":"1f2717b3ba6002ca","fromSide":"right","toNode":"9ed112afbc2ab109","toSide":"bottom","color":"2"},
+		{"id":"4020ea6834ba2989","fromNode":"bd826f966b340902","fromSide":"top","toNode":"9ed112afbc2ab109","toSide":"bottom","color":"2"},
+		{"id":"ba6165f7f1054fbe","fromNode":"3ba9a387053c49ce","fromSide":"right","toNode":"9ed112afbc2ab109","toSide":"bottom","color":"2"},
+		{"id":"30c95241de869d25","fromNode":"9ed112afbc2ab109","fromSide":"top","toNode":"19df5fb0060105ea","toSide":"right","color":"2"}
 	]
 }
