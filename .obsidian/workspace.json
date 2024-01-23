@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
                 "viewState": {
-                  "x": -180.2006342185,
-                  "y": -237.30304883081604,
-                  "zoom": -1.3333333333333333
+                  "x": -10.425506527943318,
+                  "y": 478.03617448759167,
+                  "zoom": 1
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas"
+                "file": "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas"
               }
             }
           },
@@ -183,12 +183,14 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9ba07fba8ce8e7ff",
+  "active": "755e1fd4a5fe3281",
   "lastOpenFiles": [
-    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
+    "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+    "Work/EBW/FAS-646/sketches/shape_kmz_load",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",

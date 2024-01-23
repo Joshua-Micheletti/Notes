@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"6a11051055e922dd","type":"text","text":"# Request to /loadKMZ:\n- file\n- label\n- layerStyle\n- notes\n- context","x":-163,"y":-150,"width":327,"height":300},
+		{"id":"fa71f2abb06f086b","x":-199,"y":280,"width":400,"height":400,"type":"file","file":"Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas"}
+	],
+	"edges":[]
+}
