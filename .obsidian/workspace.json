@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
                 "viewState": {
-                  "x": 24.64583333333337,
-                  "y": -26.92291666666668,
-                  "zoom": -0.28046147759197787
+                  "x": -93.69958333333327,
+                  "y": 76.87333333333339,
+                  "zoom": -0.5275291350207058
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas"
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas"
               }
             }
           },
@@ -185,11 +185,11 @@
   },
   "active": "9ba07fba8ce8e7ff",
   "lastOpenFiles": [
+    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
     "Work/EBW/FAS-646/sketches/shape_kmz_load",

@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"10929cde6713babc","type":"group","x":100,"y":-820,"width":162,"height":500,"label":"Legend"},
 		{"id":"8fe7118cc88fc5c3","type":"text","text":"# layerUpdater\n- requestBody\n\t- label: `string`\n\t- notes: `string`\n- filename: `string`\n- features: `Feature[]`\n- epsg: `string`\n- res: `Object`","x":-351,"y":-580,"width":327,"height":300},
 		{"id":"24093cdb5ce9d2cf","type":"text","text":"##### Open transaction for database shape","x":-312,"y":-150,"width":250,"height":60,"color":"6"},
 		{"id":"a4ba3ab12f9dc4a9","type":"text","text":"Rollback database shape","x":82,"y":-150,"width":250,"height":60,"color":"2"},
@@ -14,7 +15,13 @@
 		{"id":"fc7c8be9a9b71137","type":"text","text":"createTable","x":30,"y":315,"width":177,"height":60,"color":"5"},
 		{"id":"9ca402f6ecafe1ff","type":"text","text":"Error","x":289,"y":315,"width":87,"height":60,"color":"3"},
 		{"id":"28d94bf7421fb2a4","type":"text","text":"##### Commit database shape","x":-312,"y":315,"width":250,"height":60,"color":"6"},
-		{"id":"b066e286feb19024","type":"text","text":"#### Success","x":-250,"y":420,"width":127,"height":60,"color":"4"}
+		{"id":"b066e286feb19024","type":"text","text":"#### Success","x":-250,"y":420,"width":127,"height":60,"color":"4"},
+		{"id":"502f275ac783b155","type":"text","text":"Normal flow","x":122,"y":-800,"width":123,"height":60,"color":"4"},
+		{"id":"0bd1dff3fa18d986","type":"text","text":"Error","x":122,"y":-720,"width":123,"height":60,"color":"3"},
+		{"id":"6edb813f5ca7cdff","type":"text","text":"Error fix","x":122,"y":-640,"width":123,"height":60,"color":"5"},
+		{"id":"f98f4e9d0e2ec1c8","type":"text","text":"Transaction","x":122,"y":-560,"width":123,"height":60,"color":"6"},
+		{"id":"87d8d592664627cd","type":"text","text":"Rollback","x":121,"y":-480,"width":125,"height":60,"color":"2"},
+		{"id":"ee7f549d5d303311","type":"text","text":"Stop","x":123,"y":-396,"width":123,"height":60,"color":"1"}
 	],
 	"edges":[
 		{"id":"659c05ab1bdafebe","fromNode":"d32eb5527f164d42","fromSide":"right","toNode":"a4ba3ab12f9dc4a9","toSide":"bottom","color":"2"},
