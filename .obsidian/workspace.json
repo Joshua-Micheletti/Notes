@@ -11,18 +11,29 @@
             "id": "9ba07fba8ce8e7ff",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png"
+              }
+            }
+          },
+          {
+            "id": "40986f62754a0521",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
                 "file": "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": 274.59299614706055,
+                  "y": 187.41038279587045,
+                  "zoom": 0.6666666666666666
                 }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
+                "file": "Work/EBW/FAS-646/sketches/img/Custom.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
+                "file": "Work/EBW/FAS-646/sketches/img/Custom.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.canvas"
+                "file": "Work/EBW/FAS-646/sketches/img/Custom.png"
               }
             }
           },
@@ -183,9 +194,15 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9ba07fba8ce8e7ff",
+  "active": "755e1fd4a5fe3281",
   "lastOpenFiles": [
+    "Work/EBW/FAS-646/sketches/img/Custom.png",
+    "Work/EBW/FAS-646/sketches/img/GDAL.png",
+    "Work/EBW/FAS-646/sketches/img/getEPSGCode.png",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+    "Work/EBW/FAS-646/sketches/img/prj2epsg.png",
+    "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
+    "Work/EBW/FAS-646/sketches/img",
     "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
@@ -219,7 +236,6 @@
     "Programming/Node.js",
     "Programming/Angular/Forms.html",
     "Programming/Angular/Useful Code.md",
-    "Pasted Image 20240108105518_313.png",
     "Programming/Typescript/Introduction.md",
     "Programming/Angular/Events.md",
     "Programming/Angular/External Libraries.md",
