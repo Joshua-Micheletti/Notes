@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
                 "viewState": {
-                  "x": 3446.646080013822,
-                  "y": 918.9988746377667,
-                  "zoom": -0.9999999999999998
+                  "x": -180.2006342185,
+                  "y": -237.30304883081604,
+                  "zoom": -1.3333333333333333
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas"
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas"
               }
             }
           },
@@ -185,10 +185,14 @@
   },
   "active": "9ba07fba8ce8e7ff",
   "lastOpenFiles": [
+    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
+    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
-    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/Web Architecture.md",
     "Work/EBW/FAS-646/FAS-646.md",
     "Work/EBW/FAS-646/sketches/UI fiber component design.md",
