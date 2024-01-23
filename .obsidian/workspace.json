@@ -15,9 +15,9 @@
               "state": {
                 "file": "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
                 "viewState": {
-                  "x": -10.425506527943318,
-                  "y": 478.03617448759167,
-                  "zoom": 1
+                  "x": 109.62078388239513,
+                  "y": 451.475595906761,
+                  "zoom": -0.6540586811390383
                 }
               }
             }
@@ -183,14 +183,14 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "755e1fd4a5fe3281",
+  "active": "9ba07fba8ce8e7ff",
   "lastOpenFiles": [
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-    "Work/EBW/FAS-646/sketches/shape_kmz_load",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
+    "Work/EBW/FAS-646/sketches/shape_kmz_load",
     "Work/EBW/FAS-646/sketches/shape_utils",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
