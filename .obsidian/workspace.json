@@ -38,11 +38,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+                "file": "Work/EBW/FAS-646/Untitled.canvas",
                 "viewState": {
-                  "x": 1024.549437009572,
-                  "y": 1553.2042217560431,
-                  "zoom": -0.171075194022348
+                  "x": -1840.900475780527,
+                  "y": -427.9603158004205,
+                  "zoom": -1.3333333333333333
                 }
               }
             }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+                "file": "Work/EBW/FAS-646/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+                "file": "Work/EBW/FAS-646/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas"
+                "file": "Work/EBW/FAS-646/Untitled.canvas"
               }
             }
           },
@@ -211,6 +211,11 @@
   },
   "active": "9c874365879fd227",
   "lastOpenFiles": [
+    "Pasted image 20240124164930.png",
+    "Work/EBW/FAS-646/Drawing 2024-01-24 16.48.44.excalidraw.md",
+    "Work/EBW/FAS-646/Untitled.canvas",
+    "Pasted Image 20240124164915_118.png",
+    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/EPSG Detection.md",
     "Pasted Image 20240123175625_410.png",
@@ -225,13 +230,11 @@
     "Work/EBW/FAS-646/sketches/img/GDAL.png",
     "Work/EBW/FAS-646/sketches/img/getEPSGCode.png",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-    "Work/EBW/FAS-646/sketches/img/prj2epsg.png",
     "Work/EBW/FAS-646/sketches/img",
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
     "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
-    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/sketches/shape_kmz_load",
     "Work/EBW/FAS-646/sketches/shape_utils",
     "Work/EBW/Architecture.canvas",
@@ -259,8 +262,6 @@
     "Programming/Typescript/Introduction.md",
     "Programming/Angular/Events.md",
     "Programming/Angular/External Libraries.md",
-    "Programming/Angular/Authentication.md",
-    "Programming/Angular/Services.md",
-    "Programming/Angular/Angular Schemes.canvas"
+    "Programming/Angular/Authentication.md"
   ]
 }
