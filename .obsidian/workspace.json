@@ -36,9 +36,14 @@
             "id": "9c874365879fd227",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md"
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+                "viewState": {
+                  "x": 532.5323313464372,
+                  "y": 909.1909850528093,
+                  "zoom": -0.171075194022348
+                }
               }
             }
           }
@@ -109,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md",
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md",
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md"
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas"
               }
             }
           },
@@ -206,9 +211,10 @@
   },
   "active": "9c874365879fd227",
   "lastOpenFiles": [
+    "Work/EBW/FAS-646/sketches/Design.canvas",
+    "Work/EBW/FAS-646/sketches/EPSG Detection.md",
     "Pasted Image 20240123175625_410.png",
     "Work/EBW/FAS-646/sketches/UI fiber component design.md",
-    "Work/EBW/FAS-646/sketches/EPSG Detection.md",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174129_529.png",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174917_272.png",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174324_712.png",
@@ -220,9 +226,7 @@
     "Work/EBW/FAS-646/sketches/img/getEPSGCode.png",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/img/prj2epsg.png",
-    "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
     "Work/EBW/FAS-646/sketches/img",
-    "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
