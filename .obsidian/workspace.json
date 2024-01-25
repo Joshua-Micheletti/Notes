@@ -23,32 +23,17 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
                 "viewState": {
-                  "x": 280.26264087158734,
-                  "y": 218.27844851829488,
-                  "zoom": 0.6666666666666666
-                }
-              }
-            }
-          },
-          {
-            "id": "9c874365879fd227",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Work/EBW/FAS-646/Untitled.canvas",
-                "viewState": {
-                  "x": -1840.900475780527,
-                  "y": -427.9603158004205,
-                  "zoom": -1.3333333333333333
+                  "x": 88.46875000000006,
+                  "y": -143.1875,
+                  "zoom": -0.5749088360572334
                 }
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/Untitled.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/Untitled.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/Untitled.canvas"
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas"
               }
             }
           },
@@ -209,15 +194,19 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9c874365879fd227",
+  "active": "40986f62754a0521",
   "lastOpenFiles": [
-    "Pasted image 20240124164930.png",
-    "Work/EBW/FAS-646/Drawing 2024-01-24 16.48.44.excalidraw.md",
-    "Work/EBW/FAS-646/Untitled.canvas",
-    "Pasted Image 20240124164915_118.png",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
+    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
+    "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
     "Work/EBW/FAS-646/sketches/EPSG Detection.md",
+    "Work/EBW/FAS-646/Untitled.canvas",
+    "Pasted image 20240124164930.png",
+    "Work/EBW/FAS-646/Drawing 2024-01-24 16.48.44.excalidraw.md",
+    "Pasted Image 20240124164915_118.png",
     "Pasted Image 20240123175625_410.png",
     "Work/EBW/FAS-646/sketches/UI fiber component design.md",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174129_529.png",
@@ -225,15 +214,10 @@
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174324_712.png",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174232_679.png",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174202_668.png",
-    "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
     "Work/EBW/FAS-646/sketches/img/Custom.png",
     "Work/EBW/FAS-646/sketches/img/GDAL.png",
-    "Work/EBW/FAS-646/sketches/img/getEPSGCode.png",
-    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/img",
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
     "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
     "Work/EBW/FAS-646/sketches/shape_kmz_load",
     "Work/EBW/FAS-646/sketches/shape_utils",
