@@ -23,11 +23,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
                 "viewState": {
-                  "x": 0.5,
-                  "y": -125,
-                  "zoom": -0.936245315502831
+                  "x": 54.20833333333326,
+                  "y": -174.46875,
+                  "zoom": -0.5749088360572334
                 }
               }
             }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas"
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas"
               }
             }
           },
@@ -196,12 +196,12 @@
   },
   "active": "40986f62754a0521",
   "lastOpenFiles": [
+    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Programming/Angular/Introduction.md",
     "Programming/Angular/Forms.md",
     "Programming/Angular/External Libraries.md",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
