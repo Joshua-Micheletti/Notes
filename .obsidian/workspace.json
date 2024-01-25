@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown/Markdown Cheatsheet.md",
+                "file": "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown/Markdown Cheatsheet.md",
+                "file": "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown/Markdown Cheatsheet.md"
+                "file": "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png"
               }
             }
           },
@@ -191,8 +190,9 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "755e1fd4a5fe3281",
+  "active": "9ba07fba8ce8e7ff",
   "lastOpenFiles": [
+    "Markdown/Markdown Cheatsheet.md",
     "Markdown.zip",
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
@@ -231,7 +231,6 @@
     "Programming/Multithreading/Multithreading Python.md",
     "university/Reti Calcolatori/Introduzione/Introduzione.md",
     "Programming/Angular/Signals.md",
-    "Markdown/Markdown Cheatsheet.md",
     "Links/Links List.md",
     "Programming/Angular/Dynamic Components.md",
     "Programming/Angular/Directives.md",
