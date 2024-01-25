@@ -23,11 +23,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
                 "viewState": {
-                  "x": 88.46875000000006,
-                  "y": -143.1875,
-                  "zoom": -0.5749088360572334
+                  "x": 0.5,
+                  "y": -125,
+                  "zoom": -0.936245315502831
                 }
               }
             }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas"
+                "file": "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas"
               }
             }
           },
@@ -196,6 +196,10 @@
   },
   "active": "40986f62754a0521",
   "lastOpenFiles": [
+    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+    "Programming/Angular/Introduction.md",
+    "Programming/Angular/Forms.md",
+    "Programming/Angular/External Libraries.md",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
@@ -217,7 +221,6 @@
     "Work/EBW/FAS-646/sketches/img/Custom.png",
     "Work/EBW/FAS-646/sketches/img/GDAL.png",
     "Work/EBW/FAS-646/sketches/img",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
     "Work/EBW/FAS-646/sketches/shape_kmz_load",
     "Work/EBW/FAS-646/sketches/shape_utils",
@@ -227,7 +230,6 @@
     "Programming/Angular/NgRx.md",
     "Programming/Angular/HTTP.md",
     "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
-    "Programming/Angular/Forms.md",
     "Programming/Multithreading/Multithreading Python.md",
     "university/Reti Calcolatori/Introduzione/Introduzione.md",
     "Programming/Angular/Signals.md",
@@ -244,8 +246,6 @@
     "Programming/Angular/Forms.html",
     "Programming/Angular/Useful Code.md",
     "Programming/Typescript/Introduction.md",
-    "Programming/Angular/Events.md",
-    "Programming/Angular/External Libraries.md",
-    "Programming/Angular/Authentication.md"
+    "Programming/Angular/Events.md"
   ]
 }
