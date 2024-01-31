@@ -11,8 +11,15 @@
             "id": "8363da35a74e20e4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+                "viewState": {
+                  "x": 14.742480741919692,
+                  "y": 15.73821815771916,
+                  "zoom": -0.171075194022348
+                }
+              }
             }
           }
         ]
@@ -81,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas"
+              }
             }
           },
           {
@@ -174,12 +185,12 @@
   },
   "active": "8363da35a74e20e4",
   "lastOpenFiles": [
+    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Markdown/Markdown Cheatsheet.md",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
     "Markdown.zip",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Programming/Angular/Introduction.md",
     "Programming/Angular/Forms.md",
     "Programming/Angular/External Libraries.md",
