@@ -4,29 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ff65729b760eea9c",
+        "id": "838104e37a4e4492",
         "type": "tabs",
         "children": [
           {
-            "id": "9ba07fba8ce8e7ff",
+            "id": "8363da35a74e20e4",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png"
-              }
-            }
-          },
-          {
-            "id": "40986f62754a0521",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markdown/Markdown Cheatsheet.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -95,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png"
-              }
+              "state": {}
             }
           },
           {
@@ -190,9 +172,10 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9ba07fba8ce8e7ff",
+  "active": "8363da35a74e20e4",
   "lastOpenFiles": [
     "Markdown/Markdown Cheatsheet.md",
+    "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
     "Markdown.zip",
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
@@ -217,7 +200,6 @@
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174232_679.png",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174202_668.png",
     "Work/EBW/FAS-646/sketches/img/Custom.png",
-    "Work/EBW/FAS-646/sketches/img/GDAL.png",
     "Work/EBW/FAS-646/sketches/img",
     "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
     "Work/EBW/FAS-646/sketches/shape_kmz_load",
