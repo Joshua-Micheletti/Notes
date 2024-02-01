@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+                "file": "Work/EBW/Architecture.canvas",
                 "viewState": {
-                  "x": 945.8595205208954,
-                  "y": 1612.2605427122385,
-                  "zoom": -0.171075194022348
+                  "x": 730,
+                  "y": -180,
+                  "zoom": -0.8926622346821107
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+                "file": "Work/EBW/Architecture.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+                "file": "Work/EBW/Architecture.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas"
+                "file": "Work/EBW/Architecture.canvas"
               }
             }
           },
@@ -185,19 +185,19 @@
   },
   "active": "8363da35a74e20e4",
   "lastOpenFiles": [
-    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
+    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+    "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
+    "Work/EBW/FAS-646/sketches/Design.canvas",
+    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Markdown/Markdown Cheatsheet.md",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
     "Markdown.zip",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
     "Programming/Angular/Introduction.md",
     "Programming/Angular/Forms.md",
     "Programming/Angular/External Libraries.md",
-    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
-    "Work/EBW/FAS-646/sketches/Design.canvas",
-    "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
     "Work/EBW/FAS-646/sketches/EPSG Detection.md",
     "Work/EBW/FAS-646/Untitled.canvas",
     "Pasted image 20240124164930.png",
