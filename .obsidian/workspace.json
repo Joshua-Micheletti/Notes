@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Angular/NgRx.md",
+                "file": "Programming/Angular/Directives.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ngstyle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/NgRx.md",
+                "file": "Programming/Angular/Directives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/NgRx.md",
+                "file": "Programming/Angular/Directives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Angular/NgRx.md"
+                "file": "Programming/Angular/Directives.md"
               }
             }
           },
@@ -182,6 +183,7 @@
   },
   "active": "8363da35a74e20e4",
   "lastOpenFiles": [
+    "Programming/Angular/NgRx.md",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
@@ -215,7 +217,6 @@
     "Work/EBW/FAS-646/sketches/shape_utils",
     "Work/EBW/Web Architecture.md",
     "Work/EBW/FAS-646/FAS-646.md",
-    "Programming/Angular/NgRx.md",
     "Programming/Angular/HTTP.md",
     "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
     "Programming/Multithreading/Multithreading Python.md",
