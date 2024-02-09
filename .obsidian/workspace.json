@@ -11,9 +11,11 @@
             "id": "e47b87ccacb9d87a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/EBW-94/Drawing 2024-02-07 10.45.28.excalidraw.md"
+                "file": "Programming/Angular/HTTP.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/EBW-94/Drawing 2024-02-07 10.45.28.excalidraw.md",
+                "file": "Programming/Angular/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/EBW-94/Drawing 2024-02-07 10.45.28.excalidraw.md",
+                "file": "Programming/Angular/HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/EBW-94/Drawing 2024-02-07 10.45.28.excalidraw.md"
+                "file": "Programming/Angular/HTTP.md"
               }
             }
           },
@@ -178,7 +180,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "e47b87ccacb9d87a",
+  "active": "755e1fd4a5fe3281",
   "lastOpenFiles": [
     "Work/EBW/EBW-94/Drawing 2024-02-07 10.45.28.excalidraw.md",
     "Work/EBW/EBW-94",
