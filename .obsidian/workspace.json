@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
+                "file": "Work/EBW/Todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
+                "file": "Work/EBW/Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
+                "file": "Work/EBW/Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/ChatGPT/Notes for presentation.md"
+                "file": "Work/EBW/Todo.md"
               }
             }
           },
@@ -182,8 +182,9 @@
   },
   "active": "0f2c33b2c428d379",
   "lastOpenFiles": [
-    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website.gif",
     "Work/EBW/ChatGPT/Notes for presentation.md",
+    "Work/EBW/Todo.md",
+    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website.gif",
     "Markdown/Markdown Cheatsheet.md",
     "Work/EBW/ChatGPT/img",
     "Programming/Angular/HTTP.md",
