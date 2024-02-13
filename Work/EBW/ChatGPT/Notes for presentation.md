@@ -10,7 +10,7 @@
 ## Correction of bugs
 ## Code documentation
 ## Development of UI and Scripts
-### UI (HTML, CSS, Javascript)
+### UI (HTML, CSS, Javascript) Portfolio
 https://chat.openai.com/share/c5ad654b-16c4-4263-8c04-160fb149387d
 ## Automation of simple tasks
 ## Creation of mock files
