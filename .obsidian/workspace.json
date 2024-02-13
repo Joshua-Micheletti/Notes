@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "57c6f9d00b2c55ba",
+        "id": "35d8000b2153fe58",
         "type": "tabs",
         "children": [
           {
-            "id": "e47b87ccacb9d87a",
+            "id": "0f2c33b2c428d379",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,10 +180,13 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "e47b87ccacb9d87a",
+  "active": "0f2c33b2c428d379",
   "lastOpenFiles": [
-    "Programming/Angular/HTTP.md",
+    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website.gif",
     "Work/EBW/ChatGPT/Notes for presentation.md",
+    "Markdown/Markdown Cheatsheet.md",
+    "Work/EBW/ChatGPT/img",
+    "Programming/Angular/HTTP.md",
     "Work/EBW/ChatGPT",
     "Work/EBW/EBW-94/Drawing 2024-02-07 10.45.28.excalidraw.md",
     "Work/EBW/EBW-94",
@@ -197,7 +200,6 @@
     "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
-    "Markdown/Markdown Cheatsheet.md",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
     "Markdown.zip",
     "Programming/Angular/Introduction.md",
@@ -215,7 +217,6 @@
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174324_712.png",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174232_679.png",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174202_668.png",
-    "Work/EBW/FAS-646/sketches/img/Custom.png",
     "Work/EBW/FAS-646/sketches/img",
     "Work/EBW/FAS-646/sketches/shape_kmz_load/shapeKMZLoad.canvas",
     "Work/EBW/FAS-646/sketches/shape_kmz_load",
@@ -235,7 +236,6 @@
     "Programming/Node.js/Express",
     "Programming/Node.js",
     "Programming/Angular/Forms.html",
-    "Programming/Angular/Useful Code.md",
-    "Programming/Typescript/Introduction.md"
+    "Programming/Angular/Useful Code.md"
   ]
 }

@@ -12,7 +12,9 @@
 ## Development of UI and Scripts
 ### UI (HTML, CSS, Javascript) Portfolio
 https://chat.openai.com/share/c5ad654b-16c4-4263-8c04-160fb149387d
-## Automation of simple tasks
+
+![[ChatGPT_portfolio_website.gif]]
+## Automation of simp!le tasks
 ## Creation of mock files
 ## Difference between ChatGPT 3.5 and 4
 ### Image loading with ChatGPT4
