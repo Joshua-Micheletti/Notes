@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Angular/HTTP.md",
+                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/HTTP.md",
+                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/HTTP.md",
+                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Angular/HTTP.md"
+                "file": "Work/EBW/ChatGPT/Notes for presentation.md"
               }
             }
           },
@@ -180,8 +180,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "755e1fd4a5fe3281",
+  "active": "e47b87ccacb9d87a",
   "lastOpenFiles": [
+    "Programming/Angular/HTTP.md",
+    "Work/EBW/ChatGPT/Notes for presentation.md",
+    "Work/EBW/ChatGPT",
     "Work/EBW/EBW-94/Drawing 2024-02-07 10.45.28.excalidraw.md",
     "Work/EBW/EBW-94",
     "Programming/Angular/Directives.md",
@@ -219,7 +222,6 @@
     "Work/EBW/FAS-646/sketches/shape_utils",
     "Work/EBW/Web Architecture.md",
     "Work/EBW/FAS-646/FAS-646.md",
-    "Programming/Angular/HTTP.md",
     "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
     "Programming/Multithreading/Multithreading Python.md",
     "university/Reti Calcolatori/Introduzione/Introduzione.md",
@@ -234,7 +236,6 @@
     "Programming/Node.js",
     "Programming/Angular/Forms.html",
     "Programming/Angular/Useful Code.md",
-    "Programming/Typescript/Introduction.md",
-    "Programming/Angular/Events.md"
+    "Programming/Typescript/Introduction.md"
   ]
 }
