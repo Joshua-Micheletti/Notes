@@ -3,7 +3,8 @@
 ## ChatGPT vs Stackoverflow
 ## Enhancing the answers
 ## Use cases
-### 
+### Understanding code
+https://chat.openai.com/share/b8ba7d90-7c5b-4820-900c-d3a2b977a537
 ## ChatGPT reference year (2022, not real time)
 ## Track of conversations and improvement
 ## Usage of proprietary languages (Magik)
