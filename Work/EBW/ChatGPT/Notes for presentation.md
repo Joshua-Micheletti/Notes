@@ -16,7 +16,11 @@ https://chat.openai.com/share/c5ad654b-16c4-4263-8c04-160fb149387d
 ![[ChatGPT_portfolio_website.gif]]
 
 Careful when making webpages, ChatGPT is not that good at URLs and links (images, links, videos etc...)
-## Automation of simp!le tasks
+
+https://chat.openai.com/share/4bcbf047-165d-4641-8039-e09229328de0
+
+![[ChatGPT_portfolio_website_italian.gif]]
+## Automation of simple tasks
 ## Creation of mock files
 ## Difference between ChatGPT 3.5 and 4
 ### Image loading with ChatGPT4
