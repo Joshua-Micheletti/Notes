@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Angular/Pipes.md",
+                "file": "Programming/Angular/Forms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/Pipes.md",
+                "file": "Programming/Angular/Forms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/Pipes.md",
+                "file": "Programming/Angular/Forms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Angular/Pipes.md"
+                "file": "Programming/Angular/Forms.md"
               }
             }
           },
@@ -180,8 +180,9 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "0f2c33b2c428d379",
+  "active": "755e1fd4a5fe3281",
   "lastOpenFiles": [
+    "Programming/Angular/Pipes.md",
     "Work/EBW/ChatGPT/Notes for presentation.md",
     "ChatGPT_portfolio_website_italian.gif",
     "Work/EBW/Todo.md",
