@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Angular/Forms.md",
+                "file": "Work/EBW/Todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Angular/Forms.md",
+                "file": "Work/EBW/Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Angular/Forms.md",
+                "file": "Work/EBW/Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Angular/Forms.md"
+                "file": "Work/EBW/Todo.md"
               }
             }
           },
@@ -180,8 +180,9 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "755e1fd4a5fe3281",
+  "active": "0f2c33b2c428d379",
   "lastOpenFiles": [
+    "Programming/Angular/Forms.md",
     "Programming/Angular/Pipes.md",
     "Work/EBW/ChatGPT/Notes for presentation.md",
     "ChatGPT_portfolio_website_italian.gif",
@@ -206,7 +207,6 @@
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
     "Markdown.zip",
     "Programming/Angular/Introduction.md",
-    "Programming/Angular/Forms.md",
     "Programming/Angular/External Libraries.md",
     "Work/EBW/FAS-646/sketches/EPSG Detection.md",
     "Work/EBW/FAS-646/Untitled.canvas",
