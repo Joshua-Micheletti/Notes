@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/EBW-416/HLD.md",
+                "file": "Work/EBW/EBW-416/flow.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/EBW-416/HLD.md",
+                "file": "Work/EBW/EBW-416/flow.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/EBW-416/HLD.md"
+                "file": "Work/EBW/EBW-416/flow.canvas"
               }
             }
           },
