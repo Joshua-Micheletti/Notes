@@ -52,7 +52,7 @@ Per poter gestire entrambe le funzionalità è necessario modificare la modalit�
     
 - type: contiene la tipologia GSS o PostgreSQL (in futuro anche altre eventualmente)
     
-- params: oggetto contenente host, port, user, password per la connessione a db PostgreSQL mentre conterrà url, (aggiungere quello che serve) per chiamare il GSS
+- ~~params: oggetto contenente host, port, user, password per la connessione a db PostgreSQL mentre conterrà url, (aggiungere quello che serve) per chiamare il GSS~~
     
 
 ## 3.1 Lista tabelle

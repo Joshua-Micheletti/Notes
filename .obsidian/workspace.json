@@ -15,9 +15,9 @@
               "state": {
                 "file": "Work/EBW/EBW-416/flow.canvas",
                 "viewState": {
-                  "x": -100.6500372546387,
-                  "y": -34.26974392531465,
-                  "zoom": 0.14333333333333317
+                  "x": 9.710000000000022,
+                  "y": -65.15000000000015,
+                  "zoom": 0
                 }
               }
             }
@@ -185,8 +185,9 @@
   },
   "active": "0f2c33b2c428d379",
   "lastOpenFiles": [
-    "Work/EBW/EBW-416/HLD.md",
+    "Work/EBW/EBW-416/3.0 Configuration.md",
     "Work/EBW/EBW-416/flow.canvas",
+    "Work/EBW/EBW-416/HLD.md",
     "Work/EBW/ChatGPT/Notes for presentation.md",
     "Work/EBW/EBW-416",
     "Programming/Angular/Typescript.md",
@@ -237,7 +238,6 @@
     "Programming/Angular/Signals.md",
     "Links/Links List.md",
     "Programming/Angular/Dynamic Components.md",
-    "Programming/Angular/Deploying.md",
     "Programming/Node.js/Express",
     "Programming/Node.js"
   ]
