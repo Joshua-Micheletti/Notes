@@ -1,13 +1,23 @@
 
 fonte: https://openai.com/pricing#language-models
 
-| Modello                | Prezzo Input                              | Prezzo Output       | Chat    | Instruct    |
+| Modello                | Prezzo Input                              | Prezzo Output       |     |     |
 | ---------------------- | ----------------------------------------- | ------------------- | --- | --- |
-| GPT 3.5                | Gratuito                                  | Gratuito            | V    | X    |
-| GPT 3.5 Turbo          | $0.0005 / 1K tokens                       | $0.0015 / 1K tokens | V    | X    |
-| GPT 3.5 Turbo Instruct | $0.0015 / 1K tokens                       | $0.0020 / 1K tokens | X    | V    |
+| GPT 3.5                | Gratuito                                  | Gratuito            |     |     |
+| GPT 3.5 Turbo          | $0.0005 / 1K tokens                       | $0.0015 / 1K tokens |     |     |
+| GPT 3.5 Turbo Instruct | $0.0015 / 1K tokens                       | $0.0020 / 1K tokens |     |     |
 | GPT 4                  | $0.03 / 1K tokens                         | $0.06 / 1K tokens   |     |     |
 | GPT 4 32k              | $0.06 / 1K tokens                         | $0.12 / 1K tokens   |     |     |
 | GPT 4 Turbo            | $0.01 / 1K tokens | $0.03 / 1K tokens                    |     |     |
 ## Tokens
 "You can think of tokens as pieces of words, where 1,000 tokens is about 750 words. This paragraph is 35 tokens."
+
+I token sono delle unità di testo definite da OpenAI per la costruzione di parole e frasi. Generalmente un token corrisponde ad una parola, ma non sempre, in quanto alcune parole o caratteri possono richiedere più di un token.
+
+## Instruct vs Chat
+Questo concetto viene utilizzato nella versione Turbo di GPT 3.5
+### Chat
+I modelli Chat sono generalmente molto espressivi, tendono a spiegare in dettaglio un concetto anche se non necessariamente parte integrante della domanda posta.
+Sono utili per utilizzi quali la risoluzione di problematiche mondane, 
+### Instruct
+La differenza tra Instruct e Chat consiste nel fatto che la versione Instruct risponde alle domande in modo più mirato, meno discorsivo e più diretto all'obiettivo
