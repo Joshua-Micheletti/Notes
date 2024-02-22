@@ -69,7 +69,7 @@ bootstrapApplication(AppComponent, {
 
 The `importProvidersFrom` is an Angular function that allows you to import modules as providers, in this case, we provide the `AppRoutingModule`. This will make any sub route that uses modules work anyways, as well as lazy loading.
 ## Lazy Loading
-Thanks to standalone component, we can do some [[Optimization]] with Lazy Loading without having to wrap the component inside a module and lazy loading the whole module. That option still works, in case you want to batch load certain components, but now you can define your lazy loaded component in the routing module as:
+Thanks to standalone component, we can do some [[Programming/Angular/Optimization]] with Lazy Loading without having to wrap the component inside a module and lazy loading the whole module. That option still works, in case you want to batch load certain components, but now you can define your lazy loaded component in the routing module as:
 ```Typescript
 const routes: Route[] = [
   {
