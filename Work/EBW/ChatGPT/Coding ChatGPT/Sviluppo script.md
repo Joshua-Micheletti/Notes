@@ -239,3 +239,5 @@ Enter the WKT string:: PROJCS["WGS 84 / UTM zone 33N",GEOGCS["WGS 84",DATUM["WGS
 
 Recognized EPSG code: 32633
 ```
+
+#### Italiano
