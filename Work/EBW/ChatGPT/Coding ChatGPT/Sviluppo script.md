@@ -1,6 +1,7 @@
 ## Script Windows
 ### Test vari
 - sia la versione italiana che quella inglese falliscono nel colorare i numeri di output con un colore diverso dal testo
+- spesso sbaglia con la sintassi delle variabili
 #### Inglese
 https://chat.openai.com/share/54296a16-07da-42c7-b579-89bccb90434c
 ##### Creazione di 100 file JSON
