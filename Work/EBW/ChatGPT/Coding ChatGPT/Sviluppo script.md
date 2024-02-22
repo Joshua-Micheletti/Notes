@@ -1,5 +1,6 @@
 ## Script Windows
 ### Test vari
+- sia la versione italiana che quella inglese falliscono nel colorare i numeri di output con un colore diverso dal testo
 #### Inglese
 https://chat.openai.com/share/54296a16-07da-42c7-b579-89bccb90434c
 ##### Creazione di 100 file JSON
@@ -50,6 +51,74 @@ for ($i = 1; $i -le 100; $i++) {
 }
 
 Write-Host "100 JSON files created in the current directory."
+```
+
+##### Analisi dati
+Analisi dei file JSON creati con calcolo della popolazione di ogni paese e del nome più comune:
+```Powershell
+# PowerShell script to read JSON files in the 'data' folder and calculate the number of people in each city
+# It also calculates the most common name and uses colored output
+
+# Initialize an empty hashtable to store city population and name occurrences
+$cityPopulation = @{}
+$nameOccurrences = @{}
+
+# Function to process a JSON file
+function Process-JsonFile($filePath) {
+    # Read the JSON content from the file
+    $jsonContent = Get-Content -Raw -Path $filePath | ConvertFrom-Json
+
+    # Extract the city and name from the JSON content
+    $city = $jsonContent.city
+    $name = $jsonContent.randomName
+
+    # Increment the population count for the city
+    if ($cityPopulation.ContainsKey($city)) {
+        $cityPopulation[$city]++
+    } else {
+        $cityPopulation[$city] = 1
+    }
+
+    # Increment the occurrence count for the name
+    if ($nameOccurrences.ContainsKey($name)) {
+        $nameOccurrences[$name]++
+    } else {
+        $nameOccurrences[$name] = 1
+    }
+}
+
+# Specify the path to the 'data' folder
+$dataFolderPath = "data"
+
+# Get all JSON files in the 'data' folder
+$jsonFiles = Get-ChildItem -Path $dataFolderPath -Filter *.json
+
+# Process each JSON file
+foreach ($jsonFile in $jsonFiles) {
+    Process-JsonFile -filePath $jsonFile.FullName
+}
+
+# Display the calculated city populations with colored output
+foreach ($city in $cityPopulation.Keys) {
+    $population = $cityPopulation[$city]
+    Write-Host "City: $($city), Population: $($population)" -ForegroundColor Green
+}
+
+# Find the most common name
+$mostCommonName = $nameOccurrences.GetEnumerator() | Sort-Object Value -Descending | Select-Object -First 1
+
+# Display the most common name with colored output
+Write-Host "Most Common Name: $($mostCommonName.Name), Occurrences: $($mostCommonName.Value)" -ForegroundColor Cyan
+```
+
+Output:
+```shell
+City: Tokyo, Population: 24
+City: Paris, Population: 19
+City: London, Population: 25
+City: Sydney, Population: 13
+City: New York, Population: 19
+Most Common Name: Charlie, Occurrences: 26
 ```
 
 ##### Spostamento file
@@ -241,3 +310,8 @@ Recognized EPSG code: 32633
 ```
 
 #### Italiano
+##### Creazione di 100 file JSON
+
+##### Spostamento file
+
+#####
