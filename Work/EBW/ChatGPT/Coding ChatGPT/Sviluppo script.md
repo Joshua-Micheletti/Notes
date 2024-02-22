@@ -112,7 +112,7 @@ Write-Host "Most Common Name: $($mostCommonName.Name), Occurrences: $($mostCommo
 ```
 
 Output:
-```shell
+```powershell
 City: Tokyo, Population: 24
 City: Paris, Population: 19
 City: London, Population: 25
@@ -311,7 +311,13 @@ Recognized EPSG code: 32633
 
 #### Italiano
 ##### Creazione di 100 file JSON
+##### Analisi dati
+- versione in italiano fallisce a rimuovere gli accenti dalla stampa
 
+Analisi dei file JSON creati con calcolo della popolazione di ogni paese e del nome più comune:
 ##### Spostamento file
 
-#####
+##### Download immagini
+##### RNG
+##### Download stringhe WKT
+##### Script riconoscimento stringhe WKT
