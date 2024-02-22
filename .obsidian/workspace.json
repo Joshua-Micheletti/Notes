@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
+                "file": "Work/EBW/ChatGPT/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
+                "file": "Work/EBW/ChatGPT/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
+                "file": "Work/EBW/ChatGPT/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/ChatGPT/Notes for presentation.md"
+                "file": "Work/EBW/ChatGPT/Untitled.md"
               }
             }
           },
@@ -182,11 +182,13 @@
   },
   "active": "0f2c33b2c428d379",
   "lastOpenFiles": [
+    "Work/EBW/ChatGPT/Linguaggio (Italiano - Inglese).md",
+    "Work/EBW/ChatGPT/Untitled.md",
+    "Work/EBW/ChatGPT/Subjects.md",
     "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website_italian.gif",
     "Work/EBW/EBW-416/flow.canvas",
     "Work/EBW/EBW-416/3.0 Configuration.md",
     "Work/EBW/EBW-416/HLD.md",
-    "Work/EBW/ChatGPT/Notes for presentation.md",
     "Work/EBW/EBW-416",
     "Programming/Angular/Typescript.md",
     "Programming/Angular/Forms.md",
@@ -234,7 +236,6 @@
     "university/Reti Calcolatori/Introduzione/Introduzione.md",
     "Programming/Angular/Signals.md",
     "Links/Links List.md",
-    "Programming/Angular/Dynamic Components.md",
     "Programming/Node.js/Express",
     "Programming/Node.js"
   ]
