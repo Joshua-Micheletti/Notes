@@ -29,13 +29,19 @@ Rappresenta la data da cui le informazioni non sono più disponibili. GPT si bas
 Per esempio la versione gratuita di ChatGPT 3.5 ha un Cutoff Date impostato al 01/22. Ciò significa che non contiene informazioni aggiornate. Per esempio, secondo GPT 3.5, le ultime versioni dei vari software sono:
 - Python
 	- GPT 3.5: 3.10
-	- Attuale (22/02/24): 3.12
+	- Attuale (22/02/24): 3.12.2
 - Node
-	- GPT 3.5:
+	- GPT 3.5: 16
 	- Attuale (22/02/24): 21.6.2
 - Angular
-	- GPT 3.5:
-	- )
+	- GPT 3.5: 12
+	- Attuale (22/02/24): 17.2.1
+- Flutter
+	- GPT 3.5: 2.10
+	- Attuale (22/02/24): 3.19
+- Magik
+	- GPT 3.5: Sconosciuto
+	- Attuale (22/02/24): 5.2
 ## Multimedia Input
 I modelli ChatGPT 4 includono la possibilità di caricare file multimediali (immagini, documenti testuali, video, audio) in modo da poterli analizzare, estrarre informazioni, modificare e usare come base per costruire nuovi file.
 ## Lunghezza risposte
