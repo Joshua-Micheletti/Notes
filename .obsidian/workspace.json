@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 533.5,
-    "collapsed": true
+    "width": 533.5
   },
   "right": {
     "id": "08316559ae15440b",
@@ -181,7 +180,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "755e1fd4a5fe3281",
+  "active": "0f2c33b2c428d379",
   "lastOpenFiles": [
     "Work/EBW/ChatGPT/Utilizzo ChatGPT/Caricamento immagini ChatGPT 4.md",
     "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT aggiornato a 2022.md",

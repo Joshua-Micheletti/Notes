@@ -1,14 +1,14 @@
 
 fonte: https://openai.com/pricing#language-models
 
-| Modello | Prezzo Input | Prezzo Output | API | Context Window | Data cutoff date |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| GPT 3.5 | Gratuito | Gratuito | No | 4096 | 01/22 |
-| GPT 3.5 Turbo | $0.0005 / 1K tokens | $0.0015 / 1K tokens | Si | 4,096/16,385 | 01/22 |
-| GPT 3.5 Turbo Instruct | $0.0015 / 1K tokens | $0.0020 / 1K tokens | Si | 4,096/16,385 | 01/22 |
-| GPT 4 | $0.03 / 1K tokens | $0.06 / 1K tokens | Si | 8,192 | 04/23 |
-| GPT 4 32k | $0.06 / 1K tokens | $0.12 / 1K tokens | Si | 32,768 | 04/23 |
-| GPT 4 Turbo | $0.01 / 1K tokens | $0.03 / 1K tokens | Si | 128,000 | 04/23 |
+| Modello | Prezzo Input | Prezzo Output | API | Context Window | Data cutoff date | Metodo |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| GPT 3.5 | Gratuito | Gratuito | No | 4096 | 01/22 |  |
+| GPT 3.5 Turbo | $0.0005 / 1K tokens | $0.0015 / 1K tokens | Si | 4,096/16,385 | 01/22 |  |
+| GPT 3.5 Turbo Instruct | $0.0015 / 1K tokens | $0.0020 / 1K tokens | Si | 4,096/16,385 | 01/22 |  |
+| GPT 4 | $0.03 / 1K tokens | $0.06 / 1K tokens | Si | 8,192 | 04/23 |  |
+| GPT 4 32k | $0.06 / 1K tokens | $0.12 / 1K tokens | Si | 32,768 | 04/23 |  |
+| GPT 4 Turbo | $0.01 / 1K tokens | $0.03 / 1K tokens | Si | 128,000 | 04/23 |  |
 ## Tokens
 "You can think of tokens as pieces of words, where 1,000 tokens is about 750 words. This paragraph is 35 tokens."
 
@@ -25,4 +25,4 @@ I modelli Instruct rispondono alle domande in modo più mirato, meno discorsivo 
 La finestra di contesto di un LLM (Large Language Model) consiste nel numero massimo di tokens che possono essere utilizzati all'interno di un contesto. Questo significa che se stiamo comunicando con un LLM, la quantità di testo che verrà presa in considerazione per generare la risposta corrisponderà agli ultimi X token utilizzati (comprende sia i token in input che i token in output).
 La finestra di contesto funziona come un buffer FIFO.
 ## Data Cutoff Date
-Rappresenta l
+Rappresenta la data da cui le informazioni non sono più disponibili. GPT si basa su dati collezionati fino alla Cutoff Date, quindi ogni informazione più recente non è disponibile al modello.
