@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Documentazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 533.5
   },
   "right": {
     "id": "08316559ae15440b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Documentazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Documentazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md"
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Documentazione.md"
               }
             }
           },
@@ -180,12 +180,13 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "0f2c33b2c428d379",
+  "active": "755e1fd4a5fe3281",
   "lastOpenFiles": [
+    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Documentazione.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Traduzione di linguaggi.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Utilizzo di linguaggi proprietari (Magik).md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce e script.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Automatizzazione.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Correzione bug.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/File mock.md",
