@@ -29,6 +29,7 @@ https://chat.openai.com/share/2f28a746-e0c8-4a4a-a67e-d788ed8d9ec3
 
 ### App
 #### Portfolio (Python TkInter)
-- FAIL: ChatGPT non ha una conoscenza approfondita della libreria, di conseguenza commette molti errori. Spesso il codice fornito non è corretto e fatica a lavorare con il sistema di griglia dell'interfaccia
+- **FAIL**: ChatGPT non ha una conoscenza approfondita della libreria, di conseguenza commette molti errori. Spesso il codice fornito non è corretto e fatica a lavorare con il sistema di griglia dell'interfaccia
 https://chat.openai.com/share/c9026bf6-5da1-4533-b220-5a6c67f1d8bb
 
+![[TkInter_interface_app_fail.png]]

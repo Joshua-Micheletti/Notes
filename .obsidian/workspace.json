@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce e script.md",
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce e script.md",
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce e script.md",
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce e script.md"
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md"
               }
             }
           },
@@ -182,15 +182,22 @@
   },
   "active": "0f2c33b2c428d379",
   "lastOpenFiles": [
-    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_flutter_italian.gif",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Ottimizzazione.md",
-    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_flutter.gif",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce e script.md",
-    "Work/EBW/ChatGPT/Subjects.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/File mock.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo script.md",
+    "Work/EBW/ChatGPT/Idee per la presentazione.md",
+    "Work/EBW/ChatGPT/Subjects.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Traduzione di linguaggi.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Documentazione.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Correzione bug.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/File mock.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Ottimizzazione.md",
+    "Work/EBW/ChatGPT/img/TkInter_interface_app_fail.png",
+    "Pasted Image 20240123175625_410.png",
+    "Pasted image 20240124164930.png",
+    "Pasted Image 20240124164915_118.png",
+    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_flutter_italian.gif",
+    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_flutter.gif",
     "Work/EBW/ChatGPT/Coding ChatGPT/Comprensione codice.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Automatizzazione.md",
     "Work/EBW/ChatGPT/Utilizzo ChatGPT/Miglioramento risposte.md",
@@ -199,10 +206,8 @@
     "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT team.md",
     "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT aggiornato a 2022.md",
     "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT 3.5 vs 4.0.md",
-    "Work/EBW/ChatGPT/Idee per la presentazione.md",
     "Work/EBW/ChatGPT/Casi d'uso.md",
     "Work/EBW/Documentazione.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Traduzione di linguaggi.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Utilizzo di linguaggi proprietari (Magik).md",
     "Work/EBW/ChatGPT/Coding ChatGPT",
     "Work/EBW/ChatGPT/Utilizzo ChatGPT",
@@ -229,12 +234,7 @@
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
     "Markdown.zip",
     "Work/EBW/FAS-646/Untitled.canvas",
-    "Pasted image 20240124164930.png",
-    "Pasted Image 20240124164915_118.png",
-    "Pasted Image 20240123175625_410.png",
     "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174129_529.png",
-    "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174917_272.png",
-    "Work/EBW/FAS-646/sketches/img/Pasted Image 20240123174324_712.png",
     "Work/EBW/FAS-646/sketches/img",
     "Work/EBW/FAS-646/sketches/shape_kmz_load",
     "Work/EBW/FAS-646/sketches/shape_utils"
