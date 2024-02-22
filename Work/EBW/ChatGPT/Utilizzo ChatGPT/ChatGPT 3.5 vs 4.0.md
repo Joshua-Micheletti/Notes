@@ -18,6 +18,6 @@ I token sono delle unità di testo definite da OpenAI per la costruzione di paro
 Questo concetto viene utilizzato nella versione Turbo di GPT 3.5
 ### Chat
 I modelli Chat sono generalmente molto espressivi, tendono a spiegare in dettaglio un concetto anche se non necessariamente parte integrante della domanda posta.
-Sono utili per utilizzi quali la risoluzione di problematiche mondane, 
+Sono utili per utilizzi quali la risoluzione di problematiche mondane, risposta a domande informative, creazione di testo in linguaggio naturale e dialogo tra utente e modello.
 ### Instruct
-La differenza tra Instruct e Chat consiste nel fatto che la versione Instruct risponde alle domande in modo più mirato, meno discorsivo e più diretto all'obiettivo
+I modelli Instruct rispondono alle domande in modo più mirato, meno discorsivo e più diretto all'obiettivo. Risultano più coerenti e corretti nella risposta ma tralasciano le informazioni che la circondano, concentrandosi principalmente sul risultato corretto. Questo tipo di modelli risulta vantaggioso nella risoluzione di problematiche specifiche, analisi di dettagli di un problema e anche a livello economico, in quanto riducendo il testo scritto che non appartiene strettamente alla soluzione del problema, si evita di usare token altrimenti sprecati.
