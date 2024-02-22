@@ -11,14 +11,11 @@
             "id": "0f2c33b2c428d379",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/EBW-416/flow.canvas",
-                "viewState": {
-                  "x": 202.21999999999994,
-                  "y": -146.99000000000044,
-                  "zoom": 0
-                }
+                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/EBW-416/flow.canvas",
+                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/EBW-416/flow.canvas",
+                "file": "Work/EBW/ChatGPT/Notes for presentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/EBW-416/flow.canvas"
+                "file": "Work/EBW/ChatGPT/Notes for presentation.md"
               }
             }
           },
@@ -185,8 +182,9 @@
   },
   "active": "0f2c33b2c428d379",
   "lastOpenFiles": [
-    "Work/EBW/EBW-416/3.0 Configuration.md",
+    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website_italian.gif",
     "Work/EBW/EBW-416/flow.canvas",
+    "Work/EBW/EBW-416/3.0 Configuration.md",
     "Work/EBW/EBW-416/HLD.md",
     "Work/EBW/ChatGPT/Notes for presentation.md",
     "Work/EBW/EBW-416",
@@ -194,7 +192,6 @@
     "Programming/Angular/Forms.md",
     "Work/EBW/Todo.md",
     "Programming/Angular/Pipes.md",
-    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website_italian.gif",
     "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website.gif",
     "Markdown/Markdown Cheatsheet.md",
     "Work/EBW/ChatGPT/img",
