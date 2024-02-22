@@ -11,14 +11,11 @@
             "id": "08c2bb24727caa41",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-                "viewState": {
-                  "x": -215.37127137989273,
-                  "y": 950.6331689590638,
-                  "zoom": -3.775156502186855
-                }
+                "file": "university/Reti Calcolatori/Introduzione.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -74,16 +71,6 @@
           "type": "bookmarks",
           "state": {}
         }
-      },
-      {
-        "id": "e672ced6226f8e5b",
-        "type": "leaf",
-        "state": {
-          "type": "all-properties",
-          "state": {
-            "sortOrder": "frequency"
-          }
-        }
       }
     ],
     "currentTab": 0
@@ -98,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+            "file": "university/Reti Calcolatori/Introduzione.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+            "file": "university/Reti Calcolatori/Introduzione.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -127,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas"
+            "file": "university/Reti Calcolatori/Introduzione.md"
           }
         }
       }
@@ -136,10 +123,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -149,19 +132,5 @@
     }
   },
   "active": "08c2bb24727caa41",
-  "lastOpenFiles": [
-    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
-    "Work/EBW/FAS-646/sketches/UI fiber component design.md",
-    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-    "Programming/Node.js/Modules.md",
-    "Programming/Node.js",
-    "Programming/Angular/Standalone Components.md",
-    "Programming/Angular/Signals.md",
-    "Programming/Angular/Optimization.md",
-    "Programming/Angular/NgRx.md",
-    "Programming/Angular/Modules.md",
-    "Programming/Angular/Dynamic Components.md",
-    "Programming/Angular/Deploying.md",
-    "Pasted Image 20240108105518_313.png"
-  ]
+  "lastOpenFiles": []
 }

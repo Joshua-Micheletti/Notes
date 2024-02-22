@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ff65729b760eea9c",
+        "id": "35d8000b2153fe58",
         "type": "tabs",
         "children": [
           {
-            "id": "9ba07fba8ce8e7ff",
+            "id": "0f2c33b2c428d379",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-                "viewState": {
-                  "x": 187,
-                  "y": 1293,
-                  "zoom": 0
-                }
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Automatizzazione.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -72,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 533.5
   },
   "right": {
     "id": "08316559ae15440b",
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Automatizzazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Automatizzazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas"
+                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Automatizzazione.md"
               }
             }
           },
@@ -183,42 +180,62 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9ba07fba8ce8e7ff",
+  "active": "0f2c33b2c428d379",
   "lastOpenFiles": [
+    "Work/EBW/ChatGPT/Coding ChatGPT/Comprensione codice.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Correzione bug.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Documentazione.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/File mock.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Ottimizzazione.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo script.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Traduzione di linguaggi.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Utilizzo di linguaggi proprietari (Magik).md",
+    "Work/EBW/ChatGPT/Utilizzo ChatGPT/Caricamento immagini ChatGPT 4.md",
+    "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT 3.5 vs 4.0.md",
+    "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT team.md",
+    "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT vs Stackoverflow.md",
+    "Work/EBW/ChatGPT/Utilizzo ChatGPT/Linguaggio (Italiano - Inglese).md",
+    "Work/EBW/ChatGPT/Utilizzo ChatGPT/Permanenza di informazioni all'interno di conversazioni.md",
+    "Work/EBW/ChatGPT/Utilizzo ChatGPT/Test di comprensibilità (Italiano - Inglese - Errori).md",
+    "Work/EBW/ChatGPT/Utilizzo ChatGPT/Miglioramento risposte.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Automatizzazione.md",
+    "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT aggiornato a 2022.md",
+    "Pasted image 20240222145544.png",
+    "Work/EBW/ChatGPT/Idee per la presentazione.md",
+    "Work/EBW/ChatGPT/Subjects.md",
+    "Work/EBW/ChatGPT/img/TkInter_interface_app_fail.png",
+    "Pasted Image 20240123175625_410.png",
+    "Pasted image 20240124164930.png",
+    "Pasted Image 20240124164915_118.png",
+    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_flutter_italian.gif",
+    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_flutter.gif",
+    "Work/EBW/ChatGPT/Casi d'uso.md",
+    "Work/EBW/Documentazione.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT",
+    "Work/EBW/ChatGPT/Utilizzo ChatGPT",
+    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website_italian.gif",
+    "Work/EBW/EBW-416/flow.canvas",
+    "Work/EBW/EBW-416/3.0 Configuration.md",
+    "Work/EBW/EBW-416",
+    "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website.gif",
+    "Work/EBW/ChatGPT/img",
+    "Work/EBW/ChatGPT",
+    "Work/EBW/EBW-94",
     "Work/EBW/Architecture.canvas",
-    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
-    "Work/EBW/FAS-646/sketches/Design.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
+    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-    "Work/EBW/Web Architecture.md",
-    "Work/EBW/FAS-646/FAS-646.md",
-    "Work/EBW/FAS-646/sketches/UI fiber component design.md",
-    "Programming/Angular/NgRx.md",
-    "Programming/Angular/HTTP.md",
-    "university/Reti Calcolatori/Livello Data Link/Bluetooth.md",
-    "Programming/Angular/Forms.md",
-    "Programming/Multithreading/Multithreading Python.md",
-    "university/Reti Calcolatori/Introduzione/Introduzione.md",
-    "Programming/Angular/Signals.md",
-    "Markdown/Markdown Cheatsheet.md",
-    "Links/Links List.md",
-    "Work/EBW/FAS-646/img/component_ui.png",
-    "Programming/Angular/Dynamic Components.md",
-    "Programming/Angular/Directives.md",
-    "Programming/Angular/Deploying.md",
-    "Programming/Angular/Decorators.md",
-    "Programming/Node.js/Modules.md",
-    "Programming/Angular/Standalone Components.md",
-    "Programming/Node.js/Express",
-    "Programming/Node.js",
-    "Programming/Angular/Forms.html",
-    "Programming/Angular/Useful Code.md",
-    "Pasted Image 20240108105518_313.png",
-    "Programming/Typescript/Introduction.md",
-    "Programming/Angular/Events.md",
-    "Programming/Angular/External Libraries.md",
-    "Programming/Angular/Authentication.md",
-    "Programming/Angular/Services.md",
-    "Programming/Angular/Modules.md",
-    "Programming/Angular/Angular Schemes.canvas"
+    "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
+    "Work/EBW/FAS-646/sketches/Design.canvas",
+    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
+    "Work/EBW/FAS-646/sketches/img/Pasted Image 20240108105518_313.png",
+    "Markdown.zip",
+    "Work/EBW/FAS-646/Untitled.canvas",
+    "Work/EBW/FAS-646/sketches/img",
+    "Work/EBW/FAS-646/sketches/shape_kmz_load",
+    "Work/EBW/FAS-646/sketches/shape_utils"
   ]
 }

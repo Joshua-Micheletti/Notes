@@ -7,5 +7,6 @@
   "obsidian-pandoc",
   "obsidian-textgenerator-plugin",
   "quick-latex",
-  "copilot"
+  "copilot",
+  "obsidian-tasks-plugin"
 ]
