@@ -22,4 +22,4 @@ Sono utili per utilizzi quali la risoluzione di problematiche mondane, risposta 
 I modelli Instruct rispondono alle domande in modo più mirato, meno discorsivo e più diretto all'obiettivo. Risultano più coerenti e corretti nella risposta ma tralasciano le informazioni che la circondano, concentrandosi principalmente sul risultato corretto. Questo tipo di modelli risulta vantaggioso nella risoluzione di problematiche specifiche, analisi di dettagli di un problema e anche a livello economico, in quanto riducendo il testo scritto che non appartiene strettamente alla soluzione del problema, si evita di usare token altrimenti sprecati.
 
 ## Finestra di Contesto
-La finestra di contesto di un LLM (Large Language Model) consiste nel numero massimo di tokens che possono 
+La finestra di contesto di un LLM (Large Language Model) consiste nel numero massimo di tokens che possono essere utilizzati all'interno di un contesto. Questo significa che se stiamo comunicando con un LLM, la quantità di testo che verrà presa in considerazione per generare la risposta corrisponderà agli ultimi X token utilizzati (comprende sia i token in input che i token in output). 
