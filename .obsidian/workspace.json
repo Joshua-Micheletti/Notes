@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/ChatGPT/Casi d'uso.md",
+                "file": "Work/EBW/ChatGPT/Idee per la presentazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/ChatGPT/Casi d'uso.md",
+                "file": "Work/EBW/ChatGPT/Idee per la presentazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/ChatGPT/Casi d'uso.md",
+                "file": "Work/EBW/ChatGPT/Idee per la presentazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/ChatGPT/Casi d'uso.md"
+                "file": "Work/EBW/ChatGPT/Idee per la presentazione.md"
               }
             }
           },
@@ -182,8 +182,9 @@
   },
   "active": "0f2c33b2c428d379",
   "lastOpenFiles": [
-    "Work/EBW/ChatGPT/Coding ChatGPT/Ottimizzazione.md",
     "Work/EBW/ChatGPT/Casi d'uso.md",
+    "Work/EBW/ChatGPT/Idee per la presentazione.md",
+    "Work/EBW/ChatGPT/Coding ChatGPT/Ottimizzazione.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Comprensione codice.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Correzione bug.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Automatizzazione.md",
@@ -212,7 +213,6 @@
     "Work/EBW/EBW-416/HLD.md",
     "Work/EBW/EBW-416",
     "Programming/Angular/Typescript.md",
-    "Programming/Angular/Forms.md",
     "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website.gif",
     "Work/EBW/ChatGPT/img",
     "Work/EBW/ChatGPT",
