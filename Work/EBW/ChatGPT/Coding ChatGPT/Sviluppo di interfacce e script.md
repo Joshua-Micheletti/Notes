@@ -11,3 +11,5 @@ https://chat.openai.com/share/c5ad654b-16c4-4263-8c04-160fb149387d
 https://chat.openai.com/share/4bcbf047-165d-4641-8039-e09229328de0
 
 ![[ChatGPT_portfolio_website_italian.gif]]
+
+### 
