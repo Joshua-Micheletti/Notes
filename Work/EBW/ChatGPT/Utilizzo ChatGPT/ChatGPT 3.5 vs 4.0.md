@@ -25,6 +25,20 @@ La finestra di contesto di un LLM (Large Language Model) consiste nel numero mas
 La finestra di contesto funziona come un buffer FIFO.
 ## Data Cutoff Date
 Rappresenta la data da cui le informazioni non sono più disponibili. GPT si basa su dati collezionati fino alla Cutoff Date, quindi ogni informazione più recente non è disponibile al modello.
+
+Per esempio la versione gratuita di ChatGPT 3.5 ha un Cutoff Date impostato al 01/22. Ciò significa che non contiene informazioni aggiornate. Per esempio, secondo GPT 3.5, le ultime versioni dei vari software sono:
+- Python
+	- GPT 3.5: 3.10
+	- Attuale (22/02/24): 3.12
+- Node
+	- GPT 3.5:
+	- Attuale (22/02/24): 21.6.2
+- Angular
+	- GPT 3.5:
+	- )
 ## Multimedia Input
 I modelli ChatGPT 4 includono la possibilità di caricare file multimediali (immagini, documenti testuali, video, audio) in modo da poterli analizzare, estrarre informazioni, modificare e usare come base per costruire nuovi file.
-##
+## Lunghezza risposte
+ChatGPT in genere contiene una lunghezza di output disponibile di 4096 token. Ogni dato superiore a questa quantità verrà rimosso dalla risposta. Un modo per aggirare questo limite consiste nel chiedere al modello di continuare la sua risposta precedente.
+
+Il limite di larghezza della risposta varia dal modello utilizzato.
