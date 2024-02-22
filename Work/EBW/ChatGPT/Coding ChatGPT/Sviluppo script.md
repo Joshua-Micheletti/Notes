@@ -153,5 +153,89 @@ Write-Host "File '$fileName' created with a million random numbers in the same d
 ##### Download stringhe WKT
 Creazione di un file JSON contenente le strighe WKT riferite agli appositi sistemi di riferimento (EPSG:3003/3004/3857/4326/6705/6706/6857/32632/32633):
 ```Powershell
+# PowerShell script to get WKT strings for specific EPSG codes and store them in a JSON file
 
+# Specify the URL for the 'epsg.io' API
+$apiUrl = "https://epsg.io/"
+
+# Specify the file name to store the WKT strings
+$jsonFileName = "epsg_wkt.json"
+
+# Function to get WKT for a specific EPSG code
+function Get-WKTForEPSG($epsgCode) {
+    $url = "$apiUrl$epsgCode.wkt"
+    $wkt = Invoke-RestMethod -Uri $url
+    return $wkt
+}
+
+# Specify the EPSG codes to collect
+$epsgCodesToCollect = @(3003, 3004, 3857, 4326, 6705, 6706, 6857, 32632, 32633)
+
+# Initialize an empty hashtable to store EPSG and WKT pairs
+$epsgWktPairs = @{}
+
+# Loop through specified EPSG codes and retrieve WKT strings
+foreach ($epsg in $epsgCodesToCollect) {
+    $wkt = Get-WKTForEPSG -epsgCode $epsg
+    $epsgWktPairs["$epsg"] = $wkt
+    Write-Host "Retrieved WKT for EPSG $epsg"
+}
+
+# Convert hashtable to JSON and save it to a file
+$epsgWktPairs | ConvertTo-Json | Set-Content -Path $jsonFileName
+
+Write-Host "WKT strings for specified EPSG codes saved in '$jsonFileName'."
+```
+
+Risultato: (epsg_wkt.json)
+```JSON
+{
+    "3004":  "PROJCS[\"Monte Mario / Italy zone 2\",GEOGCS[\"Monte Mario\",DATUM[\"Monte_Mario\",SPHEROID[\"International 1924\",6378388,297],TOWGS84[-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4265\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",15],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",2520000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3004\"]]",
+    "4326":  "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
+    "32632":  "PROJCS[\"WGS 84 / UTM zone 32N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32632\"]]",
+    "6705":  null,
+    "3857":  "PROJCS[\"WGS 84 / Pseudo-Mercator\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Mercator_1SP\"],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],EXTENSION[\"PROJ4\",\"+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs\"],AUTHORITY[\"EPSG\",\"3857\"]]",
+    "3003":  "PROJCS[\"Monte Mario / Italy zone 1\",GEOGCS[\"Monte Mario\",DATUM[\"Monte_Mario\",SPHEROID[\"International 1924\",6378388,297],TOWGS84[-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4265\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",1500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3003\"]]",
+    "32633":  "PROJCS[\"WGS 84 / UTM zone 33N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",15],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32633\"]]",
+    "6706":  "GEOGCS[\"RDN2008\",DATUM[\"Rete_Dinamica_Nazionale_2008\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1132\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"6706\"]]",
+    "6857":  "PROJCS[\"NAD83(CORS96) / Oregon Salem zone (ft)\",GEOGCS[\"NAD83(CORS96)\",DATUM[\"NAD83_Continuously_Operating_Reference_Station_1996\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1133\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"6783\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",44.3333333333333],PARAMETER[\"central_meridian\",-123.083333333333],PARAMETER[\"scale_factor\",1.00001],PARAMETER[\"false_easting\",164041.9948],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"6857\"]]"
+}
+```
+
+##### Script riconoscimento stringhe WKT
+Comparazione di stringhe in input con il contenuto del file precedentemente generato:
+```Powershell
+# PowerShell script to recognize EPSG code from a given WKT string using a local JSON file
+
+# Specify the file name containing WKT strings and EPSG codes
+$jsonFileName = "epsg_wkt.json"
+
+# Read the content of the JSON file
+$epsgWktPairs = Get-Content -Raw -Path $jsonFileName | ConvertFrom-Json
+
+# Function to recognize EPSG code from WKT string
+function Get-EPSGFromWKT($wkt) {
+    foreach ($pair in $epsgWktPairs.PSObject.Properties) {
+        if ($pair.Value -eq $wkt) {
+            return $pair.Name
+        }
+    }
+    return "EPSG code not found for the given WKT string."
+}
+
+# Get user input for WKT string
+$wktInput = Read-Host -Prompt "Enter the WKT string:"
+
+# Call the function to recognize EPSG code
+$epsgCode = Get-EPSGFromWKT -wkt $wktInput
+
+# Display the recognized EPSG code
+Write-Host "Recognized EPSG code: $epsgCode"
+```
+
+Output:
+```Powershell
+Enter the WKT string:: PROJCS["WGS 84 / UTM zone 33N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",15],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32633"]]
+
+Recognized EPSG code: 32633
 ```
