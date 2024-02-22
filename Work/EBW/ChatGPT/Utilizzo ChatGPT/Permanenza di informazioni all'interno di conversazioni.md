@@ -8,7 +8,9 @@ https://chat.openai.com/share/fc81e977-dd9f-45af-b410-33c37617fc1b
 
 Le informazioni di contesto consentono al modello di ritenere informazioni precedentemente condivise, in modo da non dover specificare tutte le informazioni necessarie in ogni domanda.
 
-In questo caso lascio generare a GPT un
+In questo caso lascio generare a GPT un icona SVG basata sulle mie preferenze fino a quando non si dimentica quali fossero le mie preferenze.
+
+La memoria di GPT sembra essere affidabile per 5-10 domande consecutive, a seconda della dimensione delle informazioni.
 
 ## Esempio limite Context Window
 https://chat.openai.com/share/15c230bc-0b05-4adc-ad20-d9f14f3feb8a
