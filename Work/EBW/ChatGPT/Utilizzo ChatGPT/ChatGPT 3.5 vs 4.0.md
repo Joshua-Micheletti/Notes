@@ -20,9 +20,11 @@ I modelli Chat sono generalmente molto espressivi, tendono a spiegare in dettagl
 Sono utili per utilizzi quali la risoluzione di problematiche mondane, risposta a domande informative, creazione di testo in linguaggio naturale e dialogo tra utente e modello.
 ### Instruct
 I modelli Instruct rispondono alle domande in modo più mirato, meno discorsivo e più diretto all'obiettivo. Risultano più coerenti e corretti nella risposta ma tralasciano le informazioni che la circondano, concentrandosi principalmente sul risultato corretto. Questo tipo di modelli risulta vantaggioso nella risoluzione di problematiche specifiche, analisi di dettagli di un problema e anche a livello economico, in quanto riducendo il testo scritto che non appartiene strettamente alla soluzione del problema, si evita di usare token altrimenti sprecati.
-
 ## Finestra di Contesto
 La finestra di contesto di un LLM (Large Language Model) consiste nel numero massimo di tokens che possono essere utilizzati all'interno di un contesto. Questo significa che se stiamo comunicando con un LLM, la quantità di testo che verrà presa in considerazione per generare la risposta corrisponderà agli ultimi X token utilizzati (comprende sia i token in input che i token in output).
 La finestra di contesto funziona come un buffer FIFO.
 ## Data Cutoff Date
 Rappresenta la data da cui le informazioni non sono più disponibili. GPT si basa su dati collezionati fino alla Cutoff Date, quindi ogni informazione più recente non è disponibile al modello.
+## Multimedia Input
+I modelli ChatGPT 4 includono la possibilità di caricare file multimediali (immagini, documenti testuali, video, audio) in modo da poterli analizzare, estrarre informazioni, modificare e usare come base per costruire nuovi file.
+##
