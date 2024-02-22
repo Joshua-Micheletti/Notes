@@ -311,6 +311,7 @@ Recognized EPSG code: 32633
 ```
 
 #### Italiano
+https://chat.openai.com/share/8436fb9a-8e41-43c7-b938-c10d6af8d66c
 ##### Creazione di 100 file JSON
 ##### Analisi dati
 - versione in italiano fallisce a rimuovere gli accenti dalla stampa
@@ -319,6 +320,8 @@ Analisi dei file JSON creati con calcolo della popolazione di ogni paese e del n
 ##### Spostamento file
 
 ##### Download immagini
+- la versione in italiano ha usato una risorsa diversa (margine d'errore)
 ##### RNG
 ##### Download stringhe WKT
 ##### Script riconoscimento stringhe WKT
+- versione in italiano ha tentato di utilizzare vari moduli e alla fine non è riuscito a creare uno script per il riconoscimento di codici EPSG
