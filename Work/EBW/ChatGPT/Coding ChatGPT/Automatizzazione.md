@@ -460,6 +460,10 @@ risultato:
 ```
 ### Italiano
 https://chat.openai.com/share/898d6e60-ca97-4610-a4d7-ce45aeada377
+
+- fallimento nella rimozione di elementi con URL duplicato
+- perdita del campo dataURL
+
 ```JSON
 [
   {
@@ -483,5 +487,4 @@ https://chat.openai.com/share/898d6e60-ca97-4610-a4d7-ce45aeada377
     "ID": "dEfGhIjK987654321"
   }
 ]
-
 ```
