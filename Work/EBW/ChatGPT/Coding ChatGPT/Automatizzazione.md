@@ -458,3 +458,30 @@ risultato:
   }
 ]
 ```
+### Italiano
+https://chat.openai.com/share/898d6e60-ca97-4610-a4d7-ce45aeada377
+```JSON
+[
+  {
+    "NUOVO_LIVELLO": "http://sv-tgismk1.acdasede.locale:30411/geoserver/shapes/wms",
+    "ID": "aBcDeFgH1234567890"
+  },
+  {
+    "RETE_IDRICA_BO": "http://sv-tgismk1.acdasede.locale:30411/geoserver/shapes/wms",
+    "ID": "zYxWvUt876543210"
+  },
+  {
+    "PARCHI_E_GIARDINI": "http://sv-tgismk1.acdasede.locale:30411/geoserver/shapes/wms",
+    "ID": "pQrStUvW987654321"
+  },
+  {
+    "PERCORSI_PEDONALI": "http://sv-tgismk1.acdasede.locale:30411/geoserver/shapes/wms",
+    "ID": "mNoPqRsT123456789"
+  },
+  {
+    "CICLABILI": "http://sv-tgismk1.acdasede.locale:30411/geoserver/shapes/wms",
+    "ID": "dEfGhIjK987654321"
+  }
+]
+
+```
