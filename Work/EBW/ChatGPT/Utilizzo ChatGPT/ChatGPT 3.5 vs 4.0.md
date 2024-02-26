@@ -53,4 +53,10 @@ ChatGPT scrive il testo di risposta mano a mano per simulare una persona scriven
 La risposta ha richiesto **62s** per essere mostrata interamente, e ha richiesto una conferma di proseguimento
 ![[slow.gif]]
 
-Quando le risposte sono troppo lunghe, il modello può esaurire il numero di Token massimo disponibile nella risposta. Questo problema viene superato tramite l'utilizzo del pulsante ""
+Quando le risposte sono troppo lunghe, il modello può esaurire il numero di Token massimo disponibile nella risposta. Questo problema viene superato tramite l'utilizzo del pulsante "Continua" (controlla il nome effettivo) che consente al modello di riprendere la risposta da dove si era fermato.
+Anche questa soluzione però risulta problematica, in quanto più è grande la risposta, più è instabile il modello, in quanto generalmente in seguito a proseguimenti il modello:
+- diventa meno preciso
+- inizia a perdere informazioni precedenti del context window (ormai saturo)
+- tende a risultare in errore
+
+La best practice per questo problema è quella di cercare di mantenere le domande e le risposte contenute, quindi evitare di copiare e incollare il source code intero, ma al massimo alcuni pezzi.

@@ -261,3 +261,4 @@ https://chat.openai.com/share/7812341b-dae8-41d6-aeeb-f13cae62353e
 https://chat.openai.com/share/501d3bba-07c7-4593-b97d-1c8e13a01842
 
 **in entrambi i casi, ChatGPT sembra aver omesso parti del file corretto e preferisce spiegare la soluzione piuttosto che fornire il risultato**
+## Modifica documento JSON
