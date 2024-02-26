@@ -1,4 +1,3 @@
-
 fonte: https://openai.com/pricing#language-models
 
 | Modello | Prezzo Input | Prezzo Output | API | Context Window | Data cutoff date | Tipo Input |
@@ -48,3 +47,10 @@ I modelli ChatGPT 4 includono la possibilità di caricare file multimediali (imm
 ChatGPT in genere contiene una lunghezza di output disponibile di 4096 token. Ogni dato superiore a questa quantità verrà rimosso dalla risposta. Un modo per aggirare questo limite consiste nel chiedere al modello di continuare la sua risposta precedente.
 
 Il limite di larghezza della risposta varia dal modello utilizzato.
+## Problemi con risposte lunghe
+ChatGPT scrive il testo di risposta mano a mano per simulare una persona scrivendo. Questo porta però a potenziali ritardi nelle risposte particolarmente lunghe:
+
+La risposta ha richiesto **62s** per essere mostrata interamente, e ha richiesto una conferma di proseguimento
+![[slow.gif]]
+
+Quando le risposte sono troppo lunghe, il modello può esaurire il numero di Token massimo disponibile nella risposta. Questo problema viene superato tramite l'utilizzo del pulsante ""
