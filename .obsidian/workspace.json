@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
+                "file": "Work/EBW/ChatGPT/Casi d'uso.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
+                "file": "Work/EBW/ChatGPT/Casi d'uso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
+                "file": "Work/EBW/ChatGPT/Casi d'uso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md"
+                "file": "Work/EBW/ChatGPT/Casi d'uso.md"
               }
             }
           },
@@ -182,6 +182,7 @@
   },
   "active": "0f2c33b2c428d379",
   "lastOpenFiles": [
+    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
     "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT 3.5 vs 4.0.md",
     "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website_italian.gif",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
@@ -193,7 +194,6 @@
     "Work/EBW/ChatGPT/Coding ChatGPT/Comprensione codice.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Ottimizzazione.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Automatizzazione.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Utilizzo di linguaggi proprietari (Magik).md",
     "Work/EBW/ChatGPT/img/ChatGPT_portfolio_website.gif",
     "Work/EBW/ChatGPT/img/slow.gif",
