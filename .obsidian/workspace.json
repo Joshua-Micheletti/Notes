@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
+                "file": "Work/EBW/EBW-1047/To-do.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "fe7c931e806e05c6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 533.5
+    "width": 302.5
   },
   "right": {
     "id": "08316559ae15440b",
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
+                "file": "Work/EBW/EBW-1047/To-do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
+                "file": "Work/EBW/EBW-1047/To-do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md"
+                "file": "Work/EBW/EBW-1047/To-do.md"
               }
             }
           },
@@ -180,12 +189,14 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "0f2c33b2c428d379",
+  "active": "fe7c931e806e05c6",
   "lastOpenFiles": [
+    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
+    "Work/EBW/EBW-1047/To-do.md",
+    "Work/EBW/EBW-1047",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Traduzione di linguaggi.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo script.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Ottimizzazione.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/File mock.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Documentazione.md",
@@ -220,7 +231,6 @@
     "Work/EBW/ChatGPT/Coding ChatGPT",
     "Work/EBW/ChatGPT/Utilizzo ChatGPT",
     "Work/EBW/EBW-416/flow.canvas",
-    "Work/EBW/EBW-416/3.0 Configuration.md",
     "Work/EBW/EBW-416",
     "Work/EBW/ChatGPT/img",
     "Work/EBW/ChatGPT",
@@ -236,7 +246,6 @@
     "Markdown.zip",
     "Work/EBW/FAS-646/Untitled.canvas",
     "Work/EBW/FAS-646/sketches/img",
-    "Work/EBW/FAS-646/sketches/shape_kmz_load",
-    "Work/EBW/FAS-646/sketches/shape_utils"
+    "Work/EBW/FAS-646/sketches/shape_kmz_load"
   ]
 }
