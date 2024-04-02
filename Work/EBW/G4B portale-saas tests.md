@@ -11,6 +11,16 @@
 		- [x] Click "Confirm" and click the dot on the map to check that the name and the values are correct
 		- [x] Click "Delete" and cancel the dot from the map
 	- [ ] Line
+		- [ ] Draw a line that crossed the Colosseum in its longest axis
+		- [ ] Name the drawing "Colosseum Length"
+		- [ ] Positions in EPSG:3857 should be:
+			- 1:
+				- **X**: 1390524,4708194388
+				- **Y**: 5144604,130509482
+			- 2:
+				- **X**: 1390762,1771237254
+				- **Y**: 5144510,375716976
+		- 
 	- [ ] Polygon
 	- [ ] Circle
 	- [ ] Text
