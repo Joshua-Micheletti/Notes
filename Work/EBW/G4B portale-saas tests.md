@@ -5,8 +5,8 @@
 		- [x] Name the drawing "Colosseum Center"
 		- [x] Position in EPSG:3857 should be: **X**: 1390639,380674599, **Y**: 5144553,670127533
 		- [x] Position in EPSG:4326 should be: **X**: 12,492326103584976, **Y**: 41,89025062119859
-		- [x] Click "Confirm" and click the dot again to check that the name and the values are correct
-		- 
+		- [x] Click "Confirm" and click the dot on the map to check that the name and the values are correct
+		- [x] Click "Delete" and cancel the dot from the map
 	- [ ] Line
 	- [ ] Polygon
 	- [ ] Circle
