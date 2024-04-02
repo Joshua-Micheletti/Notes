@@ -23,8 +23,12 @@
             "id": "fe7c931e806e05c6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Work/EBW/G4B portale-saas tests.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/EBW-1047/To-do.md",
+                "file": "Work/EBW/G4B portale-saas tests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/EBW-1047/To-do.md",
+                "file": "Work/EBW/G4B portale-saas tests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/EBW-1047/To-do.md"
+                "file": "Work/EBW/G4B portale-saas tests.md"
               }
             }
           },
@@ -191,6 +195,7 @@
   },
   "active": "fe7c931e806e05c6",
   "lastOpenFiles": [
+    "Work/EBW/G4B portale-saas tests.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
     "Work/EBW/EBW-1047/To-do.md",
     "Work/EBW/EBW-1047",
@@ -227,7 +232,6 @@
     "Pasted image 20240124164930.png",
     "Pasted Image 20240124164915_118.png",
     "Work/EBW/ChatGPT/img/ChatGPT_portfolio_flutter_italian.gif",
-    "Work/EBW/Documentazione.md",
     "Work/EBW/ChatGPT/Coding ChatGPT",
     "Work/EBW/ChatGPT/Utilizzo ChatGPT",
     "Work/EBW/EBW-416/flow.canvas",
