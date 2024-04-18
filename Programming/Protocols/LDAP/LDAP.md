@@ -26,9 +26,14 @@ The Bind can happen in 3 ways:
 **L**DAP **D**ata **I**nterchange **F**ormat represents the extensions of the files used to add or modify entries inside a LDAP server.
 
 ## Server information
-With the LDAP protocol it's possible to make requests to the server asking for its information and its **schema** (how the data is stored in it and what types of data it understands)
+With the LDAP protocol it's possible to make requests to the server asking for its information and its **schema** (how the data is stored in it and what types of data it understands).
 
-## Distinguished Name
+The server will also tell you which **Controls** and **Extensions** it supports:
+### Controls
+They are modifications to the standard LDAP operations
+### Extensions
+They are new operations developed on top of the LDAP standard 
+## Distinguished Name (DN)
 The Distinguished Name (DN) represents a path in the tree structure of the LDAP server. It's a string of key-value pairs that represents the path to take from a root of the tree to find the specified object. The pairs are separated by a comma and its order represents its height in the tree, with the first entry representing the leaf and the last entry representing the root.
 
 Each DN is **unique** in the DIT, as it represents a path. It will change only if the internal structure of the DIT is changed.
@@ -41,4 +46,4 @@ For example, this DN identifies a single entry in the DIT:
 It's composed of 3 RDNs:
 - "cn=Fred" is the leaf RDN (**C**ommon **N**ame)
 - "ou=users" is the middle branch RDN that represents the **O**rganizational **U**nit (a sort of group of leaves or other ou)
-- ""
+- "o=company" is the root RDN that represents the **O**rganization (often represent root nodes)
