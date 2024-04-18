@@ -17,12 +17,12 @@ The Bind can happen in 3 ways:
 - Simple password Bind:
 	- The client needs to provide a valid password and a username (**DN**, **D**istinguished **N**ame) to be authenticated
 	- Equivalent to HTTP authorization
-	- Also known as **cleartext**, these connections happen through protocol: **ldap://**
+	- Also known as **cleartext**, these connections happen through protocol: **ldap://** with a default port number: **389**
 - SASL:
 	- **S**imple **A**uthentication and **S**ecurity **L**ayer
 	- Uses cripting algorithms to encode the credentials
 	- Equivalent to HTTPS authorization
-	- These connections happen through protocol: **ldaps://**
+	- These connections happen through protocol: **ldaps://** with a default port number: **636**
 
 ## LDIF
 **L**DAP **D**ata **I**nterchange **F**ormat represents the extensions of the files used to add or modify entries inside a LDAP server.
