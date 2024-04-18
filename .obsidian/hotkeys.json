@@ -1,26 +1,10 @@
 {
-  "table-editor-obsidian:next-cell": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowRight"
-    }
-  ],
   "table-editor-obsidian:next-row": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "ArrowDown"
-    }
-  ],
-  "table-editor-obsidian:previous-cell": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowLeft"
     }
   ]
 }

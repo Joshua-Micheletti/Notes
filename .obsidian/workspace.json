@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/G4B portale-saas tests.md",
+                "file": "Programming/Protocols/LDAP/LDAP.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B portale-saas tests.md",
+                "file": "Programming/Protocols/LDAP/LDAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B portale-saas tests.md",
+                "file": "Programming/Protocols/LDAP/LDAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B portale-saas tests.md"
+                "file": "Programming/Protocols/LDAP/LDAP.md"
               }
             }
           },
@@ -196,6 +196,9 @@
   "active": "fe7c931e806e05c6",
   "lastOpenFiles": [
     "Work/EBW/G4B portale-saas tests.md",
+    "Programming/Protocols/LDAP/LDAP.md",
+    "Programming/Protocols/LDAP",
+    "Programming/Protocols",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
     "Work/EBW/EBW-1047/To-do.md",
     "Work/EBW/EBW-1047",
@@ -227,7 +230,6 @@
     "Pasted image 20240222145544.png",
     "Pasted Image 20240123175625_410.png",
     "Pasted Image 20240108105518_313.png",
-    "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT aggiornato a 2022.md",
     "Work/EBW/ChatGPT/img/TkInter_interface_app_fail.png",
     "Pasted image 20240124164930.png",
     "Pasted Image 20240124164915_118.png",
@@ -248,8 +250,6 @@
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Markdown.zip",
-    "Work/EBW/FAS-646/Untitled.canvas",
-    "Work/EBW/FAS-646/sketches/img",
-    "Work/EBW/FAS-646/sketches/shape_kmz_load"
+    "Work/EBW/FAS-646/Untitled.canvas"
   ]
 }
