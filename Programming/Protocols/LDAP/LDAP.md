@@ -23,4 +23,4 @@ The Bind can happen in 3 ways:
 	- Equivalent to HTTPS authorization
 
 ## LDIF
-LDAP Data Interchange Format
+**L**DAP **D**ata **I**nterchange **F**ormat represents the extensions of the files used to add or modify entries inside a LDAP server.
