@@ -15,7 +15,7 @@ The Bind can happen in 3 ways:
 	- The client doesn't provide any credentials and is allowed inside the directory of the server.
 	- Not secure and usually you shouldn't expose much of the directory to Anonymous users
 - Simple password Bind:
-	- The client needs to provide a valid password to be authenticated
+	- The client needs to provide a valid password and a username (**DN**, **D**istinguished **N**ame) to be authenticated
 	- Equivalent to HTTP authorization
 - SASL:
 	- **S**imple **A**uthentication and **S**ecurity **L**ayer
@@ -27,3 +27,6 @@ The Bind can happen in 3 ways:
 
 ## Server information
 With the LDAP protocol it's possible to make requests to the server asking for its information and its **schema** (how the data is stored in it and what types of data it understands)
+
+## Distinguished Name
+The Distinguished Name (DN) represents a path in the tree structure of the LDAP server. It's a string of key-value pairs that represents the path to take from a root of the tree to find the specified object. The pairs are 
