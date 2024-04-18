@@ -24,3 +24,6 @@ The Bind can happen in 3 ways:
 
 ## LDIF
 **L**DAP **D**ata **I**nterchange **F**ormat represents the extensions of the files used to add or modify entries inside a LDAP server.
+
+## Server information
+With the LDAP protocol it's possible to make requests to the server asking for its information and its **schema** (how the data is stored in it and what types of data it understands)
