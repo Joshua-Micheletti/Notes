@@ -73,5 +73,12 @@ Nella richiesta originale menzionano il concetto di "Sotto-Layer" per quanto rig
 #### Task
 FE - Raccogliere tutte le risposte delle varie ricerche dal click e costruire una struttura ad albero
 ### 5
-Il highlight della feature sulla mappa avviene adesso in seguito ad u
+Il highlight della feature sulla mappa avviene adesso in seguito ad una selezione (click su un qualsiasi elemento dell'albero). In caso di click su una foglia, bisogna evidenziare la feature associata, in caso di click su un ramo, bisogna evidenziare ogni feature contenuta nel ramo (ricerca).
+Il highlight delle feature avviene pushando le single feature in un layer temporaneo, quindi si tratta solo di scorrere l'oggetto che rappresenta l'albero dal punto selezionato verso il basso e pushare tutte le feature presenti sul layer temporaneo.
+
+Al momento non è richiesto ma in futuro sarebbe possibile consentire la selezione multipla di rami ed evidenziare tutti gli elementi presenti nei rami selezionati (per esempio con ctrl + click).
+#### Task
+FE - Implementare la selezione di foglie e rami e il relativo highlight delle feature associate
+### 6
+
 
