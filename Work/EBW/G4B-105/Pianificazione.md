@@ -36,7 +36,7 @@ Controllando su Jira, ho trovato diverse opzioni per l'implementazione:
 ![[div_simple_click.png]]
 ![[div_simple_detail.png]]
 #### Task
-FE - Scelta ed implementazione del contenitore grafico (4g)
+FE - Scelta ed implementazione del contenitore grafico (5g)
 ### 4
 Serve costruire una struttura ad albero in cui sono contenuti i vari elementi trovati in seguito al click sulla mappa.
 ```JSON
