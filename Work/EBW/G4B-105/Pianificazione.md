@@ -93,5 +93,5 @@ Molto simile a quello che già è disponibile, in quanto OpenLayers contiene una
 
 In caso di centramento su un ramo, basterà caricare le feature sul layer temporaneo e fare un fit. In caso si voglia fare in modo che si possa centrare la visuale su una feature senza fare l'highlight (non so perchè si possa volere una cosa del genere però), bisognerà caricare le feature sul layer con uno style che le rende invisibili (alpha = 0) e poi fare il fit come menzionato sopra.
 ##### Task
-FE - Implementare il centramento sulle feature presenti nei rami (0.5g)
+FE - Implementare il centramento sulle feature presenti nei rami (1g)
 
