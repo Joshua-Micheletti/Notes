@@ -15,7 +15,7 @@
 6. La Sidebar presenterà due bottoni, uno per attivare la scheda di dettaglio del singolo record, uno per eseguire il goto sul singolo record o sui bounbds dell’insieme dei record nel caso in cui sia selezionato un livello gerarchico superiore
 
 ## Punti già sviluppati
-I punti 1 e 2 sono già presenti nel prodotto G4B. La parte di info
+I punti 1 e 2 sono già presenti nel prodotto G4B. La parte della scheda di dettaglio nel punto 6 è uguale a ciò che è già implementato
 ## Punti da sviluppare
 ### 3
 Necessità di sviluppare la componente Front End che ospiterà la nuova funzionalità.
@@ -85,5 +85,5 @@ Molto simile a quello che già è disponibile, in quanto OpenLayers contiene una
 
 In caso di centramento su un ramo, basterà caricare le feature sul layer temporaneo e fare un fit. In caso si voglia fare in modo che si possa centrare la visuale su una feature senza fare l'highlight (non so perchè si possa volere una cosa del genere però), bisognerà caricare le feature sul layer con uno style che le rende invisibili (alpha = 0) e poi fare il fit come menzionato sopra.
 ##### Task
-FE - 
+FE - Implementare il centramento sulle feature presenti nei rami
 
