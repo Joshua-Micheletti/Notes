@@ -23,4 +23,31 @@ Controllando su Jira, ho trovato diverse opzioni per l'implementazione:
 - Menù verticale a sinistra fisso che sostituisce gli strumenti della sidebar (come specificato nella richiesta originale)
 - Menù verticale a destra fisso, strutturato come gli strumenti della sidebar (come proposto dall'HLD di Filippo)
 - Menù fluttuante (inizialmente in alto a sinistra, sotto la barra di ricerca) (come proposto dall'HLD di Filippo)
-
+#### Task
+FE - Scelta ed implementazione del contenitore grafico 
+### 4
+Serve costruire una struttura ad albero in cui sono contenuti i vari elementi trovati in seguito al click sulla mappa.
+```JSON
+{
+	gss: {
+		<dataset>: {
+			<collection>: [
+				{
+					type: "feature",
+					...
+				},
+				{
+					type: "feature",
+					...
+				}
+			]
+			<collection>: {
+			}
+		},
+		<dataset>: {
+		}
+	},
+	pg: {
+	}
+}
+```
