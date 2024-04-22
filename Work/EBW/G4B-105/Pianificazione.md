@@ -15,7 +15,7 @@
 6. La Sidebar presenterà due bottoni, uno per attivare la scheda di dettaglio del singolo record, uno per eseguire il goto sul singolo record o sui bounbds dell’insieme dei record nel caso in cui sia selezionato un livello gerarchico superiore
 
 ## Punti già sviluppati
-I punti 1 e 2 sono già presenti nel prodotto G4B
+I punti 1 e 2 sono già presenti nel prodotto G4B. La parte di info
 ## Punti da sviluppare
 ### 3
 Necessità di sviluppare la componente Front End che ospiterà la nuova funzionalità.
@@ -80,5 +80,10 @@ Al momento non è richiesto ma in futuro sarebbe possibile consentire la selezio
 #### Task
 FE - Implementare la selezione di foglie e rami e il relativo highlight delle feature associate
 ### 6
+#### Centramento
+Molto simile a quello che già è disponibile, in quanto OpenLayers contiene una funzione 'fit' che automaticamente esegue il fit della visuale su tutte le feature presenti in un Vector Source (layer temporaneo).
 
+In caso di centramento su un ramo, basterà caricare le feature sul layer temporaneo e fare un fit. In caso si voglia fare in modo che si possa centrare la visuale su una feature senza fare l'highlight (non so perchè si possa volere una cosa del genere però), bisognerà caricare le feature sul layer con uno style che le rende invisibili (alpha = 0) e poi fare il fit come menzionato sopra.
+##### Task
+FE - 
 
