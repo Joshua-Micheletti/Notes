@@ -41,42 +41,38 @@ FE - Scelta ed implementazione del contenitore grafico (3g)
 Serve costruire una struttura ad albero in cui sono contenuti i vari elementi trovati in seguito al click sulla mappa.
 ```JSON
 {
-	gss: {
-		<dataset>: {
-			<collection>: [
-				{
-					type: "feature",
-					...
-				},
-				{
-					type: "feature",
-					...
-				}
-			],
-			<collection>: [
-				{
-					type: "feature",
-					...
-				},
-				{
-					type: "feature",
-					...
-				}
-			]
-		},
-		<dataset>: {
-			...
-		}
+	<dataset>: {
+		<collection>: [
+			{
+				type: "feature",
+				...
+			},
+			{
+				type: "feature",
+				...
+			}
+		],
+		<collection>: [
+			{
+				type: "feature",
+				...
+			},
+			{
+				type: "feature",
+				...
+			}
+		]
 	},
-	pg: {
-		<dataset>: {
-			<collection>: [
-				{
-					type: "feature",
-					...
-				}
-			]
-		}
+	<dataset>: {
+		...
+	},
+	<dataset>: {
+		<collection>: [
+			{
+				type: "feature",
+				...
+			}
+		]
 	}
 }
 ```
