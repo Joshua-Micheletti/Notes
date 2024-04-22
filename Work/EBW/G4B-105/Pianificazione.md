@@ -40,14 +40,38 @@ Serve costruire una struttura ad albero in cui sono contenuti i vari elementi tr
 					type: "feature",
 					...
 				}
+			],
+			<collection>: [
+				{
+					type: "feature",
+					...
+				},
+				{
+					type: "feature",
+					...
+				}
 			]
-			<collection>: {
-			}
 		},
 		<dataset>: {
+			...
 		}
 	},
 	pg: {
+		<dataset>: {
+			<collection>: [
+				{
+					type: "feature",
+					...
+				}
+			]
+		}
 	}
 }
 ```
+
+Nella richiesta originale menzionano il concetto di "Sotto-Layer" per quanto riguarda i dati da Postgres, ma non so a cosa si riferisca.
+#### Task
+FE - Raccogliere tutte le risposte delle varie ricerche dal click e costruire una struttura ad albero
+### 5
+Il highlight della feature sulla mappa avviene adesso in seguito ad u
+
