@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "50e036fccbc323b2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-105/Pianificazione.md",
+                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-105/Pianificazione.md",
+                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-105/Pianificazione.md"
+                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md"
               }
             }
           },
@@ -180,10 +191,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "123e8e1f6b4ebded",
+  "active": "50e036fccbc323b2",
   "lastOpenFiles": [
-    "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/Pianificazione.md",
+    "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
+    "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
     "Work/EBW/G4B-105/side/side_simple_detail.png",
     "Work/EBW/G4B-105/side/side_simple_click.png",
