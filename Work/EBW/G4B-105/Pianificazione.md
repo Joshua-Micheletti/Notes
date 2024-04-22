@@ -36,7 +36,7 @@ Controllando su Jira, ho trovato diverse opzioni per l'implementazione:
 ![[div_simple_click.png]]
 ![[div_simple_detail.png]]
 #### Task
-FE - Scelta ed implementazione del contenitore grafico 
+FE - Scelta ed implementazione del contenitore grafico (3g)
 ### 4
 Serve costruire una struttura ad albero in cui sono contenuti i vari elementi trovati in seguito al click sulla mappa.
 ```JSON
@@ -83,19 +83,19 @@ Serve costruire una struttura ad albero in cui sono contenuti i vari elementi tr
 
 Nella richiesta originale menzionano il concetto di "Sotto-Layer" per quanto riguarda i dati da Postgres, ma non so a cosa si riferisca.
 #### Task
-FE - Raccogliere tutte le risposte delle varie ricerche dal click e costruire una struttura ad albero
+FE - Raccogliere tutte le risposte delle varie ricerche dal click e costruire una struttura ad albero (1g)
 ### 5
 Il highlight della feature sulla mappa avviene adesso in seguito ad una selezione (click su un qualsiasi elemento dell'albero). In caso di click su una foglia, bisogna evidenziare la feature associata, in caso di click su un ramo, bisogna evidenziare ogni feature contenuta nel ramo (ricerca).
 Il highlight delle feature avviene pushando le single feature in un layer temporaneo, quindi si tratta solo di scorrere l'oggetto che rappresenta l'albero dal punto selezionato verso il basso e pushare tutte le feature presenti sul layer temporaneo.
 
 Al momento non è richiesto ma in futuro sarebbe possibile consentire la selezione multipla di rami ed evidenziare tutti gli elementi presenti nei rami selezionati (per esempio con ctrl + click).
 #### Task
-FE - Implementare la selezione di foglie e rami e il relativo highlight delle feature associate
+FE - Implementare la selezione di foglie e rami e il relativo highlight delle feature associate (0.5g)
 ### 6
 #### Centramento
 Molto simile a quello che già è disponibile, in quanto OpenLayers contiene una funzione 'fit' che automaticamente esegue il fit della visuale su tutte le feature presenti in un Vector Source (layer temporaneo).
 
 In caso di centramento su un ramo, basterà caricare le feature sul layer temporaneo e fare un fit. In caso si voglia fare in modo che si possa centrare la visuale su una feature senza fare l'highlight (non so perchè si possa volere una cosa del genere però), bisognerà caricare le feature sul layer con uno style che le rende invisibili (alpha = 0) e poi fare il fit come menzionato sopra.
 ##### Task
-FE - Implementare il centramento sulle feature presenti nei rami
+FE - Implementare il centramento sulle feature presenti nei rami (0.5g)
 
