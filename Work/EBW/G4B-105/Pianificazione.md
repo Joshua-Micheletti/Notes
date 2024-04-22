@@ -1,0 +1,26 @@
+1. Come oggi gli oggetti selezionabili su mappa saranno tutti e solo quelli appartenenti ai layers in quel momento attivi, cioè sarà possibile selezionare solo ciò che risulta visibile su mappa
+    
+2. Cliccando sulla mappa verranno eseguite le query sul DB, sia se il backend è Smallworld (chiamando un opportuno servizio GSS), sia se il backend non è Smallworld in modo che siano restituiti tutti gli elementi dei layer attivi sottostanti al punto selezionato.
+    
+3. L’attuale Popup di disambiguazione sarà sostituito da una Sidebar che si aprirà sulla sinistra del Client WEB, esattamente come per gli altri tool, in cui saranno mostrati, secondo una rappresentazione a Tree, gli elementi selezionati
+    
+4. Il formato dell’alberatura prevederà una gestione comune a prescindere dal backend
+    
+    1. Nel caso Smallworld l’alberatura sarà costruita gerarchicamente secondo: Dataset-->Tabella-->Record
+        
+    2. Nel caso non Smallworld l’alberatura sarà costruita gerarchicamente secondo: Layer-->Sotto-Layer-->Record
+        
+5. Alla selezione di uno dei diversi livelli gerarchici dovrà corrispondere l’evidenziazione (in giallo scuro) su mappa di tutti i record sottostanti
+    
+6. La Sidebar presenterà due bottoni, uno per attivare la scheda di dettaglio del singolo record, uno per eseguire il goto sul singolo record o sui bounbds dell’insieme dei record nel caso in cui sia selezionato un livello gerarchico superiore
+
+## Punti già sviluppati
+I punti 1 e 2 sono già presenti nel prodotto G4B
+## Punti da sviluppare
+### 3
+Necessità di sviluppare la componente Front End che ospiterà la nuova funzionalità.
+Controllando su Jira, ho trovato diverse opzioni per l'implementazione:
+- Menù verticale a sinistra fisso che sostituisce gli strumenti della sidebar (come specificato nella richiesta originale)
+- Menù verticale a destra fisso, strutturato come gli strumenti della sidebar (come proposto dall'HLD di Filippo)
+- Menù fluttuante (inizialmente in alto a sinistra, sotto la barra di ricerca) (come proposto dall'HLD di Filippo)
+

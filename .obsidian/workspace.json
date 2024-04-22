@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "35d8000b2153fe58",
+        "id": "b48c984dd1ac264e",
         "type": "tabs",
         "children": [
           {
-            "id": "0f2c33b2c428d379",
+            "id": "123e8e1f6b4ebded",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/EBW-1047/To-do.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe7c931e806e05c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Protocols/LDAP/LDAP.md",
+                "file": "Work/EBW/G4B-105/Pianificazione.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/EBW-1047/To-do.md",
+                "file": "Work/EBW/G4B-105/Pianificazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/EBW-1047/To-do.md",
+                "file": "Work/EBW/G4B-105/Pianificazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/EBW-1047/To-do.md"
+                "file": "Work/EBW/G4B-105/Pianificazione.md"
               }
             }
           },
@@ -193,15 +180,17 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "755e1fd4a5fe3281",
+  "active": "123e8e1f6b4ebded",
   "lastOpenFiles": [
+    "Work/EBW/EBW-1047/To-do.md",
+    "Work/EBW/G4B-105/Pianificazione.md",
+    "Work/EBW/G4B-105",
     "Work/EBW/G4B-114",
     "Work/EBW/G4B portale-saas tests.md",
     "Programming/Protocols/LDAP/LDAP.md",
     "Programming/Protocols/LDAP",
     "Programming/Protocols",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
-    "Work/EBW/EBW-1047/To-do.md",
     "Work/EBW/EBW-1047",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Traduzione di linguaggi.md",
@@ -240,7 +229,6 @@
     "Work/EBW/EBW-416",
     "Work/EBW/ChatGPT/img",
     "Work/EBW/ChatGPT",
-    "Work/EBW/EBW-94",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
@@ -249,7 +237,6 @@
     "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
-    "Markdown.zip",
     "Work/EBW/FAS-646/Untitled.canvas"
   ]
 }
