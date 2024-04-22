@@ -36,7 +36,7 @@ Controllando su Jira, ho trovato diverse opzioni per l'implementazione:
 ![[div_simple_click.png]]
 ![[div_simple_detail.png]]
 #### Task
-FE - Scelta ed implementazione del contenitore grafico (3g)
+FE - Scelta ed implementazione del contenitore grafico (4g)
 ### 4
 Serve costruire una struttura ad albero in cui sono contenuti i vari elementi trovati in seguito al click sulla mappa.
 ```JSON
@@ -86,7 +86,7 @@ Il highlight delle feature avviene pushando le single feature in un layer tempor
 
 Al momento non è richiesto ma in futuro sarebbe possibile consentire la selezione multipla di rami ed evidenziare tutti gli elementi presenti nei rami selezionati (per esempio con ctrl + click).
 #### Task
-FE - Implementare la selezione di foglie e rami e il relativo highlight delle feature associate (0.5g)
+FE - Implementare la selezione di foglie e rami e il relativo highlight delle feature associate (1g)
 ### 6
 #### Centramento
 Molto simile a quello che già è disponibile, in quanto OpenLayers contiene una funzione 'fit' che automaticamente esegue il fit della visuale su tutte le feature presenti in un Vector Source (layer temporaneo).
