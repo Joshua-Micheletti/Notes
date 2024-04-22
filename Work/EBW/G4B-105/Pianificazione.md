@@ -22,7 +22,19 @@ Necessità di sviluppare la componente Front End che ospiterà la nuova funziona
 Controllando su Jira, ho trovato diverse opzioni per l'implementazione:
 - Menù verticale a sinistra fisso che sostituisce gli strumenti della sidebar (come specificato nella richiesta originale)
 - Menù verticale a destra fisso, strutturato come gli strumenti della sidebar (come proposto dall'HLD di Filippo)
+![[side_query_click.png]]
+![[side_query_detail.png]]
+![[side_sidebar sx_click.png]]
+![[side_sidebar sx_detail.png]]
+![[side_simple_click.png]]
+![[side_simple_detail.png]]
+
 - Menù fluttuante (inizialmente in alto a sinistra, sotto la barra di ricerca) (come proposto dall'HLD di Filippo)
+![[div_query.png]]
+![[div_sidebar_sx_click.png]]
+![[div_sidebar_sx_detail.png]]
+![[div_simple_click.png]]
+![[div_simple_detail.png]]
 #### Task
 FE - Scelta ed implementazione del contenitore grafico 
 ### 4
