@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/Architecture.canvas",
+                "file": "Work/EBW/G4B-114/Untitled.canvas",
                 "viewState": {
-                  "x": 730,
-                  "y": -180,
-                  "zoom": -0.8944942286310007
+                  "x": -153,
+                  "y": 810,
+                  "zoom": 0
                 }
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/Architecture.canvas",
+                "file": "Work/EBW/G4B-114/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/Architecture.canvas",
+                "file": "Work/EBW/G4B-114/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/Architecture.canvas"
+                "file": "Work/EBW/G4B-114/Untitled.canvas"
               }
             }
           },
@@ -195,6 +195,8 @@
   },
   "active": "123e8e1f6b4ebded",
   "lastOpenFiles": [
+    "Work/EBW/Architecture.canvas",
+    "Work/EBW/G4B-114/Untitled.canvas",
     "Work/EBW/G4B-105/Pianificazione.md",
     "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
     "Work/EBW/G4B-105/side/side_query_click.png",
@@ -237,12 +239,10 @@
     "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT vs Stackoverflow.md",
     "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT team.md",
     "Work/EBW/ChatGPT/Subjects.md",
-    "Work/EBW/ChatGPT/Idee per la presentazione.md",
     "Work/EBW/ChatGPT/Coding ChatGPT",
     "Work/EBW/ChatGPT/Utilizzo ChatGPT",
     "Work/EBW/EBW-416/flow.canvas",
     "Work/EBW/EBW-416",
-    "Work/EBW/Architecture.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
