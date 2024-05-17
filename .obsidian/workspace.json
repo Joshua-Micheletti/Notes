@@ -11,14 +11,11 @@
             "id": "123e8e1f6b4ebded",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/G4B-114/Untitled.canvas",
-                "viewState": {
-                  "x": 54.565303092883596,
-                  "y": 763.143747289108,
-                  "zoom": -0.6666666666666666
-                }
+                "file": "Work/EBW/G4B-105/Pianificazione.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -98,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-114/Untitled.canvas",
+                "file": "Work/EBW/G4B-105/Pianificazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-114/Untitled.canvas",
+                "file": "Work/EBW/G4B-105/Pianificazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-114/Untitled.canvas"
+                "file": "Work/EBW/G4B-105/Pianificazione.md"
               }
             }
           },
@@ -195,8 +192,8 @@
   },
   "active": "123e8e1f6b4ebded",
   "lastOpenFiles": [
-    "Work/EBW/Architecture.canvas",
     "Work/EBW/G4B-114/Untitled.canvas",
+    "Work/EBW/Architecture.canvas",
     "Work/EBW/G4B-105/Pianificazione.md",
     "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
     "Work/EBW/G4B-105/side/side_query_click.png",
