@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/Architecture new.canvas",
+                "file": "Work/EBW/Architecture.canvas",
                 "viewState": {
-                  "x": 900,
-                  "y": -129.5,
-                  "zoom": -0.8164917166297274
+                  "x": 821.0889453621347,
+                  "y": -185.576874205845,
+                  "zoom": -0.8944942286310007
                 }
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/Architecture new.canvas",
+                "file": "Work/EBW/Architecture.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/Architecture new.canvas",
+                "file": "Work/EBW/Architecture.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/Architecture new.canvas"
+                "file": "Work/EBW/Architecture.canvas"
               }
             }
           },
@@ -195,8 +195,8 @@
   },
   "active": "123e8e1f6b4ebded",
   "lastOpenFiles": [
-    "Work/EBW/Architecture.canvas",
     "Work/EBW/Architecture new.canvas",
+    "Work/EBW/Architecture.canvas",
     "Work/EBW/Web Architecture.md",
     "Work/EBW/G4B portale-saas tests.md",
     "Work/EBW/G4B-105/Pianificazione.md",
