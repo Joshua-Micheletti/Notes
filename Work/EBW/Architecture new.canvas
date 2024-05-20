@@ -1,16 +1,12 @@
 {
 	"nodes":[
-		{"id":"c60504da8cb43583","type":"group","x":360,"y":-560,"width":1700,"height":760,"color":"1","label":"Server"},
+		{"id":"c60504da8cb43583","type":"group","x":360,"y":-560,"width":1120,"height":760,"color":"1","label":"Server"},
 		{"id":"1ace01f2ee47c673","x":360,"y":380,"width":1300,"height":400,"color":"6","type":"group","label":"Ambiente SIAE"},
 		{"id":"710b23bf1e7e3db8","type":"group","x":-600,"y":-360,"width":900,"height":400,"color":"#1f75ff","label":"Client"},
-		{"id":"acf0ec180c4e23a8","type":"group","x":1430,"y":-440,"width":620,"height":210,"color":"#007bff","label":"Database"},
-		{"id":"f8a222a7b0ee6462","type":"group","x":1020,"y":-320,"width":320,"height":400,"color":"5","label":"Services"},
-		{"id":"e7b8ddfbc25a3b67","type":"group","x":1040,"y":-280,"width":280,"height":220,"color":"#ffae00","label":"Web"},
+		{"id":"acf0ec180c4e23a8","type":"group","x":1560,"y":-242,"width":640,"height":210,"color":"#007bff","label":"Database"},
 		{"id":"555365f0ae5a630f","type":"group","x":740,"y":-520,"width":220,"height":190,"color":"3","label":"Front End"},
+		{"id":"f8a222a7b0ee6462","type":"group","x":1020,"y":-187,"width":320,"height":100,"color":"5","label":"Services"},
 		{"id":"4d54bfc118959d9e","type":"group","x":540,"y":-160,"width":140,"height":180,"color":"6","label":"Architecture"},
-		{"id":"9bebf9c6e968d79c","type":"text","text":"ORM","x":1451,"y":-412,"width":250,"height":60},
-		{"id":"f3ce587dd2702f73","type":"text","text":"Sequelize","x":1451,"y":-312,"width":250,"height":60},
-		{"id":"e6bda1798d518ff6","type":"text","text":"PostGIS","x":1790,"y":-360,"width":250,"height":60},
 		{"id":"cf44cd77b17a885b","type":"text","text":"Mobile","x":-280,"y":-340,"width":250,"height":60,"color":"4"},
 		{"id":"6285156ef2a075c8","type":"text","text":"Web","x":-280,"y":-260,"width":250,"height":60,"color":"4"},
 		{"id":"b31b6893cb9322e3","type":"text","text":"Portale-admin","x":-100,"y":-80,"width":240,"height":60},
@@ -20,12 +16,13 @@
 		{"id":"19fb69b63ad52eb8","type":"text","text":"T\nO\nK\nE\nN","x":900,"y":-209,"width":50,"height":138,"color":"1"},
 		{"id":"9a120cb0caedd3f6","type":"text","text":"#### OAuth","x":798,"y":-170,"width":102,"height":60,"color":"#d57aff"},
 		{"id":"b9039d3058b6a5ea","type":"text","text":"NGINX","x":560,"y":-60,"width":100,"height":60},
-		{"id":"2927151ff4605a27","type":"text","text":"Portale-web-admin","x":759,"y":-500,"width":180,"height":60},
 		{"id":"0ca27ece131c0eb2","type":"text","text":"Geo4Business","x":759,"y":-412,"width":180,"height":60},
-		{"id":"d95ccd8fc08b122d","type":"text","text":"portale-web-service","x":1060,"y":-270,"width":247,"height":60},
-		{"id":"20df5030827a3066","type":"text","text":"portale-web-admin-service","x":1060,"y":-199,"width":247,"height":60},
-		{"id":"0abe1c63b8cd98c2","type":"text","text":"portale-saas-service","x":1060,"y":-130,"width":247,"height":60},
-		{"id":"7208afaadb625e22","type":"text","text":"smart-component","x":1060,"y":0,"width":247,"height":60}
+		{"id":"e7d5275125cded14","x":1000,"y":460,"width":250,"height":60,"type":"text","text":"REST API"},
+		{"id":"b207fd5ceddf868a","x":435,"y":490,"width":250,"height":60,"type":"text","text":"Database"},
+		{"id":"2927151ff4605a27","type":"text","text":"Portale-admin","x":759,"y":-500,"width":180,"height":50},
+		{"id":"d95ccd8fc08b122d","type":"text","text":"Componenti Node","x":1060,"y":-169,"width":247,"height":60},
+		{"id":"e6bda1798d518ff6","type":"text","text":"### Postgres\n- postGis","x":1920,"y":-181,"width":250,"height":90},
+		{"id":"9bebf9c6e968d79c","type":"text","text":"ORM","x":1580,"y":-166,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"b9b25c1b50feac31","fromNode":"6285156ef2a075c8","fromSide":"bottom","toNode":"b31b6893cb9322e3","toSide":"top"},
@@ -36,13 +33,9 @@
 		{"id":"5511d149eb5284d1","fromNode":"08329d8843fa26d4","fromSide":"bottom","toNode":"4d54bfc118959d9e","toSide":"left"},
 		{"id":"22aaf3234a09d4d4","fromNode":"08329d8843fa26d4","fromSide":"right","toNode":"9a120cb0caedd3f6","toSide":"left"},
 		{"id":"f735bc0533c7c5f5","fromNode":"9a120cb0caedd3f6","fromSide":"right","toNode":"d95ccd8fc08b122d","toSide":"left"},
-		{"id":"ed2c847c672f92a1","fromNode":"9a120cb0caedd3f6","fromSide":"right","toNode":"20df5030827a3066","toSide":"left"},
-		{"id":"316e5280a7c6eb5d","fromNode":"9a120cb0caedd3f6","fromSide":"right","toNode":"0abe1c63b8cd98c2","toSide":"left"},
-		{"id":"c097306cf378d1ae","fromNode":"9a120cb0caedd3f6","fromSide":"right","toNode":"7208afaadb625e22","toSide":"left"},
-		{"id":"12643df2791b76bc","fromNode":"e7b8ddfbc25a3b67","fromSide":"right","toNode":"7208afaadb625e22","toSide":"right"},
 		{"id":"9cb4c421e51c41af","fromNode":"9bebf9c6e968d79c","fromSide":"right","toNode":"e6bda1798d518ff6","toSide":"left"},
-		{"id":"897f82c5ba20adbf","fromNode":"f3ce587dd2702f73","fromSide":"right","toNode":"e6bda1798d518ff6","toSide":"left"},
-		{"id":"a29950d9faa730d1","fromNode":"e7b8ddfbc25a3b67","fromSide":"right","toNode":"9bebf9c6e968d79c","toSide":"left"},
-		{"id":"c1b16e8ebfcbf9e6","fromNode":"e7b8ddfbc25a3b67","fromSide":"right","toNode":"f3ce587dd2702f73","toSide":"left"}
+		{"id":"ed062b31abe892d3","fromNode":"e7d5275125cded14","fromSide":"top","toNode":"19fb69b63ad52eb8","toSide":"bottom"},
+		{"id":"0ea7b8b7c97f901c","fromNode":"e7d5275125cded14","fromSide":"left","toNode":"b207fd5ceddf868a","toSide":"top"},
+		{"id":"f3e0f21a490b2391","fromNode":"d95ccd8fc08b122d","fromSide":"right","toNode":"9bebf9c6e968d79c","toSide":"left"}
 	]
 }
