@@ -11,11 +11,9 @@
             "id": "123e8e1f6b4ebded",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Work/EBW/G4B-105/Pianificazione.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md"
               }
             }
           },
@@ -79,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 302.5,
+    "collapsed": true
   },
   "right": {
     "id": "08316559ae15440b",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-105/Pianificazione.md",
+                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-105/Pianificazione.md",
+                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-105/Pianificazione.md"
+                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md"
               }
             }
           },
@@ -192,11 +191,11 @@
   },
   "active": "123e8e1f6b4ebded",
   "lastOpenFiles": [
+    "Work/EBW/G4B-105/Pianificazione.md",
     "Work/EBW/Architecture new.canvas",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/Web Architecture.md",
     "Work/EBW/G4B portale-saas tests.md",
-    "Work/EBW/G4B-105/Pianificazione.md",
     "Work/EBW/G4B-114/Untitled.canvas",
     "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
     "Work/EBW/G4B-105/side/side_query_click.png",
@@ -246,7 +245,6 @@
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
-    "Work/EBW/FAS-646/sketches/Design.canvas",
-    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas"
+    "Work/EBW/FAS-646/sketches/Design.canvas"
   ]
 }
