@@ -11,9 +11,11 @@
             "id": "123e8e1f6b4ebded",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md"
+                "file": "Programming/Protocols/LDAP/LDAP.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
+                "file": "Programming/Protocols/LDAP/LDAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
+                "file": "Programming/Protocols/LDAP/LDAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md"
+                "file": "Programming/Protocols/LDAP/LDAP.md"
               }
             }
           },
@@ -190,13 +192,29 @@
   },
   "active": "123e8e1f6b4ebded",
   "lastOpenFiles": [
+    "Programming/Design Patterns/Singleton.md",
+    "Programming/Angular/Angular Schemes.canvas",
+    "Programming/Angular/Pipes.md",
+    "Programming/Angular/Optimization.md",
+    "Programming/Angular/Observable.md",
+    "Programming/Angular/NgRx.md",
+    "Programming/Angular/Modules.md",
+    "Programming/Angular/Lifecycle hooks.md",
+    "Programming/Angular/Introduction.md",
+    "Programming/Angular/HTTP.md",
+    "Programming/Angular/Forms.md",
+    "Programming/Angular/Events.md",
+    "Programming/Angular/Dynamic Components.md",
+    "Programming/Angular/Directives.md",
+    "Programming/Angular/Deploying.md",
+    "Programming/Angular/Decorators.md",
+    "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
     "Work/EBW/G4B-105/Pianificazione.md",
     "Work/EBW/Architecture new.canvas",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/Web Architecture.md",
     "Work/EBW/G4B portale-saas tests.md",
     "Work/EBW/G4B-114/Untitled.canvas",
-    "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
     "Work/EBW/G4B-105/side/side_simple_detail.png",
@@ -221,20 +239,6 @@
     "Work/EBW/ChatGPT/Coding ChatGPT/Traduzione di linguaggi.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo script.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Ottimizzazione.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/File mock.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Documentazione.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Correzione bug.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Comprensione codice.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Automatizzazione.md",
-    "Work/EBW/Todo.md",
-    "Work/EBW/ChatGPT/Casi d'uso.md",
-    "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT 3.5 vs 4.0.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Utilizzo di linguaggi proprietari (Magik).md",
-    "Work/EBW/ChatGPT/Utilizzo ChatGPT/Permanenza di informazioni all'interno di conversazioni.md",
-    "Work/EBW/ChatGPT/Utilizzo ChatGPT/Miglioramento risposte.md",
-    "Work/EBW/ChatGPT/Utilizzo ChatGPT/Linguaggio (Italiano - Inglese).md",
-    "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT vs Stackoverflow.md",
-    "Work/EBW/ChatGPT/Utilizzo ChatGPT/ChatGPT team.md",
     "Work/EBW/ChatGPT/Coding ChatGPT",
     "Work/EBW/ChatGPT/Utilizzo ChatGPT",
     "Work/EBW/EBW-416/flow.canvas",
@@ -243,7 +247,6 @@
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-    "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
-    "Work/EBW/FAS-646/sketches/Design.canvas"
+    "Work/EBW/FAS-646/sketches/EPSG Detection.canvas"
   ]
 }
