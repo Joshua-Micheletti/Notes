@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:Work/EBW/G4B-105",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
@@ -18,5 +18,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.32606436344152967,
-  "close": true
+  "close": false
 }

@@ -23,9 +23,11 @@
             "id": "70dfd616187a3233",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/G4B-125/Drawing 2024-06-10 11.09.36.excalidraw.md"
+                "file": "Work/EBW/G4B-105/Pianificazione.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -106,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-125/Drawing 2024-06-10 11.09.36.excalidraw.md",
+                "file": "Work/EBW/G4B-105/Pianificazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-125/Drawing 2024-06-10 11.09.36.excalidraw.md",
+                "file": "Work/EBW/G4B-105/Pianificazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-125/Drawing 2024-06-10 11.09.36.excalidraw.md"
+                "file": "Work/EBW/G4B-105/Pianificazione.md"
               }
             }
           },
@@ -203,8 +205,11 @@
   },
   "active": "70dfd616187a3233",
   "lastOpenFiles": [
-    "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
+    "Work/EBW/G4B-105/Pianificazione.md",
+    "ios.txt",
+    "Work/EBW/G4B-114/Untitled.canvas",
     "Work/EBW/G4B-125/Drawing 2024-06-10 11.09.36.excalidraw.md",
+    "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
     "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-125",
     "Programming/Design Patterns/Singleton.md",
@@ -223,12 +228,10 @@
     "Programming/Angular/Directives.md",
     "Programming/Angular/Deploying.md",
     "Programming/Angular/Decorators.md",
-    "Work/EBW/G4B-105/Pianificazione.md",
     "Work/EBW/Architecture new.canvas",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/Web Architecture.md",
     "Work/EBW/G4B portale-saas tests.md",
-    "Work/EBW/G4B-114/Untitled.canvas",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
     "Work/EBW/G4B-105/side/side_simple_detail.png",
@@ -250,9 +253,7 @@
     "Work/EBW/EBW-1047",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Traduzione di linguaggi.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo script.md",
     "Work/EBW/ChatGPT/Coding ChatGPT",
-    "Work/EBW/ChatGPT/Utilizzo ChatGPT",
     "Work/EBW/EBW-416/flow.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
