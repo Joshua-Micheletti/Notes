@@ -1,15 +1,31 @@
 {
 	"nodes":[
+		{"id":"d58824caf1aa04ec","x":932,"y":-644,"width":250,"height":60,"type":"text","text":""},
 		{"id":"01271f4261a4a13e","x":-443,"y":-253,"width":250,"height":60,"type":"text","text":"#### Administrator"},
 		{"id":"7bf9bf7cb9bad412","x":-443,"y":-380,"width":250,"height":60,"type":"text","text":"### Superuser"},
 		{"id":"3723492ad351d232","x":36,"y":-253,"width":250,"height":60,"type":"text","text":"#### ADMINISTRATOR"},
 		{"id":"825ea3e63dc4997a","x":36,"y":-500,"width":250,"height":60,"type":"text","text":"Permessi"},
 		{"id":"0d7e67a0633fde2d","x":-443,"y":-120,"width":250,"height":60,"type":"text","text":"##### User"},
 		{"id":"59863020707892b6","x":36,"y":-380,"width":250,"height":60,"type":"text","text":"### SUPERUSER"},
-		{"id":"638fbbbdbe10ad9f","x":17,"y":-71,"width":250,"height":60,"type":"text","text":"Bypass "}
+		{"id":"e1139d6a049cb2a3","x":500,"y":-153,"width":250,"height":60,"type":"text","text":"Accesso alla dashboard portale-web-admin"},
+		{"id":"eb6c8c2a7b7bab6c","x":500,"y":-253,"width":250,"height":60,"type":"text","text":"Bypass permessi applicazione"},
+		{"id":"638fbbbdbe10ad9f","x":500,"y":-356,"width":250,"height":60,"type":"text","text":"Bypass controllo aree"},
+		{"id":"1b79d4b8860656b5","x":500,"y":-470,"width":250,"height":60,"type":"text","text":"Creazione e Rimozione di Permessi"},
+		{"id":"30a315d3d0b354ed","x":500,"y":-580,"width":250,"height":60,"type":"text","text":"Accesso al permesso SUPERUSER"},
+		{"id":"8f4b6f9671d8e6b4","x":500,"y":-40,"width":250,"height":96,"type":"text","text":"Bypass permessi di proprietà di contenuti pubblici"},
+		{"id":"90aafb5bb19581bd","x":500,"y":120,"width":250,"height":60,"type":"text","text":"Possibilità di eliminare utenti"},
+		{"id":"bf312f2a5b8ea7ec","x":980,"y":-760,"width":250,"height":60,"type":"text","text":"Adattamento codice controllo admin"}
 	],
 	"edges":[
 		{"id":"1a4390bac4530e5c","fromNode":"7bf9bf7cb9bad412","fromSide":"right","toNode":"59863020707892b6","toSide":"left"},
-		{"id":"b007128f960af791","fromNode":"01271f4261a4a13e","fromSide":"right","toNode":"3723492ad351d232","toSide":"left"}
+		{"id":"b007128f960af791","fromNode":"01271f4261a4a13e","fromSide":"right","toNode":"3723492ad351d232","toSide":"left"},
+		{"id":"c6b559f6ec6da1e9","fromNode":"3723492ad351d232","fromSide":"right","toNode":"638fbbbdbe10ad9f","toSide":"left","color":"4"},
+		{"id":"dc7ba9396944c797","fromNode":"3723492ad351d232","fromSide":"right","toNode":"eb6c8c2a7b7bab6c","toSide":"left","color":"4"},
+		{"id":"1df989b3ca843c56","fromNode":"3723492ad351d232","fromSide":"right","toNode":"e1139d6a049cb2a3","toSide":"left","color":"4"},
+		{"id":"99d5adce05bb5756","fromNode":"59863020707892b6","fromSide":"right","toNode":"1b79d4b8860656b5","toSide":"left","color":"5"},
+		{"id":"1ccaeab0c96b434e","fromNode":"59863020707892b6","fromSide":"right","toNode":"30a315d3d0b354ed","toSide":"left","color":"5"},
+		{"id":"4895064b3e7e4362","fromNode":"3723492ad351d232","fromSide":"right","toNode":"8f4b6f9671d8e6b4","toSide":"left","color":"4"},
+		{"id":"0f1e23f853fe6da7","fromNode":"59863020707892b6","fromSide":"bottom","toNode":"3723492ad351d232","toSide":"top","color":"5"},
+		{"id":"97be1324d1182525","fromNode":"3723492ad351d232","fromSide":"right","toNode":"90aafb5bb19581bd","toSide":"left","color":"4"}
 	]
 }
