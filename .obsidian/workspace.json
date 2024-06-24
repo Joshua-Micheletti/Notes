@@ -27,20 +27,10 @@
               "state": {
                 "file": "Work/EBW/G4B-134/Structure.canvas",
                 "viewState": {
-                  "x": 1542.234745725792,
-                  "y": -516.2279672681786,
-                  "zoom": -0.3333333333333333
+                  "x": 708.0611412172132,
+                  "y": -349.9517965970449,
+                  "zoom": -0.6666666666666667
                 }
-              }
-            }
-          },
-          {
-            "id": "50e036fccbc323b2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md"
               }
             }
           }
@@ -208,14 +198,14 @@
   },
   "active": "70dfd616187a3233",
   "lastOpenFiles": [
-    "Work/EBW/G4B-105/Pianificazione.md",
+    "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-134/Structure.canvas",
+    "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
+    "Work/EBW/G4B-105/Pianificazione.md",
     "Work/EBW/G4B-134",
     "ios.txt",
     "Work/EBW/G4B-114/Untitled.canvas",
     "Work/EBW/G4B-125/Drawing 2024-06-10 11.09.36.excalidraw.md",
-    "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
-    "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-125",
     "Programming/Design Patterns/Singleton.md",
     "Programming/Angular/Angular Schemes.canvas",
