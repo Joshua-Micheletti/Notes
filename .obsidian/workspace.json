@@ -33,9 +33,19 @@
                 }
               }
             }
+          },
+          {
+            "id": "83d82e20807b16b1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-134/Structure.canvas",
+                "file": "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-134/Structure.canvas",
+                "file": "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-134/Structure.canvas"
+                "file": "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md"
               }
             }
           },
@@ -196,10 +206,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "70dfd616187a3233",
+  "active": "83d82e20807b16b1",
   "lastOpenFiles": [
-    "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-134/Structure.canvas",
+    "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
+    "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
     "Work/EBW/G4B-105/Pianificazione.md",
     "Work/EBW/G4B-134",
@@ -247,7 +258,6 @@
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di programmi di test.md",
     "Work/EBW/EBW-1047",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT/Traduzione di linguaggi.md",
     "Work/EBW/EBW-416/flow.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
