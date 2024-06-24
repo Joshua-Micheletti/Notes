@@ -16,7 +16,7 @@
 		{"id":"30a315d3d0b354ed","x":500,"y":-580,"width":250,"height":60,"type":"text","text":"Accesso al permesso SUPERUSER"},
 		{"id":"8f4b6f9671d8e6b4","x":500,"y":-40,"width":250,"height":96,"type":"text","text":"Bypass permessi di proprietà di contenuti pubblici"},
 		{"id":"90aafb5bb19581bd","x":500,"y":120,"width":250,"height":60,"type":"text","text":"Possibilità di eliminare utenti"},
-		{"id":"bf312f2a5b8ea7ec","x":980,"y":-760,"width":250,"height":100,"type":"text","text":"Adattamento codice controllo admin (non più a gruppi ma a permessi)"},
+		{"id":"bf312f2a5b8ea7ec","x":980,"y":-760,"width":250,"height":100,"color":"4","type":"text","text":"Adattamento codice controllo admin (non più a gruppi ma a permessi)"},
 		{"id":"d85b1ad50d2bfd27","x":980,"y":-610,"width":250,"height":140,"type":"text","text":"Configurazione dei permessi invisibili ad utenti Administrator (permesso SUPERUSER)"},
 		{"id":"2d374990849e773f","x":980,"y":-413,"width":250,"height":190,"type":"text","text":"Configurazione e implementazione delle funzionalità invisibili ad utenti Administrator (cancellazione e creazione di permessi)"},
 		{"id":"055473b58f0a3f7c","x":980,"y":-178,"width":250,"height":171,"type":"text","text":"Configurazione e implementazione delle funzionalità per utenti Administrator (cancellazione utenti)"},
