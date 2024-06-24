@@ -23,11 +23,14 @@
             "id": "70dfd616187a3233",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Work/EBW/G4B-105/Pianificazione.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/EBW/G4B-134/Structure.canvas",
+                "viewState": {
+                  "x": 290,
+                  "y": -125.85011770958363,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -108,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-105/Pianificazione.md",
+                "file": "Work/EBW/G4B-134/Structure.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-105/Pianificazione.md",
+                "file": "Work/EBW/G4B-134/Structure.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-105/Pianificazione.md"
+                "file": "Work/EBW/G4B-134/Structure.canvas"
               }
             }
           },
@@ -206,6 +209,8 @@
   "active": "70dfd616187a3233",
   "lastOpenFiles": [
     "Work/EBW/G4B-105/Pianificazione.md",
+    "Work/EBW/G4B-134/Structure.canvas",
+    "Work/EBW/G4B-134",
     "ios.txt",
     "Work/EBW/G4B-114/Untitled.canvas",
     "Work/EBW/G4B-125/Drawing 2024-06-10 11.09.36.excalidraw.md",
@@ -253,12 +258,10 @@
     "Work/EBW/EBW-1047",
     "Work/EBW/ChatGPT/Coding ChatGPT/Sviluppo di interfacce.md",
     "Work/EBW/ChatGPT/Coding ChatGPT/Traduzione di linguaggi.md",
-    "Work/EBW/ChatGPT/Coding ChatGPT",
     "Work/EBW/EBW-416/flow.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
-    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
-    "Work/EBW/FAS-646/sketches/EPSG Detection.canvas"
+    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas"
   ]
 }

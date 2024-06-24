@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"01271f4261a4a13e","x":-443,"y":-253,"width":250,"height":60,"type":"text","text":"#### Administrator"},
+		{"id":"7bf9bf7cb9bad412","x":-443,"y":-380,"width":250,"height":60,"type":"text","text":"### Superuser"},
+		{"id":"3723492ad351d232","x":36,"y":-253,"width":250,"height":60,"type":"text","text":"#### ADMINISTRATOR"},
+		{"id":"825ea3e63dc4997a","x":36,"y":-500,"width":250,"height":60,"type":"text","text":"Permessi"},
+		{"id":"0d7e67a0633fde2d","x":-443,"y":-120,"width":250,"height":60,"type":"text","text":"##### User"},
+		{"id":"59863020707892b6","x":36,"y":-380,"width":250,"height":60,"type":"text","text":"### SUPERUSER"},
+		{"id":"638fbbbdbe10ad9f","x":17,"y":-71,"width":250,"height":60,"type":"text","text":"Bypass "}
+	],
+	"edges":[
+		{"id":"1a4390bac4530e5c","fromNode":"7bf9bf7cb9bad412","fromSide":"right","toNode":"59863020707892b6","toSide":"left"},
+		{"id":"b007128f960af791","fromNode":"01271f4261a4a13e","fromSide":"right","toNode":"3723492ad351d232","toSide":"left"}
+	]
+}
