@@ -38,9 +38,11 @@
             "id": "83d82e20807b16b1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md"
+                "file": "Work/EBW/G4B portale-saas tests.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -111,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
+                "file": "Work/EBW/G4B portale-saas tests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
+                "file": "Work/EBW/G4B portale-saas tests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md"
+                "file": "Work/EBW/G4B portale-saas tests.md"
               }
             }
           },
@@ -208,8 +210,9 @@
   },
   "active": "83d82e20807b16b1",
   "lastOpenFiles": [
-    "Work/EBW/G4B-134/Structure.canvas",
+    "Work/EBW/Todo.md",
     "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
+    "Work/EBW/G4B-134/Structure.canvas",
     "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
     "Work/EBW/G4B-105/Pianificazione.md",
