@@ -38,11 +38,14 @@
             "id": "83d82e20807b16b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Work/EBW/G4B portale-saas tests.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/EBW/G4B-134/Structure.canvas",
+                "viewState": {
+                  "x": 678.5,
+                  "y": -398,
+                  "zoom": -0.648497603328721
+                }
               }
             }
           }
@@ -113,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B portale-saas tests.md",
+                "file": "Work/EBW/G4B-134/Structure.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B portale-saas tests.md",
+                "file": "Work/EBW/G4B-134/Structure.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B portale-saas tests.md"
+                "file": "Work/EBW/G4B-134/Structure.canvas"
               }
             }
           },
@@ -210,8 +213,9 @@
   },
   "active": "83d82e20807b16b1",
   "lastOpenFiles": [
-    "Work/EBW/Todo.md",
     "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
+    "Work/EBW/G4B portale-saas tests.md",
+    "Work/EBW/Todo.md",
     "Work/EBW/G4B-134/Structure.canvas",
     "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
@@ -240,7 +244,6 @@
     "Work/EBW/Architecture new.canvas",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/Web Architecture.md",
-    "Work/EBW/G4B portale-saas tests.md",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
     "Work/EBW/G4B-105/side/side_simple_detail.png",
