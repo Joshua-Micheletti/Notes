@@ -39,6 +39,10 @@ Il requisito può essere scomposto in N componenti principali:
 - Rendering delle immagini tramite engine GSS
 - Parsing dei template ed estrazione delle informazioni importanti (dati da mostrare in output, viewport)
 - Selezione dell'area di stampa tramite uno strumento di disegno di rettangoli
+- Creazione del PDF secondo le informazioni del layout e il risultato del rendering delle immagini
 - Interfaccia per la selezione di layer attivi, layout e area di stampa
 
-### Renderi
+### Rendering delle Immagini
+Serve una analisi delle capacità dell'API per la creazione di immagini da parte del GSS in modo da capire come poter strutturare le chiamate e capire quali possono essere le limitazioni a livello di risoluzione, DPI, stili, dimensione del testo e layer selezionabili.
+
+Il modo in cui questo engine accetta le coordinate dei tile da renderizzare avrà conseguenze anche su come viene implementato lo strumento di selezione dell'area di stampa.
