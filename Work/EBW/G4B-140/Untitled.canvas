@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"adabd86c6f18ef9b","x":-760,"y":-53,"width":400,"height":400,"color":"1","type":"group","label":"Renderer GSS"},
+		{"id":"f893cc2d5597a3f0","x":-43,"y":-67,"width":400,"height":400,"color":"5","type":"group","label":"Parsing Template"},
+		{"id":"bac62a98388f15fe","x":-337,"y":-333,"width":250,"height":133,"type":"text","text":"# Tool di Plotting\n"}
+	],
+	"edges":[]
+}

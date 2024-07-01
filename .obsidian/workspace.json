@@ -38,11 +38,14 @@
             "id": "83d82e20807b16b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Work/EBW/G4B-140/Strumento Plotting.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/EBW/G4B-140/Untitled.canvas",
+                "viewState": {
+                  "x": -65.06544755725378,
+                  "y": 154.3771525555038,
+                  "zoom": -0.3333333333333333
+                }
               }
             }
           }
@@ -113,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-140/Strumento Plotting.md",
+                "file": "Work/EBW/G4B-140/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-140/Strumento Plotting.md",
+                "file": "Work/EBW/G4B-140/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-140/Strumento Plotting.md"
+                "file": "Work/EBW/G4B-140/Untitled.canvas"
               }
             }
           },
@@ -210,8 +213,9 @@
   },
   "active": "83d82e20807b16b1",
   "lastOpenFiles": [
-    "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/G4B-140/Strumento Plotting.md",
+    "Work/EBW/G4B-140/Untitled.canvas",
+    "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/G4B-140",
     "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
     "Work/EBW/G4B portale-saas tests.md",
@@ -263,7 +267,6 @@
     "Work/EBW/EBW-416/flow.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas",
-    "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas"
+    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas"
   ]
 }

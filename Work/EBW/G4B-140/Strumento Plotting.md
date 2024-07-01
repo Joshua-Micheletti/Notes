@@ -79,4 +79,11 @@ Il PDF si può creare con la libreria jsPDF come per lo strumento di stampa.
 Il download del PDF in modo asincrono richiederà l'abilitazione della funzionalità di notifiche su ambiente ACDA e dovrà interfacciarsi con i relativi backend.
 
 ### Interfaccia Frontend
-L'interfaccia è stata pensata simile allo strumento di stampa già presente con la differenza che non ci sarà un anteprima di stampa
+L'interfaccia è stata pensata simile allo strumento di stampa già presente con la differenza che non ci sarà un anteprima di stampa.
+
+Gli elementi presenti saranno:
+- Menù dropdown per la selezione del template da utilizzare
+- Due menù per la selezione di layer di fondo (OpenStreetMap o None) e layer base (Cartografia, Curve di livello etc...)
+- Un area di form dinamica adattabile alle configurazioni del template
+- Un area di impostazione della stampa (DPI, Scala) in caso non siano già definiti nel template (in quest'area sarebbe opportuno poter vedere anche il viewport del template)
+- Un area con la funzionalità di selezione dell'area di stampa (da decidere se implementare il tool come barra laterale e lasciare la mappa visibile, oppure visualizzare la mappa solo in fase di selezione dell'area)
