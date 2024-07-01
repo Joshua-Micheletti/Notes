@@ -46,3 +46,8 @@ Il requisito può essere scomposto in N componenti principali:
 Serve una analisi delle capacità dell'API per la creazione di immagini da parte del GSS in modo da capire come poter strutturare le chiamate e capire quali possono essere le limitazioni a livello di risoluzione, DPI, stili, dimensione del testo e layer selezionabili.
 
 Il modo in cui questo engine accetta le coordinate dei tile da renderizzare avrà conseguenze anche su come viene implementato lo strumento di selezione dell'area di stampa.
+
+Controllare se richiede un proxy e in caso, si può inserire dentro il portale-saas-service come api_plotting.
+
+### Parsing dei Template
+I template sono dei file XML che contengono alcune informazioni relative al formato di stampa del PDF finale. Alcune di queste informazioni sono 
