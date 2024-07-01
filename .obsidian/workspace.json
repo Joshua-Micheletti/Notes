@@ -50,9 +50,14 @@
             "id": "7b9915c682019181",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-01 16.23.22.excalidraw.md"
+                "file": "Work/EBW/G4B-140/Dipendenze.canvas",
+                "viewState": {
+                  "x": -166.76040475310572,
+                  "y": 416.05542858022767,
+                  "zoom": -0.8551169607966105
+                }
               }
             }
           }
@@ -123,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-01 16.23.22.excalidraw.md",
+                "file": "Work/EBW/G4B-140/Dipendenze.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-01 16.23.22.excalidraw.md",
+                "file": "Work/EBW/G4B-140/Dipendenze.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-01 16.23.22.excalidraw.md"
+                "file": "Work/EBW/G4B-140/Dipendenze.canvas"
               }
             }
           },
