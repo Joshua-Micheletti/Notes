@@ -67,4 +67,16 @@ In caso di cambiamento di template dopo la selezione dell'area di stampa, bisogn
 - Far ri-disegnare l'area di stampa al cambiamento della viewport
 - Adattare l'area di stampa con il nuovo viewport, mantenendo un area più o meno simile a quella originale (mantiene la dimensione dell'area di stampa uguale) oppure calcolando il rettangolo inscritto al rettangolo originale che rispetta l'aspect ratio della nuova viewport (area di stampa si riduce ad ogni cambio di viewport)
 
-Lo strumento di selezione dell'area di stampa deve ritornare un centro e delle dimensioni di altezza e lunghezza, oppure il bounding box dell'area selezionata (a seconda di come funziona l'engine di rendering d)
+Lo strumento di selezione dell'area di stampa deve ritornare un centro e delle dimensioni di altezza e lunghezza, oppure il bounding box dell'area selezionata (a seconda di come funziona l'engine di rendering delle immagini GSS) nel formato di coordinate accettato dall'engine di immagini del GSS.
+
+### Creazione del PDF
+La creazione del PDF deve avvenire in modo dinamico e asincrono, in quanto i template possono essere diversi tra di loro e il rendering delle immagini può essere dispendioso.
+
+Per la creazione del PDF bisogna decidere una risoluzione abbastanza definita o impostabile a piacimento (in caso non sia definita nel template) e deve essere in grado di posizionare le informazioni definite nel template correttamente.
+
+Il PDF si può creare con la libreria jsPDF come per lo strumento di stampa.
+
+Il download del PDF in modo asincrono richiederà l'abilitazione della funzionalità di notifiche su ambiente ACDA e dovrà interfacciarsi con i relativi backend.
+
+### Interfaccia Frontend
+L'interfaccia è stata pensata simile allo strumento di stampa già presente con la differenza che non ci sarà un anteprima di stampa
