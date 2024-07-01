@@ -65,7 +65,7 @@ Questi rettangoli devono però rispettare l'aspect ratio della viewport del temp
 
 In caso di cambiamento di template dopo la selezione dell'area di stampa, bisogna decidere se:
 - Far ri-disegnare l'area di stampa al cambiamento della viewport
-- Adattare l'area di stampa con il nuovo viewport, mantenendo un area più o meno simile a quella originale (mantiene la dimensione dell'area di stampa uguale) oppure calcolando il rettangolo inscritto al rettangolo originale che rispetta l'aspect ratio della nuova viewport (area di stampa si riduce ad ogni cambio di viewport)
+- Adattare l'area di stampa con il nuovo viewport, mantenendo un area più o meno simile a quella originale (mantiene la dimensione dell'area di stampa uguale) oppure calcolando il rettangolo inscritto al rettangolo originale che rispetta l'aspect ratio della nuova viewport (area di stampa si riduce ad ogni cambio di viewport) **Chiedere al Magno come funzionava prima**
 
 Lo strumento di selezione dell'area di stampa deve ritornare un centro e delle dimensioni di altezza e lunghezza, oppure il bounding box dell'area selezionata (a seconda di come funziona l'engine di rendering delle immagini GSS) nel formato di coordinate accettato dall'engine di immagini del GSS.
 
