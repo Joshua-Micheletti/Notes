@@ -38,14 +38,11 @@
             "id": "83d82e20807b16b1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/G4B-140/Dipendenze.canvas",
-                "viewState": {
-                  "x": -134.13656604292504,
-                  "y": 437.64803985677656,
-                  "zoom": -1
-                }
+                "file": "Work/EBW/G4B-140/Strumento Plotting.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -116,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-140/Dipendenze.canvas",
+                "file": "Work/EBW/G4B-140/Strumento Plotting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-140/Dipendenze.canvas",
+                "file": "Work/EBW/G4B-140/Strumento Plotting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-140/Dipendenze.canvas"
+                "file": "Work/EBW/G4B-140/Strumento Plotting.md"
               }
             }
           },
@@ -213,8 +210,8 @@
   },
   "active": "83d82e20807b16b1",
   "lastOpenFiles": [
-    "Work/EBW/G4B-140/Strumento Plotting.md",
     "Work/EBW/G4B-140/Dipendenze.canvas",
+    "Work/EBW/G4B-140/Strumento Plotting.md",
     "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/G4B-140",
     "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
