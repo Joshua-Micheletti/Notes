@@ -54,9 +54,9 @@
               "state": {
                 "file": "Work/EBW/G4B-140/Dipendenze.canvas",
                 "viewState": {
-                  "x": 46.69043233259444,
-                  "y": 399.77527998894556,
-                  "zoom": -0.8551169607966105
+                  "x": -140,
+                  "y": 293.5,
+                  "zoom": -0.5217836274632772
                 }
               }
             }
@@ -272,7 +272,6 @@
     "Work/EBW/G4B-105/div/div_simple_click.png",
     "Work/EBW/G4B-105/div/div_sidebar_sx_click.png",
     "Work/EBW/G4B-105/div",
-    "Work/EBW/EBW-1047/To-do.md",
     "Work/EBW/G4B-105",
     "Work/EBW/G4B-114",
     "Programming/Protocols/LDAP",
