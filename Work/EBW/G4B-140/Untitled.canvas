@@ -1,8 +1,30 @@
 {
 	"nodes":[
 		{"id":"adabd86c6f18ef9b","x":-760,"y":-53,"width":400,"height":400,"color":"1","type":"group","label":"Renderer GSS"},
-		{"id":"f893cc2d5597a3f0","x":-43,"y":-67,"width":400,"height":400,"color":"5","type":"group","label":"Parsing Template"},
-		{"id":"bac62a98388f15fe","x":-337,"y":-333,"width":250,"height":133,"type":"text","text":"# Tool di Plotting\n"}
+		{"id":"f893cc2d5597a3f0","x":-300,"y":-53,"width":400,"height":400,"color":"5","type":"group","label":"Parsing Template"},
+		{"id":"3da5029afa23391a","x":200,"y":-53,"width":400,"height":400,"color":"4","type":"group","label":"Selezione Area"},
+		{"id":"74a0a615d75f48ef","x":-300,"y":480,"width":400,"height":400,"color":"6","type":"group","label":"Creazione PDF"},
+		{"id":"ffeb627a28cbf8ad","x":273,"y":483,"width":400,"height":400,"color":"3","type":"group","label":"Interfaccia"},
+		{"id":"9c53248af89444f2","x":-265,"y":100,"width":205,"height":220,"color":"2","type":"group","label":"Template"},
+		{"id":"bac62a98388f15fe","x":-337,"y":-333,"width":250,"height":133,"type":"text","text":"# Tool di Plotting\n"},
+		{"id":"2454bacffd8565a4","x":-540,"y":-20,"width":150,"height":60,"type":"text","text":"Area di stampa"},
+		{"id":"b5c2eed42ad0da3a","x":-527,"y":60,"width":124,"height":60,"type":"text","text":"Layer attivi"},
+		{"id":"e508647c273fadc1","x":-531,"y":140,"width":133,"height":60,"type":"text","text":"Risoluzione"},
+		{"id":"2b937ee07f820991","x":-245,"y":120,"width":107,"height":60,"type":"text","text":"Viewport"},
+		{"id":"9b64df994c31db95","x":-245,"y":200,"width":144,"height":60,"type":"text","text":"Componenti"},
+		{"id":"3e139c925d2ce123","x":-173,"y":-20,"width":250,"height":60,"type":"text","text":"Fetch Template"},
+		{"id":"1530274dd03ec2e7","x":240,"y":-20,"width":160,"height":60,"type":"text","text":"Disegno Area"},
+		{"id":"046e2c37ac30e16a","x":258,"y":120,"width":125,"height":60,"type":"text","text":"Format Area"},
+		{"id":"acf2677912d2a90f","x":-263,"y":623,"width":250,"height":60,"type":"text","text":"Inserimento Testo"},
+		{"id":"e1bd0b18f83d1274","x":-263,"y":709,"width":250,"height":60,"type":"text","text":"Inserimento Loghi"},
+		{"id":"8986879ac2888d21","x":-263,"y":540,"width":250,"height":60,"type":"text","text":"Inserimento Mappa"},
+		{"id":"3f18a92dbb217b88","x":300,"y":510,"width":250,"height":60,"type":"text","text":"Selezione Template"},
+		{"id":"1493ff1da4ff0293","x":236,"y":612,"width":250,"height":60,"type":"text","text":"Form di componenti"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"a83e0e5fe327c2c1","fromNode":"3e139c925d2ce123","fromSide":"bottom","toNode":"9c53248af89444f2","toSide":"right"},
+		{"id":"7fbc9e1740a4b2ca","fromNode":"2b937ee07f820991","fromSide":"right","toNode":"1530274dd03ec2e7","toSide":"left"},
+		{"id":"128197f9b612c19c","fromNode":"1530274dd03ec2e7","fromSide":"bottom","toNode":"046e2c37ac30e16a","toSide":"top"},
+		{"id":"71ad948601170626","fromNode":"046e2c37ac30e16a","fromSide":"left","toNode":"2454bacffd8565a4","toSide":"right"}
+	]
 }
