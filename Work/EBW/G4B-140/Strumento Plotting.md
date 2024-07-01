@@ -59,4 +59,12 @@ I template disponibili sono presenti in una repository condivisa con il cliente,
 ### Selezione dell'Area di Stampa
 La selezione dell'area di stampa avviene tramite disegno su mappa, OpenLayers contiene delle funzionalità per il disegno di rettangoli su mappa.
 
-Questi rettangoli
+Questi rettangoli devono però rispettare l'aspect ratio della viewport del template. Ci sono due opzioni per implementare questa cosa:
+- Limitare le dimensioni del rettangolo in fase di disegno in modo che rispetti l'aspect ratio della viewport (richiede un analisi di fattibilità). Soluzione preferibile
+- Non limitare le dimensioni del disegno ma poi estrapolare il rettangolo inscritto al rettangolo disegnato che rispetta l'aspect ratio della viewport definita nel template
+
+In caso di cambiamento di template dopo la selezione dell'area di stampa, bisogna decidere se:
+- Far ri-disegnare l'area di stampa al cambiamento della viewport
+- Adattare l'area di stampa con il nuovo viewport, mantenendo un area più o meno simile a quella originale (mantiene la dimensione dell'area di stampa uguale) oppure calcolando il rettangolo inscritto al rettangolo originale che rispetta l'aspect ratio della nuova viewport (area di stampa si riduce ad ogni cambio di viewport)
+
+Lo strumento di selezione dell'area di stampa deve ritornare un centro e delle dimensioni di altezza e lunghezza, oppure il bounding box dell'area selezionata (a seconda di come funziona l'engine di rendering d)
