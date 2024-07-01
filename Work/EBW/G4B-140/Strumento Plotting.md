@@ -50,4 +50,13 @@ Il modo in cui questo engine accetta le coordinate dei tile da renderizzare avr�
 Controllare se richiede un proxy e in caso, si può inserire dentro il portale-saas-service come api_plotting.
 
 ### Parsing dei Template
-I template sono dei file XML che contengono alcune informazioni relative al formato di stampa del PDF finale. Alcune di queste informazioni sono 
+I template sono dei file XML che contengono alcune informazioni relative al formato di stampa del PDF finale. Alcune di queste informazioni sono alcuni campi parametrizzabili con dei valori predefiniti o arbitrari (titolo, descrizione etc...) e il viewport della mappa nel PDF, informazione importante sia per la creazione del PDF che per la creazione dello strumento di selezione dell'area di stampa (in quanto dovrà mantenere lo stesso aspect-ratio della viewport del template).
+
+I parametri disponibili nei template devono essere un numero finito e predefinito. La lista di template disponibili è fissa al momento e tecnicamente composta solo da elementi elementari. Questo rende sia il parsing che la rappresentazione dei campi dinamici più semplice e specifica.
+
+I template disponibili sono presenti in una repository condivisa con il cliente, bisogna verificare se i dati sono accessibili direttamente dalla pagina web o se serve un proxy per recuperarli. In quel caso il backend si potrebbe sviluppare nel portale-saas-service come api_plotting.
+
+### Selezione dell'Area di Stampa
+La selezione dell'area di stampa avviene tramite disegno su mappa, OpenLayers contiene delle funzionalità per il disegno di rettangoli su mappa.
+
+Questi rettangoli
