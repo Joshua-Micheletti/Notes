@@ -52,12 +52,22 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-01 16.23.22.excalidraw.md"
+                "file": "Work/EBW/G4B-140/UI.md"
+              }
+            }
+          },
+          {
+            "id": "5c436befa1d1fa0f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-01 16.23.22.excalidraw.md",
+                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-01 16.23.22.excalidraw.md",
+                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-01 16.23.22.excalidraw.md"
+                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md"
               }
             }
           },
@@ -218,12 +228,13 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "7b9915c682019181",
+  "active": "5c436befa1d1fa0f",
   "lastOpenFiles": [
+    "Work/EBW/G4B-140/UI.md",
+    "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
     "Work/EBW/G4B-140/Dipendenze.canvas",
     "Work/EBW/G4B-140/Strumento Plotting.md",
     "Work/EBW/Architecture.canvas",
-    "Work/EBW/G4B-140/Drawing 2024-07-01 16.23.22.excalidraw.md",
     "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/G4B-140",
     "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
