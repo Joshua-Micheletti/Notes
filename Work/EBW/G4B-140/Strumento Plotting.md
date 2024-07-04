@@ -5,7 +5,7 @@ Uno strumento di plotting identico a quello del SIAS non è implementabile per c
 
 1. Utilizzi il servizio di stampa in PDF del GSS che sulla base di opportuni parametri produca un PDF vettoriale con il livello di risoluzione adatto alle esigenze del cliente
     
-2. Sia predisposta una interfaccia utente di configurtazione del Plot che permetta all’utente di:
+2. Sia predisposta una interfaccia utente di configurazione del Plot che permetta all’utente di:
     
     1. Selezionare il Template di Stampa tra quelli costruiti mediante lo strumento Layout Designer del Client Desktop e memorizzati nel repository condiviso dal Client WEB. In fase di HLD verrà definito un numero massimo di template di stampa da configurare e anche una composizione degli stessi che contenga elementi standard e non sia troppo complessa.
         
