@@ -1,6 +1,11 @@
 {
 	"nodes":[
-		{"id":"2fb979923e252eed","x":-576,"y":-274,"width":250,"height":60,"type":"text","text":""}
+		{"id":"b01986ab64e3c248","x":-1815,"y":-258,"width":655,"height":418,"type":"text","text":"# Users\n\n| user_id                | ... |\n| ---------------------- | --- |\n| ascasd-asdwdasd-asdasd | ... |\n"},
+		{"id":"2fb979923e252eed","x":-600,"y":-266,"width":540,"height":266,"type":"text","text":"# rel_identity_bookmark\n\n| id  | user_id                | bookmark_id | deleted |\n| --- | ---------------------- | ----------- | ------- |\n| 1   | ascasd-asdwdasd-asdasd | 25          | 0       |\n"},
+		{"id":"ee592b54b0418e93","x":520,"y":-264,"width":384,"height":431,"type":"text","text":"# bookmarks"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"9a3e825f0f37bce2","fromNode":"b01986ab64e3c248","fromSide":"right","toNode":"2fb979923e252eed","toSide":"left"},
+		{"id":"6a7bc51a3cf7ee5d","fromNode":"ee592b54b0418e93","fromSide":"left","toNode":"2fb979923e252eed","toSide":"right"}
+	]
 }
