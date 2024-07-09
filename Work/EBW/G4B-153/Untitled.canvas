@@ -1,8 +1,11 @@
 {
 	"nodes":[
-		{"id":"b01986ab64e3c248","x":-1815,"y":-258,"width":655,"height":418,"type":"text","text":"# Users\n\n| user_id                | ... |\n| ---------------------- | --- |\n| ascasd-asdwdasd-asdasd | ... |\n"},
-		{"id":"2fb979923e252eed","x":-600,"y":-266,"width":540,"height":266,"type":"text","text":"# rel_identity_bookmark\n\n| id  | user_id                | bookmark_id | deleted |\n| --- | ---------------------- | ----------- | ------- |\n| 1   | ascasd-asdwdasd-asdasd | 25          | 0       |\n"},
-		{"id":"ee592b54b0418e93","x":520,"y":-264,"width":384,"height":431,"type":"text","text":"# bookmarks"}
+		{"id":"2fb979923e252eed","x":-640,"y":-182,"width":540,"height":266,"type":"text","text":"# rel_identity_bookmark\n\n| id  | user_id                | bookmark_id | deleted |\n| --- | ---------------------- | ----------- | ------- |\n| 1   | ascasd-asdwdasd-asdasd | 25          | 0       |\ndeleted default: 0"},
+		{"id":"ee592b54b0418e93","x":100,"y":-160,"width":384,"height":224,"type":"text","text":"# bookmarks\n\n| id  | center | layers | ... |\n| --- | ------ | ------ | --- |\n| 25  | ...    | ...    | ... |\n"},
+		{"id":"b01986ab64e3c248","x":-1460,"y":-152,"width":655,"height":209,"type":"text","text":"# Users\n\n| user_id                | ... |\n| ---------------------- | --- |\n| ascasd-asdwdasd-asdasd | ... |\n"},
+		{"id":"08a955b1d094d7e2","x":-626,"y":-580,"width":512,"height":252,"type":"text","text":"## Query\n```SQL\nSELECT bookmark_id\nFROM rel_identity_bookmark\nWHERE user_id = 'user_id'\nAND deleted = 0;\n```"},
+		{"id":"35cea795d964e991","x":-1220,"y":240,"width":636,"height":199,"type":"text","text":"## Query add\n```SQL\nINSERT INTO rel_identity_bookmark (user_id, bookmark_id)\nVALUES ('user_id', 'bookmark_id');\n```"},
+		{"id":"2e5e174b90b965f3","x":-337,"y":241,"width":497,"height":198,"type":"text","text":"## Query Delete"}
 	],
 	"edges":[
 		{"id":"9a3e825f0f37bce2","fromNode":"b01986ab64e3c248","fromSide":"right","toNode":"2fb979923e252eed","toSide":"left"},
