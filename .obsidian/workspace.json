@@ -13,10 +13,10 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/G4B-153/Untitled.canvas",
+                "file": "Work/EBW/G4B-153/Struttura.canvas",
                 "viewState": {
-                  "x": -454.03557814485396,
-                  "y": -50.12134688691228,
+                  "x": -488,
+                  "y": -70.5,
                   "zoom": -0.44209620184822956
                 }
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-153/Untitled.canvas",
+                "file": "Work/EBW/G4B-153/Struttura.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-153/Untitled.canvas",
+                "file": "Work/EBW/G4B-153/Struttura.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-153/Untitled.canvas"
+                "file": "Work/EBW/G4B-153/Struttura.canvas"
               }
             }
           },
@@ -243,7 +243,7 @@
     "Work/EBW/G4B-140/Strumento Plotting.md",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/Web Architecture.md",
-    "Work/EBW/G4B-153/Untitled.canvas",
+    "Work/EBW/G4B-153/Struttura.canvas",
     "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
     "Work/EBW/G4B-153",
     "Work/EBW/G4B-140/Dipendenze.canvas",
