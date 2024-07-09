@@ -6,13 +6,14 @@
 		{"id":"08a955b1d094d7e2","x":-626,"y":-580,"width":512,"height":252,"type":"text","text":"## Query Get\n```SQL\nSELECT bookmark_id\nFROM rel_identity_bookmark\nWHERE user_id = 'user_id'\nAND deleted = 0;\n```"},
 		{"id":"2e5e174b90b965f3","x":-348,"y":200,"width":497,"height":239,"type":"text","text":"## Query Delete\n```SQL\nUPDATE rel_identity_bookmark\nSET deleted = 1\nWHERE user_id = 'user_id'\n```"},
 		{"id":"35cea795d964e991","x":-1080,"y":220,"width":636,"height":199,"type":"text","text":"## Query add\n```SQL\nINSERT INTO rel_identity_bookmark (user_id, bookmark_id)\nVALUES ('user_id', 'bookmark_id');\n```"},
-		{"id":"0c499c5b4186d05f","x":118,"y":-485,"width":366,"height":265,"type":"text","text":"## Bookmarks delete\n```SQL\n\n```"}
+		{"id":"0c499c5b4186d05f","x":109,"y":-485,"width":366,"height":265,"type":"text","text":"## Bookmarks delete\n```SQL\n\n```"}
 	],
 	"edges":[
 		{"id":"9a3e825f0f37bce2","fromNode":"b01986ab64e3c248","fromSide":"right","toNode":"2fb979923e252eed","toSide":"left"},
 		{"id":"6a7bc51a3cf7ee5d","fromNode":"ee592b54b0418e93","fromSide":"left","toNode":"2fb979923e252eed","toSide":"right"},
 		{"id":"bf74d0eb3d05b5b7","fromNode":"35cea795d964e991","fromSide":"top","toNode":"2fb979923e252eed","toSide":"bottom"},
 		{"id":"3636b449c2f32dde","fromNode":"2e5e174b90b965f3","fromSide":"top","toNode":"2fb979923e252eed","toSide":"bottom"},
-		{"id":"8a0383ec4e60567d","fromNode":"08a955b1d094d7e2","fromSide":"bottom","toNode":"2fb979923e252eed","toSide":"top"}
+		{"id":"8a0383ec4e60567d","fromNode":"08a955b1d094d7e2","fromSide":"bottom","toNode":"2fb979923e252eed","toSide":"top"},
+		{"id":"38ac7f01f0a4277f","fromNode":"0c499c5b4186d05f","fromSide":"left","toNode":"2fb979923e252eed","toSide":"right"}
 	]
 }
