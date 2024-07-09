@@ -60,9 +60,14 @@
             "id": "5c436befa1d1fa0f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md"
+                "file": "Work/EBW/G4B-153/Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -133,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
+                "file": "Work/EBW/G4B-153/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
+                "file": "Work/EBW/G4B-153/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md"
+                "file": "Work/EBW/G4B-153/Untitled.canvas"
               }
             }
           },
@@ -230,9 +235,11 @@
   },
   "active": "5c436befa1d1fa0f",
   "lastOpenFiles": [
+    "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
+    "Work/EBW/G4B-153/Untitled.canvas",
+    "Work/EBW/G4B-153",
     "Work/EBW/G4B-140/Strumento Plotting.md",
     "Work/EBW/G4B-140/UI.md",
-    "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
     "Work/EBW/G4B-140/Dipendenze.canvas",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/G4B-134/Structure.canvas",
@@ -265,7 +272,6 @@
     "Programming/Angular/Deploying.md",
     "Programming/Angular/Decorators.md",
     "Work/EBW/Architecture new.canvas",
-    "Work/EBW/Web Architecture.md",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
     "Work/EBW/G4B-105/side/side_simple_detail.png",
@@ -281,10 +287,8 @@
     "Work/EBW/G4B-105",
     "Work/EBW/G4B-114",
     "Programming/Protocols/LDAP",
-    "Programming/Protocols",
     "Work/EBW/EBW-416/flow.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerUpdater.canvas"
+    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas"
   ]
 }
