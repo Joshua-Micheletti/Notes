@@ -67,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
+                "file": "Work/EBW/G4B-140/Strumento Plotting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
+                "file": "Work/EBW/G4B-140/Strumento Plotting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md"
+                "file": "Work/EBW/G4B-140/Strumento Plotting.md"
               }
             }
           },
@@ -228,7 +228,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "5c436befa1d1fa0f",
+  "active": "83d82e20807b16b1",
   "lastOpenFiles": [
     "Work/EBW/G4B-140/UI.md",
     "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
