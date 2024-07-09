@@ -64,8 +64,8 @@
               "state": {
                 "file": "Work/EBW/G4B-153/Untitled.canvas",
                 "viewState": {
-                  "x": -385.24747613631786,
-                  "y": 133.43201105898967,
+                  "x": -347.44984463947145,
+                  "y": -5.159304429446294,
                   "zoom": -0.3333333333333334
                 }
               }
@@ -122,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 302.5,
+    "collapsed": true
   },
   "right": {
     "id": "08316559ae15440b",
