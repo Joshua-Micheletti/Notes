@@ -11,11 +11,14 @@
             "id": "123e8e1f6b4ebded",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Programming/Protocols/LDAP/LDAP.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/EBW/G4B-153/Untitled.canvas",
+                "viewState": {
+                  "x": -454.03557814485396,
+                  "y": -50.12134688691228,
+                  "zoom": -0.44209620184822956
+                }
               }
             }
           },
@@ -62,17 +65,16 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/G4B-153/Untitled.canvas",
+                "file": "Work/EBW/Architecture.canvas",
                 "viewState": {
-                  "x": -441.94392338158707,
-                  "y": -60.595830624820834,
-                  "zoom": -0.3333333333333334
+                  "x": 1205.4999285113354,
+                  "y": -142.87627458624877,
+                  "zoom": -0.22782756196433412
                 }
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "08316559ae15440b",
@@ -234,21 +235,22 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "5c436befa1d1fa0f",
+  "active": "123e8e1f6b4ebded",
   "lastOpenFiles": [
-    "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
-    "Work/EBW/G4B-153/Untitled.canvas",
-    "Work/EBW/G4B-153",
-    "Work/EBW/G4B-140/Strumento Plotting.md",
+    "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-140/UI.md",
-    "Work/EBW/G4B-140/Dipendenze.canvas",
-    "Work/EBW/Architecture.canvas",
     "Work/EBW/G4B-134/Structure.canvas",
+    "Work/EBW/G4B-140/Strumento Plotting.md",
+    "Work/EBW/Architecture.canvas",
+    "Work/EBW/Web Architecture.md",
+    "Work/EBW/G4B-153/Untitled.canvas",
+    "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
+    "Work/EBW/G4B-153",
+    "Work/EBW/G4B-140/Dipendenze.canvas",
     "Work/EBW/G4B-140",
     "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
     "Work/EBW/G4B portale-saas tests.md",
     "Work/EBW/Todo.md",
-    "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
     "Work/EBW/G4B-105/Pianificazione.md",
     "Work/EBW/G4B-134",
@@ -271,7 +273,6 @@
     "Programming/Angular/Dynamic Components.md",
     "Programming/Angular/Directives.md",
     "Programming/Angular/Deploying.md",
-    "Programming/Angular/Decorators.md",
     "Work/EBW/Architecture new.canvas",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
