@@ -11,9 +11,11 @@
             "id": "123e8e1f6b4ebded",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md"
+                "file": "Work/EBW/Web Architecture.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -135,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
+                "file": "Work/EBW/Web Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
+                "file": "Work/EBW/Web Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md"
+                "file": "Work/EBW/Web Architecture.md"
               }
             }
           },
@@ -232,6 +234,7 @@
   },
   "active": "123e8e1f6b4ebded",
   "lastOpenFiles": [
+    "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
     "Work/EBW/G4B-140/Strumento Plotting.md",
     "Work/EBW/G4B-153/Struttura.canvas",
     "Programming/Protocols/LDAP/LDAP.md",
@@ -239,7 +242,6 @@
     "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/Web Architecture.md",
-    "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
     "Work/EBW/G4B-153",
     "Work/EBW/G4B-140/Dipendenze.canvas",
     "Work/EBW/G4B-140",
