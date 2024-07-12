@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "1540f7aaee5defb2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "70dfd616187a3233",
             "type": "leaf",
             "state": {
@@ -71,7 +81,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/Web Architecture.md",
+                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/Web Architecture.md",
+                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/Web Architecture.md"
+                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md"
               }
             }
           },
@@ -232,8 +243,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "123e8e1f6b4ebded",
+  "active": "1540f7aaee5defb2",
   "lastOpenFiles": [
+    "Work/EBW/Web Architecture.md",
+    "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
+    "Work/EBW/FAS-721",
     "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
     "Work/EBW/G4B-140/Strumento Plotting.md",
     "Work/EBW/G4B-153/Struttura.canvas",
@@ -241,7 +255,6 @@
     "Work/EBW/G4B-140/UI.md",
     "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/Architecture.canvas",
-    "Work/EBW/Web Architecture.md",
     "Work/EBW/G4B-153",
     "Work/EBW/G4B-140/Dipendenze.canvas",
     "Work/EBW/G4B-140",
@@ -285,7 +298,6 @@
     "Work/EBW/G4B-105/div",
     "Work/EBW/G4B-105",
     "Work/EBW/G4B-114",
-    "Programming/Protocols/LDAP",
     "Work/EBW/EBW-416/flow.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas"
