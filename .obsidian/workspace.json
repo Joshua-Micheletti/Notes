@@ -23,14 +23,9 @@
             "id": "1540f7aaee5defb2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "excalidraw",
               "state": {
-                "file": "Work/EBW/Architecture.canvas",
-                "viewState": {
-                  "x": 1037.189284004434,
-                  "y": -168.415292057513,
-                  "zoom": -0.22782756196433412
-                }
+                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md"
               }
             }
           },
@@ -137,8 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "08316559ae15440b",
@@ -154,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/Architecture.canvas",
+                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/Architecture.canvas",
+                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/Architecture.canvas"
+                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md"
               }
             }
           },
@@ -251,6 +245,7 @@
   },
   "active": "1540f7aaee5defb2",
   "lastOpenFiles": [
+    "Work/EBW/Architecture.canvas",
     "Work/EBW/G4B-140/Strumento Plotting.md",
     "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
@@ -260,7 +255,6 @@
     "Work/EBW/G4B-153/Struttura.canvas",
     "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-140/UI.md",
-    "Work/EBW/Architecture.canvas",
     "Work/EBW/G4B-153",
     "Work/EBW/G4B-140/Dipendenze.canvas",
     "Work/EBW/G4B-140",
