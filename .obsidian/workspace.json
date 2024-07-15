@@ -23,9 +23,14 @@
             "id": "1540f7aaee5defb2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md"
+                "file": "Work/EBW/G4B-140/Untitled.canvas",
+                "viewState": {
+                  "x": 76,
+                  "y": 11,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -148,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
+                "file": "Work/EBW/G4B-140/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
+                "file": "Work/EBW/G4B-140/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md"
+                "file": "Work/EBW/G4B-140/Untitled.canvas"
               }
             }
           },
@@ -245,10 +250,11 @@
   },
   "active": "1540f7aaee5defb2",
   "lastOpenFiles": [
+    "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
+    "Work/EBW/G4B-140/Untitled.canvas",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/G4B-140/Strumento Plotting.md",
     "Work/EBW/G4B-134/Structure.canvas",
-    "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
     "Work/EBW/Web Architecture.md",
     "Work/EBW/FAS-721",
     "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
@@ -298,7 +304,6 @@
     "Work/EBW/G4B-105",
     "Work/EBW/G4B-114",
     "Work/EBW/EBW-416/flow.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas",
-    "Work/EBW/FAS-646/sketches/shape_utils/layerDeleter.canvas"
+    "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas"
   ]
 }
