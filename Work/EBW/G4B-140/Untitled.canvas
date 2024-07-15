@@ -6,7 +6,8 @@
 		{"id":"0399941b8ccd52bb","x":-260,"y":140,"width":250,"height":60,"color":"4","type":"text","text":"DB Postgres"},
 		{"id":"d91b5c073e2ec2cd","x":-700,"y":-120,"width":250,"height":60,"type":"text","text":"Utente - richiesta"},
 		{"id":"85eadfcd7f8a7f55","x":-400,"y":-120,"width":90,"height":60,"type":"text","text":"User_id"},
-		{"id":"0d942fd476ac277f","x":6,"y":40,"width":114,"height":60,"type":"text","text":"Cron job"}
+		{"id":"0d942fd476ac277f","x":6,"y":40,"width":114,"height":60,"type":"text","text":"Cron job"},
+		{"id":"fe5803a053a1bd2b","x":-802,"y":111,"width":542,"height":118,"type":"text","text":"\n| id  | data | request_id | session_id |\n| --- | ---- | ---------- | ---------- |\n| int | json | string     | string     |\n"}
 	],
 	"edges":[
 		{"id":"16e7d984dbecb5bd","fromNode":"d91b5c073e2ec2cd","fromSide":"right","toNode":"6ffb40cadec6c7c9","toSide":"left"},
@@ -14,6 +15,7 @@
 		{"id":"8fe8947971a9eb2f","fromNode":"11c19e9d7f79ed68","fromSide":"top","toNode":"6ffb40cadec6c7c9","toSide":"top","color":"2"},
 		{"id":"a4be5c5a2e2467e2","fromNode":"6ffb40cadec6c7c9","fromSide":"bottom","toNode":"0399941b8ccd52bb","toSide":"top","color":"4"},
 		{"id":"96996e28d8c39c08","fromNode":"0399941b8ccd52bb","fromSide":"right","toNode":"6ffb40cadec6c7c9","toSide":"bottom","color":"4"},
-		{"id":"13f01f020daeed70","fromNode":"0d942fd476ac277f","fromSide":"right","toNode":"11c19e9d7f79ed68","toSide":"bottom","color":"2"}
+		{"id":"13f01f020daeed70","fromNode":"0d942fd476ac277f","fromSide":"right","toNode":"11c19e9d7f79ed68","toSide":"bottom","color":"2"},
+		{"id":"2b0686810c9999cb","fromNode":"0d942fd476ac277f","fromSide":"bottom","toNode":"0399941b8ccd52bb","toSide":"bottom","color":"4"}
 	]
 }
