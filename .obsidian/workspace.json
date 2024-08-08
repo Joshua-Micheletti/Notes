@@ -23,9 +23,11 @@
             "id": "1540f7aaee5defb2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md"
+                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -148,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
+                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
+                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md"
+                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md"
               }
             }
           },
@@ -245,6 +247,10 @@
   },
   "active": "1540f7aaee5defb2",
   "lastOpenFiles": [
+    "Work/EBW/OF-4430/Backend",
+    "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
+    "Work/EBW/OF-4430/Backend/Handling Permissions.md",
+    "Work/EBW/OF-4430",
     "Work/EBW/G4B-140/Untitled.canvas",
     "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
     "Work/EBW/Architecture.canvas",
@@ -252,7 +258,6 @@
     "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/Web Architecture.md",
     "Work/EBW/FAS-721",
-    "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
     "Work/EBW/G4B-153/Struttura.canvas",
     "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-140/UI.md",
@@ -282,7 +287,6 @@
     "Programming/Angular/Forms.md",
     "Programming/Angular/Events.md",
     "Programming/Angular/Dynamic Components.md",
-    "Programming/Angular/Directives.md",
     "Work/EBW/Architecture new.canvas",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
@@ -297,7 +301,6 @@
     "Work/EBW/G4B-105/div/div_sidebar_sx_click.png",
     "Work/EBW/G4B-105/div",
     "Work/EBW/G4B-105",
-    "Work/EBW/G4B-114",
     "Work/EBW/EBW-416/flow.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas"
   ]
