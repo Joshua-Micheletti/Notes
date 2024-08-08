@@ -2,4 +2,7 @@ There needs to be a system which detects when an HTTP call receives an invalid s
 
 Every HTTP request needs to be able to send back the updated token to the frontend.
 
-The HTT
+The HttpRequest util needs to be able to detect the invalid session, if that's the case:
+- try to obtain a new token with the refresh token
+	- if that succeeds, append the new token to the response and repeat the previous http request
+	- if that fails, return an error but include the information that the session expired in the response
