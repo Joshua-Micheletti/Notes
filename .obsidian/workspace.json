@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md",
+                "file": "Work/EBW/OF-4430/Backend/Operations Log.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md",
+                "file": "Work/EBW/OF-4430/Backend/Operations Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md",
+                "file": "Work/EBW/OF-4430/Backend/Operations Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md"
+                "file": "Work/EBW/OF-4430/Backend/Operations Log.md"
               }
             }
           },
@@ -247,8 +247,9 @@
   },
   "active": "1540f7aaee5defb2",
   "lastOpenFiles": [
-    "Work/EBW/OF-4430/Backend/Handling Permissions.md",
     "Work/EBW/OF-4430/Backend/Refresh Token.md",
+    "Work/EBW/OF-4430/Backend/Operations Log.md",
+    "Work/EBW/OF-4430/Backend/Handling Permissions.md",
     "Work/EBW/OF-4430/Backend",
     "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
     "Work/EBW/OF-4430",
@@ -287,7 +288,6 @@
     "Programming/Angular/HTTP.md",
     "Programming/Angular/Forms.md",
     "Programming/Angular/Events.md",
-    "Programming/Angular/Dynamic Components.md",
     "Work/EBW/Architecture new.canvas",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
