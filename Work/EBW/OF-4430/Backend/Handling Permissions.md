@@ -21,10 +21,17 @@ Relation table that connects permissions to the user
 | int | string     | string       | int    |
 | 128 | PERMISSION | j.micheletti | 1      |
 ## Endpoints
-### GET /permission/{permission}
+### GET /permission
 Retrieve the list of all active permissions
+### GET /permission/{permission}
+Retrieve the list of all the users with that permission
 ### GET /permission/user/{user}?permission=
-Retrieve the list of all active permissions associated with a user. Passing a permission query parameter 
-### POST /permission
+Retrieve the list of all active permissions associated with a user. Passing a permission query parameter returns whether the user has that permission enabled.
+### POST /permission/{permission}
 Adds a new permission to the list of permissions
-### PATCH /permission
+### PATCH /permission/{permission}?name=&active=
+Allows to change the name of the permission and whether it's active or not
+### PATCH /permission/user/{user}?permission=&active=
+Assigns a permission to a user and sets whether it's active or not. If the permission is already assigned, update the 'active' value accordingly.
+
+
