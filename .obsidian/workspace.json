@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
+                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
+                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
+                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md"
+                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md"
               }
             }
           },
@@ -247,9 +247,10 @@
   },
   "active": "1540f7aaee5defb2",
   "lastOpenFiles": [
+    "Work/EBW/OF-4430/Backend/Handling Permissions.md",
+    "Work/EBW/OF-4430/Backend/Refresh Token.md",
     "Work/EBW/OF-4430/Backend",
     "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
-    "Work/EBW/OF-4430/Backend/Handling Permissions.md",
     "Work/EBW/OF-4430",
     "Work/EBW/G4B-140/Untitled.canvas",
     "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
@@ -300,7 +301,6 @@
     "Work/EBW/G4B-105/div/div_simple_click.png",
     "Work/EBW/G4B-105/div/div_sidebar_sx_click.png",
     "Work/EBW/G4B-105/div",
-    "Work/EBW/G4B-105",
     "Work/EBW/EBW-416/flow.canvas",
     "Work/EBW/FAS-646/sketches/shape_utils/layerLoader.canvas"
   ]
