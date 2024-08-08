@@ -20,3 +20,11 @@ Relation table that connects permissions to the user
 | --- | ---------- | ------------ | ------ |
 | int | string     | string       | int    |
 | 128 | PERMISSION | j.micheletti | 1      |
+## Endpoints
+### GET /permission/{permission}
+Retrieve the list of all active permissions
+### GET /permission/user/{user}?permission=
+Retrieve the list of all active permissions associated with a user. Passing a permission query parameter 
+### POST /permission
+Adds a new permission to the list of permissions
+### PATCH /permission
