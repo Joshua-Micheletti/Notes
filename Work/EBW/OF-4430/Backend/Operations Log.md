@@ -8,4 +8,7 @@ This table needs to be filled by every supported operation towards the trimble s
 
 ## Endpoints
 ### GET /log/operation/list?user=&usertrimble=&operation=&date=
-Get the list of all the operation logs filtered by the query parameters passed
+Get the list of all the operation logs filtered by the query parameters passed in AND.
+All the query parameter values can be separated by a ',' to put them in OR between them.
+
+Only users with the associated permission are able to perform this operation
