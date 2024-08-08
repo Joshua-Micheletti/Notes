@@ -5,7 +5,7 @@ This table will store where the user comes from or not, depending on if it's gon
 One of the permissions that are gonna be necessary is the ability to retrieve the access log list.
 
 ## Tables
-### Permission
+### permission
 
 | id  | Permission | Active |
 | --- | ---------- | ------ |
@@ -16,6 +16,7 @@ This table will store the list of the available permissions for the webapp.
 ### user_permission
 Relation table that connects permissions to the user
 
-| id  | Permission |
-| --- | ---------- |
-|     |            |
+| id  | Permission | User         | Active |
+| --- | ---------- | ------------ | ------ |
+| int | string     | string       | int    |
+| 128 | PERMISSION | j.micheletti | 1      |
