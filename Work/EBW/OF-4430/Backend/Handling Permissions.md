@@ -23,16 +23,16 @@ Relation table that connects permissions to the user
 - [x] #task Document ✅ 2024-08-13
 Retrieve the list of all active permissions
 ### GET /permission/{permission}
-- [x] #task Implement ✅ 2024-08-13
-- [x] #task Document ✅ 2024-08-13
+- [ ] #task Implement
+- [ ] #task Document
 Retrieve the list of all the users with that permission
 ### GET /permission/user/{user}?permission=
 - [ ] #task Implement
 - [ ] #task Document
 Retrieve the list of all active permissions associated with a user. Passing a permission query parameter returns whether the user has that permission enabled.
 ### POST /permission/{permission}
-- [ ] #task Implement
-- [ ] #task Document
+- [x] #task Implement ✅ 2024-08-13
+- [x] #task Document ✅ 2024-08-13
 Adds a new permission to the list of permissions
 ### PATCH /permission/{permission}?name=&active=
 - [ ] #task Implement

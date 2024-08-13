@@ -130,8 +130,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -246,7 +245,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "1540f7aaee5defb2",
+  "active": "755e1fd4a5fe3281",
   "lastOpenFiles": [
     "Work/EBW/OF-4430/Backend/Handling Folders.md",
     "Work/EBW/OF-4430/Backend/Operations Log.md",
