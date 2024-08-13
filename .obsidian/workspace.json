@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Folders.md",
+                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Folders.md",
+                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Folders.md",
+                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Folders.md"
+                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md"
               }
             }
           },
@@ -247,8 +247,8 @@
   },
   "active": "1540f7aaee5defb2",
   "lastOpenFiles": [
-    "Work/EBW/OF-4430/Backend/Operations Log.md",
     "Work/EBW/OF-4430/Backend/Handling Folders.md",
+    "Work/EBW/OF-4430/Backend/Operations Log.md",
     "Work/EBW/OF-4430/Backend/Refresh Token.md",
     "Work/EBW/OF-4430/Backend/Handling Permissions.md",
     "Work/EBW/OF-4430/Backend",
