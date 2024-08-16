@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
-                "mode": "source",
+                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
+                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md",
+                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Permissions.md"
+                "file": "Work/EBW/OF-4430/Backend/Refresh Token.md"
               }
             }
           },
@@ -247,11 +247,11 @@
   },
   "active": "1540f7aaee5defb2",
   "lastOpenFiles": [
+    "Work/EBW/OF-4430/Backend/Handling Permissions.md",
     "Work/EBW/Web Architecture.md",
     "Work/EBW/OF-4430/Backend/Handling Folders.md",
     "Work/EBW/OF-4430/Backend/Operations Log.md",
     "Work/EBW/OF-4430/Backend/Refresh Token.md",
-    "Work/EBW/OF-4430/Backend/Handling Permissions.md",
     "Work/EBW/OF-4430/Backend",
     "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
     "Work/EBW/OF-4430",
