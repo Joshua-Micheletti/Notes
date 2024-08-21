@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"e6919be6d16b8f28","x":-387,"y":-220,"width":250,"height":60,"type":"text","text":"/files/id"},
+		{"id":"e6919be6d16b8f28","x":-387,"y":-220,"width":250,"height":60,"color":"4","type":"text","text":"/files/id"},
 		{"id":"c1681fdca54cb590","x":-387,"y":-120,"width":250,"height":60,"type":"text","text":"/folders/id"},
 		{"id":"9442f0d69e677946","x":-387,"y":180,"width":250,"height":60,"type":"text","text":"/folders/id/versions"},
-		{"id":"fb2b45c066e45034","x":-387,"y":80,"width":250,"height":60,"type":"text","text":"/files/id/versions"},
+		{"id":"fb2b45c066e45034","x":-387,"y":80,"width":250,"height":60,"color":"4","type":"text","text":"/files/id/versions"},
 		{"id":"76a891e5838488cc","x":-387,"y":-20,"width":250,"height":60,"type":"text","text":"/folders/id/items"},
 		{"id":"b72bd4525f9a0228","x":40,"y":-120,"width":250,"height":60,"color":"4","type":"text","text":"CreatedOn refers to the creation date"},
 		{"id":"e2a5988a2b995a30","x":-387,"y":380,"width":250,"height":60,"type":"text","text":"/activities"},
