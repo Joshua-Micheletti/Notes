@@ -23,14 +23,11 @@
             "id": "1540f7aaee5defb2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Operations Schema.canvas",
-                "viewState": {
-                  "x": 72.09144599787606,
-                  "y": 11.845162564001768,
-                  "zoom": -0.3333333333333332
-                }
+                "file": "Work/EBW/OF-4430/Backend/Handling Folders.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -153,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Operations Schema.canvas",
+                "file": "Work/EBW/OF-4430/Backend/Handling Folders.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Operations Schema.canvas",
+                "file": "Work/EBW/OF-4430/Backend/Handling Folders.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Operations Schema.canvas"
+                "file": "Work/EBW/OF-4430/Backend/Handling Folders.md"
               }
             }
           },
@@ -250,8 +247,8 @@
   },
   "active": "1540f7aaee5defb2",
   "lastOpenFiles": [
-    "Work/EBW/OF-4430/Backend/Operations Log.md",
     "Work/EBW/OF-4430/Backend/Operations Schema.canvas",
+    "Work/EBW/OF-4430/Backend/Operations Log.md",
     "Work/EBW/OF-4430/Backend/Refresh Token.md",
     "Work/EBW/OF-4430/Backend/Handling Permissions.md",
     "Work/EBW/OF-4430/Backend/Handling Folders.md",

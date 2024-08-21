@@ -1,0 +1,1 @@
+To upload files, check the endpoints /files/fs/initiate and /files/fs/commit
