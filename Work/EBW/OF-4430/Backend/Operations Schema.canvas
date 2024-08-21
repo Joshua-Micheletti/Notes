@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"fb2b45c066e45034","x":-387,"y":-120,"width":250,"height":60,"type":"text","text":"/files/id/versions"},
+		{"id":"c1681fdca54cb590","x":-387,"y":-20,"width":250,"height":60,"type":"text","text":"/folders/id"},
+		{"id":"9442f0d69e677946","x":-387,"y":80,"width":250,"height":60,"type":"text","text":"/folders/id/versions"},
+		{"id":"e6919be6d16b8f28","x":-387,"y":-220,"width":250,"height":60,"type":"text","text":"/files/id"},
+		{"id":"76a891e5838488cc","x":-387,"y":180,"width":250,"height":60,"type":"text","text":"/folders/id/items"}
+	],
+	"edges":[]
+}
