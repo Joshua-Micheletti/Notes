@@ -1,10 +1,19 @@
 {
 	"nodes":[
-		{"id":"fb2b45c066e45034","x":-387,"y":-120,"width":250,"height":60,"type":"text","text":"/files/id/versions"},
-		{"id":"c1681fdca54cb590","x":-387,"y":-20,"width":250,"height":60,"type":"text","text":"/folders/id"},
-		{"id":"9442f0d69e677946","x":-387,"y":80,"width":250,"height":60,"type":"text","text":"/folders/id/versions"},
 		{"id":"e6919be6d16b8f28","x":-387,"y":-220,"width":250,"height":60,"type":"text","text":"/files/id"},
-		{"id":"76a891e5838488cc","x":-387,"y":180,"width":250,"height":60,"type":"text","text":"/folders/id/items"}
+		{"id":"c1681fdca54cb590","x":-387,"y":-120,"width":250,"height":60,"type":"text","text":"/folders/id"},
+		{"id":"9442f0d69e677946","x":-387,"y":180,"width":250,"height":60,"type":"text","text":"/folders/id/versions"},
+		{"id":"fb2b45c066e45034","x":-387,"y":80,"width":250,"height":60,"type":"text","text":"/files/id/versions"},
+		{"id":"76a891e5838488cc","x":-387,"y":-20,"width":250,"height":60,"type":"text","text":"/folders/id/items"},
+		{"id":"b72bd4525f9a0228","x":40,"y":-120,"width":250,"height":60,"color":"4","type":"text","text":"CreatedOn refers to the creation date"},
+		{"id":"e2a5988a2b995a30","x":-387,"y":380,"width":250,"height":60,"type":"text","text":"/activities"},
+		{"id":"a5660cb94aa16dcf","x":40,"y":120,"width":250,"height":60,"color":"1","type":"text","text":"CreatedOn refers to the version date"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"9462733bb9d726ac","fromNode":"e6919be6d16b8f28","fromSide":"right","toNode":"b72bd4525f9a0228","toSide":"left","color":"4"},
+		{"id":"2dd23d697dea5468","fromNode":"c1681fdca54cb590","fromSide":"right","toNode":"b72bd4525f9a0228","toSide":"left","color":"4"},
+		{"id":"d3f3e5ebd33844f8","fromNode":"76a891e5838488cc","fromSide":"right","toNode":"b72bd4525f9a0228","toSide":"left","color":"4"},
+		{"id":"3b1f3baa6c70ddfe","fromNode":"fb2b45c066e45034","fromSide":"right","toNode":"a5660cb94aa16dcf","toSide":"left","color":"1"},
+		{"id":"76ae68b1e20bd2bc","fromNode":"9442f0d69e677946","fromSide":"right","toNode":"a5660cb94aa16dcf","toSide":"left","color":"1"}
+	]
 }
