@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"50e2de6bf4690202","x":-389,"y":-213,"width":149,"height":113,"type":"text","text":"## Upload file\n\n/files/fs/upload"},
+		{"id":"a4ea833a1f0b6a1e","x":-80,"y":-186,"width":250,"height":60,"color":"5","type":"text","text":"Pending Operation"},
+		{"id":"524991349c76565b","x":-11,"y":-360,"width":113,"height":60,"color":"2","type":"text","text":"Cron job"},
+		{"id":"0fba9345043d46c9","x":-280,"y":-420,"width":135,"height":60,"color":"4","type":"text","text":"Web Socket"},
+		{"id":"7de3edc28caaa9ce","x":-34,"y":-540,"width":159,"height":60,"color":"5","type":"text","text":"Operation Log"}
+	],
+	"edges":[
+		{"id":"939b3a03a2bb8b65","fromNode":"50e2de6bf4690202","fromSide":"right","toNode":"a4ea833a1f0b6a1e","toSide":"left"},
+		{"id":"14c1b1b31c24a873","fromNode":"524991349c76565b","fromSide":"right","toNode":"a4ea833a1f0b6a1e","toSide":"right"},
+		{"id":"2f9afb834902ad76","fromNode":"a4ea833a1f0b6a1e","fromSide":"top","toNode":"524991349c76565b","toSide":"bottom"},
+		{"id":"7e3605f750ee855d","fromNode":"524991349c76565b","fromSide":"top","toNode":"7de3edc28caaa9ce","toSide":"bottom"},
+		{"id":"c2b30dd41692ac83","fromNode":"524991349c76565b","fromSide":"left","toNode":"0fba9345043d46c9","toSide":"right"}
+	]
+}
