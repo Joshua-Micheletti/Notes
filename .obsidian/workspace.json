@@ -35,6 +35,16 @@
             }
           },
           {
+            "id": "e85bf00d9e20cdec",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Work/EBW/OF-4430/Backend/Drawing 2024-08-29 15.32.39.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "70dfd616187a3233",
             "type": "leaf",
             "state": {
@@ -87,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -153,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/File Upload.canvas",
+                "file": "Work/EBW/OF-4430/Backend/Drawing 2024-08-29 15.32.39.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/File Upload.canvas",
+                "file": "Work/EBW/OF-4430/Backend/Drawing 2024-08-29 15.32.39.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/File Upload.canvas"
+                "file": "Work/EBW/OF-4430/Backend/Drawing 2024-08-29 15.32.39.excalidraw.md"
               }
             }
           },
@@ -248,10 +258,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "1540f7aaee5defb2",
+  "active": "e85bf00d9e20cdec",
   "lastOpenFiles": [
-    "Work/EBW/OF-4430/Backend/Operations Schema.canvas",
     "Work/EBW/OF-4430/Backend/File Upload.canvas",
+    "Work/EBW/OF-4430/Backend/Drawing 2024-08-29 15.32.39.excalidraw.md",
+    "Work/EBW/OF-4430/Backend/Operations Schema.canvas",
     "Work/EBW/OF-4430/Backend/Handling Folders.md",
     "Work/EBW/OF-4430/Backend/Operations Log.md",
     "Work/EBW/OF-4430/Backend/Refresh Token.md",
@@ -291,7 +302,6 @@
     "Programming/Angular/Modules.md",
     "Programming/Angular/Lifecycle hooks.md",
     "Programming/Angular/Introduction.md",
-    "Programming/Angular/HTTP.md",
     "Work/EBW/Architecture new.canvas",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
