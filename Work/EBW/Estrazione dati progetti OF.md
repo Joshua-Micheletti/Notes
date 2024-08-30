@@ -10,7 +10,7 @@ Trova il progetto che più si avvicina alla superficie media. screenshot visuali
 
 ### Lista di tipi di progetti
 ```SQL
-SELECT DISTINCT "type" FROM public.projects;
+SELECT DISTINCT "type" FROM public.projects WHERE "type" IS NOT NULL;
 ```
 
 #### Result
