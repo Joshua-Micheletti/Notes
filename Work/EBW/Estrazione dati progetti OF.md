@@ -34,3 +34,6 @@ null
 "sketch"
 "Creation"
 ```
+
+### Query
+#### Min, Max, Av
