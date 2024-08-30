@@ -41,13 +41,19 @@ null
 WITH surface_area AS (
     SELECT AVG(ST_Area(ST_Transform(geom, 3857)) / 1000000) AS avg_surface_area, MAX(ST_Area(ST_Transform(geom, 3857)) / 1000000) AS max_surface_area, MIN(ST_Area(ST_Transform(geom, 3857)) / 1000000) AS min_surface_area
     FROM projects
-    WHERE "type" = 'creation'
+    WHERE "type" = 'census'
 	AND (ST_Area(ST_Transform(geom, 3857)) / 1000000) > 0
     AND status != 'cancelled'
+),
+projects_count AS (
+	SELECT COUNT(*) AS amount
+	FROM projects
+	WHERE "type" = 'census'
+	AND status != 'cancelled'
 )
-SELECT geom, (ST_Area(ST_Transform(geom, 3857)) / 1000000) as area, surface_area.max_surface_area, surface_area.min_surface_area, surface_area.avg_surface_area
-FROM projects, surface_area
-WHERE "type" = 'creation'
+SELECT geom, (ST_Area(ST_Transform(geom, 3857)) / 1000000) as area, surface_area.max_surface_area, surface_area.min_surface_area, surface_area.avg_surface_area, projects_count.amount
+FROM projects, surface_area, projects_count
+WHERE "type" = 'census'
 AND status != 'cancelled'
 ORDER BY ABS((ST_Area(ST_Transform(geom, 3857)) / 1000000) - surface_area.avg_surface_area) ASC
 LIMIT 1;
