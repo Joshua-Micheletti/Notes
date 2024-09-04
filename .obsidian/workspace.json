@@ -38,9 +38,14 @@
             "id": "e85bf00d9e20cdec",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md"
+                "file": "Work/EBW/Estrazione dati progetti OF.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -163,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md",
+                "file": "Work/EBW/Estrazione dati progetti OF.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md",
+                "file": "Work/EBW/Estrazione dati progetti OF.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/FAS-646/sketches/EPSG Detection.md"
+                "file": "Work/EBW/Estrazione dati progetti OF.canvas"
               }
             }
           },
@@ -260,6 +265,9 @@
   },
   "active": "e85bf00d9e20cdec",
   "lastOpenFiles": [
+    "Work/EBW/Estrazione dati progetti OF.md",
+    "Work/EBW/Estrazione dati progetti OF.canvas",
+    "Work/EBW/FAS-646/sketches/EPSG Detection.md",
     "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
@@ -269,7 +277,6 @@
     "Work/EBW/EBW-94/Drawing 2024-02-07 10.45.28.excalidraw.md",
     "Work/EBW/Architecture new.canvas",
     "Work/EBW/Architecture.canvas",
-    "Work/EBW/Estrazione dati progetti OF.md",
     "Work/EBW/OF-4430/Backend/Drawing 2024-08-29 15.32.39.excalidraw.md",
     "Work/EBW/OF-4430/Backend/File Upload.canvas",
     "Work/EBW/OF-4430/Backend/Operations Schema.canvas",
@@ -281,10 +288,8 @@
     "Work/EBW/OF-4430/Backend",
     "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
     "Work/EBW/OF-4430",
-    "Work/EBW/G4B-140/Untitled.canvas",
     "Work/EBW/FAS-721/Drawing 2024-07-12 15.50.45.excalidraw.md",
     "Work/EBW/G4B-140/Strumento Plotting.md",
-    "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/FAS-721",
     "Programming/Protocols/LDAP/LDAP.md",
     "Work/EBW/G4B-140/UI.md",
@@ -303,7 +308,6 @@
     "Programming/Angular/Pipes.md",
     "Programming/Angular/Optimization.md",
     "Programming/Angular/Observable.md",
-    "Programming/Angular/NgRx.md",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
     "Work/EBW/G4B-105/side/side_simple_detail.png",
