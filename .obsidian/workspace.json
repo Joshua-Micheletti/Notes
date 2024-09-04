@@ -50,6 +50,16 @@
             }
           },
           {
+            "id": "b4a34a607aed0da3",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "70dfd616187a3233",
             "type": "leaf",
             "state": {
@@ -102,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -168,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/Estrazione dati progetti OF.canvas",
+                "file": "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/Estrazione dati progetti OF.canvas",
+                "file": "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/Estrazione dati progetti OF.canvas"
+                "file": "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md"
               }
             }
           },
@@ -263,10 +273,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "e85bf00d9e20cdec",
+  "active": "b4a34a607aed0da3",
   "lastOpenFiles": [
-    "Work/EBW/Estrazione dati progetti OF.md",
     "Work/EBW/Estrazione dati progetti OF.canvas",
+    "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md",
+    "Work/EBW/Estrazione dati progetti OF.md",
     "Work/EBW/FAS-646/sketches/EPSG Detection.md",
     "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
@@ -307,7 +318,6 @@
     "Programming/Design Patterns/Singleton.md",
     "Programming/Angular/Pipes.md",
     "Programming/Angular/Optimization.md",
-    "Programming/Angular/Observable.md",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
     "Work/EBW/G4B-105/side/side_simple_detail.png",
