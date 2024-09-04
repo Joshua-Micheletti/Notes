@@ -5,7 +5,6 @@
 		{"id":"0568c9fed7dd946d","type":"group","x":-400,"y":1040,"width":1260,"height":840,"color":"#0091ff","label":"Shape table created"},
 		{"id":"2e331ed636bbece2","type":"group","x":3080,"y":985,"width":1040,"height":510,"color":"5","label":"oauth transaction"},
 		{"id":"188de61c2f545462","type":"group","x":-380,"y":1480,"width":1218,"height":380,"color":"1","label":"GeoServer layer created"},
-		{"id":"45fdc5dfd4cfa5c1","x":-1360,"y":-620,"width":400,"height":400,"type":"group","label":"Untitled group"},
 		{"id":"3029647e9e8b2f09","type":"group","x":-1640,"y":160,"width":162,"height":500,"label":"Legend"},
 		{"id":"cb531efb66ed6f9f","type":"group","x":640,"y":0,"width":162,"height":460,"label":"Legend"},
 		{"id":"262470e246827b0e","type":"group","x":-360,"y":1740,"width":286,"height":100,"color":"3","label":"Map config updated"},
@@ -135,8 +134,7 @@
 		{"id":"8b547137198d3ade","type":"text","text":"#### checkRequest\ncheck that the request contains all the necessary info\n","x":-341,"y":250,"width":250,"height":160,"color":"4"},
 		{"id":"5444c6caf49d6797","type":"text","text":"# Request to /loadKMZ:\n- file\n- label\n- layerStyle\n- notes\n- context","x":-379,"y":-100,"width":327,"height":300},
 		{"id":"b509a667a7a526ce","type":"text","text":"Error","x":112,"y":300,"width":87,"height":60,"color":"3"},
-		{"id":"cec8faf047ac5350","type":"text","text":"Error","x":112,"y":510,"width":87,"height":60,"color":"3"},
-		{"id":"8a9182ef29d4d5cd","x":-1260,"y":-580,"width":250,"height":297,"color":"4","type":"text","text":"## sadasdasda\n"}
+		{"id":"cec8faf047ac5350","type":"text","text":"Error","x":112,"y":510,"width":87,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"81488b1068f3b761","fromNode":"ef0c01da95c10d0e","fromSide":"right","toNode":"cec8faf047ac5350","toSide":"left","color":"3"},
