@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"f04f037973d03f6a","x":-502,"y":701,"width":250,"height":60,"type":"text","text":""},
+		{"id":"100f246e9093fee3","x":-160,"y":-320,"width":250,"height":164,"type":"text","text":"## POST /area/{areaId}\n#### Query:\n- projectId=asdasdwd\n\n"},
+		{"id":"15269cb256883956","x":-160,"y":-60,"width":250,"height":60,"color":"5","type":"text","text":"### Check Inputs"},
+		{"id":"06e43788d97b97f0","x":-160,"y":140,"width":250,"height":60,"color":"5","type":"text","text":"### Extract Region"},
+		{"id":"0a1937e8c4d0080c","x":-160,"y":320,"width":250,"height":60,"color":"2","type":"text","text":"### Get Trimble FileSystem"},
+		{"id":"ef5d3c39d40cb3b6","x":-160,"y":520,"width":250,"height":60,"color":"3","type":"text","text":"### Find Area Folder"},
+		{"id":"590605dc27ead4d8","x":220,"y":520,"width":100,"height":60,"color":"4","type":"text","text":"#### Found"},
+		{"id":"ef0ef694419bf23b","x":-440,"y":520,"width":140,"height":60,"color":"1","type":"text","text":"##### Not found"}
+	],
+	"edges":[
+		{"id":"63835177968fe2e2","fromNode":"100f246e9093fee3","fromSide":"bottom","toNode":"15269cb256883956","toSide":"top"},
+		{"id":"de501871cdb60126","fromNode":"15269cb256883956","fromSide":"bottom","toNode":"06e43788d97b97f0","toSide":"top"},
+		{"id":"bf8d4473dc1f367a","fromNode":"06e43788d97b97f0","fromSide":"bottom","toNode":"0a1937e8c4d0080c","toSide":"top"},
+		{"id":"2a4bcbb77ee1b461","fromNode":"0a1937e8c4d0080c","fromSide":"bottom","toNode":"ef5d3c39d40cb3b6","toSide":"top"},
+		{"id":"a5b01901debb219e","fromNode":"ef5d3c39d40cb3b6","fromSide":"right","toNode":"590605dc27ead4d8","toSide":"left"},
+		{"id":"535508f5f1d94413","fromNode":"ef5d3c39d40cb3b6","fromSide":"left","toNode":"ef0ef694419bf23b","toSide":"right"}
+	]
+}

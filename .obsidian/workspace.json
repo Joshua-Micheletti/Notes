@@ -53,9 +53,14 @@
             "id": "b4a34a607aed0da3",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md"
+                "file": "Work/EBW/OF-4430/Backend/Create Area.canvas",
+                "viewState": {
+                  "x": -224,
+                  "y": 440,
+                  "zoom": -0.6666666666666666
+                }
               }
             }
           },
@@ -178,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md",
+                "file": "Work/EBW/OF-4430/Backend/Create Area.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md",
+                "file": "Work/EBW/OF-4430/Backend/Create Area.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md"
+                "file": "Work/EBW/OF-4430/Backend/Create Area.canvas"
               }
             }
           },
@@ -275,8 +280,9 @@
   },
   "active": "b4a34a607aed0da3",
   "lastOpenFiles": [
-    "Work/EBW/Estrazione dati progetti OF.canvas",
     "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md",
+    "Work/EBW/OF-4430/Backend/Create Area.canvas",
+    "Work/EBW/Estrazione dati progetti OF.canvas",
     "Work/EBW/Estrazione dati progetti OF.md",
     "Work/EBW/FAS-646/sketches/EPSG Detection.md",
     "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
@@ -290,7 +296,6 @@
     "Work/EBW/Architecture.canvas",
     "Work/EBW/OF-4430/Backend/Drawing 2024-08-29 15.32.39.excalidraw.md",
     "Work/EBW/OF-4430/Backend/File Upload.canvas",
-    "Work/EBW/OF-4430/Backend/Operations Schema.canvas",
     "Work/EBW/OF-4430/Backend/Handling Folders.md",
     "Work/EBW/OF-4430/Backend/Operations Log.md",
     "Work/EBW/OF-4430/Backend/Refresh Token.md",
