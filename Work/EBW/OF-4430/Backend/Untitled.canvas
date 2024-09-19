@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"e1c7ca8e23ea59e6","x":-180,"y":-260,"width":220,"height":140,"type":"text","text":"### Login Trimble\n- d.guidi@ebw.it\n- * * * * * *"},
+		{"id":"48f0532a8b1ff0ab","x":-114,"y":0,"width":254,"height":120,"type":"text","text":"### Code\n- "}
+	],
+	"edges":[
+		{"id":"6322d9f690b81f00","fromNode":"e1c7ca8e23ea59e6","fromSide":"bottom","toNode":"48f0532a8b1ff0ab","toSide":"top"}
+	]
+}
