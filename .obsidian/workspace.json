@@ -55,11 +55,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Untitled.canvas",
+                "file": "Work/EBW/OF-4430/Backend/Handling Token.canvas",
                 "viewState": {
-                  "x": 246.393836251003,
-                  "y": 557.7718856874362,
-                  "zoom": -1
+                  "x": 58.287500000000136,
+                  "y": 747.9166666666666,
+                  "zoom": -0.9100930276468625
                 }
               }
             }
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Untitled.canvas",
+                "file": "Work/EBW/OF-4430/Backend/Handling Token.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Untitled.canvas",
+                "file": "Work/EBW/OF-4430/Backend/Handling Token.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Untitled.canvas"
+                "file": "Work/EBW/OF-4430/Backend/Handling Token.canvas"
               }
             }
           },
@@ -281,7 +281,7 @@
   "active": "b4a34a607aed0da3",
   "lastOpenFiles": [
     "Work/EBW/OF-4430/Backend/Create Area.canvas",
-    "Work/EBW/OF-4430/Backend/Untitled.canvas",
+    "Work/EBW/OF-4430/Backend/Handling Token.canvas",
     "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md",
     "Work/EBW/Estrazione dati progetti OF.canvas",
     "Work/EBW/Estrazione dati progetti OF.md",
