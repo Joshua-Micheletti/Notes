@@ -55,11 +55,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Token.canvas",
+                "file": "Work/EBW/G4B-134/Structure.canvas",
                 "viewState": {
-                  "x": 43.87227062870029,
-                  "y": 1173.8314928894342,
-                  "zoom": 0.0899069723531375
+                  "x": 705.1480940279544,
+                  "y": -377.62204574332895,
+                  "zoom": -0.648497603328721
                 }
               }
             }
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Token.canvas",
+                "file": "Work/EBW/G4B-134/Structure.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Token.canvas",
+                "file": "Work/EBW/G4B-134/Structure.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/Handling Token.canvas"
+                "file": "Work/EBW/G4B-134/Structure.canvas"
               }
             }
           },
@@ -280,8 +280,9 @@
   },
   "active": "b4a34a607aed0da3",
   "lastOpenFiles": [
-    "Work/EBW/OF-4430/Backend/Create Area.canvas",
+    "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
     "Work/EBW/OF-4430/Backend/Handling Token.canvas",
+    "Work/EBW/OF-4430/Backend/Create Area.canvas",
     "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md",
     "Work/EBW/Estrazione dati progetti OF.canvas",
     "Work/EBW/Estrazione dati progetti OF.md",
@@ -296,7 +297,6 @@
     "Work/EBW/Architecture new.canvas",
     "Work/EBW/Architecture.canvas",
     "Work/EBW/OF-4430/Backend/Drawing 2024-08-29 15.32.39.excalidraw.md",
-    "Work/EBW/OF-4430/Backend/File Upload.canvas",
     "Work/EBW/OF-4430/Backend/Handling Folders.md",
     "Work/EBW/OF-4430/Backend/Operations Log.md",
     "Work/EBW/OF-4430/Backend/Refresh Token.md",
@@ -312,7 +312,6 @@
     "Work/EBW/G4B-140/UI.md",
     "Work/EBW/G4B-153",
     "Work/EBW/G4B-140",
-    "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
     "Work/EBW/G4B portale-saas tests.md",
     "Work/EBW/Todo.md",
     "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
