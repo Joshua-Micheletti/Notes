@@ -4,15 +4,20 @@
 		{"id":"48f0532a8b1ff0ab","x":-270,"y":0,"width":400,"height":100,"type":"text","text":"### Code\n- us_1d8b01b239fb45e2b17f8b0ff9419d08"},
 		{"id":"7a9045404e6d1dd8","x":-195,"y":180,"width":250,"height":180,"type":"text","text":"### Access Token\nPOST /oauth/token\n- access_token\n- refresh_token"},
 		{"id":"7fde10f3214973a3","x":180,"y":137,"width":332,"height":267,"color":"1","type":"text","text":"## Invalidates Code\nRequesting the access token invalidates the code given by the trimble login, meaning that if the access_token expires, can't be refreshed or is lost, a new code needs to be generated, so a new login is required"},
-		{"id":"71b089e7e3963bb4","x":5,"y":472,"width":250,"height":60,"type":"text","text":"### Refresh Token"},
-		{"id":"c53f5b3062b7a676","x":-395,"y":472,"width":250,"height":60,"type":"text","text":"### Access Token"},
-		{"id":"324df62aa05a6112","x":-395,"y":638,"width":250,"height":60,"type":"text","text":"#### Backend Calls"},
-		{"id":"48a54db7af34517f","x":-16,"y":638,"width":292,"height":60,"type":"text","text":"#### Backend Calls With Refresh"},
-		{"id":"15e5e2c5282f3301","x":-395,"y":760,"width":250,"height":60,"type":"text","text":"##### Responses"},
-		{"id":"c7344b83d3fd7c4c","x":-580,"y":900,"width":250,"height":91,"color":"4","type":"text","text":"###### Valid token\n- Succesful Response"},
-		{"id":"e14271b8d6ba06bd","x":-220,"y":900,"width":250,"height":91,"color":"1","type":"text","text":"###### Invalid token\n- 401 Unauthorized"},
-		{"id":"426c549b9a1fa17d","x":-220,"y":1060,"width":250,"height":183,"type":"text","text":"### Refresh\nPOST /oauth/refresh\n\n- access_token\n- refresh_token"},
-		{"id":"ec915a2c9ec384db","x":-600,"y":1031,"width":250,"height":169,"color":"1","type":"text","text":"## Invalidates Tokens\nCalling the refresh endpoint invalidates the previous access_token and refresh_token"}
+		{"id":"c53f5b3062b7a676","x":-495,"y":472,"width":250,"height":60,"type":"text","text":"### Access Token"},
+		{"id":"324df62aa05a6112","x":-495,"y":638,"width":250,"height":60,"type":"text","text":"#### Backend Calls"},
+		{"id":"15e5e2c5282f3301","x":-495,"y":760,"width":250,"height":60,"type":"text","text":"##### Responses"},
+		{"id":"c7344b83d3fd7c4c","x":-680,"y":900,"width":250,"height":91,"color":"4","type":"text","text":"###### Valid token\n- Succesful Response"},
+		{"id":"e14271b8d6ba06bd","x":-320,"y":900,"width":250,"height":91,"color":"1","type":"text","text":"###### Invalid token\n- 401 Unauthorized"},
+		{"id":"426c549b9a1fa17d","x":-320,"y":1060,"width":250,"height":183,"type":"text","text":"### Refresh\nPOST /oauth/refresh\n\n- access_token\n- refresh_token"},
+		{"id":"ec915a2c9ec384db","x":-680,"y":1057,"width":250,"height":189,"color":"1","type":"text","text":"## Invalidates Tokens\nCalling the refresh endpoint invalidates the previous access_token and refresh_token"},
+		{"id":"71b089e7e3963bb4","x":96,"y":472,"width":250,"height":60,"type":"text","text":"### Refresh Token"},
+		{"id":"48a54db7af34517f","x":75,"y":638,"width":292,"height":60,"type":"text","text":"#### Backend Calls With Refresh"},
+		{"id":"02e548434fad8eab","type":"text","text":"##### Responses","x":96,"y":760,"width":250,"height":60},
+		{"id":"2e58c22927176a43","x":-50,"y":900,"width":250,"height":91,"color":"4","type":"text","text":"###### Valid Token\n- Succesful Response"},
+		{"id":"fe7462657b13fb2d","type":"text","text":"###### Invalid token\nAutomatically tries to refresh the token","x":242,"y":900,"width":250,"height":120,"color":"3"},
+		{"id":"a97d84c40d45c9c8","x":96,"y":1120,"width":250,"height":260,"color":"4","type":"text","text":"##### Succesfully Refreshed the tokens\nAppends in the traceback of the response the new tokens\n- access_token\n- refresh_token"},
+		{"id":"5013857393867b8a","x":400,"y":1120,"width":250,"height":130,"color":"1","type":"text","text":"##### Failed to refresh the tokens\n- 401 Unauthorized"}
 	],
 	"edges":[
 		{"id":"6322d9f690b81f00","fromNode":"e1c7ca8e23ea59e6","fromSide":"bottom","toNode":"48f0532a8b1ff0ab","toSide":"top"},
@@ -25,9 +30,15 @@
 		{"id":"567f453a80ad8955","fromNode":"c53f5b3062b7a676","fromSide":"bottom","toNode":"48a54db7af34517f","toSide":"top"},
 		{"id":"a07c2efd037b4e11","fromNode":"71b089e7e3963bb4","fromSide":"bottom","toNode":"48a54db7af34517f","toSide":"top"},
 		{"id":"4898589ef333db0b","fromNode":"324df62aa05a6112","fromSide":"bottom","toNode":"15e5e2c5282f3301","toSide":"top"},
-		{"id":"8c39a5ee2f298bcd","fromNode":"15e5e2c5282f3301","fromSide":"bottom","toNode":"c7344b83d3fd7c4c","toSide":"top"},
-		{"id":"8bd8d45ed6a4865f","fromNode":"15e5e2c5282f3301","fromSide":"bottom","toNode":"e14271b8d6ba06bd","toSide":"top"},
+		{"id":"8c39a5ee2f298bcd","fromNode":"15e5e2c5282f3301","fromSide":"bottom","toNode":"c7344b83d3fd7c4c","toSide":"top","color":"4"},
+		{"id":"8bd8d45ed6a4865f","fromNode":"15e5e2c5282f3301","fromSide":"bottom","toNode":"e14271b8d6ba06bd","toSide":"top","color":"1"},
 		{"id":"5113340a6bc7a1a8","fromNode":"e14271b8d6ba06bd","fromSide":"bottom","toNode":"426c549b9a1fa17d","toSide":"top"},
-		{"id":"f1e77c7a15737f0b","fromNode":"426c549b9a1fa17d","fromSide":"left","toNode":"ec915a2c9ec384db","toSide":"right"}
+		{"id":"f1e77c7a15737f0b","fromNode":"426c549b9a1fa17d","fromSide":"left","toNode":"ec915a2c9ec384db","toSide":"right","color":"1"},
+		{"id":"c4af6c6e13ca28ff","fromNode":"48a54db7af34517f","fromSide":"bottom","toNode":"02e548434fad8eab","toSide":"top"},
+		{"id":"081599930aeb4cee","fromNode":"02e548434fad8eab","fromSide":"bottom","toNode":"2e58c22927176a43","toSide":"top","color":"4"},
+		{"id":"009aef1fa2245caa","fromNode":"02e548434fad8eab","fromSide":"bottom","toNode":"fe7462657b13fb2d","toSide":"top","color":"3"},
+		{"id":"cf8e1b5a70fae035","fromNode":"a97d84c40d45c9c8","fromSide":"bottom","toNode":"ec915a2c9ec384db","toSide":"bottom","color":"1"},
+		{"id":"c4a09cf8382f00c0","fromNode":"fe7462657b13fb2d","fromSide":"bottom","toNode":"a97d84c40d45c9c8","toSide":"top","color":"4"},
+		{"id":"1af8478d9cd202fe","fromNode":"fe7462657b13fb2d","fromSide":"bottom","toNode":"5013857393867b8a","toSide":"top","color":"1"}
 	]
 }
