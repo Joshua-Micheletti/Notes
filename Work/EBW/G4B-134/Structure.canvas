@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"62d0d99e1b6e2169","x":-653,"y":240,"width":773,"height":660,"color":"5","type":"group","label":"SUPERUSER"},
+		{"id":"62d0d99e1b6e2169","x":-580,"y":240,"width":700,"height":740,"color":"5","type":"group","label":"SUPERUSER"},
 		{"id":"13ea40389fbe10c0","type":"group","x":880,"y":-976,"width":460,"height":1032,"color":"4","label":"Portale-web-admin"},
 		{"id":"67b076424d248580","type":"group","x":1400,"y":-636,"width":400,"height":692,"color":"1","label":"Portale-saas-service"},
-		{"id":"9e4577f22bf40104","x":-180,"y":300,"width":280,"height":440,"color":"4","type":"group","label":"ADMINISTRATION"},
+		{"id":"9e4577f22bf40104","x":-180,"y":300,"width":285,"height":660,"color":"4","type":"group","label":"ADMINISTRATION"},
 		{"id":"c4bca83ceb222e9d","type":"group","x":1400,"y":-976,"width":400,"height":236,"color":"5","label":"Portale-saas"},
 		{"id":"01271f4261a4a13e","type":"text","text":"#### Administrator","x":-443,"y":-253,"width":250,"height":60},
 		{"id":"7bf9bf7cb9bad412","type":"text","text":"### Superuser","x":-443,"y":-380,"width":250,"height":60},
@@ -30,9 +30,11 @@
 		{"id":"6ae46269fad56dcf","type":"text","text":"Adattamento codice per la modifica di layer da file pubblici","x":1473,"y":-414,"width":250,"height":88},
 		{"id":"c5ca11b30e34018b","x":-160,"y":320,"width":250,"height":200,"type":"text","text":"Complete control over public data\n- file layers\n- external layers\n- query\n- bookmarks"},
 		{"id":"0b3ee6970e95aa4f","x":-558,"y":320,"width":240,"height":120,"type":"text","text":"Unable to fail login\n\n- portale-saas\n- portale-web-admin"},
-		{"id":"0c85880a1bc01c56","x":-568,"y":490,"width":250,"height":60,"type":"text","text":"Password doesn't expire"},
 		{"id":"b8dc3c4c49a0b9d8","x":-160,"y":550,"width":250,"height":80,"type":"text","text":"Passes all permission checks"},
-		{"id":"5e4875ee2fc68a5c","x":-160,"y":660,"width":250,"height":60,"type":"text","text":"Passes all area checks"}
+		{"id":"5e4875ee2fc68a5c","x":-160,"y":660,"width":250,"height":200,"type":"text","text":"Passes all area checks\n- Make sure there aren't features only blocked by permissions that users shouldn't have available"},
+		{"id":"25c6ee3476cd86d5","x":-160,"y":880,"width":250,"height":60,"type":"text","text":"Access to the admin page"},
+		{"id":"0c85880a1bc01c56","x":-563,"y":490,"width":250,"height":60,"type":"text","text":"Password doesn't expire"},
+		{"id":"d54a64f2593638d0","x":-563,"y":600,"width":250,"height":60,"type":"text","text":"Possibilità di creare e rimuovere permessi\n"}
 	],
 	"edges":[
 		{"id":"1a4390bac4530e5c","fromNode":"7bf9bf7cb9bad412","fromSide":"right","toNode":"59863020707892b6","toSide":"left"},
