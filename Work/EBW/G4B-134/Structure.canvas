@@ -34,7 +34,8 @@
 		{"id":"5e4875ee2fc68a5c","x":-160,"y":660,"width":250,"height":200,"type":"text","text":"Passes all area checks\n- Make sure there aren't features only blocked by permissions that users shouldn't have available"},
 		{"id":"25c6ee3476cd86d5","x":-160,"y":880,"width":250,"height":60,"type":"text","text":"Access to the admin page"},
 		{"id":"0c85880a1bc01c56","x":-563,"y":490,"width":250,"height":60,"type":"text","text":"Password doesn't expire"},
-		{"id":"d54a64f2593638d0","x":-563,"y":600,"width":250,"height":60,"type":"text","text":"Possibilità di creare e rimuovere permessi\n"}
+		{"id":"d54a64f2593638d0","x":-563,"y":600,"width":250,"height":60,"type":"text","text":"Possibilità di creare e rimuovere permessi\n"},
+		{"id":"bde6f6a62969d01e","x":494,"y":564,"width":250,"height":376,"type":"text","text":"### Passes all permission checks\nBy default it needs to be implemented in the code that takes care of checking user permissions.\nSome features though are blocked to certain clients just by "}
 	],
 	"edges":[
 		{"id":"1a4390bac4530e5c","fromNode":"7bf9bf7cb9bad412","fromSide":"right","toNode":"59863020707892b6","toSide":"left"},
@@ -50,6 +51,7 @@
 		{"id":"f12f19a3909f13db","fromNode":"d58824caf1aa04ec","fromSide":"bottom","toNode":"bf312f2a5b8ea7ec","toSide":"top"},
 		{"id":"e6a17fe98d27d714","fromNode":"bf312f2a5b8ea7ec","fromSide":"bottom","toNode":"d85b1ad50d2bfd27","toSide":"top"},
 		{"id":"f5db7bf57f8a2546","fromNode":"d85b1ad50d2bfd27","fromSide":"bottom","toNode":"2d374990849e773f","toSide":"top"},
-		{"id":"8cf2a22732b83121","fromNode":"2d374990849e773f","fromSide":"bottom","toNode":"055473b58f0a3f7c","toSide":"top"}
+		{"id":"8cf2a22732b83121","fromNode":"2d374990849e773f","fromSide":"bottom","toNode":"055473b58f0a3f7c","toSide":"top"},
+		{"id":"d32cafea24ea7d32","fromNode":"b8dc3c4c49a0b9d8","fromSide":"right","toNode":"bde6f6a62969d01e","toSide":"left"}
 	]
 }
