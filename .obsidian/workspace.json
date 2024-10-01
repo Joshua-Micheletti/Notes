@@ -65,9 +65,11 @@
             "id": "e81aec4c36312965",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Pyllium3D/Drawing 2024-09-23 14.33.17.excalidraw.md"
+                "file": "Work/EBW/OF-4430/Backend/New area management.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -190,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Pyllium3D/Drawing 2024-09-23 14.33.17.excalidraw.md",
+                "file": "Work/EBW/OF-4430/Backend/New area management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Pyllium3D/Drawing 2024-09-23 14.33.17.excalidraw.md",
+                "file": "Work/EBW/OF-4430/Backend/New area management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Pyllium3D/Drawing 2024-09-23 14.33.17.excalidraw.md"
+                "file": "Work/EBW/OF-4430/Backend/New area management.md"
               }
             }
           },
@@ -287,8 +289,10 @@
   },
   "active": "e81aec4c36312965",
   "lastOpenFiles": [
-    "Programming/OpenGL/Buffers.md",
+    "Work/EBW/OF-4430/Backend/Create Area.canvas",
+    "Work/EBW/OF-4430/Backend/New area management.md",
     "Projects/Pyllium3D/Drawing 2024-09-23 14.33.17.excalidraw.md",
+    "Programming/OpenGL/Buffers.md",
     "Projects/Pyllium3D",
     "Projects",
     "Programming/OpenGL/Python/Loading Vertices to VBO.md",
@@ -296,7 +300,6 @@
     "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
     "Work/EBW/OF-4430/Backend/Handling Token.canvas",
-    "Work/EBW/OF-4430/Backend/Create Area.canvas",
     "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md",
     "Work/EBW/Estrazione dati progetti OF.canvas",
     "Work/EBW/Estrazione dati progetti OF.md",
@@ -328,10 +331,8 @@
     "Work/EBW/G4B portale-saas tests.md",
     "Work/EBW/Todo.md",
     "Work/EBW/G4B-105/Drawing 2024-04-22 17.59.01.excalidraw.md",
-    "Work/EBW/G4B-105/Pianificazione.md",
     "Work/EBW/G4B-134",
     "ios.txt",
-    "Work/EBW/G4B-125/Drawing 2024-06-10 11.09.36.excalidraw.md",
     "Work/EBW/G4B-125",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
