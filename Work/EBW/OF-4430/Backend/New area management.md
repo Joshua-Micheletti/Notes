@@ -28,7 +28,7 @@ The endpoint needs to now get the filesystem of Trimble and find all the direct 
 - Find all folders whose parent ID is one of the region folder IDs
 ### GET /areas
 The region to create/look into is now unknown and needs to be provided as a parameter from the frontend. The rest of the behavior is mostly the same
-### POST /files/fs/upload
+### V POST /files/fs/upload
 To check which tag to add, the endpoint needs to now check if there is a region folder in his path and get the direct subfolder of that region folder.
 ### POST /folders
 Same as the one for files
