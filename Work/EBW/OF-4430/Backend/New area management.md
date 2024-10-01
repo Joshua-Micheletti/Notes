@@ -30,7 +30,7 @@ The endpoint needs to now get the filesystem of Trimble and find all the direct 
 The region to create/look into is now unknown and needs to be provided as a parameter from the frontend. The rest of the behavior is mostly the same
 ### V POST /files/fs/upload
 To check which tag to add, the endpoint needs to now check if there is a region folder in his path and get the direct subfolder of that region folder.
-### POST /folders
+### V POST /folders
 Same as the one for files
 ### PATCH /files/id
 Changing the file location may require a change of tag in case the file is moved outside of a region into another. Since we're still not sure if that is required, the development will wait
