@@ -21,7 +21,7 @@ The affected endpoints from this change are:
 - POST /files/fs/upload
 - POST /folders
 - PATCH /files/id
-### GET /search/area
+### V GET /search/area
 The endpoint needs to now get the filesystem of Trimble and find all the direct children of the Region folders.
 - Detect region folders
 - Extract region folders IDs
