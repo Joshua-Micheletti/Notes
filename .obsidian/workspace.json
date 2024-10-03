@@ -65,11 +65,14 @@
             "id": "e81aec4c36312965",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/New area management.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/EBW/G4B-134/Structure.canvas",
+                "viewState": {
+                  "x": 129.1414971733564,
+                  "y": 506.3805221390241,
+                  "zoom": -0.07296327155522453
+                }
               }
             }
           },
@@ -192,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/New area management.md",
+                "file": "Work/EBW/G4B-134/Structure.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/New area management.md",
+                "file": "Work/EBW/G4B-134/Structure.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/New area management.md"
+                "file": "Work/EBW/G4B-134/Structure.canvas"
               }
             }
           },
@@ -289,8 +292,9 @@
   },
   "active": "e81aec4c36312965",
   "lastOpenFiles": [
-    "Work/EBW/OF-4430/Backend/Create Area.canvas",
+    "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
     "Work/EBW/OF-4430/Backend/New area management.md",
+    "Work/EBW/OF-4430/Backend/Create Area.canvas",
     "Projects/Pyllium3D/Drawing 2024-09-23 14.33.17.excalidraw.md",
     "Programming/OpenGL/Buffers.md",
     "Projects/Pyllium3D",
@@ -298,7 +302,6 @@
     "Programming/OpenGL/Python/Loading Vertices to VBO.md",
     "Programming/OpenGL/Python/Camera.md",
     "Work/EBW/G4B-134/Structure.canvas",
-    "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
     "Work/EBW/OF-4430/Backend/Handling Token.canvas",
     "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md",
     "Work/EBW/Estrazione dati progetti OF.canvas",
