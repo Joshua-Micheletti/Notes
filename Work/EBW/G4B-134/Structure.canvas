@@ -31,7 +31,7 @@
 		{"id":"6ae46269fad56dcf","type":"text","text":"Adattamento codice per la modifica di layer da file pubblici","x":1473,"y":-414,"width":250,"height":88},
 		{"id":"d58824caf1aa04ec","type":"text","text":"Creazione dei permessi relativi agli utenti SUPERUSER e ADMINISTRATION (già esistenti)","x":980,"y":-960,"width":250,"height":151,"color":"4"},
 		{"id":"b8dc3c4c49a0b9d8","type":"text","text":"- [ ] Passes all permission checks","x":-160,"y":550,"width":250,"height":80},
-		{"id":"0c85880a1bc01c56","type":"text","text":"- [ ] Password doesn't expire","x":-563,"y":490,"width":250,"height":60},
+		{"id":"0c85880a1bc01c56","type":"text","text":"- [x] Password doesn't expire","x":-563,"y":490,"width":250,"height":60},
 		{"id":"bde6f6a62969d01e","type":"text","text":"### Passes all permission checks\nBy default it needs to be implemented in the code that takes care of checking user permissions.\nSome features though are blocked to certain clients just by not assigning them the permissions for it.\n\nMake a list of permissions that are still unavailable to the ADMIN users but only to SUPERUSER users.\n\nThe code that checks for permission, needs to take this list into consideration.\n\nThe safest option is to make this \"bypass permissions\" work only if the list is available, even if empty. This ensures that environments where this feature was just shipped don't suddenly just have access to everything","x":278,"y":362,"width":444,"height":456},
 		{"id":"d54a64f2593638d0","type":"text","text":"- [x] Possibilità di creare e rimuovere permessi\n","x":-563,"y":600,"width":250,"height":60},
 		{"id":"5e4875ee2fc68a5c","type":"text","text":"- [ ] Passes all area checks","x":-160,"y":660,"width":250,"height":60},
