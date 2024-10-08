@@ -34,7 +34,7 @@
 		{"id":"0c85880a1bc01c56","type":"text","text":"- [x] Password doesn't expire","x":-563,"y":490,"width":250,"height":60},
 		{"id":"bde6f6a62969d01e","type":"text","text":"### Passes all permission checks\nBy default it needs to be implemented in the code that takes care of checking user permissions.\nSome features though are blocked to certain clients just by not assigning them the permissions for it.\n\nMake a list of permissions that are still unavailable to the ADMIN users but only to SUPERUSER users.\n\nThe code that checks for permission, needs to take this list into consideration.\n\nThe safest option is to make this \"bypass permissions\" work only if the list is available, even if empty. This ensures that environments where this feature was just shipped don't suddenly just have access to everything","x":278,"y":362,"width":444,"height":456},
 		{"id":"d54a64f2593638d0","type":"text","text":"- [x] Possibilità di creare e rimuovere permessi\n","x":-563,"y":600,"width":250,"height":60},
-		{"id":"5e4875ee2fc68a5c","type":"text","text":"- [ ] Passes all area checks","x":-160,"y":660,"width":250,"height":60},
+		{"id":"5e4875ee2fc68a5c","type":"text","text":"- [x] Passes all area checks","x":-160,"y":660,"width":250,"height":60},
 		{"id":"25c6ee3476cd86d5","type":"text","text":"- [x] Access to the admin page","x":-160,"y":758,"width":250,"height":60},
 		{"id":"e2f64015b1d93a6b","x":-160,"y":860,"width":250,"height":60,"type":"text","text":"- [ ] Access to all datasets"}
 	],
