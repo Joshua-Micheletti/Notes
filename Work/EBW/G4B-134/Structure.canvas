@@ -36,7 +36,7 @@
 		{"id":"d54a64f2593638d0","type":"text","text":"- [x] Possibilità di creare e rimuovere permessi\n","x":-563,"y":600,"width":250,"height":60},
 		{"id":"5e4875ee2fc68a5c","type":"text","text":"- [x] Passes all area checks","x":-160,"y":660,"width":250,"height":60},
 		{"id":"25c6ee3476cd86d5","type":"text","text":"- [x] Access to the admin page","x":-160,"y":758,"width":250,"height":60},
-		{"id":"e2f64015b1d93a6b","x":-160,"y":860,"width":250,"height":60,"type":"text","text":"- [ ] Access to all datasets"}
+		{"id":"e2f64015b1d93a6b","x":-160,"y":860,"width":250,"height":60,"type":"text","text":"- [x] Access to all datasets"}
 	],
 	"edges":[
 		{"id":"1a4390bac4530e5c","fromNode":"7bf9bf7cb9bad412","fromSide":"right","toNode":"59863020707892b6","toSide":"left"},
