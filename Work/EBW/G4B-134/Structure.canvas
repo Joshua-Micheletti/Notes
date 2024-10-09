@@ -11,7 +11,7 @@
 		{"id":"a81a6f48b8102547","type":"text","text":"Adattamento codice per la modifica di layer da servizio pubblici","x":1473,"y":-593,"width":250,"height":107},
 		{"id":"6ae46269fad56dcf","type":"text","text":"Adattamento codice per la modifica di layer da file pubblici","x":1473,"y":-414,"width":250,"height":88},
 		{"id":"d58824caf1aa04ec","type":"text","text":"Creazione dei permessi relativi agli utenti SUPERUSER e ADMINISTRATION (già esistenti)","x":980,"y":-960,"width":250,"height":151,"color":"4"},
-		{"id":"c5ca11b30e34018b","type":"text","text":"- [ ] Complete control over public data\n- - [x] file layers\n- - [x] external layers\n- - [ ] query\n- - [ ] bookmarks","x":-160,"y":320,"width":250,"height":200},
+		{"id":"c5ca11b30e34018b","type":"text","text":"- [ ] Complete control over public data\n- - [x] file layers\n- - [x] external layers\n- - [ ] query\n- - [x] bookmarks","x":-160,"y":320,"width":250,"height":200},
 		{"id":"0b3ee6970e95aa4f","type":"text","text":"Unable to fail login\n\n- portale-saas\n- portale-web-admin","x":-558,"y":320,"width":240,"height":120},
 		{"id":"b8dc3c4c49a0b9d8","type":"text","text":"- [x] Passes all permission checks","x":-160,"y":550,"width":250,"height":80},
 		{"id":"0c85880a1bc01c56","type":"text","text":"- [x] Password doesn't expire","x":-563,"y":490,"width":250,"height":60},
