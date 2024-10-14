@@ -80,9 +80,11 @@
             "id": "b577fa4685ad4ff1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/G4B-178/Drawing 2024-10-11 15.17.38.excalidraw.md"
+                "file": "Work/EBW/OF-4430/Backend/New area management.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -205,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-178/Drawing 2024-10-11 15.17.38.excalidraw.md",
+                "file": "Work/EBW/OF-4430/Backend/New area management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-178/Drawing 2024-10-11 15.17.38.excalidraw.md",
+                "file": "Work/EBW/OF-4430/Backend/New area management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-178/Drawing 2024-10-11 15.17.38.excalidraw.md"
+                "file": "Work/EBW/OF-4430/Backend/New area management.md"
               }
             }
           },
@@ -302,19 +304,26 @@
   },
   "active": "b577fa4685ad4ff1",
   "lastOpenFiles": [
-    "Work/EBW/G4B-134/Structure.canvas",
+    "Work/EBW/OF-4430/Backend/Handling Token.canvas",
+    "Work/EBW/OF-4430/Backend/File Upload.canvas",
+    "Work/EBW/OF-4430/Backend/Handling Folders.md",
+    "Work/EBW/OF-4430/Backend/Handling Permissions.md",
+    "Work/EBW/OF-4430/Backend/New area management.md",
+    "Work/EBW/OF-4430/Backend/Refresh Token.md",
+    "Work/EBW/OF-4430/Backend/Operations Log.md",
+    "Work/EBW/OF-4430/Backend/Operations Schema.canvas",
+    "Work/EBW/OF-4430/Backend/Create Area.canvas",
+    "Work/EBW/OF-4430/Backend/Drawing 2024-08-29 15.32.39.excalidraw.md",
     "Work/EBW/G4B-178/Drawing 2024-10-11 15.17.38.excalidraw.md",
+    "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/G4B-178",
     "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
-    "Work/EBW/OF-4430/Backend/New area management.md",
-    "Work/EBW/OF-4430/Backend/Create Area.canvas",
     "Projects/Pyllium3D/Drawing 2024-09-23 14.33.17.excalidraw.md",
     "Programming/OpenGL/Buffers.md",
     "Projects/Pyllium3D",
     "Projects",
     "Programming/OpenGL/Python/Loading Vertices to VBO.md",
     "Programming/OpenGL/Python/Camera.md",
-    "Work/EBW/OF-4430/Backend/Handling Token.canvas",
     "Work/EBW/Drawing 2024-09-04 16.14.56.excalidraw.md",
     "Work/EBW/Estrazione dati progetti OF.canvas",
     "Work/EBW/Estrazione dati progetti OF.md",
@@ -324,14 +333,7 @@
     "Work/EBW/FAS-646/sketches/Design.canvas",
     "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/EBW-1047/To-do.md",
-    "Work/EBW/EBW-416/flow.canvas",
     "Work/EBW/EBW-94/Drawing 2024-02-07 10.45.28.excalidraw.md",
-    "Work/EBW/Architecture new.canvas",
-    "Work/EBW/OF-4430/Backend/Drawing 2024-08-29 15.32.39.excalidraw.md",
-    "Work/EBW/OF-4430/Backend/Handling Folders.md",
-    "Work/EBW/OF-4430/Backend/Operations Log.md",
-    "Work/EBW/OF-4430/Backend/Refresh Token.md",
-    "Work/EBW/OF-4430/Backend/Handling Permissions.md",
     "Work/EBW/Web Architecture.md",
     "Work/EBW/OF-4430/Backend",
     "Work/EBW/G4B-140/Drawing 2024-07-04 15.06.12.excalidraw.md",
