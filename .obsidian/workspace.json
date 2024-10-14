@@ -77,18 +77,6 @@
             }
           },
           {
-            "id": "b577fa4685ad4ff1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/EBW/OF-4430/Backend/New area management.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "70dfd616187a3233",
             "type": "leaf",
             "state": {
@@ -141,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -207,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/New area management.md",
+                "file": "Work/EBW/G4B-134/Structure.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/New area management.md",
+                "file": "Work/EBW/G4B-134/Structure.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -259,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/OF-4430/Backend/New area management.md"
+                "file": "Work/EBW/G4B-134/Structure.canvas"
               }
             }
           },
@@ -302,13 +290,13 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "b577fa4685ad4ff1",
+  "active": "e81aec4c36312965",
   "lastOpenFiles": [
+    "Work/EBW/OF-4430/Backend/New area management.md",
     "Work/EBW/OF-4430/Backend/Handling Token.canvas",
     "Work/EBW/OF-4430/Backend/File Upload.canvas",
     "Work/EBW/OF-4430/Backend/Handling Folders.md",
     "Work/EBW/OF-4430/Backend/Handling Permissions.md",
-    "Work/EBW/OF-4430/Backend/New area management.md",
     "Work/EBW/OF-4430/Backend/Refresh Token.md",
     "Work/EBW/OF-4430/Backend/Operations Log.md",
     "Work/EBW/OF-4430/Backend/Operations Schema.canvas",
