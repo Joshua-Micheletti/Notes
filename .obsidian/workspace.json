@@ -87,18 +87,6 @@
             }
           },
           {
-            "id": "ed396d67b68c8ced",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
             "id": "70dfd616187a3233",
             "type": "leaf",
             "state": {
@@ -159,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -340,7 +328,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "ed396d67b68c8ced",
+  "active": "e81aec4c36312965",
   "lastOpenFiles": [
     "Work/EBW/OF-4430/Backend/New area management.md",
     "Work/EBW/OF-4430/Backend/Handling Token.canvas",
