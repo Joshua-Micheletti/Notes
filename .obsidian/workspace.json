@@ -16,7 +16,9 @@
                 "file": "Work/EBW/Web Architecture.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Web Architecture"
             }
           },
           {
@@ -31,7 +33,9 @@
                   "y": -297,
                   "zoom": 0
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "File Upload"
             }
           },
           {
@@ -46,7 +50,9 @@
                   "y": 647.5,
                   "zoom": 0
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Estrazione dati progetti OF"
             }
           },
           {
@@ -58,7 +64,9 @@
                 "file": "Programming/OpenGL/Buffers.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Buffers"
             }
           },
           {
@@ -73,7 +81,21 @@
                   "y": 234.52245123634688,
                   "zoom": -1.4062966048885577
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Structure"
+            }
+          },
+          {
+            "id": "ed396d67b68c8ced",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           },
           {
@@ -88,7 +110,9 @@
                   "y": -349.9517965970449,
                   "zoom": -0.6666666666666667
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Structure"
             }
           },
           {
@@ -100,7 +124,9 @@
                 "file": "Work/EBW/G4B-140/Strumento Plotting.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Strumento Plotting"
             }
           },
           {
@@ -110,7 +136,9 @@
               "type": "excalidraw",
               "state": {
                 "file": "Work/EBW/G4B-140/UI.md"
-              }
+              },
+              "icon": "excalidraw-icon",
+              "title": "UI"
             }
           },
           {
@@ -125,11 +153,13 @@
                   "y": -142.87627458624877,
                   "zoom": -0.22782756196433412
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Architecture"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -149,7 +179,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -164,7 +196,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -172,7 +206,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -195,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/EBW/G4B-134/Structure.canvas",
+                "file": "Work/EBW/Web Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +239,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Web Architecture"
             }
           },
           {
@@ -212,10 +250,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/EBW/G4B-134/Structure.canvas",
+                "file": "Work/EBW/Web Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Web Architecture"
             }
           },
           {
@@ -226,7 +266,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -238,7 +280,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -247,8 +291,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/EBW/G4B-134/Structure.canvas"
-              }
+                "file": "Work/EBW/Web Architecture.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Web Architecture"
             }
           },
           {
@@ -256,7 +302,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -264,7 +312,9 @@
             "type": "leaf",
             "state": {
               "type": "git-history-view",
-              "state": {}
+              "state": {},
+              "icon": "history",
+              "title": "History"
             }
           }
         ],
@@ -290,7 +340,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "e81aec4c36312965",
+  "active": "ed396d67b68c8ced",
   "lastOpenFiles": [
     "Work/EBW/OF-4430/Backend/New area management.md",
     "Work/EBW/OF-4430/Backend/Handling Token.canvas",
