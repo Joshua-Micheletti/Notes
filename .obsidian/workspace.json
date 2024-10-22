@@ -77,8 +77,8 @@
               "state": {
                 "file": "Work/EBW/Untitled.canvas",
                 "viewState": {
-                  "x": 1293.6367984751864,
-                  "y": 455.6594008649176,
+                  "x": 144.5445890245257,
+                  "y": 577.7025758046657,
                   "zoom": -0.9999999999999998
                 }
               },
@@ -330,6 +330,7 @@
   },
   "active": "e81aec4c36312965",
   "lastOpenFiles": [
+    "Pasted image 20241022105306.png",
     "Pasted image 20241022104727.png",
     "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/Untitled.canvas",
@@ -384,7 +385,6 @@
     "Work/EBW/G4B-105/side/side_query_detail.png",
     "Work/EBW/G4B-105/div/div_simple_detail.png",
     "Work/EBW/G4B-105/div/div_sidebar_sx_detail.png",
-    "Work/EBW/G4B-105/div/div_simple_click.png",
-    "Work/EBW/G4B-105/div/div_sidebar_sx_click.png"
+    "Work/EBW/G4B-105/div/div_simple_click.png"
   ]
 }

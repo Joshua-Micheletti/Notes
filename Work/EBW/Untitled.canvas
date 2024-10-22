@@ -2,10 +2,13 @@
 	"nodes":[
 		{"id":"75e2a0456194793f","type":"file","file":"Pasted image 20241022104727.png","x":-340,"y":-180,"width":1240,"height":927},
 		{"id":"a98698cf4d2acdaf","type":"text","text":"IF Campo > 100","x":24,"y":333,"width":156,"height":60},
-		{"id":"349e124ee7fb4599","x":200,"y":338,"width":50,"height":50,"type":"text","text":"\\+\n"},
+		{"id":"349e124ee7fb4599","type":"text","text":"\\+\n","x":200,"y":338,"width":50,"height":50},
 		{"id":"afe32ecdbc5540fd","type":"file","file":"Pasted image 20241022104727.png","x":1040,"y":-180,"width":1240,"height":927},
 		{"id":"9c9ad31614c3c1f1","type":"text","text":"IF Campo > 100","x":1404,"y":333,"width":156,"height":60},
-		{"id":"b3a05c700dfd2f40","type":"text","text":"\\+\n","x":1580,"y":338,"width":50,"height":50}
+		{"id":"36c9189e0f6069fd","type":"file","file":"Pasted image 20241022105306.png","x":1206,"y":421,"width":187,"height":50},
+		{"id":"b905137e0819d3c5","type":"text","text":"IF Campo <= 100","x":1405,"y":415,"width":169,"height":60},
+		{"id":"b3a05c700dfd2f40","type":"text","text":"\\+\n","x":1580,"y":421,"width":50,"height":50},
+		{"id":"4597a653b71eb3a3","type":"text","text":"Condizione per lo stile.\nGli operatori disponibili saranno:\n- \\=\n- \\>\n- \\>=\n- \\<\n- \\<=","x":-200,"y":800,"width":250,"height":255}
 	],
 	"edges":[
 		{"id":"13e569f14141e35a","fromNode":"75e2a0456194793f","fromSide":"right","toNode":"afe32ecdbc5540fd","toSide":"left"}
