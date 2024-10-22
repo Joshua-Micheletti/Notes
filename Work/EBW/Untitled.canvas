@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"2b45439f3b18b092","x":-2202,"y":1393,"width":250,"height":60,"type":"text","text":""},
 		{"id":"75e2a0456194793f","type":"file","file":"Pasted image 20241022104727.png","x":-340,"y":-180,"width":1240,"height":927},
 		{"id":"afe32ecdbc5540fd","type":"file","file":"Pasted image 20241022104727.png","x":1040,"y":-180,"width":1240,"height":927},
 		{"id":"36c9189e0f6069fd","type":"file","file":"Pasted image 20241022105306.png","x":1206,"y":421,"width":187,"height":50},
@@ -10,11 +9,7 @@
 		{"id":"81751e706c0d4ec4","type":"text","text":"Campo","x":75,"y":338,"width":86,"height":50},
 		{"id":"ebc401c686826101","type":"text","text":"\\<","x":161,"y":338,"width":50,"height":50},
 		{"id":"27576463b6b50b21","type":"text","text":"100","x":211,"y":338,"width":60,"height":50},
-		{"id":"4597a653b71eb3a3","type":"text","text":"Condizione per lo stile.\nGli operatori disponibili saranno:\n- \\=\n- \\>\n- \\>=\n- \\<\n- \\<=","x":-420,"y":640,"width":250,"height":280},
-		{"id":"5fc7d2bb4078502a","type":"text","text":"A seconda del tipo di operatore, il campo del valore avrà valori possibili diversi:\n- \\=: qualsiasi valore\n- \\>: valori numerici\n- \\>=: valori numerici\n- \\<: valori numerici\n- \\<=: valori numerici","x":-100,"y":640,"width":250,"height":300},
 		{"id":"349e124ee7fb4599","type":"text","text":"\\+\n","x":280,"y":338,"width":50,"height":50},
-		{"id":"f1dc15fedeb10e55","type":"text","text":"*Campo* rappresenta il nome del campo nei dati del/dei layer a cui sarà associato.\n\nIl nome del campo a cui associare la proprietà e il valore del campo dipendono dal contenuto dei dati del layer a cui andranno associati, e devono coincidere *esattamente*","x":241,"y":640,"width":250,"height":325},
-		{"id":"1b5ea449ee26ba2f","type":"text","text":"Il pulsante + consente di aggiungere condizioni aggiuntive","x":560,"y":640,"width":250,"height":110},
 		{"id":"ec17543d24970277","type":"text","text":"IF","x":1405,"y":338,"width":50,"height":50},
 		{"id":"444713ff55e71b03","type":"text","text":"Campo","x":1455,"y":338,"width":86,"height":50},
 		{"id":"e208bc00db0f1afe","type":"text","text":"\\<","x":1541,"y":338,"width":59,"height":50},
@@ -24,8 +19,6 @@
 		{"id":"caddab9e09e90f0e","type":"text","text":"100","x":1600,"y":421,"width":60,"height":50},
 		{"id":"8ea84e35b5085121","type":"text","text":"\\+\n","x":1660,"y":421,"width":50,"height":50},
 		{"id":"ec414281d017a266","type":"text","text":"100","x":1600,"y":338,"width":60,"height":50},
-		{"id":"5f05cc0105883155","type":"text","text":"Il *Campo* può variare tra le condizioni","x":1205,"y":677,"width":250,"height":73},
-		{"id":"f9bd6476e5c27fd5","type":"text","text":"Lo stile può ora essere applicato ad un livello in fase di creazione o modifica di un livello da file. Le condizioni si applicheranno solo in caso vengano trovati i campi dichiarati e che i valori rispettino i criteri di comparazione","x":2580,"y":148,"width":250,"height":272},
 		{"id":"1be44d1e64305517","type":"file","file":"Pasted image 20241022104727.png","x":-340,"y":1080,"width":1240,"height":927},
 		{"id":"50ac335d511c160f","type":"text","text":"Campo","x":50,"y":1359,"width":86,"height":50},
 		{"id":"c97ce04a209a61de","type":"text","text":"\\<","x":136,"y":1359,"width":50,"height":50},
@@ -40,7 +33,15 @@
 		{"id":"ce9b6b771db0e4f4","type":"text","text":"100","x":1573,"y":1391,"width":60,"height":50},
 		{"id":"af493c58f36dafe6","type":"text","text":"IF","x":1377,"y":1334,"width":50,"height":50},
 		{"id":"8152ce508a21fa88","type":"text","text":"IF","x":1377,"y":1391,"width":50,"height":50},
-		{"id":"ef210f1c4f22dcb8","type":"file","file":"Pasted image 20241022104727.png","x":-1800,"y":1080,"width":1240,"height":927}
+		{"id":"ef210f1c4f22dcb8","type":"file","file":"Pasted image 20241022104727.png","x":-1800,"y":1080,"width":1240,"height":927},
+		{"id":"46c8c601ff1f0b96","type":"text","text":"Aggiungi Condizione","x":-1439,"y":1353,"width":199,"height":54},
+		{"id":"f2553346403fd8dd","type":"text","text":"Cliccando il pulsante **Aggiungi Condizione** è possibile aggiungere una condizione di applicazione della regola o dello stile basata sul valore di un campo del dato del layer su cui andrà applicato lo stile","x":-1358,"y":800,"width":250,"height":240},
+		{"id":"1b5ea449ee26ba2f","type":"text","text":"Il pulsante + consente di aggiungere condizioni aggiuntive","x":560,"y":692,"width":250,"height":110},
+		{"id":"f9bd6476e5c27fd5","type":"text","text":"Lo stile può ora essere applicato ad un livello in fase di creazione o modifica di un livello da file. Le condizioni si applicheranno solo in caso vengano trovati i campi dichiarati e che i valori rispettino i criteri di comparazione","x":2598,"y":774,"width":250,"height":272},
+		{"id":"f1dc15fedeb10e55","type":"text","text":"*Campo* rappresenta il nome del campo nei dati del/dei layer a cui sarà associato.\n\nIl nome del campo a cui associare la proprietà e il valore del campo dipendono dal contenuto dei dati del layer a cui andranno associati, e devono coincidere *esattamente*.\n\nL'input è un testo libero che deve corrispondere con il campo dei dati, a discrezione dell'utente","x":205,"y":750,"width":355,"height":325},
+		{"id":"5fc7d2bb4078502a","type":"text","text":"A seconda del tipo di operatore, il campo del valore avrà valori possibili diversi:\n- \\=: qualsiasi valore\n- \\>: valori numerici\n- \\>=: valori numerici\n- \\<: valori numerici\n- \\<=: valori numerici","x":-100,"y":760,"width":250,"height":300},
+		{"id":"4597a653b71eb3a3","type":"text","text":"Condizione per lo stile.\nGli operatori disponibili saranno:\n- \\=\n- \\>\n- \\>=\n- \\<\n- \\<=","x":-420,"y":770,"width":250,"height":280},
+		{"id":"5f05cc0105883155","type":"text","text":"Il *Campo* può variare tra le condizioni","x":1478,"y":876,"width":250,"height":73}
 	],
 	"edges":[
 		{"id":"13e569f14141e35a","fromNode":"75e2a0456194793f","fromSide":"right","toNode":"afe32ecdbc5540fd","toSide":"left"},
@@ -49,6 +50,7 @@
 		{"id":"741e26f26e879057","fromNode":"caddab9e09e90f0e","fromSide":"right","toNode":"8ea84e35b5085121","toSide":"right"},
 		{"id":"5522812cfd2b5a62","fromNode":"afe32ecdbc5540fd","fromSide":"right","toNode":"f9bd6476e5c27fd5","toSide":"left"},
 		{"id":"1e7d4308b2f44848","fromNode":"1be44d1e64305517","fromSide":"right","toNode":"13ebaee8901bad1a","toSide":"left"},
-		{"id":"bb85f22ce8e9c44f","fromNode":"ef210f1c4f22dcb8","fromSide":"right","toNode":"1be44d1e64305517","toSide":"left"}
+		{"id":"bb85f22ce8e9c44f","fromNode":"ef210f1c4f22dcb8","fromSide":"right","toNode":"1be44d1e64305517","toSide":"left"},
+		{"id":"59d6fd7d8a20bf9c","fromNode":"13ebaee8901bad1a","fromSide":"right","toNode":"f9bd6476e5c27fd5","toSide":"left"}
 	]
 }
