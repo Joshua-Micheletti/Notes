@@ -75,15 +75,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Work/EBW/G4B-134/Structure.canvas",
+                "file": "Work/EBW/Untitled.canvas",
                 "viewState": {
-                  "x": 455.98429315548265,
-                  "y": 234.52245123634688,
-                  "zoom": -1.4062966048885577
+                  "x": 300.276058070324,
+                  "y": 352.326771385619,
+                  "zoom": -0.6666666666666665
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Structure"
+              "title": "Untitled"
             }
           },
           {
@@ -330,6 +330,9 @@
   },
   "active": "e81aec4c36312965",
   "lastOpenFiles": [
+    "Pasted image 20241022104727.png",
+    "Work/EBW/G4B-134/Structure.canvas",
+    "Work/EBW/Untitled.canvas",
     "Work/EBW/OF-4430/Backend/New area management.md",
     "Work/EBW/OF-4430/Backend/Handling Token.canvas",
     "Work/EBW/OF-4430/Backend/File Upload.canvas",
@@ -341,7 +344,6 @@
     "Work/EBW/OF-4430/Backend/Create Area.canvas",
     "Work/EBW/OF-4430/Backend/Drawing 2024-08-29 15.32.39.excalidraw.md",
     "Work/EBW/G4B-178/Drawing 2024-10-11 15.17.38.excalidraw.md",
-    "Work/EBW/G4B-134/Structure.canvas",
     "Work/EBW/G4B-178",
     "Work/EBW/G4B-134/Drawing 2024-06-24 12.50.05.excalidraw.md",
     "Projects/Pyllium3D/Drawing 2024-09-23 14.33.17.excalidraw.md",
@@ -357,7 +359,6 @@
     "Work/EBW/FAS-646/sketches/EPSG Detection.canvas",
     "Work/EBW/FAS-646/sketches/KMZ load API workflow.canvas",
     "Work/EBW/FAS-646/sketches/Design.canvas",
-    "Work/EBW/FAS-646/sketches/Action loading in portale-saas.canvas",
     "Work/EBW/EBW-1047/To-do.md",
     "Work/EBW/EBW-94/Drawing 2024-02-07 10.45.28.excalidraw.md",
     "Work/EBW/Web Architecture.md",
