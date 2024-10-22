@@ -8,7 +8,8 @@
 		{"id":"36c9189e0f6069fd","type":"file","file":"Pasted image 20241022105306.png","x":1206,"y":421,"width":187,"height":50},
 		{"id":"b905137e0819d3c5","type":"text","text":"IF Campo <= 100","x":1405,"y":415,"width":169,"height":60},
 		{"id":"b3a05c700dfd2f40","type":"text","text":"\\+\n","x":1580,"y":421,"width":50,"height":50},
-		{"id":"4597a653b71eb3a3","type":"text","text":"Condizione per lo stile.\nGli operatori disponibili saranno:\n- \\=\n- \\>\n- \\>=\n- \\<\n- \\<=","x":-200,"y":800,"width":250,"height":255}
+		{"id":"4597a653b71eb3a3","type":"text","text":"Condizione per lo stile.\nGli operatori disponibili saranno:\n- \\=\n- \\>\n- \\>=\n- \\<\n- \\<=","x":-200,"y":800,"width":250,"height":280},
+		{"id":"5fc7d2bb4078502a","x":102,"y":800,"width":250,"height":280,"type":"text","text":"A seconda del tipo di operatore, il campo del valore avrà valori possibili diversi:\n- \\= qualsiasi valore\n- \\> valori numerici\n- \\>= valori numerici\n- \\< valori numerici\n- \\<= valori numerici"}
 	],
 	"edges":[
 		{"id":"13e569f14141e35a","fromNode":"75e2a0456194793f","fromSide":"right","toNode":"afe32ecdbc5540fd","toSide":"left"}
