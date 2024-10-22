@@ -77,9 +77,9 @@
               "state": {
                 "file": "Work/EBW/Untitled.canvas",
                 "viewState": {
-                  "x": 274.9291904203188,
-                  "y": 889.3461682076165,
-                  "zoom": -0.033011384980310976
+                  "x": 3221.747488407734,
+                  "y": 1053.4790828742857,
+                  "zoom": -0.3333333333333334
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -330,6 +330,7 @@
   },
   "active": "e81aec4c36312965",
   "lastOpenFiles": [
+    "Pasted image 20241022143635.png",
     "Pasted image 20241022142633.png",
     "Pasted image 20241022105306.png",
     "Pasted image 20241022104727.png",
@@ -384,7 +385,6 @@
     "Work/EBW/G4B-105/side/side_simple_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_click.png",
     "Work/EBW/G4B-105/side/side_query_detail.png",
-    "Work/EBW/G4B-105/div/div_simple_detail.png",
-    "Work/EBW/G4B-105/div/div_sidebar_sx_detail.png"
+    "Work/EBW/G4B-105/div/div_simple_detail.png"
   ]
 }

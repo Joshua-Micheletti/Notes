@@ -38,10 +38,12 @@
 		{"id":"f2553346403fd8dd","type":"text","text":"Cliccando il pulsante **Aggiungi Condizione** è possibile aggiungere una condizione di applicazione della regola o dello stile basata sul valore di un campo del dato del layer su cui andrà applicato lo stile","x":-1358,"y":800,"width":250,"height":240},
 		{"id":"1b5ea449ee26ba2f","type":"text","text":"Il pulsante + consente di aggiungere condizioni aggiuntive","x":560,"y":692,"width":250,"height":110},
 		{"id":"f9bd6476e5c27fd5","type":"text","text":"Lo stile può ora essere applicato ad un livello in fase di creazione o modifica di un livello da file. Le condizioni si applicheranno solo in caso vengano trovati i campi dichiarati e che i valori rispettino i criteri di comparazione","x":2598,"y":774,"width":250,"height":272},
-		{"id":"f1dc15fedeb10e55","type":"text","text":"*Campo* rappresenta il nome del campo nei dati del/dei layer a cui sarà associato.\n\nIl nome del campo a cui associare la proprietà e il valore del campo dipendono dal contenuto dei dati del layer a cui andranno associati, e devono coincidere *esattamente*.\n\nL'input è un testo libero che deve corrispondere con il campo dei dati, a discrezione dell'utente","x":205,"y":750,"width":355,"height":325},
 		{"id":"5fc7d2bb4078502a","type":"text","text":"A seconda del tipo di operatore, il campo del valore avrà valori possibili diversi:\n- \\=: qualsiasi valore\n- \\>: valori numerici\n- \\>=: valori numerici\n- \\<: valori numerici\n- \\<=: valori numerici","x":-100,"y":760,"width":250,"height":300},
 		{"id":"4597a653b71eb3a3","type":"text","text":"Condizione per lo stile.\nGli operatori disponibili saranno:\n- \\=\n- \\>\n- \\>=\n- \\<\n- \\<=","x":-420,"y":770,"width":250,"height":280},
-		{"id":"5f05cc0105883155","type":"text","text":"Il *Campo* può variare tra le condizioni","x":1478,"y":876,"width":250,"height":73}
+		{"id":"5f05cc0105883155","type":"text","text":"Il *Campo* può variare tra le condizioni","x":1478,"y":876,"width":250,"height":73},
+		{"id":"f1dc15fedeb10e55","type":"text","text":"*Campo* rappresenta il nome del campo nei dati del/dei layer a cui sarà associato.\n\nIl nome del campo a cui associare la proprietà e il valore del campo dipendono dal contenuto dei dati del layer a cui andranno associati, e devono coincidere *esattamente*.\n\nL'input è un testo libero che deve corrispondere con il campo dei dati, a discrezione dell'utente","x":200,"y":748,"width":355,"height":325},
+		{"id":"11146baab4f17df1","x":3000,"y":812,"width":400,"height":196,"type":"file","file":"Pasted image 20241022143635.png"},
+		{"id":"d19198599306ae47","x":3040,"y":1046,"width":321,"height":240,"type":"text","text":"Applicando questo stile su un layer che **non contiene il campo indicato** nello stile, o il **valore del campo per uno specifico elemento non è un valore previsto dalla condizione** (> 'null' per esempio) non sarà possibile visualizzare l'elemento su mappa"}
 	],
 	"edges":[
 		{"id":"13e569f14141e35a","fromNode":"75e2a0456194793f","fromSide":"right","toNode":"afe32ecdbc5540fd","toSide":"left"},
@@ -51,6 +53,7 @@
 		{"id":"5522812cfd2b5a62","fromNode":"afe32ecdbc5540fd","fromSide":"right","toNode":"f9bd6476e5c27fd5","toSide":"left"},
 		{"id":"1e7d4308b2f44848","fromNode":"1be44d1e64305517","fromSide":"right","toNode":"13ebaee8901bad1a","toSide":"left"},
 		{"id":"bb85f22ce8e9c44f","fromNode":"ef210f1c4f22dcb8","fromSide":"right","toNode":"1be44d1e64305517","toSide":"left"},
-		{"id":"59d6fd7d8a20bf9c","fromNode":"13ebaee8901bad1a","fromSide":"right","toNode":"f9bd6476e5c27fd5","toSide":"left"}
+		{"id":"59d6fd7d8a20bf9c","fromNode":"13ebaee8901bad1a","fromSide":"right","toNode":"f9bd6476e5c27fd5","toSide":"left"},
+		{"id":"bc0ab03dc3809e25","fromNode":"f9bd6476e5c27fd5","fromSide":"right","toNode":"11146baab4f17df1","toSide":"left"}
 	]
 }
