@@ -24,13 +24,13 @@
 		{"id":"8ea84e35b5085121","type":"text","text":"\\+\n","x":1660,"y":421,"width":50,"height":50},
 		{"id":"ec414281d017a266","type":"text","text":"100","x":1600,"y":338,"width":60,"height":50},
 		{"id":"5f05cc0105883155","x":1205,"y":677,"width":250,"height":73,"type":"text","text":"Il *Campo* può variare tra le condizioni"},
-		{"id":"ebbea4dca23f1b57","x":1541,"y":696,"width":250,"height":102,"type":"text","text":"Se si vogliono applicare componenti diverse dello stile "},
 		{"id":"1be44d1e64305517","type":"file","file":"Pasted image 20241022104727.png","x":-2165,"y":1080,"width":1240,"height":927},
 		{"id":"3b90aba56a5a03ba","type":"text","text":"IF","x":-1820,"y":1355,"width":50,"height":50},
 		{"id":"50ac335d511c160f","type":"text","text":"Campo","x":-1770,"y":1355,"width":86,"height":50},
 		{"id":"c97ce04a209a61de","type":"text","text":"\\<","x":-1684,"y":1355,"width":50,"height":50},
 		{"id":"e7e8901c14258c9b","type":"text","text":"100","x":-1634,"y":1355,"width":60,"height":50},
-		{"id":"dc02b8fa3b773a1c","type":"text","text":"\\+\n","x":-1565,"y":1355,"width":50,"height":50}
+		{"id":"dc02b8fa3b773a1c","type":"text","text":"\\+\n","x":-1565,"y":1355,"width":50,"height":50},
+		{"id":"f9bd6476e5c27fd5","x":2756,"y":168,"width":250,"height":60,"type":"text","text":"Lo stile può ora essere applicato ad un livello in fase di creazione o modifica di un livello da file. Le condizioni si applicheranno solo in caso vengano trovati i campi dichiarati e che i valori r"}
 	],
 	"edges":[
 		{"id":"13e569f14141e35a","fromNode":"75e2a0456194793f","fromSide":"right","toNode":"afe32ecdbc5540fd","toSide":"left"},
