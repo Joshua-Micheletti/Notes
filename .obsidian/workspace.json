@@ -73,17 +73,14 @@
             "id": "e81aec4c36312965",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Work/EBW/Untitled.canvas",
-                "viewState": {
-                  "x": 961.5,
-                  "y": 1021.5,
-                  "zoom": -1.9274700189675424
-                }
+                "file": "Work/EBW/G4B-183/G4B-183.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "G4B-183"
             }
           },
           {
@@ -330,12 +327,14 @@
   },
   "active": "e81aec4c36312965",
   "lastOpenFiles": [
+    "Work/EBW/Untitled.canvas",
+    "Work/EBW/G4B-183/G4B-183.md",
+    "Work/EBW/G4B-183",
     "Pasted image 20241022143635.png",
     "Pasted image 20241022142633.png",
     "Pasted image 20241022105306.png",
     "Pasted image 20241022104727.png",
     "Work/EBW/G4B-134/Structure.canvas",
-    "Work/EBW/Untitled.canvas",
     "Work/EBW/OF-4430/Backend/New area management.md",
     "Work/EBW/OF-4430/Backend/Handling Token.canvas",
     "Work/EBW/OF-4430/Backend/File Upload.canvas",
@@ -376,15 +375,12 @@
     "Work/EBW/G4B-153",
     "Work/EBW/G4B-140",
     "Work/EBW/G4B portale-saas tests.md",
-    "Work/EBW/Todo.md",
     "Work/EBW/G4B-134",
-    "ios.txt",
     "Work/EBW/G4B-105/side/side_query_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_detail.png",
     "Work/EBW/G4B-105/side/side_simple_detail.png",
     "Work/EBW/G4B-105/side/side_simple_click.png",
     "Work/EBW/G4B-105/side/side_sidebar sx_click.png",
-    "Work/EBW/G4B-105/side/side_query_detail.png",
-    "Work/EBW/G4B-105/div/div_simple_detail.png"
+    "Work/EBW/G4B-105/side/side_query_detail.png"
   ]
 }
